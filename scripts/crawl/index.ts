@@ -1,1 +1,4 @@
-console.log("Crawl pipeline scaffold. Source-specific crawlers will be added next.");
+import { runWeaponIndexCrawl } from "./run-weapon-index-crawl";
+
+await runWeaponIndexCrawl();
+console.log("Fetched raw weapon index pages.");
