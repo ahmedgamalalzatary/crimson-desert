@@ -5,6 +5,9 @@ import { collectCrimsonDesertGgWeaponItemUrls } from "../parse/write-weapon-url-
 import { crawlCrimsonDesertGgArmors } from "./crimsondesert-gg-armors";
 import { crawlCrimsonDesertGgShields } from "./crimsondesert-gg-shields";
 import { crawlCrimsonDesertGgAbyssGear } from "./crimsondesert-gg-abyss-gear";
+import { crawlCrimsonDesertGgMounts } from "./crimsondesert-gg-mounts";
+import { crawlCrimsonDesertGgBosses } from "./crimsondesert-gg-bosses";
+import { crawlCrimsonDesertGgQuests } from "./crimsondesert-gg-quests";
 
 await runWeaponIndexCrawl();
 const ggSubtypeFiles = (await readdir("sources/crimsondesert-gg/weapons"))
@@ -17,5 +20,8 @@ const itemCount = await crawlCrimsonDesertGgWeaponItems(itemUrls);
 await crawlCrimsonDesertGgArmors();
 await crawlCrimsonDesertGgShields();
 await crawlCrimsonDesertGgAbyssGear();
+await crawlCrimsonDesertGgMounts();
+await crawlCrimsonDesertGgBosses();
+await crawlCrimsonDesertGgQuests();
 
 console.log(`Fetched raw weapon index pages and ${itemCount} crimsondesert.gg weapon item pages.`);
