@@ -1,18 +1,20 @@
 import { saveTextFile } from "../lib/raw-storage";
-import { extractCrimsonDesertGgShieldLinks } from "../parse/crimsondesert-gg-shields";
 import { fetchHtml } from "./fetch-html";
+import { extractCrimsonDesertGgShieldLinks } from "../parse/crimsondesert-gg-shields";
 
 export async function crawlCrimsonDesertGgShields() {
-  const itemUrls = new Set<string>();
-
   const html = await fetchHtml("https://crimsondesert.gg/database/shields");
-  for (const url of extractCrimsonDesertGgShieldLinks(html)) {
-    itemUrls.add(url);
-  }
+  const itemUrls = new Set(extractCrimsonDesertGgShieldLinks(html));
+
+  await saveTextFile("data/generated/crimsondesert-gg/shields-url-manifest.json", JSON.stringify({
+    generatedAt: new Date().toISOString(),
+    source: "crimsondesert-gg",
+    category: "shields",
+    urls: [...itemUrls]
+  }, null, 2));
 
   for (const url of itemUrls) {
-    const urlObj = new URL(url);
-    const slug = urlObj.pathname.split("/").filter(Boolean).at(-1) ?? "unknown";
+    const slug = new URL(url).pathname.split("/").filter(Boolean).at(-1) ?? "unknown";
     await saveTextFile(`sources/crimsondesert-gg/shields/${slug}.html`, await fetchHtml(url));
   }
 
