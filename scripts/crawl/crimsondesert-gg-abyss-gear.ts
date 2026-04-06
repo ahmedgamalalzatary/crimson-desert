@@ -10,9 +10,18 @@ export async function crawlCrimsonDesertGgAbyssGear() {
   });
 
   await saveTextFile("data/generated/crimsondesert-gg/abyss-gear-url-manifest.json", JSON.stringify({ generatedAt: new Date().toISOString(), source: "crimsondesert-gg", category: "abyss-gear", urls: [...itemUrls] }, null, 2));
+  const savedUrls: string[] = [];
   for (const url of itemUrls) {
     const slug = new URL(url).pathname.split("/").filter(Boolean).at(-1) ?? "unknown";
-    await saveTextFile(`sources/crimsondesert-gg/abyss-gear/${slug}.html`, await fetchHtml(url));
+    try {
+      await saveTextFile(`sources/crimsondesert-gg/abyss-gear/${slug}.html`, await fetchHtml(url));
+      savedUrls.push(url);
+    } catch (error) {
+      const message = error instanceof Error ? error.message : String(error);
+      if (!message.includes(": 404")) {
+        throw error;
+      }
+    }
   }
-  return itemUrls;
+  return savedUrls;
 }

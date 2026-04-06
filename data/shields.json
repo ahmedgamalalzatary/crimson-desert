@@ -27072,5 +27072,6057 @@
       "site": "crimsondesert.gg",
       "url": "https://crimsondesert.gg/database/shields/shell-of-the-fleeting"
     }
+  },
+  {
+    "id": "shield-of-a-blossoming-spring-day",
+    "name": "Shield of a Blossoming Spring Day",
+    "slug": "shield-of-a-blossoming-spring-day",
+    "category": "shields",
+    "type": "shield-of-a-blossoming-spring",
+    "typeLabel": "Shield",
+    "rarity": "uncommon",
+    "stats": [
+      {
+        "label": "Guard Rate",
+        "value": "0 →20",
+        "max": "20"
+      },
+      {
+        "label": "Defense",
+        "value": "1 →13",
+        "max": "13"
+      },
+      {
+        "label": "Attack Speed",
+        "value": "Lv.2"
+      }
+    ],
+    "refinement": [
+      {
+        "level": "+0",
+        "stats": [
+          {
+            "label": "Defense",
+            "value": "1"
+          },
+          {
+            "label": "Guard Rate",
+            "value": "0"
+          },
+          {
+            "label": "Attack Speed",
+            "value": "Lv.2"
+          }
+        ],
+        "materials": []
+      },
+      {
+        "level": "+1",
+        "stats": [
+          {
+            "label": "Defense",
+            "value": "2"
+          },
+          {
+            "label": "Guard Rate",
+            "value": "1"
+          },
+          {
+            "label": "Attack Speed",
+            "value": "Lv.2"
+          }
+        ],
+        "materials": [
+          {
+            "name": "Iron Ore",
+            "quantity": 2
+          },
+          {
+            "name": "Shield of a Blossoming Spring Day",
+            "quantity": 1
+          },
+          {
+            "name": "Shield of a Blossoming Spring Day",
+            "quantity": 1
+          },
+          {
+            "name": "Shield of a Blossoming Spring Day",
+            "quantity": 1
+          }
+        ]
+      },
+      {
+        "level": "+2",
+        "stats": [
+          {
+            "label": "Defense",
+            "value": "3"
+          },
+          {
+            "label": "Guard Rate",
+            "value": "3"
+          },
+          {
+            "label": "Attack Speed",
+            "value": "Lv.2"
+          }
+        ],
+        "materials": [
+          {
+            "name": "Iron Ore",
+            "quantity": 3
+          },
+          {
+            "name": "Shield of a Blossoming Spring Day (+1)",
+            "quantity": 1
+          },
+          {
+            "name": "Shield of a Blossoming Spring Day (+1)",
+            "quantity": 1
+          },
+          {
+            "name": "Shield of a Blossoming Spring Day (+1)",
+            "quantity": 1
+          },
+          {
+            "name": "Iron Ore",
+            "quantity": 10
+          },
+          {
+            "name": "Copper Ore",
+            "quantity": 2
+          }
+        ]
+      },
+      {
+        "level": "+3",
+        "stats": [
+          {
+            "label": "Defense",
+            "value": "4"
+          },
+          {
+            "label": "Guard Rate",
+            "value": "5"
+          },
+          {
+            "label": "Attack Speed",
+            "value": "Lv.2"
+          }
+        ],
+        "materials": [
+          {
+            "name": "Iron Ore",
+            "quantity": 4
+          },
+          {
+            "name": "Copper Ore",
+            "quantity": 2
+          },
+          {
+            "name": "Shield of a Blossoming Spring Day (+2)",
+            "quantity": 1
+          },
+          {
+            "name": "Shield of a Blossoming Spring Day (+2)",
+            "quantity": 1
+          },
+          {
+            "name": "Shield of a Blossoming Spring Day (+2)",
+            "quantity": 1
+          }
+        ]
+      },
+      {
+        "level": "+4",
+        "stats": [
+          {
+            "label": "Defense",
+            "value": "5"
+          },
+          {
+            "label": "Guard Rate",
+            "value": "7"
+          },
+          {
+            "label": "Attack Speed",
+            "value": "Lv.2"
+          }
+        ],
+        "materials": [
+          {
+            "name": "Iron Ore",
+            "quantity": 5
+          },
+          {
+            "name": "Copper Ore",
+            "quantity": 4
+          },
+          {
+            "name": "Shield of a Blossoming Spring Day (+3)",
+            "quantity": 1
+          },
+          {
+            "name": "Shield of a Blossoming Spring Day (+3)",
+            "quantity": 1
+          },
+          {
+            "name": "Shield of a Blossoming Spring Day (+3)",
+            "quantity": 1
+          }
+        ]
+      },
+      {
+        "level": "+5",
+        "stats": [
+          {
+            "label": "Defense",
+            "value": "6"
+          },
+          {
+            "label": "Guard Rate",
+            "value": "9"
+          },
+          {
+            "label": "Attack Speed",
+            "value": "Lv.2"
+          }
+        ],
+        "materials": [
+          {
+            "name": "Iron Ore",
+            "quantity": 6
+          },
+          {
+            "name": "Copper Ore",
+            "quantity": 6
+          },
+          {
+            "name": "Bloodstone",
+            "quantity": 1
+          },
+          {
+            "name": "Abyss Artifact",
+            "quantity": 1
+          },
+          {
+            "name": "Shield of a Blossoming Spring Day (+4)",
+            "quantity": 1
+          },
+          {
+            "name": "Shield of a Blossoming Spring Day (+4)",
+            "quantity": 1
+          },
+          {
+            "name": "Abyss Artifact",
+            "quantity": 1
+          }
+        ]
+      },
+      {
+        "level": "+6",
+        "stats": [
+          {
+            "label": "Defense",
+            "value": "7"
+          },
+          {
+            "label": "Guard Rate",
+            "value": "11"
+          },
+          {
+            "label": "Attack Speed",
+            "value": "Lv.2"
+          }
+        ],
+        "materials": [
+          {
+            "name": "Iron Ore",
+            "quantity": 8
+          },
+          {
+            "name": "Copper Ore",
+            "quantity": 8
+          },
+          {
+            "name": "Bloodstone",
+            "quantity": 3
+          },
+          {
+            "name": "Abyss Artifact",
+            "quantity": 1
+          },
+          {
+            "name": "Shield of a Blossoming Spring Day (+5)",
+            "quantity": 1
+          },
+          {
+            "name": "Shield of a Blossoming Spring Day (+5)",
+            "quantity": 1
+          },
+          {
+            "name": "Abyss Artifact",
+            "quantity": 2
+          }
+        ]
+      },
+      {
+        "level": "+7",
+        "stats": [
+          {
+            "label": "Defense",
+            "value": "8"
+          },
+          {
+            "label": "Guard Rate",
+            "value": "13"
+          },
+          {
+            "label": "Attack Speed",
+            "value": "Lv.2"
+          }
+        ],
+        "materials": [
+          {
+            "name": "Iron Ore",
+            "quantity": 10
+          },
+          {
+            "name": "Copper Ore",
+            "quantity": 10
+          },
+          {
+            "name": "Bloodstone",
+            "quantity": 5
+          },
+          {
+            "name": "Abyss Artifact",
+            "quantity": 1
+          },
+          {
+            "name": "Shield of a Blossoming Spring Day (+6)",
+            "quantity": 1
+          },
+          {
+            "name": "Shield of a Blossoming Spring Day (+6)",
+            "quantity": 1
+          },
+          {
+            "name": "Abyss Artifact",
+            "quantity": 2
+          }
+        ]
+      },
+      {
+        "level": "+8",
+        "stats": [
+          {
+            "label": "Defense",
+            "value": "9"
+          },
+          {
+            "label": "Guard Rate",
+            "value": "15"
+          },
+          {
+            "label": "Attack Speed",
+            "value": "Lv.2"
+          }
+        ],
+        "materials": [
+          {
+            "name": "Iron Ore",
+            "quantity": 15
+          },
+          {
+            "name": "Copper Ore",
+            "quantity": 15
+          },
+          {
+            "name": "Bloodstone",
+            "quantity": 8
+          },
+          {
+            "name": "Scolecite Ore",
+            "quantity": 2
+          },
+          {
+            "name": "Abyss Artifact",
+            "quantity": 1
+          },
+          {
+            "name": "Shield of a Blossoming Spring Day (+7)",
+            "quantity": 1
+          },
+          {
+            "name": "Shield of a Blossoming Spring Day (+7)",
+            "quantity": 1
+          },
+          {
+            "name": "Abyss Artifact",
+            "quantity": 2
+          }
+        ]
+      },
+      {
+        "level": "+9",
+        "stats": [
+          {
+            "label": "Defense",
+            "value": "10"
+          },
+          {
+            "label": "Guard Rate",
+            "value": "17"
+          },
+          {
+            "label": "Attack Speed",
+            "value": "Lv.2"
+          }
+        ],
+        "materials": [
+          {
+            "name": "Iron Ore",
+            "quantity": 25
+          },
+          {
+            "name": "Copper Ore",
+            "quantity": 20
+          },
+          {
+            "name": "Bloodstone",
+            "quantity": 12
+          },
+          {
+            "name": "Scolecite Ore",
+            "quantity": 6
+          },
+          {
+            "name": "Abyss Artifact",
+            "quantity": 1
+          },
+          {
+            "name": "Shield of a Blossoming Spring Day (+8)",
+            "quantity": 1
+          },
+          {
+            "name": "Shield of a Blossoming Spring Day (+8)",
+            "quantity": 1
+          },
+          {
+            "name": "Abyss Artifact",
+            "quantity": 2
+          }
+        ]
+      },
+      {
+        "level": "+10",
+        "stats": [
+          {
+            "label": "Defense",
+            "value": "13"
+          },
+          {
+            "label": "Guard Rate",
+            "value": "20"
+          },
+          {
+            "label": "Attack Speed",
+            "value": "Lv.2"
+          }
+        ],
+        "materials": [
+          {
+            "name": "Aeserion's Scale",
+            "quantity": 1
+          },
+          {
+            "name": "Abyss Artifact",
+            "quantity": 1
+          }
+        ]
+      }
+    ],
+    "craftingMaterials": [
+      {
+        "name": "Iron Ore",
+        "quantity": 10
+      },
+      {
+        "name": "Copper Ore",
+        "quantity": 2
+      }
+    ],
+    "description": "A shield painted with bright flowers in the hope of peace's return. As the flowers painted in tribute to seasons without war wear away, tranquil spring days feel ever more distant.",
+    "source": {
+      "site": "crimsondesert.gg",
+      "url": "https://crimsondesert.gg/database/shields/shield-of-a-blossoming-spring-day"
+    }
+  },
+  {
+    "id": "shield-of-betrayal",
+    "name": "Shield of Betrayal",
+    "slug": "shield-of-betrayal",
+    "category": "shields",
+    "type": "shield-of",
+    "typeLabel": "Large Shield",
+    "rarity": "rare",
+    "stats": [
+      {
+        "label": "Guard Rate",
+        "value": "22 →45",
+        "max": "45"
+      },
+      {
+        "label": "Defense",
+        "value": "4 →29",
+        "max": "29"
+      }
+    ],
+    "refinement": [
+      {
+        "level": "+0",
+        "stats": [
+          {
+            "label": "Defense",
+            "value": "4"
+          },
+          {
+            "label": "Guard Rate",
+            "value": "22"
+          }
+        ],
+        "materials": []
+      },
+      {
+        "level": "+1",
+        "stats": [
+          {
+            "label": "Defense",
+            "value": "6"
+          },
+          {
+            "label": "Guard Rate",
+            "value": "24"
+          }
+        ],
+        "materials": [
+          {
+            "name": "Iron Ore",
+            "quantity": 2
+          },
+          {
+            "name": "Shield of Betrayal",
+            "quantity": 1
+          }
+        ]
+      },
+      {
+        "level": "+2",
+        "stats": [
+          {
+            "label": "Defense",
+            "value": "8"
+          },
+          {
+            "label": "Guard Rate",
+            "value": "26"
+          }
+        ],
+        "materials": [
+          {
+            "name": "Iron Ore",
+            "quantity": 3
+          },
+          {
+            "name": "Shield of Betrayal (+1)",
+            "quantity": 1
+          }
+        ]
+      },
+      {
+        "level": "+3",
+        "stats": [
+          {
+            "label": "Defense",
+            "value": "10"
+          },
+          {
+            "label": "Guard Rate",
+            "value": "28"
+          }
+        ],
+        "materials": [
+          {
+            "name": "Iron Ore",
+            "quantity": 4
+          },
+          {
+            "name": "Copper Ore",
+            "quantity": 2
+          },
+          {
+            "name": "Shield of Betrayal (+2)",
+            "quantity": 1
+          }
+        ]
+      },
+      {
+        "level": "+4",
+        "stats": [
+          {
+            "label": "Defense",
+            "value": "12"
+          },
+          {
+            "label": "Guard Rate",
+            "value": "30"
+          }
+        ],
+        "materials": [
+          {
+            "name": "Iron Ore",
+            "quantity": 5
+          },
+          {
+            "name": "Copper Ore",
+            "quantity": 4
+          },
+          {
+            "name": "Shield of Betrayal (+3)",
+            "quantity": 1
+          }
+        ]
+      },
+      {
+        "level": "+5",
+        "stats": [
+          {
+            "label": "Defense",
+            "value": "14"
+          },
+          {
+            "label": "Guard Rate",
+            "value": "32"
+          }
+        ],
+        "materials": [
+          {
+            "name": "Iron Ore",
+            "quantity": 6
+          },
+          {
+            "name": "Copper Ore",
+            "quantity": 6
+          },
+          {
+            "name": "Bloodstone",
+            "quantity": 1
+          },
+          {
+            "name": "Abyss Artifact",
+            "quantity": 1
+          }
+        ]
+      },
+      {
+        "level": "+6",
+        "stats": [
+          {
+            "label": "Defense",
+            "value": "16"
+          },
+          {
+            "label": "Guard Rate",
+            "value": "34"
+          }
+        ],
+        "materials": [
+          {
+            "name": "Iron Ore",
+            "quantity": 8
+          },
+          {
+            "name": "Copper Ore",
+            "quantity": 8
+          },
+          {
+            "name": "Bloodstone",
+            "quantity": 3
+          },
+          {
+            "name": "Abyss Artifact",
+            "quantity": 1
+          }
+        ]
+      },
+      {
+        "level": "+7",
+        "stats": [
+          {
+            "label": "Defense",
+            "value": "18"
+          },
+          {
+            "label": "Guard Rate",
+            "value": "36"
+          }
+        ],
+        "materials": [
+          {
+            "name": "Iron Ore",
+            "quantity": 10
+          },
+          {
+            "name": "Copper Ore",
+            "quantity": 10
+          },
+          {
+            "name": "Bloodstone",
+            "quantity": 5
+          },
+          {
+            "name": "Abyss Artifact",
+            "quantity": 1
+          }
+        ]
+      },
+      {
+        "level": "+8",
+        "stats": [
+          {
+            "label": "Defense",
+            "value": "21"
+          },
+          {
+            "label": "Guard Rate",
+            "value": "39"
+          }
+        ],
+        "materials": [
+          {
+            "name": "Iron Ore",
+            "quantity": 15
+          },
+          {
+            "name": "Copper Ore",
+            "quantity": 15
+          },
+          {
+            "name": "Bloodstone",
+            "quantity": 8
+          },
+          {
+            "name": "Scolecite Ore",
+            "quantity": 2
+          },
+          {
+            "name": "Abyss Artifact",
+            "quantity": 1
+          }
+        ]
+      },
+      {
+        "level": "+9",
+        "stats": [
+          {
+            "label": "Defense",
+            "value": "24"
+          },
+          {
+            "label": "Guard Rate",
+            "value": "42"
+          }
+        ],
+        "materials": [
+          {
+            "name": "Iron Ore",
+            "quantity": 25
+          },
+          {
+            "name": "Copper Ore",
+            "quantity": 20
+          },
+          {
+            "name": "Bloodstone",
+            "quantity": 12
+          },
+          {
+            "name": "Scolecite Ore",
+            "quantity": 6
+          },
+          {
+            "name": "Abyss Artifact",
+            "quantity": 1
+          }
+        ]
+      },
+      {
+        "level": "+10",
+        "stats": [
+          {
+            "label": "Defense",
+            "value": "29"
+          },
+          {
+            "label": "Guard Rate",
+            "value": "45"
+          }
+        ],
+        "materials": [
+          {
+            "name": "Aeserion's Scale",
+            "quantity": 1
+          },
+          {
+            "name": "Abyss Artifact",
+            "quantity": 1
+          }
+        ]
+      }
+    ],
+    "craftingMaterials": [],
+    "description": "The shield of the traitor, Cassius Morten. Ironically, even after abandoning the creed of the Unyielding Shields, he still used a Calphadean shield. Perhaps, it was his way of showing justification for his betrayal.",
+    "source": {
+      "site": "crimsondesert.gg",
+      "url": "https://crimsondesert.gg/database/shields/shield-of-betrayal"
+    }
+  },
+  {
+    "id": "shield-of-conviction",
+    "name": "Shield of Conviction",
+    "slug": "shield-of-conviction",
+    "category": "shields",
+    "type": "shield-of",
+    "typeLabel": "Large Shield",
+    "rarity": "epic",
+    "stats": [
+      {
+        "label": "Guard Rate",
+        "value": "22 →45",
+        "max": "45"
+      },
+      {
+        "label": "Defense",
+        "value": "4 →29",
+        "max": "29"
+      }
+    ],
+    "refinement": [
+      {
+        "level": "+0",
+        "stats": [
+          {
+            "label": "Defense",
+            "value": "4"
+          },
+          {
+            "label": "Guard Rate",
+            "value": "22"
+          }
+        ],
+        "materials": []
+      },
+      {
+        "level": "+1",
+        "stats": [
+          {
+            "label": "Defense",
+            "value": "6"
+          },
+          {
+            "label": "Guard Rate",
+            "value": "24"
+          }
+        ],
+        "materials": [
+          {
+            "name": "Iron Ore",
+            "quantity": 2
+          },
+          {
+            "name": "Shield of Conviction",
+            "quantity": 1
+          }
+        ]
+      },
+      {
+        "level": "+2",
+        "stats": [
+          {
+            "label": "Defense",
+            "value": "8"
+          },
+          {
+            "label": "Guard Rate",
+            "value": "26"
+          }
+        ],
+        "materials": [
+          {
+            "name": "Iron Ore",
+            "quantity": 3
+          },
+          {
+            "name": "Shield of Conviction (+1)",
+            "quantity": 1
+          }
+        ]
+      },
+      {
+        "level": "+3",
+        "stats": [
+          {
+            "label": "Defense",
+            "value": "10"
+          },
+          {
+            "label": "Guard Rate",
+            "value": "28"
+          }
+        ],
+        "materials": [
+          {
+            "name": "Iron Ore",
+            "quantity": 4
+          },
+          {
+            "name": "Copper Ore",
+            "quantity": 2
+          },
+          {
+            "name": "Shield of Conviction (+2)",
+            "quantity": 1
+          }
+        ]
+      },
+      {
+        "level": "+4",
+        "stats": [
+          {
+            "label": "Defense",
+            "value": "12"
+          },
+          {
+            "label": "Guard Rate",
+            "value": "30"
+          }
+        ],
+        "materials": [
+          {
+            "name": "Iron Ore",
+            "quantity": 5
+          },
+          {
+            "name": "Copper Ore",
+            "quantity": 4
+          },
+          {
+            "name": "Shield of Conviction (+3)",
+            "quantity": 1
+          }
+        ]
+      },
+      {
+        "level": "+5",
+        "stats": [
+          {
+            "label": "Defense",
+            "value": "14"
+          },
+          {
+            "label": "Guard Rate",
+            "value": "32"
+          }
+        ],
+        "materials": [
+          {
+            "name": "Iron Ore",
+            "quantity": 6
+          },
+          {
+            "name": "Copper Ore",
+            "quantity": 6
+          },
+          {
+            "name": "Bloodstone",
+            "quantity": 1
+          },
+          {
+            "name": "Abyss Artifact",
+            "quantity": 1
+          }
+        ]
+      },
+      {
+        "level": "+6",
+        "stats": [
+          {
+            "label": "Defense",
+            "value": "16"
+          },
+          {
+            "label": "Guard Rate",
+            "value": "34"
+          }
+        ],
+        "materials": [
+          {
+            "name": "Iron Ore",
+            "quantity": 8
+          },
+          {
+            "name": "Copper Ore",
+            "quantity": 8
+          },
+          {
+            "name": "Bloodstone",
+            "quantity": 3
+          },
+          {
+            "name": "Abyss Artifact",
+            "quantity": 1
+          }
+        ]
+      },
+      {
+        "level": "+7",
+        "stats": [
+          {
+            "label": "Defense",
+            "value": "18"
+          },
+          {
+            "label": "Guard Rate",
+            "value": "36"
+          }
+        ],
+        "materials": [
+          {
+            "name": "Iron Ore",
+            "quantity": 10
+          },
+          {
+            "name": "Copper Ore",
+            "quantity": 10
+          },
+          {
+            "name": "Bloodstone",
+            "quantity": 5
+          },
+          {
+            "name": "Abyss Artifact",
+            "quantity": 1
+          }
+        ]
+      },
+      {
+        "level": "+8",
+        "stats": [
+          {
+            "label": "Defense",
+            "value": "21"
+          },
+          {
+            "label": "Guard Rate",
+            "value": "39"
+          }
+        ],
+        "materials": [
+          {
+            "name": "Iron Ore",
+            "quantity": 15
+          },
+          {
+            "name": "Copper Ore",
+            "quantity": 15
+          },
+          {
+            "name": "Bloodstone",
+            "quantity": 8
+          },
+          {
+            "name": "Scolecite Ore",
+            "quantity": 2
+          },
+          {
+            "name": "Abyss Artifact",
+            "quantity": 1
+          }
+        ]
+      },
+      {
+        "level": "+9",
+        "stats": [
+          {
+            "label": "Defense",
+            "value": "24"
+          },
+          {
+            "label": "Guard Rate",
+            "value": "42"
+          }
+        ],
+        "materials": [
+          {
+            "name": "Iron Ore",
+            "quantity": 25
+          },
+          {
+            "name": "Copper Ore",
+            "quantity": 20
+          },
+          {
+            "name": "Bloodstone",
+            "quantity": 12
+          },
+          {
+            "name": "Scolecite Ore",
+            "quantity": 6
+          },
+          {
+            "name": "Abyss Artifact",
+            "quantity": 1
+          }
+        ]
+      },
+      {
+        "level": "+10",
+        "stats": [
+          {
+            "label": "Defense",
+            "value": "29"
+          },
+          {
+            "label": "Guard Rate",
+            "value": "45"
+          }
+        ],
+        "materials": [
+          {
+            "name": "Aeserion's Scale",
+            "quantity": 1
+          },
+          {
+            "name": "Abyss Artifact",
+            "quantity": 1
+          }
+        ]
+      }
+    ],
+    "craftingMaterials": [],
+    "description": "A shield that stands as the very symbol of the Marquis who rules Calphade. The conviction and resolve to never fall back can be felt from this shield.",
+    "source": {
+      "site": "crimsondesert.gg",
+      "url": "https://crimsondesert.gg/database/shields/shield-of-conviction"
+    }
+  },
+  {
+    "id": "shield-of-radiance",
+    "name": "Shield of Radiance",
+    "slug": "shield-of-radiance",
+    "category": "shields",
+    "type": "shield-of",
+    "typeLabel": "Shield",
+    "rarity": "legendary",
+    "stats": [
+      {
+        "label": "Guard Rate",
+        "value": "5 →30",
+        "max": "30"
+      },
+      {
+        "label": "Defense",
+        "value": "3 →15",
+        "max": "15"
+      },
+      {
+        "label": "Movement Speed",
+        "value": "Lv.2"
+      }
+    ],
+    "refinement": [
+      {
+        "level": "+0",
+        "stats": [
+          {
+            "label": "Defense",
+            "value": "3"
+          },
+          {
+            "label": "Guard Rate",
+            "value": "5"
+          },
+          {
+            "label": "Movement Speed",
+            "value": "Lv.2"
+          }
+        ],
+        "materials": []
+      },
+      {
+        "level": "+1",
+        "stats": [
+          {
+            "label": "Defense",
+            "value": "4"
+          },
+          {
+            "label": "Guard Rate",
+            "value": "7"
+          },
+          {
+            "label": "Movement Speed",
+            "value": "Lv.2"
+          }
+        ],
+        "materials": [
+          {
+            "name": "Timber",
+            "quantity": 10
+          },
+          {
+            "name": "Shield of Radiance",
+            "quantity": 1
+          },
+          {
+            "name": "Shield of Radiance",
+            "quantity": 1
+          },
+          {
+            "name": "Shield of Radiance",
+            "quantity": 1
+          }
+        ]
+      },
+      {
+        "level": "+2",
+        "stats": [
+          {
+            "label": "Defense",
+            "value": "5"
+          },
+          {
+            "label": "Guard Rate",
+            "value": "9"
+          },
+          {
+            "label": "Movement Speed",
+            "value": "Lv.2"
+          }
+        ],
+        "materials": [
+          {
+            "name": "Timber",
+            "quantity": 15
+          },
+          {
+            "name": "Shield of Radiance (+1)",
+            "quantity": 1
+          },
+          {
+            "name": "Shield of Radiance (+1)",
+            "quantity": 1
+          },
+          {
+            "name": "Shield of Radiance (+1)",
+            "quantity": 1
+          }
+        ]
+      },
+      {
+        "level": "+3",
+        "stats": [
+          {
+            "label": "Defense",
+            "value": "6"
+          },
+          {
+            "label": "Guard Rate",
+            "value": "11"
+          },
+          {
+            "label": "Movement Speed",
+            "value": "Lv.2"
+          }
+        ],
+        "materials": [
+          {
+            "name": "Timber",
+            "quantity": 20
+          },
+          {
+            "name": "Fine Timber",
+            "quantity": 10
+          },
+          {
+            "name": "Shield of Radiance (+2)",
+            "quantity": 1
+          },
+          {
+            "name": "Shield of Radiance (+2)",
+            "quantity": 1
+          },
+          {
+            "name": "Shield of Radiance (+2)",
+            "quantity": 1
+          }
+        ]
+      },
+      {
+        "level": "+4",
+        "stats": [
+          {
+            "label": "Defense",
+            "value": "7"
+          },
+          {
+            "label": "Guard Rate",
+            "value": "13"
+          },
+          {
+            "label": "Movement Speed",
+            "value": "Lv.2"
+          }
+        ],
+        "materials": [
+          {
+            "name": "Timber",
+            "quantity": 25
+          },
+          {
+            "name": "Fine Timber",
+            "quantity": 15
+          },
+          {
+            "name": "Shield of Radiance (+3)",
+            "quantity": 1
+          },
+          {
+            "name": "Shield of Radiance (+3)",
+            "quantity": 1
+          },
+          {
+            "name": "Shield of Radiance (+3)",
+            "quantity": 1
+          }
+        ]
+      },
+      {
+        "level": "+5",
+        "stats": [
+          {
+            "label": "Defense",
+            "value": "8"
+          },
+          {
+            "label": "Guard Rate",
+            "value": "15"
+          },
+          {
+            "label": "Movement Speed",
+            "value": "Lv.2"
+          }
+        ],
+        "materials": [
+          {
+            "name": "Timber",
+            "quantity": 30
+          },
+          {
+            "name": "Fine Timber",
+            "quantity": 20
+          },
+          {
+            "name": "Bloodstone",
+            "quantity": 1
+          },
+          {
+            "name": "Abyss Artifact",
+            "quantity": 1
+          },
+          {
+            "name": "Shield of Radiance (+4)",
+            "quantity": 1
+          },
+          {
+            "name": "Shield of Radiance (+4)",
+            "quantity": 1
+          },
+          {
+            "name": "Abyss Artifact",
+            "quantity": 1
+          }
+        ]
+      },
+      {
+        "level": "+6",
+        "stats": [
+          {
+            "label": "Defense",
+            "value": "9"
+          },
+          {
+            "label": "Guard Rate",
+            "value": "17"
+          },
+          {
+            "label": "Movement Speed",
+            "value": "Lv.2"
+          }
+        ],
+        "materials": [
+          {
+            "name": "Timber",
+            "quantity": 40
+          },
+          {
+            "name": "Fine Timber",
+            "quantity": 25
+          },
+          {
+            "name": "Bloodstone",
+            "quantity": 3
+          },
+          {
+            "name": "Abyss Artifact",
+            "quantity": 1
+          },
+          {
+            "name": "Shield of Radiance (+5)",
+            "quantity": 1
+          },
+          {
+            "name": "Shield of Radiance (+5)",
+            "quantity": 1
+          },
+          {
+            "name": "Abyss Artifact",
+            "quantity": 2
+          }
+        ]
+      },
+      {
+        "level": "+7",
+        "stats": [
+          {
+            "label": "Defense",
+            "value": "10"
+          },
+          {
+            "label": "Guard Rate",
+            "value": "20"
+          },
+          {
+            "label": "Movement Speed",
+            "value": "Lv.2"
+          }
+        ],
+        "materials": [
+          {
+            "name": "Timber",
+            "quantity": 50
+          },
+          {
+            "name": "Fine Timber",
+            "quantity": 30
+          },
+          {
+            "name": "Bloodstone",
+            "quantity": 5
+          },
+          {
+            "name": "Abyss Artifact",
+            "quantity": 1
+          },
+          {
+            "name": "Shield of Radiance (+6)",
+            "quantity": 1
+          },
+          {
+            "name": "Shield of Radiance (+6)",
+            "quantity": 1
+          },
+          {
+            "name": "Abyss Artifact",
+            "quantity": 2
+          }
+        ]
+      },
+      {
+        "level": "+8",
+        "stats": [
+          {
+            "label": "Defense",
+            "value": "11"
+          },
+          {
+            "label": "Guard Rate",
+            "value": "23"
+          },
+          {
+            "label": "Movement Speed",
+            "value": "Lv.2"
+          }
+        ],
+        "materials": [
+          {
+            "name": "Timber",
+            "quantity": 60
+          },
+          {
+            "name": "Fine Timber",
+            "quantity": 35
+          },
+          {
+            "name": "Bloodstone",
+            "quantity": 8
+          },
+          {
+            "name": "Flawless Timber",
+            "quantity": 10
+          },
+          {
+            "name": "Abyss Artifact",
+            "quantity": 1
+          },
+          {
+            "name": "Shield of Radiance (+7)",
+            "quantity": 1
+          },
+          {
+            "name": "Shield of Radiance (+7)",
+            "quantity": 1
+          },
+          {
+            "name": "Abyss Artifact",
+            "quantity": 2
+          }
+        ]
+      },
+      {
+        "level": "+9",
+        "stats": [
+          {
+            "label": "Defense",
+            "value": "12"
+          },
+          {
+            "label": "Guard Rate",
+            "value": "26"
+          },
+          {
+            "label": "Movement Speed",
+            "value": "Lv.2"
+          }
+        ],
+        "materials": [
+          {
+            "name": "Timber",
+            "quantity": 80
+          },
+          {
+            "name": "Fine Timber",
+            "quantity": 45
+          },
+          {
+            "name": "Bloodstone",
+            "quantity": 12
+          },
+          {
+            "name": "Flawless Timber",
+            "quantity": 20
+          },
+          {
+            "name": "Abyss Artifact",
+            "quantity": 1
+          },
+          {
+            "name": "Shield of Radiance (+8)",
+            "quantity": 1
+          },
+          {
+            "name": "Shield of Radiance (+8)",
+            "quantity": 1
+          },
+          {
+            "name": "Abyss Artifact",
+            "quantity": 2
+          }
+        ]
+      },
+      {
+        "level": "+10",
+        "stats": [
+          {
+            "label": "Defense",
+            "value": "15"
+          },
+          {
+            "label": "Guard Rate",
+            "value": "30"
+          },
+          {
+            "label": "Movement Speed",
+            "value": "Lv.2"
+          }
+        ],
+        "materials": [
+          {
+            "name": "Aeserion's Scale",
+            "quantity": 1
+          },
+          {
+            "name": "Abyss Artifact",
+            "quantity": 1
+          }
+        ]
+      }
+    ],
+    "craftingMaterials": [],
+    "description": "A folding shield made by House Spencer. It is said that the head of the house saw a female warrior clad in dazzling radiance in a dream and created this shield from that inspiration. Built with a special mechanism, it also serves as descent gear that can reduce impact upon landing.",
+    "source": {
+      "site": "crimsondesert.gg",
+      "url": "https://crimsondesert.gg/database/shields/shield-of-radiance"
+    }
+  },
+  {
+    "id": "shield-of-ringing",
+    "name": "Shield of Ringing",
+    "slug": "shield-of-ringing",
+    "category": "shields",
+    "type": "shield-of",
+    "typeLabel": "Shield",
+    "rarity": "uncommon",
+    "stats": [
+      {
+        "label": "Guard Rate",
+        "value": "7"
+      },
+      {
+        "label": "Defense",
+        "value": "5"
+      },
+      {
+        "label": "Attack Speed",
+        "value": "Lv.2"
+      }
+    ],
+    "refinement": [
+      {
+        "level": "+0",
+        "stats": [
+          {
+            "label": "Defense",
+            "value": "5"
+          },
+          {
+            "label": "Guard Rate",
+            "value": "7"
+          },
+          {
+            "label": "Attack Speed",
+            "value": "Lv.2"
+          }
+        ],
+        "materials": []
+      }
+    ],
+    "craftingMaterials": [],
+    "description": "A shield that can absorb and store impact. It can unleash the force of the attacks the shield absorbed as noise to temporarily deafen enemies.",
+    "source": {
+      "site": "crimsondesert.gg",
+      "url": "https://crimsondesert.gg/database/shields/shield-of-ringing"
+    }
+  },
+  {
+    "id": "shield-of-sacrifice",
+    "name": "Shield of Sacrifice",
+    "slug": "shield-of-sacrifice",
+    "category": "shields",
+    "type": "shield-of",
+    "typeLabel": "Large Shield",
+    "rarity": "rare",
+    "stats": [
+      {
+        "label": "Guard Rate",
+        "value": "20 →40",
+        "max": "40"
+      },
+      {
+        "label": "Defense",
+        "value": "6 →31",
+        "max": "31"
+      }
+    ],
+    "refinement": [
+      {
+        "level": "+0",
+        "stats": [
+          {
+            "label": "Defense",
+            "value": "6"
+          },
+          {
+            "label": "Guard Rate",
+            "value": "20"
+          }
+        ],
+        "materials": []
+      },
+      {
+        "level": "+1",
+        "stats": [
+          {
+            "label": "Defense",
+            "value": "8"
+          },
+          {
+            "label": "Guard Rate",
+            "value": "21"
+          }
+        ],
+        "materials": [
+          {
+            "name": "Iron Ore",
+            "quantity": 2
+          },
+          {
+            "name": "Shield of Sacrifice",
+            "quantity": 1
+          }
+        ]
+      },
+      {
+        "level": "+2",
+        "stats": [
+          {
+            "label": "Defense",
+            "value": "10"
+          },
+          {
+            "label": "Guard Rate",
+            "value": "23"
+          }
+        ],
+        "materials": [
+          {
+            "name": "Iron Ore",
+            "quantity": 3
+          },
+          {
+            "name": "Shield of Sacrifice (+1)",
+            "quantity": 1
+          }
+        ]
+      },
+      {
+        "level": "+3",
+        "stats": [
+          {
+            "label": "Defense",
+            "value": "12"
+          },
+          {
+            "label": "Guard Rate",
+            "value": "25"
+          }
+        ],
+        "materials": [
+          {
+            "name": "Iron Ore",
+            "quantity": 4
+          },
+          {
+            "name": "Copper Ore",
+            "quantity": 2
+          },
+          {
+            "name": "Shield of Sacrifice (+2)",
+            "quantity": 1
+          }
+        ]
+      },
+      {
+        "level": "+4",
+        "stats": [
+          {
+            "label": "Defense",
+            "value": "14"
+          },
+          {
+            "label": "Guard Rate",
+            "value": "27"
+          }
+        ],
+        "materials": [
+          {
+            "name": "Iron Ore",
+            "quantity": 5
+          },
+          {
+            "name": "Copper Ore",
+            "quantity": 4
+          },
+          {
+            "name": "Shield of Sacrifice (+3)",
+            "quantity": 1
+          }
+        ]
+      },
+      {
+        "level": "+5",
+        "stats": [
+          {
+            "label": "Defense",
+            "value": "16"
+          },
+          {
+            "label": "Guard Rate",
+            "value": "29"
+          }
+        ],
+        "materials": [
+          {
+            "name": "Iron Ore",
+            "quantity": 6
+          },
+          {
+            "name": "Copper Ore",
+            "quantity": 6
+          },
+          {
+            "name": "Bloodstone",
+            "quantity": 1
+          },
+          {
+            "name": "Abyss Artifact",
+            "quantity": 1
+          }
+        ]
+      },
+      {
+        "level": "+6",
+        "stats": [
+          {
+            "label": "Defense",
+            "value": "18"
+          },
+          {
+            "label": "Guard Rate",
+            "value": "31"
+          }
+        ],
+        "materials": [
+          {
+            "name": "Iron Ore",
+            "quantity": 8
+          },
+          {
+            "name": "Copper Ore",
+            "quantity": 8
+          },
+          {
+            "name": "Bloodstone",
+            "quantity": 3
+          },
+          {
+            "name": "Abyss Artifact",
+            "quantity": 1
+          }
+        ]
+      },
+      {
+        "level": "+7",
+        "stats": [
+          {
+            "label": "Defense",
+            "value": "20"
+          },
+          {
+            "label": "Guard Rate",
+            "value": "33"
+          }
+        ],
+        "materials": [
+          {
+            "name": "Iron Ore",
+            "quantity": 10
+          },
+          {
+            "name": "Copper Ore",
+            "quantity": 10
+          },
+          {
+            "name": "Bloodstone",
+            "quantity": 5
+          },
+          {
+            "name": "Abyss Artifact",
+            "quantity": 1
+          }
+        ]
+      },
+      {
+        "level": "+8",
+        "stats": [
+          {
+            "label": "Defense",
+            "value": "23"
+          },
+          {
+            "label": "Guard Rate",
+            "value": "35"
+          }
+        ],
+        "materials": [
+          {
+            "name": "Iron Ore",
+            "quantity": 15
+          },
+          {
+            "name": "Copper Ore",
+            "quantity": 15
+          },
+          {
+            "name": "Bloodstone",
+            "quantity": 8
+          },
+          {
+            "name": "Scolecite Ore",
+            "quantity": 2
+          },
+          {
+            "name": "Abyss Artifact",
+            "quantity": 1
+          }
+        ]
+      },
+      {
+        "level": "+9",
+        "stats": [
+          {
+            "label": "Defense",
+            "value": "26"
+          },
+          {
+            "label": "Guard Rate",
+            "value": "37"
+          }
+        ],
+        "materials": [
+          {
+            "name": "Iron Ore",
+            "quantity": 25
+          },
+          {
+            "name": "Copper Ore",
+            "quantity": 20
+          },
+          {
+            "name": "Bloodstone",
+            "quantity": 12
+          },
+          {
+            "name": "Scolecite Ore",
+            "quantity": 6
+          },
+          {
+            "name": "Abyss Artifact",
+            "quantity": 1
+          }
+        ]
+      },
+      {
+        "level": "+10",
+        "stats": [
+          {
+            "label": "Defense",
+            "value": "31"
+          },
+          {
+            "label": "Guard Rate",
+            "value": "40"
+          }
+        ],
+        "materials": [
+          {
+            "name": "Aeserion's Scale",
+            "quantity": 1
+          },
+          {
+            "name": "Abyss Artifact",
+            "quantity": 1
+          }
+        ]
+      }
+    ],
+    "craftingMaterials": [],
+    "description": "A shield of Fortain the Cursed Knight. He gained formidable power through a contract with Hexe Marie, but in the end it was the very contract that bound him to a miserable fate.",
+    "source": {
+      "site": "crimsondesert.gg",
+      "url": "https://crimsondesert.gg/database/shields/shield-of-sacrifice"
+    }
+  },
+  {
+    "id": "shield-of-the-phantom",
+    "name": "Shield of the Phantom",
+    "slug": "shield-of-the-phantom",
+    "category": "shields",
+    "type": "shield-of-the",
+    "typeLabel": "Shield",
+    "rarity": "common",
+    "stats": [
+      {
+        "label": "Guard Rate",
+        "value": "25 →50",
+        "max": "50"
+      },
+      {
+        "label": "Defense",
+        "value": "2 →27",
+        "max": "27"
+      }
+    ],
+    "refinement": [
+      {
+        "level": "+0",
+        "stats": [
+          {
+            "label": "Defense",
+            "value": "2"
+          },
+          {
+            "label": "Guard Rate",
+            "value": "25"
+          }
+        ],
+        "materials": []
+      },
+      {
+        "level": "+1",
+        "stats": [
+          {
+            "label": "Defense",
+            "value": "4"
+          },
+          {
+            "label": "Guard Rate",
+            "value": "27"
+          }
+        ],
+        "materials": [
+          {
+            "name": "Iron Ore",
+            "quantity": 2
+          },
+          {
+            "name": "Shield of the Phantom",
+            "quantity": 1
+          }
+        ]
+      },
+      {
+        "level": "+2",
+        "stats": [
+          {
+            "label": "Defense",
+            "value": "6"
+          },
+          {
+            "label": "Guard Rate",
+            "value": "29"
+          }
+        ],
+        "materials": [
+          {
+            "name": "Iron Ore",
+            "quantity": 3
+          },
+          {
+            "name": "Shield of the Phantom (+1)",
+            "quantity": 1
+          }
+        ]
+      },
+      {
+        "level": "+3",
+        "stats": [
+          {
+            "label": "Defense",
+            "value": "8"
+          },
+          {
+            "label": "Guard Rate",
+            "value": "31"
+          }
+        ],
+        "materials": [
+          {
+            "name": "Iron Ore",
+            "quantity": 4
+          },
+          {
+            "name": "Copper Ore",
+            "quantity": 2
+          },
+          {
+            "name": "Shield of the Phantom (+2)",
+            "quantity": 1
+          }
+        ]
+      },
+      {
+        "level": "+4",
+        "stats": [
+          {
+            "label": "Defense",
+            "value": "10"
+          },
+          {
+            "label": "Guard Rate",
+            "value": "33"
+          }
+        ],
+        "materials": [
+          {
+            "name": "Iron Ore",
+            "quantity": 5
+          },
+          {
+            "name": "Copper Ore",
+            "quantity": 4
+          },
+          {
+            "name": "Shield of the Phantom (+3)",
+            "quantity": 1
+          }
+        ]
+      },
+      {
+        "level": "+5",
+        "stats": [
+          {
+            "label": "Defense",
+            "value": "12"
+          },
+          {
+            "label": "Guard Rate",
+            "value": "35"
+          }
+        ],
+        "materials": [
+          {
+            "name": "Iron Ore",
+            "quantity": 6
+          },
+          {
+            "name": "Copper Ore",
+            "quantity": 6
+          },
+          {
+            "name": "Bloodstone",
+            "quantity": 1
+          },
+          {
+            "name": "Abyss Artifact",
+            "quantity": 1
+          }
+        ]
+      },
+      {
+        "level": "+6",
+        "stats": [
+          {
+            "label": "Defense",
+            "value": "14"
+          },
+          {
+            "label": "Guard Rate",
+            "value": "37"
+          }
+        ],
+        "materials": [
+          {
+            "name": "Iron Ore",
+            "quantity": 8
+          },
+          {
+            "name": "Copper Ore",
+            "quantity": 8
+          },
+          {
+            "name": "Bloodstone",
+            "quantity": 3
+          },
+          {
+            "name": "Abyss Artifact",
+            "quantity": 1
+          }
+        ]
+      },
+      {
+        "level": "+7",
+        "stats": [
+          {
+            "label": "Defense",
+            "value": "16"
+          },
+          {
+            "label": "Guard Rate",
+            "value": "40"
+          }
+        ],
+        "materials": [
+          {
+            "name": "Iron Ore",
+            "quantity": 10
+          },
+          {
+            "name": "Copper Ore",
+            "quantity": 10
+          },
+          {
+            "name": "Bloodstone",
+            "quantity": 5
+          },
+          {
+            "name": "Abyss Artifact",
+            "quantity": 1
+          }
+        ]
+      },
+      {
+        "level": "+8",
+        "stats": [
+          {
+            "label": "Defense",
+            "value": "19"
+          },
+          {
+            "label": "Guard Rate",
+            "value": "43"
+          }
+        ],
+        "materials": [
+          {
+            "name": "Iron Ore",
+            "quantity": 15
+          },
+          {
+            "name": "Copper Ore",
+            "quantity": 15
+          },
+          {
+            "name": "Bloodstone",
+            "quantity": 8
+          },
+          {
+            "name": "Scolecite Ore",
+            "quantity": 2
+          },
+          {
+            "name": "Abyss Artifact",
+            "quantity": 1
+          }
+        ]
+      },
+      {
+        "level": "+9",
+        "stats": [
+          {
+            "label": "Defense",
+            "value": "22"
+          },
+          {
+            "label": "Guard Rate",
+            "value": "46"
+          }
+        ],
+        "materials": [
+          {
+            "name": "Iron Ore",
+            "quantity": 25
+          },
+          {
+            "name": "Copper Ore",
+            "quantity": 20
+          },
+          {
+            "name": "Bloodstone",
+            "quantity": 12
+          },
+          {
+            "name": "Scolecite Ore",
+            "quantity": 6
+          },
+          {
+            "name": "Abyss Artifact",
+            "quantity": 1
+          }
+        ]
+      },
+      {
+        "level": "+10",
+        "stats": [
+          {
+            "label": "Defense",
+            "value": "27"
+          },
+          {
+            "label": "Guard Rate",
+            "value": "50"
+          }
+        ],
+        "materials": [
+          {
+            "name": "Aeserion's Scale",
+            "quantity": 1
+          },
+          {
+            "name": "Abyss Artifact",
+            "quantity": 1
+          }
+        ]
+      }
+    ],
+    "craftingMaterials": [],
+    "description": "A shield of Fortain the Cursed Knight. He gained formidable power through a contract with Hexe Marie, but in the end it was the very contract that bound him to a miserable fate.",
+    "source": {
+      "site": "crimsondesert.gg",
+      "url": "https://crimsondesert.gg/database/shields/shield-of-the-phantom"
+    }
+  },
+  {
+    "id": "shotgun-shield",
+    "name": "Shotgun Shield",
+    "slug": "shotgun-shield",
+    "category": "shields",
+    "type": "shotgun",
+    "typeLabel": "Shield",
+    "rarity": "uncommon",
+    "stats": [
+      {
+        "label": "Guard Rate",
+        "value": "13"
+      },
+      {
+        "label": "Defense",
+        "value": "7"
+      },
+      {
+        "label": "Movement Speed",
+        "value": "Lv.2"
+      }
+    ],
+    "refinement": [
+      {
+        "level": "+0",
+        "stats": [
+          {
+            "label": "Defense",
+            "value": "7"
+          },
+          {
+            "label": "Guard Rate",
+            "value": "13"
+          },
+          {
+            "label": "Movement Speed",
+            "value": "Lv.2"
+          }
+        ],
+        "materials": []
+      }
+    ],
+    "craftingMaterials": [],
+    "description": "A shield that can absorb and store impact. It can use the force of the attacks the shield absorbed as detonator for its shotgun.",
+    "source": {
+      "site": "crimsondesert.gg",
+      "url": "https://crimsondesert.gg/database/shields/shotgun-shield"
+    }
+  },
+  {
+    "id": "staglords-shield",
+    "name": "Staglord's Shield",
+    "slug": "staglords-shield",
+    "category": "shields",
+    "type": "staglords",
+    "typeLabel": "Shield",
+    "rarity": "epic",
+    "stats": [
+      {
+        "label": "Guard Rate",
+        "value": "0 →20",
+        "max": "20"
+      },
+      {
+        "label": "Defense",
+        "value": "1 →13",
+        "max": "13"
+      },
+      {
+        "label": "Attack Speed",
+        "value": "Lv.2"
+      }
+    ],
+    "refinement": [
+      {
+        "level": "+0",
+        "stats": [
+          {
+            "label": "Defense",
+            "value": "1"
+          },
+          {
+            "label": "Guard Rate",
+            "value": "0"
+          },
+          {
+            "label": "Attack Speed",
+            "value": "Lv.2"
+          }
+        ],
+        "materials": []
+      },
+      {
+        "level": "+1",
+        "stats": [
+          {
+            "label": "Defense",
+            "value": "2"
+          },
+          {
+            "label": "Guard Rate",
+            "value": "1"
+          },
+          {
+            "label": "Attack Speed",
+            "value": "Lv.2"
+          }
+        ],
+        "materials": [
+          {
+            "name": "Iron Ore",
+            "quantity": 2
+          },
+          {
+            "name": "Staglord's Shield",
+            "quantity": 1
+          }
+        ]
+      },
+      {
+        "level": "+2",
+        "stats": [
+          {
+            "label": "Defense",
+            "value": "3"
+          },
+          {
+            "label": "Guard Rate",
+            "value": "3"
+          },
+          {
+            "label": "Attack Speed",
+            "value": "Lv.2"
+          }
+        ],
+        "materials": [
+          {
+            "name": "Iron Ore",
+            "quantity": 3
+          },
+          {
+            "name": "Staglord's Shield (+1)",
+            "quantity": 1
+          }
+        ]
+      },
+      {
+        "level": "+3",
+        "stats": [
+          {
+            "label": "Defense",
+            "value": "4"
+          },
+          {
+            "label": "Guard Rate",
+            "value": "5"
+          },
+          {
+            "label": "Attack Speed",
+            "value": "Lv.2"
+          }
+        ],
+        "materials": [
+          {
+            "name": "Iron Ore",
+            "quantity": 4
+          },
+          {
+            "name": "Copper Ore",
+            "quantity": 2
+          },
+          {
+            "name": "Staglord's Shield (+2)",
+            "quantity": 1
+          }
+        ]
+      },
+      {
+        "level": "+4",
+        "stats": [
+          {
+            "label": "Defense",
+            "value": "5"
+          },
+          {
+            "label": "Guard Rate",
+            "value": "7"
+          },
+          {
+            "label": "Attack Speed",
+            "value": "Lv.2"
+          }
+        ],
+        "materials": [
+          {
+            "name": "Iron Ore",
+            "quantity": 5
+          },
+          {
+            "name": "Copper Ore",
+            "quantity": 4
+          },
+          {
+            "name": "Staglord's Shield (+3)",
+            "quantity": 1
+          }
+        ]
+      },
+      {
+        "level": "+5",
+        "stats": [
+          {
+            "label": "Defense",
+            "value": "6"
+          },
+          {
+            "label": "Guard Rate",
+            "value": "9"
+          },
+          {
+            "label": "Attack Speed",
+            "value": "Lv.2"
+          }
+        ],
+        "materials": [
+          {
+            "name": "Iron Ore",
+            "quantity": 6
+          },
+          {
+            "name": "Copper Ore",
+            "quantity": 6
+          },
+          {
+            "name": "Bloodstone",
+            "quantity": 1
+          },
+          {
+            "name": "Abyss Artifact",
+            "quantity": 1
+          }
+        ]
+      },
+      {
+        "level": "+6",
+        "stats": [
+          {
+            "label": "Defense",
+            "value": "7"
+          },
+          {
+            "label": "Guard Rate",
+            "value": "11"
+          },
+          {
+            "label": "Attack Speed",
+            "value": "Lv.2"
+          }
+        ],
+        "materials": [
+          {
+            "name": "Iron Ore",
+            "quantity": 8
+          },
+          {
+            "name": "Copper Ore",
+            "quantity": 8
+          },
+          {
+            "name": "Bloodstone",
+            "quantity": 3
+          },
+          {
+            "name": "Abyss Artifact",
+            "quantity": 1
+          }
+        ]
+      },
+      {
+        "level": "+7",
+        "stats": [
+          {
+            "label": "Defense",
+            "value": "8"
+          },
+          {
+            "label": "Guard Rate",
+            "value": "13"
+          },
+          {
+            "label": "Attack Speed",
+            "value": "Lv.2"
+          }
+        ],
+        "materials": [
+          {
+            "name": "Iron Ore",
+            "quantity": 10
+          },
+          {
+            "name": "Copper Ore",
+            "quantity": 10
+          },
+          {
+            "name": "Bloodstone",
+            "quantity": 5
+          },
+          {
+            "name": "Abyss Artifact",
+            "quantity": 1
+          }
+        ]
+      },
+      {
+        "level": "+8",
+        "stats": [
+          {
+            "label": "Defense",
+            "value": "9"
+          },
+          {
+            "label": "Guard Rate",
+            "value": "15"
+          },
+          {
+            "label": "Attack Speed",
+            "value": "Lv.2"
+          }
+        ],
+        "materials": [
+          {
+            "name": "Iron Ore",
+            "quantity": 15
+          },
+          {
+            "name": "Copper Ore",
+            "quantity": 15
+          },
+          {
+            "name": "Bloodstone",
+            "quantity": 8
+          },
+          {
+            "name": "Scolecite Ore",
+            "quantity": 2
+          },
+          {
+            "name": "Abyss Artifact",
+            "quantity": 1
+          }
+        ]
+      },
+      {
+        "level": "+9",
+        "stats": [
+          {
+            "label": "Defense",
+            "value": "10"
+          },
+          {
+            "label": "Guard Rate",
+            "value": "17"
+          },
+          {
+            "label": "Attack Speed",
+            "value": "Lv.2"
+          }
+        ],
+        "materials": [
+          {
+            "name": "Iron Ore",
+            "quantity": 25
+          },
+          {
+            "name": "Copper Ore",
+            "quantity": 20
+          },
+          {
+            "name": "Bloodstone",
+            "quantity": 12
+          },
+          {
+            "name": "Scolecite Ore",
+            "quantity": 6
+          },
+          {
+            "name": "Abyss Artifact",
+            "quantity": 1
+          }
+        ]
+      },
+      {
+        "level": "+10",
+        "stats": [
+          {
+            "label": "Defense",
+            "value": "13"
+          },
+          {
+            "label": "Guard Rate",
+            "value": "20"
+          },
+          {
+            "label": "Attack Speed",
+            "value": "Lv.2"
+          }
+        ],
+        "materials": [
+          {
+            "name": "Aeserion's Scale",
+            "quantity": 1
+          },
+          {
+            "name": "Abyss Artifact",
+            "quantity": 1
+          }
+        ]
+      }
+    ],
+    "craftingMaterials": [],
+    "description": "The shield held by the last king of a forgotten realm until his final breath. Its faded red background and golden deer crest symbolize a throne long since lost. It remains in eerily pristine condition for a relic of a fallen kingdom. With every attack blocked, a sense of loss and madness seems to seep through the seams.",
+    "source": {
+      "site": "crimsondesert.gg",
+      "url": "https://crimsondesert.gg/database/shields/staglords-shield"
+    }
+  },
+  {
+    "id": "sydmon-kite-shield",
+    "name": "Sydmon Kite Shield",
+    "slug": "sydmon-kite-shield",
+    "category": "shields",
+    "type": "sydmon-kite",
+    "typeLabel": "Shield",
+    "rarity": "uncommon",
+    "stats": [
+      {
+        "label": "Guard Rate",
+        "value": "5 →30",
+        "max": "30"
+      },
+      {
+        "label": "Defense",
+        "value": "3 →15",
+        "max": "15"
+      },
+      {
+        "label": "Movement Speed",
+        "value": "Lv.2"
+      }
+    ],
+    "refinement": [
+      {
+        "level": "+0",
+        "stats": [
+          {
+            "label": "Defense",
+            "value": "3"
+          },
+          {
+            "label": "Guard Rate",
+            "value": "5"
+          },
+          {
+            "label": "Movement Speed",
+            "value": "Lv.2"
+          }
+        ],
+        "materials": []
+      },
+      {
+        "level": "+1",
+        "stats": [
+          {
+            "label": "Defense",
+            "value": "4"
+          },
+          {
+            "label": "Guard Rate",
+            "value": "7"
+          },
+          {
+            "label": "Movement Speed",
+            "value": "Lv.2"
+          }
+        ],
+        "materials": [
+          {
+            "name": "Timber",
+            "quantity": 10
+          },
+          {
+            "name": "Sydmon Kite Shield",
+            "quantity": 1
+          },
+          {
+            "name": "Sydmon Kite Shield",
+            "quantity": 1
+          },
+          {
+            "name": "Sydmon Kite Shield",
+            "quantity": 1
+          },
+          {
+            "name": "Timber",
+            "quantity": 20
+          },
+          {
+            "name": "Fine Timber",
+            "quantity": 5
+          }
+        ]
+      },
+      {
+        "level": "+2",
+        "stats": [
+          {
+            "label": "Defense",
+            "value": "5"
+          },
+          {
+            "label": "Guard Rate",
+            "value": "9"
+          },
+          {
+            "label": "Movement Speed",
+            "value": "Lv.2"
+          }
+        ],
+        "materials": [
+          {
+            "name": "Timber",
+            "quantity": 15
+          },
+          {
+            "name": "Sydmon Kite Shield (+1)",
+            "quantity": 1
+          },
+          {
+            "name": "Sydmon Kite Shield (+1)",
+            "quantity": 1
+          },
+          {
+            "name": "Sydmon Kite Shield (+1)",
+            "quantity": 1
+          }
+        ]
+      },
+      {
+        "level": "+3",
+        "stats": [
+          {
+            "label": "Defense",
+            "value": "6"
+          },
+          {
+            "label": "Guard Rate",
+            "value": "11"
+          },
+          {
+            "label": "Movement Speed",
+            "value": "Lv.2"
+          }
+        ],
+        "materials": [
+          {
+            "name": "Timber",
+            "quantity": 20
+          },
+          {
+            "name": "Fine Timber",
+            "quantity": 10
+          },
+          {
+            "name": "Sydmon Kite Shield (+2)",
+            "quantity": 1
+          },
+          {
+            "name": "Sydmon Kite Shield (+2)",
+            "quantity": 1
+          },
+          {
+            "name": "Sydmon Kite Shield (+2)",
+            "quantity": 1
+          }
+        ]
+      },
+      {
+        "level": "+4",
+        "stats": [
+          {
+            "label": "Defense",
+            "value": "7"
+          },
+          {
+            "label": "Guard Rate",
+            "value": "13"
+          },
+          {
+            "label": "Movement Speed",
+            "value": "Lv.2"
+          }
+        ],
+        "materials": [
+          {
+            "name": "Timber",
+            "quantity": 25
+          },
+          {
+            "name": "Fine Timber",
+            "quantity": 15
+          },
+          {
+            "name": "Sydmon Kite Shield (+3)",
+            "quantity": 1
+          },
+          {
+            "name": "Sydmon Kite Shield (+3)",
+            "quantity": 1
+          },
+          {
+            "name": "Sydmon Kite Shield (+3)",
+            "quantity": 1
+          }
+        ]
+      },
+      {
+        "level": "+5",
+        "stats": [
+          {
+            "label": "Defense",
+            "value": "8"
+          },
+          {
+            "label": "Guard Rate",
+            "value": "15"
+          },
+          {
+            "label": "Movement Speed",
+            "value": "Lv.2"
+          }
+        ],
+        "materials": [
+          {
+            "name": "Timber",
+            "quantity": 30
+          },
+          {
+            "name": "Fine Timber",
+            "quantity": 20
+          },
+          {
+            "name": "Bloodstone",
+            "quantity": 1
+          },
+          {
+            "name": "Abyss Artifact",
+            "quantity": 1
+          },
+          {
+            "name": "Sydmon Kite Shield (+4)",
+            "quantity": 1
+          },
+          {
+            "name": "Sydmon Kite Shield (+4)",
+            "quantity": 1
+          },
+          {
+            "name": "Abyss Artifact",
+            "quantity": 1
+          }
+        ]
+      },
+      {
+        "level": "+6",
+        "stats": [
+          {
+            "label": "Defense",
+            "value": "9"
+          },
+          {
+            "label": "Guard Rate",
+            "value": "17"
+          },
+          {
+            "label": "Movement Speed",
+            "value": "Lv.2"
+          }
+        ],
+        "materials": [
+          {
+            "name": "Timber",
+            "quantity": 40
+          },
+          {
+            "name": "Fine Timber",
+            "quantity": 25
+          },
+          {
+            "name": "Bloodstone",
+            "quantity": 3
+          },
+          {
+            "name": "Abyss Artifact",
+            "quantity": 1
+          },
+          {
+            "name": "Sydmon Kite Shield (+5)",
+            "quantity": 1
+          },
+          {
+            "name": "Sydmon Kite Shield (+5)",
+            "quantity": 1
+          },
+          {
+            "name": "Abyss Artifact",
+            "quantity": 2
+          }
+        ]
+      },
+      {
+        "level": "+7",
+        "stats": [
+          {
+            "label": "Defense",
+            "value": "10"
+          },
+          {
+            "label": "Guard Rate",
+            "value": "20"
+          },
+          {
+            "label": "Movement Speed",
+            "value": "Lv.2"
+          }
+        ],
+        "materials": [
+          {
+            "name": "Timber",
+            "quantity": 50
+          },
+          {
+            "name": "Fine Timber",
+            "quantity": 30
+          },
+          {
+            "name": "Bloodstone",
+            "quantity": 5
+          },
+          {
+            "name": "Abyss Artifact",
+            "quantity": 1
+          },
+          {
+            "name": "Sydmon Kite Shield (+6)",
+            "quantity": 1
+          },
+          {
+            "name": "Sydmon Kite Shield (+6)",
+            "quantity": 1
+          },
+          {
+            "name": "Abyss Artifact",
+            "quantity": 2
+          }
+        ]
+      },
+      {
+        "level": "+8",
+        "stats": [
+          {
+            "label": "Defense",
+            "value": "11"
+          },
+          {
+            "label": "Guard Rate",
+            "value": "23"
+          },
+          {
+            "label": "Movement Speed",
+            "value": "Lv.2"
+          }
+        ],
+        "materials": [
+          {
+            "name": "Timber",
+            "quantity": 60
+          },
+          {
+            "name": "Fine Timber",
+            "quantity": 35
+          },
+          {
+            "name": "Bloodstone",
+            "quantity": 8
+          },
+          {
+            "name": "Flawless Timber",
+            "quantity": 10
+          },
+          {
+            "name": "Abyss Artifact",
+            "quantity": 1
+          },
+          {
+            "name": "Sydmon Kite Shield (+7)",
+            "quantity": 1
+          },
+          {
+            "name": "Sydmon Kite Shield (+7)",
+            "quantity": 1
+          },
+          {
+            "name": "Abyss Artifact",
+            "quantity": 2
+          }
+        ]
+      },
+      {
+        "level": "+9",
+        "stats": [
+          {
+            "label": "Defense",
+            "value": "12"
+          },
+          {
+            "label": "Guard Rate",
+            "value": "26"
+          },
+          {
+            "label": "Movement Speed",
+            "value": "Lv.2"
+          }
+        ],
+        "materials": [
+          {
+            "name": "Timber",
+            "quantity": 80
+          },
+          {
+            "name": "Fine Timber",
+            "quantity": 45
+          },
+          {
+            "name": "Bloodstone",
+            "quantity": 12
+          },
+          {
+            "name": "Flawless Timber",
+            "quantity": 20
+          },
+          {
+            "name": "Abyss Artifact",
+            "quantity": 1
+          },
+          {
+            "name": "Sydmon Kite Shield (+8)",
+            "quantity": 1
+          },
+          {
+            "name": "Sydmon Kite Shield (+8)",
+            "quantity": 1
+          },
+          {
+            "name": "Abyss Artifact",
+            "quantity": 2
+          }
+        ]
+      },
+      {
+        "level": "+10",
+        "stats": [
+          {
+            "label": "Defense",
+            "value": "15"
+          },
+          {
+            "label": "Guard Rate",
+            "value": "30"
+          },
+          {
+            "label": "Movement Speed",
+            "value": "Lv.2"
+          }
+        ],
+        "materials": [
+          {
+            "name": "Aeserion's Scale",
+            "quantity": 1
+          },
+          {
+            "name": "Abyss Artifact",
+            "quantity": 1
+          }
+        ]
+      }
+    ],
+    "craftingMaterials": [
+      {
+        "name": "Timber",
+        "quantity": 20
+      },
+      {
+        "name": "Fine Timber",
+        "quantity": 5
+      }
+    ],
+    "description": "A shield, bearing the name of Sydmon, the ordinary blacksmith. \"But on one fateful day, Sydmon was commissioned to forge an axe for the royal court.\"",
+    "source": {
+      "site": "crimsondesert.gg",
+      "url": "https://crimsondesert.gg/database/shields/sydmon-kite-shield"
+    }
+  },
+  {
+    "id": "sydmon-round-shield",
+    "name": "Sydmon Round Shield",
+    "slug": "sydmon-round-shield",
+    "category": "shields",
+    "type": "sydmon-round",
+    "typeLabel": "Shield",
+    "rarity": "uncommon",
+    "stats": [
+      {
+        "label": "Guard Rate",
+        "value": "5 →30",
+        "max": "30"
+      },
+      {
+        "label": "Defense",
+        "value": "3 →15",
+        "max": "15"
+      },
+      {
+        "label": "Movement Speed",
+        "value": "Lv.2"
+      }
+    ],
+    "refinement": [
+      {
+        "level": "+0",
+        "stats": [
+          {
+            "label": "Defense",
+            "value": "3"
+          },
+          {
+            "label": "Guard Rate",
+            "value": "5"
+          },
+          {
+            "label": "Movement Speed",
+            "value": "Lv.2"
+          }
+        ],
+        "materials": []
+      },
+      {
+        "level": "+1",
+        "stats": [
+          {
+            "label": "Defense",
+            "value": "4"
+          },
+          {
+            "label": "Guard Rate",
+            "value": "7"
+          },
+          {
+            "label": "Movement Speed",
+            "value": "Lv.2"
+          }
+        ],
+        "materials": [
+          {
+            "name": "Iron Ore",
+            "quantity": 2
+          },
+          {
+            "name": "Sydmon Round Shield",
+            "quantity": 1
+          },
+          {
+            "name": "Sydmon Round Shield",
+            "quantity": 1
+          },
+          {
+            "name": "Sydmon Round Shield",
+            "quantity": 1
+          }
+        ]
+      },
+      {
+        "level": "+2",
+        "stats": [
+          {
+            "label": "Defense",
+            "value": "5"
+          },
+          {
+            "label": "Guard Rate",
+            "value": "9"
+          },
+          {
+            "label": "Movement Speed",
+            "value": "Lv.2"
+          }
+        ],
+        "materials": [
+          {
+            "name": "Iron Ore",
+            "quantity": 3
+          },
+          {
+            "name": "Sydmon Round Shield (+1)",
+            "quantity": 1
+          },
+          {
+            "name": "Sydmon Round Shield (+1)",
+            "quantity": 1
+          },
+          {
+            "name": "Sydmon Round Shield (+1)",
+            "quantity": 1
+          },
+          {
+            "name": "Iron Ore",
+            "quantity": 10
+          },
+          {
+            "name": "Copper Ore",
+            "quantity": 2
+          }
+        ]
+      },
+      {
+        "level": "+3",
+        "stats": [
+          {
+            "label": "Defense",
+            "value": "6"
+          },
+          {
+            "label": "Guard Rate",
+            "value": "11"
+          },
+          {
+            "label": "Movement Speed",
+            "value": "Lv.2"
+          }
+        ],
+        "materials": [
+          {
+            "name": "Iron Ore",
+            "quantity": 4
+          },
+          {
+            "name": "Copper Ore",
+            "quantity": 2
+          },
+          {
+            "name": "Sydmon Round Shield (+2)",
+            "quantity": 1
+          },
+          {
+            "name": "Sydmon Round Shield (+2)",
+            "quantity": 1
+          },
+          {
+            "name": "Sydmon Round Shield (+2)",
+            "quantity": 1
+          }
+        ]
+      },
+      {
+        "level": "+4",
+        "stats": [
+          {
+            "label": "Defense",
+            "value": "7"
+          },
+          {
+            "label": "Guard Rate",
+            "value": "13"
+          },
+          {
+            "label": "Movement Speed",
+            "value": "Lv.2"
+          }
+        ],
+        "materials": [
+          {
+            "name": "Iron Ore",
+            "quantity": 5
+          },
+          {
+            "name": "Copper Ore",
+            "quantity": 4
+          },
+          {
+            "name": "Sydmon Round Shield (+3)",
+            "quantity": 1
+          },
+          {
+            "name": "Sydmon Round Shield (+3)",
+            "quantity": 1
+          },
+          {
+            "name": "Sydmon Round Shield (+3)",
+            "quantity": 1
+          }
+        ]
+      },
+      {
+        "level": "+5",
+        "stats": [
+          {
+            "label": "Defense",
+            "value": "8"
+          },
+          {
+            "label": "Guard Rate",
+            "value": "15"
+          },
+          {
+            "label": "Movement Speed",
+            "value": "Lv.2"
+          }
+        ],
+        "materials": [
+          {
+            "name": "Iron Ore",
+            "quantity": 6
+          },
+          {
+            "name": "Copper Ore",
+            "quantity": 6
+          },
+          {
+            "name": "Bloodstone",
+            "quantity": 1
+          },
+          {
+            "name": "Abyss Artifact",
+            "quantity": 1
+          },
+          {
+            "name": "Sydmon Round Shield (+4)",
+            "quantity": 1
+          },
+          {
+            "name": "Sydmon Round Shield (+4)",
+            "quantity": 1
+          },
+          {
+            "name": "Abyss Artifact",
+            "quantity": 1
+          }
+        ]
+      },
+      {
+        "level": "+6",
+        "stats": [
+          {
+            "label": "Defense",
+            "value": "9"
+          },
+          {
+            "label": "Guard Rate",
+            "value": "17"
+          },
+          {
+            "label": "Movement Speed",
+            "value": "Lv.2"
+          }
+        ],
+        "materials": [
+          {
+            "name": "Iron Ore",
+            "quantity": 8
+          },
+          {
+            "name": "Copper Ore",
+            "quantity": 8
+          },
+          {
+            "name": "Bloodstone",
+            "quantity": 3
+          },
+          {
+            "name": "Abyss Artifact",
+            "quantity": 1
+          },
+          {
+            "name": "Sydmon Round Shield (+5)",
+            "quantity": 1
+          },
+          {
+            "name": "Sydmon Round Shield (+5)",
+            "quantity": 1
+          },
+          {
+            "name": "Abyss Artifact",
+            "quantity": 2
+          }
+        ]
+      },
+      {
+        "level": "+7",
+        "stats": [
+          {
+            "label": "Defense",
+            "value": "10"
+          },
+          {
+            "label": "Guard Rate",
+            "value": "20"
+          },
+          {
+            "label": "Movement Speed",
+            "value": "Lv.2"
+          }
+        ],
+        "materials": [
+          {
+            "name": "Iron Ore",
+            "quantity": 10
+          },
+          {
+            "name": "Copper Ore",
+            "quantity": 10
+          },
+          {
+            "name": "Bloodstone",
+            "quantity": 5
+          },
+          {
+            "name": "Abyss Artifact",
+            "quantity": 1
+          },
+          {
+            "name": "Sydmon Round Shield (+6)",
+            "quantity": 1
+          },
+          {
+            "name": "Sydmon Round Shield (+6)",
+            "quantity": 1
+          },
+          {
+            "name": "Abyss Artifact",
+            "quantity": 2
+          }
+        ]
+      },
+      {
+        "level": "+8",
+        "stats": [
+          {
+            "label": "Defense",
+            "value": "11"
+          },
+          {
+            "label": "Guard Rate",
+            "value": "23"
+          },
+          {
+            "label": "Movement Speed",
+            "value": "Lv.2"
+          }
+        ],
+        "materials": [
+          {
+            "name": "Iron Ore",
+            "quantity": 15
+          },
+          {
+            "name": "Copper Ore",
+            "quantity": 15
+          },
+          {
+            "name": "Bloodstone",
+            "quantity": 8
+          },
+          {
+            "name": "Scolecite Ore",
+            "quantity": 2
+          },
+          {
+            "name": "Abyss Artifact",
+            "quantity": 1
+          },
+          {
+            "name": "Sydmon Round Shield (+7)",
+            "quantity": 1
+          },
+          {
+            "name": "Sydmon Round Shield (+7)",
+            "quantity": 1
+          },
+          {
+            "name": "Abyss Artifact",
+            "quantity": 2
+          }
+        ]
+      },
+      {
+        "level": "+9",
+        "stats": [
+          {
+            "label": "Defense",
+            "value": "12"
+          },
+          {
+            "label": "Guard Rate",
+            "value": "26"
+          },
+          {
+            "label": "Movement Speed",
+            "value": "Lv.2"
+          }
+        ],
+        "materials": [
+          {
+            "name": "Iron Ore",
+            "quantity": 25
+          },
+          {
+            "name": "Copper Ore",
+            "quantity": 20
+          },
+          {
+            "name": "Bloodstone",
+            "quantity": 12
+          },
+          {
+            "name": "Scolecite Ore",
+            "quantity": 6
+          },
+          {
+            "name": "Abyss Artifact",
+            "quantity": 1
+          },
+          {
+            "name": "Sydmon Round Shield (+8)",
+            "quantity": 1
+          },
+          {
+            "name": "Sydmon Round Shield (+8)",
+            "quantity": 1
+          },
+          {
+            "name": "Abyss Artifact",
+            "quantity": 2
+          }
+        ]
+      },
+      {
+        "level": "+10",
+        "stats": [
+          {
+            "label": "Defense",
+            "value": "15"
+          },
+          {
+            "label": "Guard Rate",
+            "value": "30"
+          },
+          {
+            "label": "Movement Speed",
+            "value": "Lv.2"
+          }
+        ],
+        "materials": [
+          {
+            "name": "Aeserion's Scale",
+            "quantity": 1
+          },
+          {
+            "name": "Abyss Artifact",
+            "quantity": 1
+          }
+        ]
+      }
+    ],
+    "craftingMaterials": [
+      {
+        "name": "Iron Ore",
+        "quantity": 10
+      },
+      {
+        "name": "Copper Ore",
+        "quantity": 2
+      }
+    ],
+    "description": "A shield, bearing the name of Sydmon, the ordinary blacksmith. \"The brand of mediocrity weighed upon Sydmon's heart like a heavy burden.\"",
+    "source": {
+      "site": "crimsondesert.gg",
+      "url": "https://crimsondesert.gg/database/shields/sydmon-round-shield"
+    }
+  },
+  {
+    "id": "tardik-shield",
+    "name": "Tardik Shield",
+    "slug": "tardik-shield",
+    "category": "shields",
+    "type": "tardik",
+    "typeLabel": "Shield",
+    "rarity": "rare",
+    "stats": [
+      {
+        "label": "Guard Rate",
+        "value": "5 →30",
+        "max": "30"
+      },
+      {
+        "label": "Defense",
+        "value": "3 →15",
+        "max": "15"
+      },
+      {
+        "label": "Movement Speed",
+        "value": "Lv.2"
+      }
+    ],
+    "refinement": [
+      {
+        "level": "+0",
+        "stats": [
+          {
+            "label": "Defense",
+            "value": "3"
+          },
+          {
+            "label": "Guard Rate",
+            "value": "5"
+          },
+          {
+            "label": "Movement Speed",
+            "value": "Lv.2"
+          }
+        ],
+        "materials": []
+      },
+      {
+        "level": "+1",
+        "stats": [
+          {
+            "label": "Defense",
+            "value": "4"
+          },
+          {
+            "label": "Guard Rate",
+            "value": "7"
+          },
+          {
+            "label": "Movement Speed",
+            "value": "Lv.2"
+          }
+        ],
+        "materials": [
+          {
+            "name": "Timber",
+            "quantity": 10
+          },
+          {
+            "name": "Tardik Shield",
+            "quantity": 1
+          },
+          {
+            "name": "Tardik Shield",
+            "quantity": 1
+          },
+          {
+            "name": "Tardik Shield",
+            "quantity": 1
+          }
+        ]
+      },
+      {
+        "level": "+2",
+        "stats": [
+          {
+            "label": "Defense",
+            "value": "5"
+          },
+          {
+            "label": "Guard Rate",
+            "value": "9"
+          },
+          {
+            "label": "Movement Speed",
+            "value": "Lv.2"
+          }
+        ],
+        "materials": [
+          {
+            "name": "Timber",
+            "quantity": 15
+          },
+          {
+            "name": "Tardik Shield (+1)",
+            "quantity": 1
+          },
+          {
+            "name": "Tardik Shield (+1)",
+            "quantity": 1
+          },
+          {
+            "name": "Tardik Shield (+1)",
+            "quantity": 1
+          }
+        ]
+      },
+      {
+        "level": "+3",
+        "stats": [
+          {
+            "label": "Defense",
+            "value": "6"
+          },
+          {
+            "label": "Guard Rate",
+            "value": "11"
+          },
+          {
+            "label": "Movement Speed",
+            "value": "Lv.2"
+          }
+        ],
+        "materials": [
+          {
+            "name": "Timber",
+            "quantity": 20
+          },
+          {
+            "name": "Fine Timber",
+            "quantity": 10
+          },
+          {
+            "name": "Tardik Shield (+2)",
+            "quantity": 1
+          },
+          {
+            "name": "Tardik Shield (+2)",
+            "quantity": 1
+          },
+          {
+            "name": "Tardik Shield (+2)",
+            "quantity": 1
+          },
+          {
+            "name": "Timber",
+            "quantity": 55
+          },
+          {
+            "name": "Fine Timber",
+            "quantity": 15
+          }
+        ]
+      },
+      {
+        "level": "+4",
+        "stats": [
+          {
+            "label": "Defense",
+            "value": "7"
+          },
+          {
+            "label": "Guard Rate",
+            "value": "13"
+          },
+          {
+            "label": "Movement Speed",
+            "value": "Lv.2"
+          }
+        ],
+        "materials": [
+          {
+            "name": "Timber",
+            "quantity": 25
+          },
+          {
+            "name": "Fine Timber",
+            "quantity": 15
+          },
+          {
+            "name": "Tardik Shield (+3)",
+            "quantity": 1
+          },
+          {
+            "name": "Tardik Shield (+3)",
+            "quantity": 1
+          },
+          {
+            "name": "Tardik Shield (+3)",
+            "quantity": 1
+          }
+        ]
+      },
+      {
+        "level": "+5",
+        "stats": [
+          {
+            "label": "Defense",
+            "value": "8"
+          },
+          {
+            "label": "Guard Rate",
+            "value": "15"
+          },
+          {
+            "label": "Movement Speed",
+            "value": "Lv.2"
+          }
+        ],
+        "materials": [
+          {
+            "name": "Timber",
+            "quantity": 30
+          },
+          {
+            "name": "Fine Timber",
+            "quantity": 20
+          },
+          {
+            "name": "Bloodstone",
+            "quantity": 1
+          },
+          {
+            "name": "Abyss Artifact",
+            "quantity": 1
+          },
+          {
+            "name": "Tardik Shield (+4)",
+            "quantity": 1
+          },
+          {
+            "name": "Tardik Shield (+4)",
+            "quantity": 1
+          },
+          {
+            "name": "Abyss Artifact",
+            "quantity": 1
+          }
+        ]
+      },
+      {
+        "level": "+6",
+        "stats": [
+          {
+            "label": "Defense",
+            "value": "9"
+          },
+          {
+            "label": "Guard Rate",
+            "value": "17"
+          },
+          {
+            "label": "Movement Speed",
+            "value": "Lv.2"
+          }
+        ],
+        "materials": [
+          {
+            "name": "Timber",
+            "quantity": 40
+          },
+          {
+            "name": "Fine Timber",
+            "quantity": 25
+          },
+          {
+            "name": "Bloodstone",
+            "quantity": 3
+          },
+          {
+            "name": "Abyss Artifact",
+            "quantity": 1
+          },
+          {
+            "name": "Tardik Shield (+5)",
+            "quantity": 1
+          },
+          {
+            "name": "Tardik Shield (+5)",
+            "quantity": 1
+          },
+          {
+            "name": "Abyss Artifact",
+            "quantity": 2
+          }
+        ]
+      },
+      {
+        "level": "+7",
+        "stats": [
+          {
+            "label": "Defense",
+            "value": "10"
+          },
+          {
+            "label": "Guard Rate",
+            "value": "20"
+          },
+          {
+            "label": "Movement Speed",
+            "value": "Lv.2"
+          }
+        ],
+        "materials": [
+          {
+            "name": "Timber",
+            "quantity": 50
+          },
+          {
+            "name": "Fine Timber",
+            "quantity": 30
+          },
+          {
+            "name": "Bloodstone",
+            "quantity": 5
+          },
+          {
+            "name": "Abyss Artifact",
+            "quantity": 1
+          },
+          {
+            "name": "Tardik Shield (+6)",
+            "quantity": 1
+          },
+          {
+            "name": "Tardik Shield (+6)",
+            "quantity": 1
+          },
+          {
+            "name": "Abyss Artifact",
+            "quantity": 2
+          }
+        ]
+      },
+      {
+        "level": "+8",
+        "stats": [
+          {
+            "label": "Defense",
+            "value": "11"
+          },
+          {
+            "label": "Guard Rate",
+            "value": "23"
+          },
+          {
+            "label": "Movement Speed",
+            "value": "Lv.2"
+          }
+        ],
+        "materials": [
+          {
+            "name": "Timber",
+            "quantity": 60
+          },
+          {
+            "name": "Fine Timber",
+            "quantity": 35
+          },
+          {
+            "name": "Bloodstone",
+            "quantity": 8
+          },
+          {
+            "name": "Flawless Timber",
+            "quantity": 10
+          },
+          {
+            "name": "Abyss Artifact",
+            "quantity": 1
+          },
+          {
+            "name": "Tardik Shield (+7)",
+            "quantity": 1
+          },
+          {
+            "name": "Tardik Shield (+7)",
+            "quantity": 1
+          },
+          {
+            "name": "Abyss Artifact",
+            "quantity": 2
+          }
+        ]
+      },
+      {
+        "level": "+9",
+        "stats": [
+          {
+            "label": "Defense",
+            "value": "12"
+          },
+          {
+            "label": "Guard Rate",
+            "value": "26"
+          },
+          {
+            "label": "Movement Speed",
+            "value": "Lv.2"
+          }
+        ],
+        "materials": [
+          {
+            "name": "Timber",
+            "quantity": 80
+          },
+          {
+            "name": "Fine Timber",
+            "quantity": 45
+          },
+          {
+            "name": "Bloodstone",
+            "quantity": 12
+          },
+          {
+            "name": "Flawless Timber",
+            "quantity": 20
+          },
+          {
+            "name": "Abyss Artifact",
+            "quantity": 1
+          },
+          {
+            "name": "Tardik Shield (+8)",
+            "quantity": 1
+          },
+          {
+            "name": "Tardik Shield (+8)",
+            "quantity": 1
+          },
+          {
+            "name": "Abyss Artifact",
+            "quantity": 2
+          }
+        ]
+      },
+      {
+        "level": "+10",
+        "stats": [
+          {
+            "label": "Defense",
+            "value": "15"
+          },
+          {
+            "label": "Guard Rate",
+            "value": "30"
+          },
+          {
+            "label": "Movement Speed",
+            "value": "Lv.2"
+          }
+        ],
+        "materials": [
+          {
+            "name": "Aeserion's Scale",
+            "quantity": 1
+          },
+          {
+            "name": "Abyss Artifact",
+            "quantity": 1
+          }
+        ]
+      }
+    ],
+    "craftingMaterials": [
+      {
+        "name": "Timber",
+        "quantity": 55
+      },
+      {
+        "name": "Fine Timber",
+        "quantity": 15
+      }
+    ],
+    "description": "A shield of the now vanished Tardik Freeswords. \"Like so many other freesword companies born and lost in war-torn Pywel, the Tardik Freeswords too disappeared with neither glory nor victory worth boasting of.\"",
+    "source": {
+      "site": "crimsondesert.gg",
+      "url": "https://crimsondesert.gg/database/shields/tardik-shield"
+    }
+  },
+  {
+    "id": "thalwynd-large-shield",
+    "name": "Thalwynd Large Shield",
+    "slug": "thalwynd-large-shield",
+    "category": "shields",
+    "type": "thalwynd-large",
+    "typeLabel": "Large Shield",
+    "rarity": "uncommon",
+    "stats": [
+      {
+        "label": "Guard Rate",
+        "value": "25 →50",
+        "max": "50"
+      },
+      {
+        "label": "Defense",
+        "value": "2 →27",
+        "max": "27"
+      }
+    ],
+    "refinement": [
+      {
+        "level": "+0",
+        "stats": [
+          {
+            "label": "Defense",
+            "value": "2"
+          },
+          {
+            "label": "Guard Rate",
+            "value": "25"
+          }
+        ],
+        "materials": []
+      },
+      {
+        "level": "+1",
+        "stats": [
+          {
+            "label": "Defense",
+            "value": "4"
+          },
+          {
+            "label": "Guard Rate",
+            "value": "27"
+          }
+        ],
+        "materials": [
+          {
+            "name": "Timber",
+            "quantity": 10
+          },
+          {
+            "name": "Thalwynd Large Shield",
+            "quantity": 1
+          },
+          {
+            "name": "Thalwynd Large Shield",
+            "quantity": 1
+          },
+          {
+            "name": "Thalwynd Large Shield",
+            "quantity": 1
+          },
+          {
+            "name": "Timber",
+            "quantity": 20
+          },
+          {
+            "name": "Fine Timber",
+            "quantity": 5
+          }
+        ]
+      },
+      {
+        "level": "+2",
+        "stats": [
+          {
+            "label": "Defense",
+            "value": "6"
+          },
+          {
+            "label": "Guard Rate",
+            "value": "29"
+          }
+        ],
+        "materials": [
+          {
+            "name": "Timber",
+            "quantity": 15
+          },
+          {
+            "name": "Thalwynd Large Shield (+1)",
+            "quantity": 1
+          },
+          {
+            "name": "Thalwynd Large Shield (+1)",
+            "quantity": 1
+          },
+          {
+            "name": "Thalwynd Large Shield (+1)",
+            "quantity": 1
+          }
+        ]
+      },
+      {
+        "level": "+3",
+        "stats": [
+          {
+            "label": "Defense",
+            "value": "8"
+          },
+          {
+            "label": "Guard Rate",
+            "value": "31"
+          }
+        ],
+        "materials": [
+          {
+            "name": "Timber",
+            "quantity": 20
+          },
+          {
+            "name": "Fine Timber",
+            "quantity": 10
+          },
+          {
+            "name": "Thalwynd Large Shield (+2)",
+            "quantity": 1
+          },
+          {
+            "name": "Thalwynd Large Shield (+2)",
+            "quantity": 1
+          },
+          {
+            "name": "Thalwynd Large Shield (+2)",
+            "quantity": 1
+          }
+        ]
+      },
+      {
+        "level": "+4",
+        "stats": [
+          {
+            "label": "Defense",
+            "value": "10"
+          },
+          {
+            "label": "Guard Rate",
+            "value": "33"
+          }
+        ],
+        "materials": [
+          {
+            "name": "Timber",
+            "quantity": 25
+          },
+          {
+            "name": "Fine Timber",
+            "quantity": 15
+          },
+          {
+            "name": "Thalwynd Large Shield (+3)",
+            "quantity": 1
+          },
+          {
+            "name": "Thalwynd Large Shield (+3)",
+            "quantity": 1
+          },
+          {
+            "name": "Thalwynd Large Shield (+3)",
+            "quantity": 1
+          }
+        ]
+      },
+      {
+        "level": "+5",
+        "stats": [
+          {
+            "label": "Defense",
+            "value": "12"
+          },
+          {
+            "label": "Guard Rate",
+            "value": "35"
+          }
+        ],
+        "materials": [
+          {
+            "name": "Timber",
+            "quantity": 30
+          },
+          {
+            "name": "Fine Timber",
+            "quantity": 20
+          },
+          {
+            "name": "Bloodstone",
+            "quantity": 1
+          },
+          {
+            "name": "Abyss Artifact",
+            "quantity": 1
+          },
+          {
+            "name": "Thalwynd Large Shield (+4)",
+            "quantity": 1
+          },
+          {
+            "name": "Thalwynd Large Shield (+4)",
+            "quantity": 1
+          },
+          {
+            "name": "Abyss Artifact",
+            "quantity": 1
+          }
+        ]
+      },
+      {
+        "level": "+6",
+        "stats": [
+          {
+            "label": "Defense",
+            "value": "14"
+          },
+          {
+            "label": "Guard Rate",
+            "value": "37"
+          }
+        ],
+        "materials": [
+          {
+            "name": "Timber",
+            "quantity": 40
+          },
+          {
+            "name": "Fine Timber",
+            "quantity": 25
+          },
+          {
+            "name": "Bloodstone",
+            "quantity": 3
+          },
+          {
+            "name": "Abyss Artifact",
+            "quantity": 1
+          },
+          {
+            "name": "Thalwynd Large Shield (+5)",
+            "quantity": 1
+          },
+          {
+            "name": "Thalwynd Large Shield (+5)",
+            "quantity": 1
+          },
+          {
+            "name": "Abyss Artifact",
+            "quantity": 2
+          }
+        ]
+      },
+      {
+        "level": "+7",
+        "stats": [
+          {
+            "label": "Defense",
+            "value": "16"
+          },
+          {
+            "label": "Guard Rate",
+            "value": "40"
+          }
+        ],
+        "materials": [
+          {
+            "name": "Timber",
+            "quantity": 50
+          },
+          {
+            "name": "Fine Timber",
+            "quantity": 30
+          },
+          {
+            "name": "Bloodstone",
+            "quantity": 5
+          },
+          {
+            "name": "Abyss Artifact",
+            "quantity": 1
+          },
+          {
+            "name": "Thalwynd Large Shield (+6)",
+            "quantity": 1
+          },
+          {
+            "name": "Thalwynd Large Shield (+6)",
+            "quantity": 1
+          },
+          {
+            "name": "Abyss Artifact",
+            "quantity": 2
+          }
+        ]
+      },
+      {
+        "level": "+8",
+        "stats": [
+          {
+            "label": "Defense",
+            "value": "19"
+          },
+          {
+            "label": "Guard Rate",
+            "value": "43"
+          }
+        ],
+        "materials": [
+          {
+            "name": "Timber",
+            "quantity": 60
+          },
+          {
+            "name": "Fine Timber",
+            "quantity": 35
+          },
+          {
+            "name": "Bloodstone",
+            "quantity": 8
+          },
+          {
+            "name": "Flawless Timber",
+            "quantity": 10
+          },
+          {
+            "name": "Abyss Artifact",
+            "quantity": 1
+          },
+          {
+            "name": "Thalwynd Large Shield (+7)",
+            "quantity": 1
+          },
+          {
+            "name": "Thalwynd Large Shield (+7)",
+            "quantity": 1
+          },
+          {
+            "name": "Abyss Artifact",
+            "quantity": 2
+          }
+        ]
+      },
+      {
+        "level": "+9",
+        "stats": [
+          {
+            "label": "Defense",
+            "value": "22"
+          },
+          {
+            "label": "Guard Rate",
+            "value": "46"
+          }
+        ],
+        "materials": [
+          {
+            "name": "Timber",
+            "quantity": 80
+          },
+          {
+            "name": "Fine Timber",
+            "quantity": 45
+          },
+          {
+            "name": "Bloodstone",
+            "quantity": 12
+          },
+          {
+            "name": "Flawless Timber",
+            "quantity": 20
+          },
+          {
+            "name": "Abyss Artifact",
+            "quantity": 1
+          },
+          {
+            "name": "Thalwynd Large Shield (+8)",
+            "quantity": 1
+          },
+          {
+            "name": "Thalwynd Large Shield (+8)",
+            "quantity": 1
+          },
+          {
+            "name": "Abyss Artifact",
+            "quantity": 2
+          }
+        ]
+      },
+      {
+        "level": "+10",
+        "stats": [
+          {
+            "label": "Defense",
+            "value": "27"
+          },
+          {
+            "label": "Guard Rate",
+            "value": "50"
+          }
+        ],
+        "materials": [
+          {
+            "name": "Aeserion's Scale",
+            "quantity": 1
+          },
+          {
+            "name": "Abyss Artifact",
+            "quantity": 1
+          }
+        ]
+      }
+    ],
+    "craftingMaterials": [
+      {
+        "name": "Timber",
+        "quantity": 20
+      },
+      {
+        "name": "Fine Timber",
+        "quantity": 5
+      }
+    ],
+    "description": "A shield forged in Calphade. Though the outpost has flourished into a town, its people still hold the hearts of warriors, ever ready to raise their shields and defend one another.",
+    "source": {
+      "site": "crimsondesert.gg",
+      "url": "https://crimsondesert.gg/database/shields/thalwynd-large-shield"
+    }
+  },
+  {
+    "id": "the-laughing-marionette-shield",
+    "name": "The Laughing Marionette Shield",
+    "slug": "the-laughing-marionette-shield",
+    "category": "shields",
+    "type": "the-laughing-marionette",
+    "typeLabel": "Large Shield",
+    "rarity": "rare",
+    "stats": [
+      {
+        "label": "Guard Rate",
+        "value": "20 →40",
+        "max": "40"
+      },
+      {
+        "label": "Defense",
+        "value": "6 →31",
+        "max": "31"
+      }
+    ],
+    "refinement": [
+      {
+        "level": "+0",
+        "stats": [
+          {
+            "label": "Defense",
+            "value": "6"
+          },
+          {
+            "label": "Guard Rate",
+            "value": "20"
+          }
+        ],
+        "materials": []
+      },
+      {
+        "level": "+1",
+        "stats": [
+          {
+            "label": "Defense",
+            "value": "8"
+          },
+          {
+            "label": "Guard Rate",
+            "value": "21"
+          }
+        ],
+        "materials": [
+          {
+            "name": "Timber",
+            "quantity": 10
+          },
+          {
+            "name": "The Laughing Marionette Shield",
+            "quantity": 1
+          },
+          {
+            "name": "The Laughing Marionette Shield",
+            "quantity": 1
+          },
+          {
+            "name": "The Laughing Marionette Shield",
+            "quantity": 1
+          }
+        ]
+      },
+      {
+        "level": "+2",
+        "stats": [
+          {
+            "label": "Defense",
+            "value": "10"
+          },
+          {
+            "label": "Guard Rate",
+            "value": "23"
+          }
+        ],
+        "materials": [
+          {
+            "name": "Timber",
+            "quantity": 15
+          },
+          {
+            "name": "The Laughing Marionette Shield (+1)",
+            "quantity": 1
+          },
+          {
+            "name": "The Laughing Marionette Shield (+1)",
+            "quantity": 1
+          },
+          {
+            "name": "The Laughing Marionette Shield (+1)",
+            "quantity": 1
+          },
+          {
+            "name": "Timber",
+            "quantity": 35
+          },
+          {
+            "name": "Fine Timber",
+            "quantity": 5
+          }
+        ]
+      },
+      {
+        "level": "+3",
+        "stats": [
+          {
+            "label": "Defense",
+            "value": "12"
+          },
+          {
+            "label": "Guard Rate",
+            "value": "25"
+          }
+        ],
+        "materials": [
+          {
+            "name": "Timber",
+            "quantity": 20
+          },
+          {
+            "name": "Fine Timber",
+            "quantity": 10
+          },
+          {
+            "name": "The Laughing Marionette Shield (+2)",
+            "quantity": 1
+          },
+          {
+            "name": "The Laughing Marionette Shield (+2)",
+            "quantity": 1
+          },
+          {
+            "name": "The Laughing Marionette Shield (+2)",
+            "quantity": 1
+          }
+        ]
+      },
+      {
+        "level": "+4",
+        "stats": [
+          {
+            "label": "Defense",
+            "value": "14"
+          },
+          {
+            "label": "Guard Rate",
+            "value": "27"
+          }
+        ],
+        "materials": [
+          {
+            "name": "Timber",
+            "quantity": 25
+          },
+          {
+            "name": "Fine Timber",
+            "quantity": 15
+          },
+          {
+            "name": "The Laughing Marionette Shield (+3)",
+            "quantity": 1
+          },
+          {
+            "name": "The Laughing Marionette Shield (+3)",
+            "quantity": 1
+          },
+          {
+            "name": "The Laughing Marionette Shield (+3)",
+            "quantity": 1
+          }
+        ]
+      },
+      {
+        "level": "+5",
+        "stats": [
+          {
+            "label": "Defense",
+            "value": "16"
+          },
+          {
+            "label": "Guard Rate",
+            "value": "29"
+          }
+        ],
+        "materials": [
+          {
+            "name": "Timber",
+            "quantity": 30
+          },
+          {
+            "name": "Fine Timber",
+            "quantity": 20
+          },
+          {
+            "name": "Bloodstone",
+            "quantity": 1
+          },
+          {
+            "name": "Abyss Artifact",
+            "quantity": 1
+          },
+          {
+            "name": "The Laughing Marionette Shield (+4)",
+            "quantity": 1
+          },
+          {
+            "name": "The Laughing Marionette Shield (+4)",
+            "quantity": 1
+          },
+          {
+            "name": "Abyss Artifact",
+            "quantity": 1
+          }
+        ]
+      },
+      {
+        "level": "+6",
+        "stats": [
+          {
+            "label": "Defense",
+            "value": "18"
+          },
+          {
+            "label": "Guard Rate",
+            "value": "31"
+          }
+        ],
+        "materials": [
+          {
+            "name": "Timber",
+            "quantity": 40
+          },
+          {
+            "name": "Fine Timber",
+            "quantity": 25
+          },
+          {
+            "name": "Bloodstone",
+            "quantity": 3
+          },
+          {
+            "name": "Abyss Artifact",
+            "quantity": 1
+          },
+          {
+            "name": "The Laughing Marionette Shield (+5)",
+            "quantity": 1
+          },
+          {
+            "name": "The Laughing Marionette Shield (+5)",
+            "quantity": 1
+          },
+          {
+            "name": "Abyss Artifact",
+            "quantity": 2
+          }
+        ]
+      },
+      {
+        "level": "+7",
+        "stats": [
+          {
+            "label": "Defense",
+            "value": "20"
+          },
+          {
+            "label": "Guard Rate",
+            "value": "33"
+          }
+        ],
+        "materials": [
+          {
+            "name": "Timber",
+            "quantity": 50
+          },
+          {
+            "name": "Fine Timber",
+            "quantity": 30
+          },
+          {
+            "name": "Bloodstone",
+            "quantity": 5
+          },
+          {
+            "name": "Abyss Artifact",
+            "quantity": 1
+          },
+          {
+            "name": "The Laughing Marionette Shield (+6)",
+            "quantity": 1
+          },
+          {
+            "name": "The Laughing Marionette Shield (+6)",
+            "quantity": 1
+          },
+          {
+            "name": "Abyss Artifact",
+            "quantity": 2
+          }
+        ]
+      },
+      {
+        "level": "+8",
+        "stats": [
+          {
+            "label": "Defense",
+            "value": "23"
+          },
+          {
+            "label": "Guard Rate",
+            "value": "35"
+          }
+        ],
+        "materials": [
+          {
+            "name": "Timber",
+            "quantity": 60
+          },
+          {
+            "name": "Fine Timber",
+            "quantity": 35
+          },
+          {
+            "name": "Bloodstone",
+            "quantity": 8
+          },
+          {
+            "name": "Flawless Timber",
+            "quantity": 10
+          },
+          {
+            "name": "Abyss Artifact",
+            "quantity": 1
+          },
+          {
+            "name": "The Laughing Marionette Shield (+7)",
+            "quantity": 1
+          },
+          {
+            "name": "The Laughing Marionette Shield (+7)",
+            "quantity": 1
+          },
+          {
+            "name": "Abyss Artifact",
+            "quantity": 2
+          }
+        ]
+      },
+      {
+        "level": "+9",
+        "stats": [
+          {
+            "label": "Defense",
+            "value": "26"
+          },
+          {
+            "label": "Guard Rate",
+            "value": "37"
+          }
+        ],
+        "materials": [
+          {
+            "name": "Timber",
+            "quantity": 80
+          },
+          {
+            "name": "Fine Timber",
+            "quantity": 45
+          },
+          {
+            "name": "Bloodstone",
+            "quantity": 12
+          },
+          {
+            "name": "Flawless Timber",
+            "quantity": 20
+          },
+          {
+            "name": "Abyss Artifact",
+            "quantity": 1
+          },
+          {
+            "name": "The Laughing Marionette Shield (+8)",
+            "quantity": 1
+          },
+          {
+            "name": "The Laughing Marionette Shield (+8)",
+            "quantity": 1
+          },
+          {
+            "name": "Abyss Artifact",
+            "quantity": 2
+          }
+        ]
+      },
+      {
+        "level": "+10",
+        "stats": [
+          {
+            "label": "Defense",
+            "value": "31"
+          },
+          {
+            "label": "Guard Rate",
+            "value": "40"
+          }
+        ],
+        "materials": [
+          {
+            "name": "Aeserion's Scale",
+            "quantity": 1
+          },
+          {
+            "name": "Abyss Artifact",
+            "quantity": 1
+          }
+        ]
+      }
+    ],
+    "craftingMaterials": [
+      {
+        "name": "Timber",
+        "quantity": 35
+      },
+      {
+        "name": "Fine Timber",
+        "quantity": 5
+      }
+    ],
+    "description": "A shield used as safety equipment at the Demeniss Circus. Just how reckless are their stunts to require a shield this thick?",
+    "source": {
+      "site": "crimsondesert.gg",
+      "url": "https://crimsondesert.gg/database/shields/the-laughing-marionette-shield"
+    }
+  },
+  {
+    "id": "thorny-warspike-large-shield",
+    "name": "Thorny Warspike Large Shield",
+    "slug": "thorny-warspike-large-shield",
+    "category": "shields",
+    "type": "thorny-warspike-large",
+    "typeLabel": "Large Shield",
+    "rarity": "uncommon",
+    "stats": [
+      {
+        "label": "Guard Rate",
+        "value": "20 →40",
+        "max": "40"
+      },
+      {
+        "label": "Defense",
+        "value": "6 →31",
+        "max": "31"
+      }
+    ],
+    "refinement": [
+      {
+        "level": "+0",
+        "stats": [
+          {
+            "label": "Defense",
+            "value": "6"
+          },
+          {
+            "label": "Guard Rate",
+            "value": "20"
+          }
+        ],
+        "materials": []
+      },
+      {
+        "level": "+1",
+        "stats": [
+          {
+            "label": "Defense",
+            "value": "8"
+          },
+          {
+            "label": "Guard Rate",
+            "value": "21"
+          }
+        ],
+        "materials": [
+          {
+            "name": "Timber",
+            "quantity": 10
+          },
+          {
+            "name": "Thorny Warspike Large Shield",
+            "quantity": 1
+          },
+          {
+            "name": "Thorny Warspike Large Shield",
+            "quantity": 1
+          },
+          {
+            "name": "Thorny Warspike Large Shield",
+            "quantity": 1
+          }
+        ]
+      },
+      {
+        "level": "+2",
+        "stats": [
+          {
+            "label": "Defense",
+            "value": "10"
+          },
+          {
+            "label": "Guard Rate",
+            "value": "23"
+          }
+        ],
+        "materials": [
+          {
+            "name": "Timber",
+            "quantity": 15
+          },
+          {
+            "name": "Thorny Warspike Large Shield (+1)",
+            "quantity": 1
+          },
+          {
+            "name": "Thorny Warspike Large Shield (+1)",
+            "quantity": 1
+          },
+          {
+            "name": "Thorny Warspike Large Shield (+1)",
+            "quantity": 1
+          },
+          {
+            "name": "Timber",
+            "quantity": 35
+          },
+          {
+            "name": "Fine Timber",
+            "quantity": 5
+          }
+        ]
+      },
+      {
+        "level": "+3",
+        "stats": [
+          {
+            "label": "Defense",
+            "value": "12"
+          },
+          {
+            "label": "Guard Rate",
+            "value": "25"
+          }
+        ],
+        "materials": [
+          {
+            "name": "Timber",
+            "quantity": 20
+          },
+          {
+            "name": "Fine Timber",
+            "quantity": 10
+          },
+          {
+            "name": "Thorny Warspike Large Shield (+2)",
+            "quantity": 1
+          },
+          {
+            "name": "Thorny Warspike Large Shield (+2)",
+            "quantity": 1
+          },
+          {
+            "name": "Thorny Warspike Large Shield (+2)",
+            "quantity": 1
+          }
+        ]
+      },
+      {
+        "level": "+4",
+        "stats": [
+          {
+            "label": "Defense",
+            "value": "14"
+          },
+          {
+            "label": "Guard Rate",
+            "value": "27"
+          }
+        ],
+        "materials": [
+          {
+            "name": "Timber",
+            "quantity": 25
+          },
+          {
+            "name": "Fine Timber",
+            "quantity": 15
+          },
+          {
+            "name": "Thorny Warspike Large Shield (+3)",
+            "quantity": 1
+          },
+          {
+            "name": "Thorny Warspike Large Shield (+3)",
+            "quantity": 1
+          },
+          {
+            "name": "Thorny Warspike Large Shield (+3)",
+            "quantity": 1
+          }
+        ]
+      },
+      {
+        "level": "+5",
+        "stats": [
+          {
+            "label": "Defense",
+            "value": "16"
+          },
+          {
+            "label": "Guard Rate",
+            "value": "29"
+          }
+        ],
+        "materials": [
+          {
+            "name": "Timber",
+            "quantity": 30
+          },
+          {
+            "name": "Fine Timber",
+            "quantity": 20
+          },
+          {
+            "name": "Bloodstone",
+            "quantity": 1
+          },
+          {
+            "name": "Abyss Artifact",
+            "quantity": 1
+          },
+          {
+            "name": "Thorny Warspike Large Shield (+4)",
+            "quantity": 1
+          },
+          {
+            "name": "Thorny Warspike Large Shield (+4)",
+            "quantity": 1
+          },
+          {
+            "name": "Abyss Artifact",
+            "quantity": 1
+          }
+        ]
+      },
+      {
+        "level": "+6",
+        "stats": [
+          {
+            "label": "Defense",
+            "value": "18"
+          },
+          {
+            "label": "Guard Rate",
+            "value": "31"
+          }
+        ],
+        "materials": [
+          {
+            "name": "Timber",
+            "quantity": 40
+          },
+          {
+            "name": "Fine Timber",
+            "quantity": 25
+          },
+          {
+            "name": "Bloodstone",
+            "quantity": 3
+          },
+          {
+            "name": "Abyss Artifact",
+            "quantity": 1
+          },
+          {
+            "name": "Thorny Warspike Large Shield (+5)",
+            "quantity": 1
+          },
+          {
+            "name": "Thorny Warspike Large Shield (+5)",
+            "quantity": 1
+          },
+          {
+            "name": "Abyss Artifact",
+            "quantity": 2
+          }
+        ]
+      },
+      {
+        "level": "+7",
+        "stats": [
+          {
+            "label": "Defense",
+            "value": "20"
+          },
+          {
+            "label": "Guard Rate",
+            "value": "33"
+          }
+        ],
+        "materials": [
+          {
+            "name": "Timber",
+            "quantity": 50
+          },
+          {
+            "name": "Fine Timber",
+            "quantity": 30
+          },
+          {
+            "name": "Bloodstone",
+            "quantity": 5
+          },
+          {
+            "name": "Abyss Artifact",
+            "quantity": 1
+          },
+          {
+            "name": "Thorny Warspike Large Shield (+6)",
+            "quantity": 1
+          },
+          {
+            "name": "Thorny Warspike Large Shield (+6)",
+            "quantity": 1
+          },
+          {
+            "name": "Abyss Artifact",
+            "quantity": 2
+          }
+        ]
+      },
+      {
+        "level": "+8",
+        "stats": [
+          {
+            "label": "Defense",
+            "value": "23"
+          },
+          {
+            "label": "Guard Rate",
+            "value": "35"
+          }
+        ],
+        "materials": [
+          {
+            "name": "Timber",
+            "quantity": 60
+          },
+          {
+            "name": "Fine Timber",
+            "quantity": 35
+          },
+          {
+            "name": "Bloodstone",
+            "quantity": 8
+          },
+          {
+            "name": "Flawless Timber",
+            "quantity": 10
+          },
+          {
+            "name": "Abyss Artifact",
+            "quantity": 1
+          },
+          {
+            "name": "Thorny Warspike Large Shield (+7)",
+            "quantity": 1
+          },
+          {
+            "name": "Thorny Warspike Large Shield (+7)",
+            "quantity": 1
+          },
+          {
+            "name": "Abyss Artifact",
+            "quantity": 2
+          }
+        ]
+      },
+      {
+        "level": "+9",
+        "stats": [
+          {
+            "label": "Defense",
+            "value": "26"
+          },
+          {
+            "label": "Guard Rate",
+            "value": "37"
+          }
+        ],
+        "materials": [
+          {
+            "name": "Timber",
+            "quantity": 80
+          },
+          {
+            "name": "Fine Timber",
+            "quantity": 45
+          },
+          {
+            "name": "Bloodstone",
+            "quantity": 12
+          },
+          {
+            "name": "Flawless Timber",
+            "quantity": 20
+          },
+          {
+            "name": "Abyss Artifact",
+            "quantity": 1
+          },
+          {
+            "name": "Thorny Warspike Large Shield (+8)",
+            "quantity": 1
+          },
+          {
+            "name": "Thorny Warspike Large Shield (+8)",
+            "quantity": 1
+          },
+          {
+            "name": "Abyss Artifact",
+            "quantity": 2
+          }
+        ]
+      },
+      {
+        "level": "+10",
+        "stats": [
+          {
+            "label": "Defense",
+            "value": "31"
+          },
+          {
+            "label": "Guard Rate",
+            "value": "40"
+          }
+        ],
+        "materials": [
+          {
+            "name": "Aeserion's Scale",
+            "quantity": 1
+          },
+          {
+            "name": "Abyss Artifact",
+            "quantity": 1
+          }
+        ]
+      }
+    ],
+    "craftingMaterials": [
+      {
+        "name": "Timber",
+        "quantity": 35
+      },
+      {
+        "name": "Fine Timber",
+        "quantity": 5
+      }
+    ],
+    "description": "A shield once kept in House Alfonso's armory. These days, it's better known as a shield the Bleed Bandits use after seizing it.",
+    "source": {
+      "site": "crimsondesert.gg",
+      "url": "https://crimsondesert.gg/database/shields/thorny-warspike-large-shield"
+    }
+  },
+  {
+    "id": "twisted-thorns",
+    "name": "Twisted Thorns",
+    "slug": "twisted-thorns",
+    "category": "shields",
+    "type": "twisted",
+    "typeLabel": "Shield",
+    "rarity": "rare",
+    "stats": [
+      {
+        "label": "Guard Rate",
+        "value": "2 →25",
+        "max": "25"
+      },
+      {
+        "label": "Defense",
+        "value": "2 →14",
+        "max": "14"
+      },
+      {
+        "label": "Attack Speed",
+        "value": "Lv.1"
+      },
+      {
+        "label": "Movement Speed",
+        "value": "Lv.1"
+      }
+    ],
+    "refinement": [
+      {
+        "level": "+0",
+        "stats": [
+          {
+            "label": "Defense",
+            "value": "2"
+          },
+          {
+            "label": "Guard Rate",
+            "value": "2"
+          },
+          {
+            "label": "Attack Speed",
+            "value": "Lv.1"
+          },
+          {
+            "label": "Movement Speed",
+            "value": "Lv.1"
+          }
+        ],
+        "materials": []
+      },
+      {
+        "level": "+1",
+        "stats": [
+          {
+            "label": "Defense",
+            "value": "3"
+          },
+          {
+            "label": "Guard Rate",
+            "value": "4"
+          },
+          {
+            "label": "Attack Speed",
+            "value": "Lv.1"
+          },
+          {
+            "label": "Movement Speed",
+            "value": "Lv.1"
+          }
+        ],
+        "materials": [
+          {
+            "name": "Timber",
+            "quantity": 10
+          },
+          {
+            "name": "Twisted Thorns",
+            "quantity": 1
+          },
+          {
+            "name": "Twisted Thorns",
+            "quantity": 1
+          },
+          {
+            "name": "Twisted Thorns",
+            "quantity": 1
+          }
+        ]
+      },
+      {
+        "level": "+2",
+        "stats": [
+          {
+            "label": "Defense",
+            "value": "4"
+          },
+          {
+            "label": "Guard Rate",
+            "value": "6"
+          },
+          {
+            "label": "Attack Speed",
+            "value": "Lv.1"
+          },
+          {
+            "label": "Movement Speed",
+            "value": "Lv.1"
+          }
+        ],
+        "materials": [
+          {
+            "name": "Timber",
+            "quantity": 15
+          },
+          {
+            "name": "Twisted Thorns (+1)",
+            "quantity": 1
+          },
+          {
+            "name": "Twisted Thorns (+1)",
+            "quantity": 1
+          },
+          {
+            "name": "Twisted Thorns (+1)",
+            "quantity": 1
+          },
+          {
+            "name": "Timber",
+            "quantity": 35
+          },
+          {
+            "name": "Fine Timber",
+            "quantity": 5
+          }
+        ]
+      },
+      {
+        "level": "+3",
+        "stats": [
+          {
+            "label": "Defense",
+            "value": "5"
+          },
+          {
+            "label": "Guard Rate",
+            "value": "8"
+          },
+          {
+            "label": "Attack Speed",
+            "value": "Lv.1"
+          },
+          {
+            "label": "Movement Speed",
+            "value": "Lv.1"
+          }
+        ],
+        "materials": [
+          {
+            "name": "Timber",
+            "quantity": 20
+          },
+          {
+            "name": "Fine Timber",
+            "quantity": 10
+          },
+          {
+            "name": "Twisted Thorns (+2)",
+            "quantity": 1
+          },
+          {
+            "name": "Twisted Thorns (+2)",
+            "quantity": 1
+          },
+          {
+            "name": "Twisted Thorns (+2)",
+            "quantity": 1
+          }
+        ]
+      },
+      {
+        "level": "+4",
+        "stats": [
+          {
+            "label": "Defense",
+            "value": "6"
+          },
+          {
+            "label": "Guard Rate",
+            "value": "10"
+          },
+          {
+            "label": "Attack Speed",
+            "value": "Lv.1"
+          },
+          {
+            "label": "Movement Speed",
+            "value": "Lv.1"
+          }
+        ],
+        "materials": [
+          {
+            "name": "Timber",
+            "quantity": 25
+          },
+          {
+            "name": "Fine Timber",
+            "quantity": 15
+          },
+          {
+            "name": "Twisted Thorns (+3)",
+            "quantity": 1
+          },
+          {
+            "name": "Twisted Thorns (+3)",
+            "quantity": 1
+          },
+          {
+            "name": "Twisted Thorns (+3)",
+            "quantity": 1
+          }
+        ]
+      },
+      {
+        "level": "+5",
+        "stats": [
+          {
+            "label": "Defense",
+            "value": "7"
+          },
+          {
+            "label": "Guard Rate",
+            "value": "12"
+          },
+          {
+            "label": "Attack Speed",
+            "value": "Lv.1"
+          },
+          {
+            "label": "Movement Speed",
+            "value": "Lv.1"
+          }
+        ],
+        "materials": [
+          {
+            "name": "Timber",
+            "quantity": 30
+          },
+          {
+            "name": "Fine Timber",
+            "quantity": 20
+          },
+          {
+            "name": "Bloodstone",
+            "quantity": 1
+          },
+          {
+            "name": "Abyss Artifact",
+            "quantity": 1
+          },
+          {
+            "name": "Twisted Thorns (+4)",
+            "quantity": 1
+          },
+          {
+            "name": "Twisted Thorns (+4)",
+            "quantity": 1
+          },
+          {
+            "name": "Abyss Artifact",
+            "quantity": 1
+          }
+        ]
+      },
+      {
+        "level": "+6",
+        "stats": [
+          {
+            "label": "Defense",
+            "value": "8"
+          },
+          {
+            "label": "Guard Rate",
+            "value": "14"
+          },
+          {
+            "label": "Attack Speed",
+            "value": "Lv.1"
+          },
+          {
+            "label": "Movement Speed",
+            "value": "Lv.1"
+          }
+        ],
+        "materials": [
+          {
+            "name": "Timber",
+            "quantity": 40
+          },
+          {
+            "name": "Fine Timber",
+            "quantity": 25
+          },
+          {
+            "name": "Bloodstone",
+            "quantity": 3
+          },
+          {
+            "name": "Abyss Artifact",
+            "quantity": 1
+          },
+          {
+            "name": "Twisted Thorns (+5)",
+            "quantity": 1
+          },
+          {
+            "name": "Twisted Thorns (+5)",
+            "quantity": 1
+          },
+          {
+            "name": "Abyss Artifact",
+            "quantity": 2
+          }
+        ]
+      },
+      {
+        "level": "+7",
+        "stats": [
+          {
+            "label": "Defense",
+            "value": "9"
+          },
+          {
+            "label": "Guard Rate",
+            "value": "16"
+          },
+          {
+            "label": "Attack Speed",
+            "value": "Lv.1"
+          },
+          {
+            "label": "Movement Speed",
+            "value": "Lv.1"
+          }
+        ],
+        "materials": [
+          {
+            "name": "Timber",
+            "quantity": 50
+          },
+          {
+            "name": "Fine Timber",
+            "quantity": 30
+          },
+          {
+            "name": "Bloodstone",
+            "quantity": 5
+          },
+          {
+            "name": "Abyss Artifact",
+            "quantity": 1
+          },
+          {
+            "name": "Twisted Thorns (+6)",
+            "quantity": 1
+          },
+          {
+            "name": "Twisted Thorns (+6)",
+            "quantity": 1
+          },
+          {
+            "name": "Abyss Artifact",
+            "quantity": 2
+          }
+        ]
+      },
+      {
+        "level": "+8",
+        "stats": [
+          {
+            "label": "Defense",
+            "value": "10"
+          },
+          {
+            "label": "Guard Rate",
+            "value": "19"
+          },
+          {
+            "label": "Attack Speed",
+            "value": "Lv.1"
+          },
+          {
+            "label": "Movement Speed",
+            "value": "Lv.1"
+          }
+        ],
+        "materials": [
+          {
+            "name": "Timber",
+            "quantity": 60
+          },
+          {
+            "name": "Fine Timber",
+            "quantity": 35
+          },
+          {
+            "name": "Bloodstone",
+            "quantity": 8
+          },
+          {
+            "name": "Flawless Timber",
+            "quantity": 10
+          },
+          {
+            "name": "Abyss Artifact",
+            "quantity": 1
+          },
+          {
+            "name": "Twisted Thorns (+7)",
+            "quantity": 1
+          },
+          {
+            "name": "Twisted Thorns (+7)",
+            "quantity": 1
+          },
+          {
+            "name": "Abyss Artifact",
+            "quantity": 2
+          }
+        ]
+      },
+      {
+        "level": "+9",
+        "stats": [
+          {
+            "label": "Defense",
+            "value": "11"
+          },
+          {
+            "label": "Guard Rate",
+            "value": "22"
+          },
+          {
+            "label": "Attack Speed",
+            "value": "Lv.1"
+          },
+          {
+            "label": "Movement Speed",
+            "value": "Lv.1"
+          }
+        ],
+        "materials": [
+          {
+            "name": "Timber",
+            "quantity": 80
+          },
+          {
+            "name": "Fine Timber",
+            "quantity": 45
+          },
+          {
+            "name": "Bloodstone",
+            "quantity": 12
+          },
+          {
+            "name": "Flawless Timber",
+            "quantity": 20
+          },
+          {
+            "name": "Abyss Artifact",
+            "quantity": 1
+          },
+          {
+            "name": "Twisted Thorns (+8)",
+            "quantity": 1
+          },
+          {
+            "name": "Twisted Thorns (+8)",
+            "quantity": 1
+          },
+          {
+            "name": "Abyss Artifact",
+            "quantity": 2
+          }
+        ]
+      },
+      {
+        "level": "+10",
+        "stats": [
+          {
+            "label": "Defense",
+            "value": "14"
+          },
+          {
+            "label": "Guard Rate",
+            "value": "25"
+          },
+          {
+            "label": "Attack Speed",
+            "value": "Lv.1"
+          },
+          {
+            "label": "Movement Speed",
+            "value": "Lv.1"
+          }
+        ],
+        "materials": [
+          {
+            "name": "Aeserion's Scale",
+            "quantity": 1
+          },
+          {
+            "name": "Abyss Artifact",
+            "quantity": 1
+          }
+        ]
+      }
+    ],
+    "craftingMaterials": [
+      {
+        "name": "Timber",
+        "quantity": 35
+      },
+      {
+        "name": "Fine Timber",
+        "quantity": 5
+      }
+    ],
+    "description": "A shield taken from the desert Abyss specters. It's made from a material like dried thornbush, yet it does not break or burn easily.",
+    "source": {
+      "site": "crimsondesert.gg",
+      "url": "https://crimsondesert.gg/database/shields/twisted-thorns"
+    }
   }
 ]
