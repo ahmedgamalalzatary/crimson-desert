@@ -1,0 +1,81 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+
+const categories = [
+  { href: "/weapons", label: "Weapons" },
+  { href: "/armors", label: "Armors" },
+  { href: "/shields", label: "Shields" },
+  { href: "/accessories", label: "Accessories" },
+  { href: "/abyss-gear", label: "Abyss Gear" },
+  { href: "/bosses", label: "Bosses" },
+  { href: "/mounts", label: "Mounts" },
+  { href: "/quests", label: "Quests" }
+];
+---
+
+<BaseLayout title="Crimson Desert">
+  <section class="hero">
+    <p class="eyebrow">Static game reference</p>
+    <h1>Crimson Desert</h1>
+    <p class="lede">
+      Aggregated item, boss, mount, and quest data built from multiple public sources.
+    </p>
+  </section>
+
+  <section class="grid">
+    {categories.map((category) => (
+      <a class="card" href={category.href}>
+        <span>{category.label}</span>
+      </a>
+    ))}
+  </section>
+</BaseLayout>
+
+<style>
+  .hero {
+    padding: 4rem 0 2rem;
+  }
+
+  .eyebrow {
+    margin: 0 0 0.75rem;
+    color: var(--accent);
+    text-transform: uppercase;
+    letter-spacing: 0.12em;
+    font-size: 0.8rem;
+  }
+
+  h1 {
+    margin: 0;
+    font-size: clamp(2.6rem, 8vw, 5rem);
+    line-height: 0.94;
+  }
+
+  .lede {
+    max-width: 44rem;
+    color: var(--muted);
+    font-size: 1.1rem;
+  }
+
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 1rem;
+    padding-bottom: 3rem;
+  }
+
+  .card {
+    display: flex;
+    min-height: 120px;
+    padding: 1.25rem;
+    border: 1px solid var(--border);
+    border-radius: 16px;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.02), rgba(255, 255, 255, 0.04));
+    align-items: end;
+    transition: transform 120ms ease, border-color 120ms ease;
+  }
+
+  .card:hover {
+    transform: translateY(-2px);
+    border-color: var(--accent);
+  }
+</style>

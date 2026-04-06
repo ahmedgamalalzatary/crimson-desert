@@ -1,0 +1,9 @@
+node_modules/
+dist/
+.astro/
+.DS_Store
+coverage/
+sources/**/*.html
+sources/**/*.json
+data/generated/
+pnpm-lock.yaml
