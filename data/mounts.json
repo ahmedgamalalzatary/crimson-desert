@@ -1,1 +1,1010 @@
-[]
+[
+  {
+    "id": "bear",
+    "name": "Bear",
+    "slug": "bear",
+    "category": "mounts",
+    "type": "mount",
+    "typeLabel": "Variations",
+    "rarity": "unclassified",
+    "description": "",
+    "source": {
+      "site": "crimsondesert.gg",
+      "url": "https://crimsondesert.gg/mounts/bear"
+    }
+  },
+  {
+    "id": "black-bear",
+    "name": "Black Bear",
+    "slug": "black-bear",
+    "category": "mounts",
+    "type": "mount",
+    "typeLabel": "Stats",
+    "rarity": "unclassified",
+    "description": "",
+    "source": {
+      "site": "crimsondesert.gg",
+      "url": "https://crimsondesert.gg/mounts/black-bear"
+    }
+  },
+  {
+    "id": "black-maned-boar",
+    "name": "Black-maned Boar",
+    "slug": "black-maned-boar",
+    "category": "mounts",
+    "type": "mount",
+    "typeLabel": "Stats",
+    "rarity": "unclassified",
+    "description": "",
+    "source": {
+      "site": "crimsondesert.gg",
+      "url": "https://crimsondesert.gg/mounts/black-maned-boar"
+    }
+  },
+  {
+    "id": "black-maned-boar-boss",
+    "name": "Black-Maned Boar Boss",
+    "slug": "black-maned-boar-boss",
+    "category": "mounts",
+    "type": "mount",
+    "typeLabel": "Stats",
+    "rarity": "unclassified",
+    "description": "",
+    "source": {
+      "site": "crimsondesert.gg",
+      "url": "https://crimsondesert.gg/mounts/black-maned-boar-boss"
+    }
+  },
+  {
+    "id": "blackstar",
+    "name": "Blackstar",
+    "slug": "blackstar",
+    "category": "mounts",
+    "type": "mount",
+    "typeLabel": "Stats",
+    "rarity": "unclassified",
+    "description": "",
+    "source": {
+      "site": "crimsondesert.gg",
+      "url": "https://crimsondesert.gg/mounts/blackstar"
+    }
+  },
+  {
+    "id": "brianto",
+    "name": "Brianto",
+    "slug": "brianto",
+    "category": "mounts",
+    "type": "mount",
+    "typeLabel": "Variations",
+    "rarity": "unclassified",
+    "description": "",
+    "source": {
+      "site": "crimsondesert.gg",
+      "url": "https://crimsondesert.gg/mounts/brianto"
+    }
+  },
+  {
+    "id": "buffalo",
+    "name": "Buffalo",
+    "slug": "buffalo",
+    "category": "mounts",
+    "type": "mount",
+    "typeLabel": "Stats",
+    "rarity": "unclassified",
+    "description": "",
+    "source": {
+      "site": "crimsondesert.gg",
+      "url": "https://crimsondesert.gg/mounts/buffalo"
+    }
+  },
+  {
+    "id": "bull",
+    "name": "Bull",
+    "slug": "bull",
+    "category": "mounts",
+    "type": "mount",
+    "typeLabel": "Stats",
+    "rarity": "unclassified",
+    "description": "",
+    "source": {
+      "site": "crimsondesert.gg",
+      "url": "https://crimsondesert.gg/mounts/bull"
+    }
+  },
+  {
+    "id": "calf",
+    "name": "Calf",
+    "slug": "calf",
+    "category": "mounts",
+    "type": "mount",
+    "typeLabel": "Stats",
+    "rarity": "unclassified",
+    "description": "",
+    "source": {
+      "site": "crimsondesert.gg",
+      "url": "https://crimsondesert.gg/mounts/calf"
+    }
+  },
+  {
+    "id": "calphadean-scout-s-horse",
+    "name": "Calphadean Scout's Horse",
+    "slug": "calphadean-scout-s-horse",
+    "category": "mounts",
+    "type": "mount",
+    "typeLabel": "Stats",
+    "rarity": "unclassified",
+    "description": "",
+    "source": {
+      "site": "crimsondesert.gg",
+      "url": "https://crimsondesert.gg/mounts/calphadean-scout-s-horse"
+    }
+  },
+  {
+    "id": "camel",
+    "name": "Camel",
+    "slug": "camel",
+    "category": "mounts",
+    "type": "mount",
+    "typeLabel": "Stats",
+    "rarity": "unclassified",
+    "description": "",
+    "source": {
+      "site": "crimsondesert.gg",
+      "url": "https://crimsondesert.gg/mounts/camel"
+    }
+  },
+  {
+    "id": "camel-calf",
+    "name": "Camel Calf",
+    "slug": "camel-calf",
+    "category": "mounts",
+    "type": "mount",
+    "typeLabel": "Stats",
+    "rarity": "unclassified",
+    "description": "",
+    "source": {
+      "site": "crimsondesert.gg",
+      "url": "https://crimsondesert.gg/mounts/camel-calf"
+    }
+  },
+  {
+    "id": "camora",
+    "name": "Camora",
+    "slug": "camora",
+    "category": "mounts",
+    "type": "mount",
+    "typeLabel": "Stats",
+    "rarity": "unclassified",
+    "description": "",
+    "source": {
+      "site": "crimsondesert.gg",
+      "url": "https://crimsondesert.gg/mounts/camora"
+    }
+  },
+  {
+    "id": "captured-bear",
+    "name": "Captured Bear",
+    "slug": "captured-bear",
+    "category": "mounts",
+    "type": "mount",
+    "typeLabel": "Stats",
+    "rarity": "unclassified",
+    "description": "",
+    "source": {
+      "site": "crimsondesert.gg",
+      "url": "https://crimsondesert.gg/mounts/captured-bear"
+    }
+  },
+  {
+    "id": "circus-lion",
+    "name": "Circus Lion",
+    "slug": "circus-lion",
+    "category": "mounts",
+    "type": "mount",
+    "typeLabel": "Stats",
+    "rarity": "unclassified",
+    "description": "",
+    "source": {
+      "site": "crimsondesert.gg",
+      "url": "https://crimsondesert.gg/mounts/circus-lion"
+    }
+  },
+  {
+    "id": "clawed-bear",
+    "name": "Clawed Bear",
+    "slug": "clawed-bear",
+    "category": "mounts",
+    "type": "mount",
+    "typeLabel": "Stats",
+    "rarity": "unclassified",
+    "description": "",
+    "source": {
+      "site": "crimsondesert.gg",
+      "url": "https://crimsondesert.gg/mounts/clawed-bear"
+    }
+  },
+  {
+    "id": "cloudcart",
+    "name": "Cloudcart",
+    "slug": "cloudcart",
+    "category": "mounts",
+    "type": "mount",
+    "typeLabel": "Stats",
+    "rarity": "unclassified",
+    "description": "",
+    "source": {
+      "site": "crimsondesert.gg",
+      "url": "https://crimsondesert.gg/mounts/cloudcart"
+    }
+  },
+  {
+    "id": "cloudcruiser",
+    "name": "Cloudcruiser",
+    "slug": "cloudcruiser",
+    "category": "mounts",
+    "type": "mount",
+    "typeLabel": "Stats",
+    "rarity": "unclassified",
+    "description": "",
+    "source": {
+      "site": "crimsondesert.gg",
+      "url": "https://crimsondesert.gg/mounts/cloudcruiser"
+    }
+  },
+  {
+    "id": "cow",
+    "name": "Cow",
+    "slug": "cow",
+    "category": "mounts",
+    "type": "mount",
+    "typeLabel": "Stats",
+    "rarity": "unclassified",
+    "description": "",
+    "source": {
+      "site": "crimsondesert.gg",
+      "url": "https://crimsondesert.gg/mounts/cow"
+    }
+  },
+  {
+    "id": "dairy-cow",
+    "name": "Dairy Cow",
+    "slug": "dairy-cow",
+    "category": "mounts",
+    "type": "mount",
+    "typeLabel": "Stats",
+    "rarity": "unclassified",
+    "description": "",
+    "source": {
+      "site": "crimsondesert.gg",
+      "url": "https://crimsondesert.gg/mounts/dairy-cow"
+    }
+  },
+  {
+    "id": "elantrima",
+    "name": "Elantrima",
+    "slug": "elantrima",
+    "category": "mounts",
+    "type": "mount",
+    "typeLabel": "Variations",
+    "rarity": "unclassified",
+    "description": "",
+    "source": {
+      "site": "crimsondesert.gg",
+      "url": "https://crimsondesert.gg/mounts/elantrima"
+    }
+  },
+  {
+    "id": "elephant",
+    "name": "Elephant",
+    "slug": "elephant",
+    "category": "mounts",
+    "type": "mount",
+    "typeLabel": "Stats",
+    "rarity": "unclassified",
+    "description": "",
+    "source": {
+      "site": "crimsondesert.gg",
+      "url": "https://crimsondesert.gg/mounts/elephant"
+    }
+  },
+  {
+    "id": "female-camel",
+    "name": "Female Camel",
+    "slug": "female-camel",
+    "category": "mounts",
+    "type": "mount",
+    "typeLabel": "Stats",
+    "rarity": "unclassified",
+    "description": "",
+    "source": {
+      "site": "crimsondesert.gg",
+      "url": "https://crimsondesert.gg/mounts/female-camel"
+    }
+  },
+  {
+    "id": "female-cow",
+    "name": "Female Cow",
+    "slug": "female-cow",
+    "category": "mounts",
+    "type": "mount",
+    "typeLabel": "Stats",
+    "rarity": "unclassified",
+    "description": "",
+    "source": {
+      "site": "crimsondesert.gg",
+      "url": "https://crimsondesert.gg/mounts/female-cow"
+    }
+  },
+  {
+    "id": "female-highland-cow",
+    "name": "Female Highland Cow",
+    "slug": "female-highland-cow",
+    "category": "mounts",
+    "type": "mount",
+    "typeLabel": "Stats",
+    "rarity": "unclassified",
+    "description": "",
+    "source": {
+      "site": "crimsondesert.gg",
+      "url": "https://crimsondesert.gg/mounts/female-highland-cow"
+    }
+  },
+  {
+    "id": "female-white-striped-longhorn-1001784",
+    "name": "Female White-striped Longhorn",
+    "slug": "female-white-striped-longhorn-1001784",
+    "category": "mounts",
+    "type": "mount",
+    "typeLabel": "Stats",
+    "rarity": "unclassified",
+    "description": "",
+    "source": {
+      "site": "crimsondesert.gg",
+      "url": "https://crimsondesert.gg/mounts/female-white-striped-longhorn-1001784"
+    }
+  },
+  {
+    "id": "female-white-striped-longhorn",
+    "name": "Female White-Striped Longhorn",
+    "slug": "female-white-striped-longhorn",
+    "category": "mounts",
+    "type": "mount",
+    "typeLabel": "Stats",
+    "rarity": "unclassified",
+    "description": "",
+    "source": {
+      "site": "crimsondesert.gg",
+      "url": "https://crimsondesert.gg/mounts/female-white-striped-longhorn"
+    }
+  },
+  {
+    "id": "giant-bison",
+    "name": "Giant Bison",
+    "slug": "giant-bison",
+    "category": "mounts",
+    "type": "mount",
+    "typeLabel": "Stats",
+    "rarity": "unclassified",
+    "description": "",
+    "source": {
+      "site": "crimsondesert.gg",
+      "url": "https://crimsondesert.gg/mounts/giant-bison"
+    }
+  },
+  {
+    "id": "giant-cow",
+    "name": "Giant Cow",
+    "slug": "giant-cow",
+    "category": "mounts",
+    "type": "mount",
+    "typeLabel": "Stats",
+    "rarity": "unclassified",
+    "description": "",
+    "source": {
+      "site": "crimsondesert.gg",
+      "url": "https://crimsondesert.gg/mounts/giant-cow"
+    }
+  },
+  {
+    "id": "giant-green-iguana",
+    "name": "Giant Green Iguana",
+    "slug": "giant-green-iguana",
+    "category": "mounts",
+    "type": "mount",
+    "typeLabel": "Stats",
+    "rarity": "unclassified",
+    "description": "",
+    "source": {
+      "site": "crimsondesert.gg",
+      "url": "https://crimsondesert.gg/mounts/giant-green-iguana"
+    }
+  },
+  {
+    "id": "giant-red-iguana",
+    "name": "Giant Red Iguana",
+    "slug": "giant-red-iguana",
+    "category": "mounts",
+    "type": "mount",
+    "typeLabel": "Stats",
+    "rarity": "unclassified",
+    "description": "",
+    "source": {
+      "site": "crimsondesert.gg",
+      "url": "https://crimsondesert.gg/mounts/giant-red-iguana"
+    }
+  },
+  {
+    "id": "gristle-wolf",
+    "name": "Gristle Wolf",
+    "slug": "gristle-wolf",
+    "category": "mounts",
+    "type": "mount",
+    "typeLabel": "Stats",
+    "rarity": "unclassified",
+    "description": "",
+    "source": {
+      "site": "crimsondesert.gg",
+      "url": "https://crimsondesert.gg/mounts/gristle-wolf"
+    }
+  },
+  {
+    "id": "grizzly-bear",
+    "name": "Grizzly Bear",
+    "slug": "grizzly-bear",
+    "category": "mounts",
+    "type": "mount",
+    "typeLabel": "Stats",
+    "rarity": "unclassified",
+    "description": "",
+    "source": {
+      "site": "crimsondesert.gg",
+      "url": "https://crimsondesert.gg/mounts/grizzly-bear"
+    }
+  },
+  {
+    "id": "helms-hyena",
+    "name": "Helms Hyena",
+    "slug": "helms-hyena",
+    "category": "mounts",
+    "type": "mount",
+    "typeLabel": "Variations",
+    "rarity": "unclassified",
+    "description": "",
+    "source": {
+      "site": "crimsondesert.gg",
+      "url": "https://crimsondesert.gg/mounts/helms-hyena"
+    }
+  },
+  {
+    "id": "hernandian-soldier-s-horse",
+    "name": "Hernandian Soldier's Horse",
+    "slug": "hernandian-soldier-s-horse",
+    "category": "mounts",
+    "type": "mount",
+    "typeLabel": "Stats",
+    "rarity": "unclassified",
+    "description": "",
+    "source": {
+      "site": "crimsondesert.gg",
+      "url": "https://crimsondesert.gg/mounts/hernandian-soldier-s-horse"
+    }
+  },
+  {
+    "id": "herspia",
+    "name": "Herspia",
+    "slug": "herspia",
+    "category": "mounts",
+    "type": "mount",
+    "typeLabel": "Variations",
+    "rarity": "unclassified",
+    "description": "",
+    "source": {
+      "site": "crimsondesert.gg",
+      "url": "https://crimsondesert.gg/mounts/herspia"
+    }
+  },
+  {
+    "id": "highland-cow",
+    "name": "Highland Cow",
+    "slug": "highland-cow",
+    "category": "mounts",
+    "type": "mount",
+    "typeLabel": "Stats",
+    "rarity": "unclassified",
+    "description": "",
+    "source": {
+      "site": "crimsondesert.gg",
+      "url": "https://crimsondesert.gg/mounts/highland-cow"
+    }
+  },
+  {
+    "id": "highland-cow-calf",
+    "name": "Highland Cow Calf",
+    "slug": "highland-cow-calf",
+    "category": "mounts",
+    "type": "mount",
+    "typeLabel": "Stats",
+    "rarity": "unclassified",
+    "description": "",
+    "source": {
+      "site": "crimsondesert.gg",
+      "url": "https://crimsondesert.gg/mounts/highland-cow-calf"
+    }
+  },
+  {
+    "id": "ibex",
+    "name": "Ibex",
+    "slug": "ibex",
+    "category": "mounts",
+    "type": "mount",
+    "typeLabel": "Stats",
+    "rarity": "unclassified",
+    "description": "",
+    "source": {
+      "site": "crimsondesert.gg",
+      "url": "https://crimsondesert.gg/mounts/ibex"
+    }
+  },
+  {
+    "id": "icicle-edge-alpine-ibex",
+    "name": "Icicle Edge Alpine Ibex",
+    "slug": "icicle-edge-alpine-ibex",
+    "category": "mounts",
+    "type": "mount",
+    "typeLabel": "Stats",
+    "rarity": "unclassified",
+    "description": "",
+    "source": {
+      "site": "crimsondesert.gg",
+      "url": "https://crimsondesert.gg/mounts/icicle-edge-alpine-ibex"
+    }
+  },
+  {
+    "id": "kuku-bird-hatchling",
+    "name": "Kuku Bird Hatchling",
+    "slug": "kuku-bird-hatchling",
+    "category": "mounts",
+    "type": "mount",
+    "typeLabel": "Stats",
+    "rarity": "unclassified",
+    "description": "",
+    "source": {
+      "site": "crimsondesert.gg",
+      "url": "https://crimsondesert.gg/mounts/kuku-bird-hatchling"
+    }
+  },
+  {
+    "id": "large-white-wolf",
+    "name": "Large White Wolf",
+    "slug": "large-white-wolf",
+    "category": "mounts",
+    "type": "mount",
+    "typeLabel": "Stats",
+    "rarity": "unclassified",
+    "description": "",
+    "source": {
+      "site": "crimsondesert.gg",
+      "url": "https://crimsondesert.gg/mounts/large-white-wolf"
+    }
+  },
+  {
+    "id": "large-wolf",
+    "name": "Large Wolf",
+    "slug": "large-wolf",
+    "category": "mounts",
+    "type": "mount",
+    "typeLabel": "Stats",
+    "rarity": "unclassified",
+    "description": "",
+    "source": {
+      "site": "crimsondesert.gg",
+      "url": "https://crimsondesert.gg/mounts/large-wolf"
+    }
+  },
+  {
+    "id": "leaping-kuku-bird",
+    "name": "Leaping Kuku Bird",
+    "slug": "leaping-kuku-bird",
+    "category": "mounts",
+    "type": "mount",
+    "typeLabel": "Stats",
+    "rarity": "unclassified",
+    "description": "",
+    "source": {
+      "site": "crimsondesert.gg",
+      "url": "https://crimsondesert.gg/mounts/leaping-kuku-bird"
+    }
+  },
+  {
+    "id": "lion",
+    "name": "Lion",
+    "slug": "lion",
+    "category": "mounts",
+    "type": "mount",
+    "typeLabel": "Stats",
+    "rarity": "unclassified",
+    "description": "",
+    "source": {
+      "site": "crimsondesert.gg",
+      "url": "https://crimsondesert.gg/mounts/lion"
+    }
+  },
+  {
+    "id": "marni-s-mechahorse",
+    "name": "Marni's Mechahorse",
+    "slug": "marni-s-mechahorse",
+    "category": "mounts",
+    "type": "mount",
+    "typeLabel": "Stats",
+    "rarity": "unclassified",
+    "description": "",
+    "source": {
+      "site": "crimsondesert.gg",
+      "url": "https://crimsondesert.gg/mounts/marni-s-mechahorse"
+    }
+  },
+  {
+    "id": "misthorn-branhok",
+    "name": "Misthorn Branhok",
+    "slug": "misthorn-branhok",
+    "category": "mounts",
+    "type": "mount",
+    "typeLabel": "Stats",
+    "rarity": "unclassified",
+    "description": "",
+    "source": {
+      "site": "crimsondesert.gg",
+      "url": "https://crimsondesert.gg/mounts/misthorn-branhok"
+    }
+  },
+  {
+    "id": "numont",
+    "name": "Numont",
+    "slug": "numont",
+    "category": "mounts",
+    "type": "mount",
+    "typeLabel": "Variations",
+    "rarity": "unclassified",
+    "description": "",
+    "source": {
+      "site": "crimsondesert.gg",
+      "url": "https://crimsondesert.gg/mounts/numont"
+    }
+  },
+  {
+    "id": "priden",
+    "name": "Priden",
+    "slug": "priden",
+    "category": "mounts",
+    "type": "mount",
+    "typeLabel": "Variations",
+    "rarity": "unclassified",
+    "description": "",
+    "source": {
+      "site": "crimsondesert.gg",
+      "url": "https://crimsondesert.gg/mounts/priden"
+    }
+  },
+  {
+    "id": "race-horse",
+    "name": "Race Horse",
+    "slug": "race-horse",
+    "category": "mounts",
+    "type": "mount",
+    "typeLabel": "Stats",
+    "rarity": "unclassified",
+    "description": "",
+    "source": {
+      "site": "crimsondesert.gg",
+      "url": "https://crimsondesert.gg/mounts/race-horse"
+    }
+  },
+  {
+    "id": "red-feathered-raptor",
+    "name": "Red-Feathered Raptor",
+    "slug": "red-feathered-raptor",
+    "category": "mounts",
+    "type": "mount",
+    "typeLabel": "Stats",
+    "rarity": "unclassified",
+    "description": "",
+    "source": {
+      "site": "crimsondesert.gg",
+      "url": "https://crimsondesert.gg/mounts/red-feathered-raptor"
+    }
+  },
+  {
+    "id": "rock-tusk-warthog",
+    "name": "Rock Tusk Warthog",
+    "slug": "rock-tusk-warthog",
+    "category": "mounts",
+    "type": "mount",
+    "typeLabel": "Stats",
+    "rarity": "unclassified",
+    "description": "",
+    "source": {
+      "site": "crimsondesert.gg",
+      "url": "https://crimsondesert.gg/mounts/rock-tusk-warthog"
+    }
+  },
+  {
+    "id": "rokade",
+    "name": "Rokade",
+    "slug": "rokade",
+    "category": "mounts",
+    "type": "mount",
+    "typeLabel": "Stats",
+    "rarity": "unclassified",
+    "description": "",
+    "source": {
+      "site": "crimsondesert.gg",
+      "url": "https://crimsondesert.gg/mounts/rokade"
+    }
+  },
+  {
+    "id": "rosehorn-deer",
+    "name": "Rosehorn Deer",
+    "slug": "rosehorn-deer",
+    "category": "mounts",
+    "type": "mount",
+    "typeLabel": "Stats",
+    "rarity": "unclassified",
+    "description": "",
+    "source": {
+      "site": "crimsondesert.gg",
+      "url": "https://crimsondesert.gg/mounts/rosehorn-deer"
+    }
+  },
+  {
+    "id": "royler",
+    "name": "Royler",
+    "slug": "royler",
+    "category": "mounts",
+    "type": "mount",
+    "typeLabel": "Stats",
+    "rarity": "unclassified",
+    "description": "",
+    "source": {
+      "site": "crimsondesert.gg",
+      "url": "https://crimsondesert.gg/mounts/royler"
+    }
+  },
+  {
+    "id": "sandwalk-camel",
+    "name": "Sandwalk Camel",
+    "slug": "sandwalk-camel",
+    "category": "mounts",
+    "type": "mount",
+    "typeLabel": "Stats",
+    "rarity": "unclassified",
+    "description": "",
+    "source": {
+      "site": "crimsondesert.gg",
+      "url": "https://crimsondesert.gg/mounts/sandwalk-camel"
+    }
+  },
+  {
+    "id": "silver-fang",
+    "name": "Silver Fang",
+    "slug": "silver-fang",
+    "category": "mounts",
+    "type": "mount",
+    "typeLabel": "Stats",
+    "rarity": "unclassified",
+    "description": "",
+    "source": {
+      "site": "crimsondesert.gg",
+      "url": "https://crimsondesert.gg/mounts/silver-fang"
+    }
+  },
+  {
+    "id": "skystreaker",
+    "name": "Skystreaker",
+    "slug": "skystreaker",
+    "category": "mounts",
+    "type": "mount",
+    "typeLabel": "Stats",
+    "rarity": "unclassified",
+    "description": "",
+    "source": {
+      "site": "crimsondesert.gg",
+      "url": "https://crimsondesert.gg/mounts/skystreaker"
+    }
+  },
+  {
+    "id": "small-black-maned-boar",
+    "name": "Small Black-Maned Boar",
+    "slug": "small-black-maned-boar",
+    "category": "mounts",
+    "type": "mount",
+    "typeLabel": "Stats",
+    "rarity": "unclassified",
+    "description": "",
+    "source": {
+      "site": "crimsondesert.gg",
+      "url": "https://crimsondesert.gg/mounts/small-black-maned-boar"
+    }
+  },
+  {
+    "id": "snowwhite-deer",
+    "name": "Snowwhite Deer",
+    "slug": "snowwhite-deer",
+    "category": "mounts",
+    "type": "mount",
+    "typeLabel": "Stats",
+    "rarity": "unclassified",
+    "description": "",
+    "source": {
+      "site": "crimsondesert.gg",
+      "url": "https://crimsondesert.gg/mounts/snowwhite-deer"
+    }
+  },
+  {
+    "id": "swift-wolf",
+    "name": "Swift Wolf",
+    "slug": "swift-wolf",
+    "category": "mounts",
+    "type": "mount",
+    "typeLabel": "Variations",
+    "rarity": "unclassified",
+    "description": "",
+    "source": {
+      "site": "crimsondesert.gg",
+      "url": "https://crimsondesert.gg/mounts/swift-wolf"
+    }
+  },
+  {
+    "id": "tiger",
+    "name": "Tiger",
+    "slug": "tiger",
+    "category": "mounts",
+    "type": "mount",
+    "typeLabel": "Variations",
+    "rarity": "unclassified",
+    "description": "",
+    "source": {
+      "site": "crimsondesert.gg",
+      "url": "https://crimsondesert.gg/mounts/tiger"
+    }
+  },
+  {
+    "id": "two-humped-camel",
+    "name": "Two-Humped Camel",
+    "slug": "two-humped-camel",
+    "category": "mounts",
+    "type": "mount",
+    "typeLabel": "Stats",
+    "rarity": "unclassified",
+    "description": "",
+    "source": {
+      "site": "crimsondesert.gg",
+      "url": "https://crimsondesert.gg/mounts/two-humped-camel"
+    }
+  },
+  {
+    "id": "white-bear",
+    "name": "White Bear",
+    "slug": "white-bear",
+    "category": "mounts",
+    "type": "mount",
+    "typeLabel": "Stats",
+    "rarity": "unclassified",
+    "description": "",
+    "source": {
+      "site": "crimsondesert.gg",
+      "url": "https://crimsondesert.gg/mounts/white-bear"
+    }
+  },
+  {
+    "id": "white-striped-longhorn-1001783",
+    "name": "White-striped Longhorn",
+    "slug": "white-striped-longhorn-1001783",
+    "category": "mounts",
+    "type": "mount",
+    "typeLabel": "Stats",
+    "rarity": "unclassified",
+    "description": "",
+    "source": {
+      "site": "crimsondesert.gg",
+      "url": "https://crimsondesert.gg/mounts/white-striped-longhorn-1001783"
+    }
+  },
+  {
+    "id": "white-striped-longhorn",
+    "name": "White-Striped Longhorn",
+    "slug": "white-striped-longhorn",
+    "category": "mounts",
+    "type": "mount",
+    "typeLabel": "Stats",
+    "rarity": "unclassified",
+    "description": "",
+    "source": {
+      "site": "crimsondesert.gg",
+      "url": "https://crimsondesert.gg/mounts/white-striped-longhorn"
+    }
+  },
+  {
+    "id": "wild-bull",
+    "name": "Wild Bull",
+    "slug": "wild-bull",
+    "category": "mounts",
+    "type": "mount",
+    "typeLabel": "Stats",
+    "rarity": "unclassified",
+    "description": "",
+    "source": {
+      "site": "crimsondesert.gg",
+      "url": "https://crimsondesert.gg/mounts/wild-bull"
+    }
+  },
+  {
+    "id": "wild-calf",
+    "name": "Wild Calf",
+    "slug": "wild-calf",
+    "category": "mounts",
+    "type": "mount",
+    "typeLabel": "Stats",
+    "rarity": "unclassified",
+    "description": "",
+    "source": {
+      "site": "crimsondesert.gg",
+      "url": "https://crimsondesert.gg/mounts/wild-calf"
+    }
+  },
+  {
+    "id": "wild-cow",
+    "name": "Wild Cow",
+    "slug": "wild-cow",
+    "category": "mounts",
+    "type": "mount",
+    "typeLabel": "Stats",
+    "rarity": "unclassified",
+    "description": "",
+    "source": {
+      "site": "crimsondesert.gg",
+      "url": "https://crimsondesert.gg/mounts/wild-cow"
+    }
+  },
+  {
+    "id": "wild-dairy-cow",
+    "name": "Wild Dairy Cow",
+    "slug": "wild-dairy-cow",
+    "category": "mounts",
+    "type": "mount",
+    "typeLabel": "Stats",
+    "rarity": "unclassified",
+    "description": "",
+    "source": {
+      "site": "crimsondesert.gg",
+      "url": "https://crimsondesert.gg/mounts/wild-dairy-cow"
+    }
+  },
+  {
+    "id": "wyvern",
+    "name": "Wyvern",
+    "slug": "wyvern",
+    "category": "mounts",
+    "type": "mount",
+    "typeLabel": "Stats",
+    "rarity": "unclassified",
+    "description": "",
+    "source": {
+      "site": "crimsondesert.gg",
+      "url": "https://crimsondesert.gg/mounts/wyvern"
+    }
+  },
+  {
+    "id": "young-white-striped-longhorn",
+    "name": "Young White-Striped Longhorn",
+    "slug": "young-white-striped-longhorn",
+    "category": "mounts",
+    "type": "mount",
+    "typeLabel": "Stats",
+    "rarity": "unclassified",
+    "description": "",
+    "source": {
+      "site": "crimsondesert.gg",
+      "url": "https://crimsondesert.gg/mounts/young-white-striped-longhorn"
+    }
+  }
+]

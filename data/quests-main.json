@@ -1,1 +1,2312 @@
-[]
+[
+  {
+    "id": "a-bond",
+    "name": "A Bond",
+    "slug": "a-bond",
+    "category": "quests-main",
+    "type": "quest",
+    "typeLabel": "Main Quest",
+    "rarity": "unclassified",
+    "description": "",
+    "source": {
+      "site": "crimsondesert.gg",
+      "url": "https://crimsondesert.gg/quests/a-bond"
+    }
+  },
+  {
+    "id": "a-fleeting-dream",
+    "name": "A Fleeting Dream",
+    "slug": "a-fleeting-dream",
+    "category": "quests-main",
+    "type": "quest",
+    "typeLabel": "Main Quest",
+    "rarity": "unclassified",
+    "description": "",
+    "source": {
+      "site": "crimsondesert.gg",
+      "url": "https://crimsondesert.gg/quests/a-fleeting-dream"
+    }
+  },
+  {
+    "id": "a-fresh-start",
+    "name": "A Fresh Start",
+    "slug": "a-fresh-start",
+    "category": "quests-main",
+    "type": "quest",
+    "typeLabel": "Main Quest",
+    "rarity": "unclassified",
+    "description": "",
+    "source": {
+      "site": "crimsondesert.gg",
+      "url": "https://crimsondesert.gg/quests/a-fresh-start"
+    }
+  },
+  {
+    "id": "a-gentle-touch",
+    "name": "A Gentle Touch",
+    "slug": "a-gentle-touch",
+    "category": "quests-main",
+    "type": "quest",
+    "typeLabel": "Main Quest",
+    "rarity": "unclassified",
+    "description": "",
+    "source": {
+      "site": "crimsondesert.gg",
+      "url": "https://crimsondesert.gg/quests/a-gentle-touch"
+    }
+  },
+  {
+    "id": "a-new-beginning",
+    "name": "A New Beginning",
+    "slug": "a-new-beginning",
+    "category": "quests-main",
+    "type": "quest",
+    "typeLabel": "Main Quest",
+    "rarity": "unclassified",
+    "description": "",
+    "source": {
+      "site": "crimsondesert.gg",
+      "url": "https://crimsondesert.gg/quests/a-new-beginning"
+    }
+  },
+  {
+    "id": "a-shadow-in-the-void",
+    "name": "A Shadow in the Void",
+    "slug": "a-shadow-in-the-void",
+    "category": "quests-main",
+    "type": "quest",
+    "typeLabel": "Main Quest",
+    "rarity": "unclassified",
+    "description": "",
+    "source": {
+      "site": "crimsondesert.gg",
+      "url": "https://crimsondesert.gg/quests/a-shadow-in-the-void"
+    }
+  },
+  {
+    "id": "a-thousand-troops",
+    "name": "A Thousand Troops",
+    "slug": "a-thousand-troops",
+    "category": "quests-main",
+    "type": "quest",
+    "typeLabel": "Main Quest",
+    "rarity": "unclassified",
+    "description": "",
+    "source": {
+      "site": "crimsondesert.gg",
+      "url": "https://crimsondesert.gg/quests/a-thousand-troops"
+    }
+  },
+  {
+    "id": "abyss-without-balance",
+    "name": "Abyss without Balance",
+    "slug": "abyss-without-balance",
+    "category": "quests-main",
+    "type": "quest",
+    "typeLabel": "Main Quest",
+    "rarity": "unclassified",
+    "description": "",
+    "source": {
+      "site": "crimsondesert.gg",
+      "url": "https://crimsondesert.gg/quests/abyss-without-balance"
+    }
+  },
+  {
+    "id": "actions-speak-louder-than-words",
+    "name": "Actions Speak Louder than Words",
+    "slug": "actions-speak-louder-than-words",
+    "category": "quests-main",
+    "type": "quest",
+    "typeLabel": "Main Quest",
+    "rarity": "unclassified",
+    "description": "",
+    "source": {
+      "site": "crimsondesert.gg",
+      "url": "https://crimsondesert.gg/quests/actions-speak-louder-than-words"
+    }
+  },
+  {
+    "id": "all-quiet-on-the-front",
+    "name": "All Quiet on the Front",
+    "slug": "all-quiet-on-the-front",
+    "category": "quests-main",
+    "type": "quest",
+    "typeLabel": "Main Quest",
+    "rarity": "unclassified",
+    "description": "",
+    "source": {
+      "site": "crimsondesert.gg",
+      "url": "https://crimsondesert.gg/quests/all-quiet-on-the-front"
+    }
+  },
+  {
+    "id": "an-unknown-voice",
+    "name": "An Unknown Voice",
+    "slug": "an-unknown-voice",
+    "category": "quests-main",
+    "type": "quest",
+    "typeLabel": "Main Quest",
+    "rarity": "unclassified",
+    "description": "",
+    "source": {
+      "site": "crimsondesert.gg",
+      "url": "https://crimsondesert.gg/quests/an-unknown-voice"
+    }
+  },
+  {
+    "id": "ashes-of-treachery",
+    "name": "Ashes of Treachery",
+    "slug": "ashes-of-treachery",
+    "category": "quests-main",
+    "type": "quest",
+    "typeLabel": "Main Quest",
+    "rarity": "unclassified",
+    "description": "",
+    "source": {
+      "site": "crimsondesert.gg",
+      "url": "https://crimsondesert.gg/quests/ashes-of-treachery"
+    }
+  },
+  {
+    "id": "awestruck",
+    "name": "Awestruck",
+    "slug": "awestruck",
+    "category": "quests-main",
+    "type": "quest",
+    "typeLabel": "Main Quest",
+    "rarity": "unclassified",
+    "description": "",
+    "source": {
+      "site": "crimsondesert.gg",
+      "url": "https://crimsondesert.gg/quests/awestruck"
+    }
+  },
+  {
+    "id": "bared-fang",
+    "name": "Bared Fang",
+    "slug": "bared-fang",
+    "category": "quests-main",
+    "type": "quest",
+    "typeLabel": "Main Quest",
+    "rarity": "unclassified",
+    "description": "",
+    "source": {
+      "site": "crimsondesert.gg",
+      "url": "https://crimsondesert.gg/quests/bared-fang"
+    }
+  },
+  {
+    "id": "battle-at-silver-wolf-mountain",
+    "name": "Battle at Silver Wolf Mountain",
+    "slug": "battle-at-silver-wolf-mountain",
+    "category": "quests-main",
+    "type": "quest",
+    "typeLabel": "Main Quest",
+    "rarity": "unclassified",
+    "description": "",
+    "source": {
+      "site": "crimsondesert.gg",
+      "url": "https://crimsondesert.gg/quests/battle-at-silver-wolf-mountain"
+    }
+  },
+  {
+    "id": "beating-heart",
+    "name": "Beating Heart",
+    "slug": "beating-heart",
+    "category": "quests-main",
+    "type": "quest",
+    "typeLabel": "Main Quest",
+    "rarity": "unclassified",
+    "description": "",
+    "source": {
+      "site": "crimsondesert.gg",
+      "url": "https://crimsondesert.gg/quests/beating-heart"
+    }
+  },
+  {
+    "id": "black-witch",
+    "name": "Black Witch",
+    "slug": "black-witch",
+    "category": "quests-main",
+    "type": "quest",
+    "typeLabel": "Main Quest",
+    "rarity": "unclassified",
+    "description": "",
+    "source": {
+      "site": "crimsondesert.gg",
+      "url": "https://crimsondesert.gg/quests/black-witch"
+    }
+  },
+  {
+    "id": "blazing-fire",
+    "name": "Blazing Fire",
+    "slug": "blazing-fire",
+    "category": "quests-main",
+    "type": "quest",
+    "typeLabel": "Main Quest",
+    "rarity": "unclassified",
+    "description": "",
+    "source": {
+      "site": "crimsondesert.gg",
+      "url": "https://crimsondesert.gg/quests/blazing-fire"
+    }
+  },
+  {
+    "id": "blinding-darkness",
+    "name": "Blinding Darkness",
+    "slug": "blinding-darkness",
+    "category": "quests-main",
+    "type": "quest",
+    "typeLabel": "Main Quest",
+    "rarity": "unclassified",
+    "description": "",
+    "source": {
+      "site": "crimsondesert.gg",
+      "url": "https://crimsondesert.gg/quests/blinding-darkness"
+    }
+  },
+  {
+    "id": "bloodied-invitation",
+    "name": "Bloodied Invitation",
+    "slug": "bloodied-invitation",
+    "category": "quests-main",
+    "type": "quest",
+    "typeLabel": "Main Quest",
+    "rarity": "unclassified",
+    "description": "",
+    "source": {
+      "site": "crimsondesert.gg",
+      "url": "https://crimsondesert.gg/quests/bloodied-invitation"
+    }
+  },
+  {
+    "id": "bloodwind",
+    "name": "Bloodwind",
+    "slug": "bloodwind",
+    "category": "quests-main",
+    "type": "quest",
+    "typeLabel": "Main Quest",
+    "rarity": "unclassified",
+    "description": "",
+    "source": {
+      "site": "crimsondesert.gg",
+      "url": "https://crimsondesert.gg/quests/bloodwind"
+    }
+  },
+  {
+    "id": "broken-claws",
+    "name": "Broken Claws",
+    "slug": "broken-claws",
+    "category": "quests-main",
+    "type": "quest",
+    "typeLabel": "Main Quest",
+    "rarity": "unclassified",
+    "description": "",
+    "source": {
+      "site": "crimsondesert.gg",
+      "url": "https://crimsondesert.gg/quests/broken-claws"
+    }
+  },
+  {
+    "id": "bustling-hill",
+    "name": "Bustling Hill",
+    "slug": "bustling-hill",
+    "category": "quests-main",
+    "type": "quest",
+    "typeLabel": "Main Quest",
+    "rarity": "unclassified",
+    "description": "",
+    "source": {
+      "site": "crimsondesert.gg",
+      "url": "https://crimsondesert.gg/quests/bustling-hill"
+    }
+  },
+  {
+    "id": "cast-shadow",
+    "name": "Cast Shadow",
+    "slug": "cast-shadow",
+    "category": "quests-main",
+    "type": "quest",
+    "typeLabel": "Main Quest",
+    "rarity": "unclassified",
+    "description": "",
+    "source": {
+      "site": "crimsondesert.gg",
+      "url": "https://crimsondesert.gg/quests/cast-shadow"
+    }
+  },
+  {
+    "id": "chasing-a-shadow",
+    "name": "Chasing a Shadow",
+    "slug": "chasing-a-shadow",
+    "category": "quests-main",
+    "type": "quest",
+    "typeLabel": "Main Quest",
+    "rarity": "unclassified",
+    "description": "",
+    "source": {
+      "site": "crimsondesert.gg",
+      "url": "https://crimsondesert.gg/quests/chasing-a-shadow"
+    }
+  },
+  {
+    "id": "cheers-echoing-from-the-edge",
+    "name": "Cheers Echoing From the Edge",
+    "slug": "cheers-echoing-from-the-edge",
+    "category": "quests-main",
+    "type": "quest",
+    "typeLabel": "Main Quest",
+    "rarity": "unclassified",
+    "description": "",
+    "source": {
+      "site": "crimsondesert.gg",
+      "url": "https://crimsondesert.gg/quests/cheers-echoing-from-the-edge"
+    }
+  },
+  {
+    "id": "clockwork-insect-clash",
+    "name": "Clockwork Insect Clash",
+    "slug": "clockwork-insect-clash",
+    "category": "quests-main",
+    "type": "quest",
+    "typeLabel": "Main Quest",
+    "rarity": "unclassified",
+    "description": "",
+    "source": {
+      "site": "crimsondesert.gg",
+      "url": "https://crimsondesert.gg/quests/clockwork-insect-clash"
+    }
+  },
+  {
+    "id": "cloister-of-enlightenment",
+    "name": "Cloister of Enlightenment",
+    "slug": "cloister-of-enlightenment",
+    "category": "quests-main",
+    "type": "quest",
+    "typeLabel": "Main Quest",
+    "rarity": "unclassified",
+    "description": "",
+    "source": {
+      "site": "crimsondesert.gg",
+      "url": "https://crimsondesert.gg/quests/cloister-of-enlightenment"
+    }
+  },
+  {
+    "id": "clue",
+    "name": "Clue",
+    "slug": "clue",
+    "category": "quests-main",
+    "type": "quest",
+    "typeLabel": "Main Quest",
+    "rarity": "unclassified",
+    "description": "",
+    "source": {
+      "site": "crimsondesert.gg",
+      "url": "https://crimsondesert.gg/quests/clue"
+    }
+  },
+  {
+    "id": "cradle-of-defense",
+    "name": "Cradle of Defense",
+    "slug": "cradle-of-defense",
+    "category": "quests-main",
+    "type": "quest",
+    "typeLabel": "Main Quest",
+    "rarity": "unclassified",
+    "description": "",
+    "source": {
+      "site": "crimsondesert.gg",
+      "url": "https://crimsondesert.gg/quests/cradle-of-defense"
+    }
+  },
+  {
+    "id": "crossing-point",
+    "name": "Crossing Point",
+    "slug": "crossing-point",
+    "category": "quests-main",
+    "type": "quest",
+    "typeLabel": "Main Quest",
+    "rarity": "unclassified",
+    "description": "",
+    "source": {
+      "site": "crimsondesert.gg",
+      "url": "https://crimsondesert.gg/quests/crossing-point"
+    }
+  },
+  {
+    "id": "crossroads",
+    "name": "Crossroads",
+    "slug": "crossroads",
+    "category": "quests-main",
+    "type": "quest",
+    "typeLabel": "Main Quest",
+    "rarity": "unclassified",
+    "description": "",
+    "source": {
+      "site": "crimsondesert.gg",
+      "url": "https://crimsondesert.gg/quests/crossroads"
+    }
+  },
+  {
+    "id": "crowcaller",
+    "name": "Crowcaller",
+    "slug": "crowcaller",
+    "category": "quests-main",
+    "type": "quest",
+    "typeLabel": "Main Quest",
+    "rarity": "unclassified",
+    "description": "",
+    "source": {
+      "site": "crimsondesert.gg",
+      "url": "https://crimsondesert.gg/quests/crowcaller"
+    }
+  },
+  {
+    "id": "dance-with-the-devil",
+    "name": "Dance with the Devil",
+    "slug": "dance-with-the-devil",
+    "category": "quests-main",
+    "type": "quest",
+    "typeLabel": "Main Quest",
+    "rarity": "unclassified",
+    "description": "",
+    "source": {
+      "site": "crimsondesert.gg",
+      "url": "https://crimsondesert.gg/quests/dance-with-the-devil"
+    }
+  },
+  {
+    "id": "deferred-advance",
+    "name": "Deferred Advance",
+    "slug": "deferred-advance",
+    "category": "quests-main",
+    "type": "quest",
+    "typeLabel": "Main Quest",
+    "rarity": "unclassified",
+    "description": "",
+    "source": {
+      "site": "crimsondesert.gg",
+      "url": "https://crimsondesert.gg/quests/deferred-advance"
+    }
+  },
+  {
+    "id": "demenissian-delegation",
+    "name": "Demenissian Delegation",
+    "slug": "demenissian-delegation",
+    "category": "quests-main",
+    "type": "quest",
+    "typeLabel": "Main Quest",
+    "rarity": "unclassified",
+    "description": "",
+    "source": {
+      "site": "crimsondesert.gg",
+      "url": "https://crimsondesert.gg/quests/demenissian-delegation"
+    }
+  },
+  {
+    "id": "departure-of-the-brave",
+    "name": "Departure of the Brave",
+    "slug": "departure-of-the-brave",
+    "category": "quests-main",
+    "type": "quest",
+    "typeLabel": "Main Quest",
+    "rarity": "unclassified",
+    "description": "",
+    "source": {
+      "site": "crimsondesert.gg",
+      "url": "https://crimsondesert.gg/quests/departure-of-the-brave"
+    }
+  },
+  {
+    "id": "disturbance-at-the-arena",
+    "name": "Disturbance at the Arena",
+    "slug": "disturbance-at-the-arena",
+    "category": "quests-main",
+    "type": "quest",
+    "typeLabel": "Main Quest",
+    "rarity": "unclassified",
+    "description": "",
+    "source": {
+      "site": "crimsondesert.gg",
+      "url": "https://crimsondesert.gg/quests/disturbance-at-the-arena"
+    }
+  },
+  {
+    "id": "double-sided-invitation",
+    "name": "Double-sided Invitation",
+    "slug": "double-sided-invitation",
+    "category": "quests-main",
+    "type": "quest",
+    "typeLabel": "Main Quest",
+    "rarity": "unclassified",
+    "description": "",
+    "source": {
+      "site": "crimsondesert.gg",
+      "url": "https://crimsondesert.gg/quests/double-sided-invitation"
+    }
+  },
+  {
+    "id": "driving-out-the-shadows",
+    "name": "Driving out the Shadows",
+    "slug": "driving-out-the-shadows",
+    "category": "quests-main",
+    "type": "quest",
+    "typeLabel": "Main Quest",
+    "rarity": "unclassified",
+    "description": "",
+    "source": {
+      "site": "crimsondesert.gg",
+      "url": "https://crimsondesert.gg/quests/driving-out-the-shadows"
+    }
+  },
+  {
+    "id": "evolving-city",
+    "name": "Evolving City",
+    "slug": "evolving-city",
+    "category": "quests-main",
+    "type": "quest",
+    "typeLabel": "Main Quest",
+    "rarity": "unclassified",
+    "description": "",
+    "source": {
+      "site": "crimsondesert.gg",
+      "url": "https://crimsondesert.gg/quests/evolving-city"
+    }
+  },
+  {
+    "id": "exposed-plot",
+    "name": "Exposed Plot",
+    "slug": "exposed-plot",
+    "category": "quests-main",
+    "type": "quest",
+    "typeLabel": "Main Quest",
+    "rarity": "unclassified",
+    "description": "",
+    "source": {
+      "site": "crimsondesert.gg",
+      "url": "https://crimsondesert.gg/quests/exposed-plot"
+    }
+  },
+  {
+    "id": "face-the-inner-self",
+    "name": "Face the Inner Self",
+    "slug": "face-the-inner-self",
+    "category": "quests-main",
+    "type": "quest",
+    "typeLabel": "Main Quest",
+    "rarity": "unclassified",
+    "description": "",
+    "source": {
+      "site": "crimsondesert.gg",
+      "url": "https://crimsondesert.gg/quests/face-the-inner-self"
+    }
+  },
+  {
+    "id": "familiar-curses",
+    "name": "Familiar Curses",
+    "slug": "familiar-curses",
+    "category": "quests-main",
+    "type": "quest",
+    "typeLabel": "Main Quest",
+    "rarity": "unclassified",
+    "description": "",
+    "source": {
+      "site": "crimsondesert.gg",
+      "url": "https://crimsondesert.gg/quests/familiar-curses"
+    }
+  },
+  {
+    "id": "fire-on-the-frontlines",
+    "name": "Fire on the Frontlines",
+    "slug": "fire-on-the-frontlines",
+    "category": "quests-main",
+    "type": "quest",
+    "typeLabel": "Main Quest",
+    "rarity": "unclassified",
+    "description": "",
+    "source": {
+      "site": "crimsondesert.gg",
+      "url": "https://crimsondesert.gg/quests/fire-on-the-frontlines"
+    }
+  },
+  {
+    "id": "fire-support",
+    "name": "Fire Support",
+    "slug": "fire-support",
+    "category": "quests-main",
+    "type": "quest",
+    "typeLabel": "Main Quest",
+    "rarity": "unclassified",
+    "description": "",
+    "source": {
+      "site": "crimsondesert.gg",
+      "url": "https://crimsondesert.gg/quests/fire-support"
+    }
+  },
+  {
+    "id": "first-step-to-rebuilding",
+    "name": "First Step to Rebuilding",
+    "slug": "first-step-to-rebuilding",
+    "category": "quests-main",
+    "type": "quest",
+    "typeLabel": "Main Quest",
+    "rarity": "unclassified",
+    "description": "",
+    "source": {
+      "site": "crimsondesert.gg",
+      "url": "https://crimsondesert.gg/quests/first-step-to-rebuilding"
+    }
+  },
+  {
+    "id": "flying-fortress-orbian",
+    "name": "Flying Fortress Orbian",
+    "slug": "flying-fortress-orbian",
+    "category": "quests-main",
+    "type": "quest",
+    "typeLabel": "Main Quest",
+    "rarity": "unclassified",
+    "description": "",
+    "source": {
+      "site": "crimsondesert.gg",
+      "url": "https://crimsondesert.gg/quests/flying-fortress-orbian"
+    }
+  },
+  {
+    "id": "for-honor",
+    "name": "For Honor",
+    "slug": "for-honor",
+    "category": "quests-main",
+    "type": "quest",
+    "typeLabel": "Main Quest",
+    "rarity": "unclassified",
+    "description": "",
+    "source": {
+      "site": "crimsondesert.gg",
+      "url": "https://crimsondesert.gg/quests/for-honor"
+    }
+  },
+  {
+    "id": "forbidden-gate",
+    "name": "Forbidden Gate",
+    "slug": "forbidden-gate",
+    "category": "quests-main",
+    "type": "quest",
+    "typeLabel": "Main Quest",
+    "rarity": "unclassified",
+    "description": "",
+    "source": {
+      "site": "crimsondesert.gg",
+      "url": "https://crimsondesert.gg/quests/forbidden-gate"
+    }
+  },
+  {
+    "id": "fortress-keys",
+    "name": "Fortress Keys",
+    "slug": "fortress-keys",
+    "category": "quests-main",
+    "type": "quest",
+    "typeLabel": "Main Quest",
+    "rarity": "unclassified",
+    "description": "",
+    "source": {
+      "site": "crimsondesert.gg",
+      "url": "https://crimsondesert.gg/quests/fortress-keys"
+    }
+  },
+  {
+    "id": "fragments-of-darkness",
+    "name": "Fragments of Darkness",
+    "slug": "fragments-of-darkness",
+    "category": "quests-main",
+    "type": "quest",
+    "typeLabel": "Main Quest",
+    "rarity": "unclassified",
+    "description": "",
+    "source": {
+      "site": "crimsondesert.gg",
+      "url": "https://crimsondesert.gg/quests/fragments-of-darkness"
+    }
+  },
+  {
+    "id": "frozen-hearted-predator",
+    "name": "Frozen Hearted Predator",
+    "slug": "frozen-hearted-predator",
+    "category": "quests-main",
+    "type": "quest",
+    "typeLabel": "Main Quest",
+    "rarity": "unclassified",
+    "description": "",
+    "source": {
+      "site": "crimsondesert.gg",
+      "url": "https://crimsondesert.gg/quests/frozen-hearted-predator"
+    }
+  },
+  {
+    "id": "gate-to-the-otherworld",
+    "name": "Gate to the Otherworld",
+    "slug": "gate-to-the-otherworld",
+    "category": "quests-main",
+    "type": "quest",
+    "typeLabel": "Main Quest",
+    "rarity": "unclassified",
+    "description": "",
+    "source": {
+      "site": "crimsondesert.gg",
+      "url": "https://crimsondesert.gg/quests/gate-to-the-otherworld"
+    }
+  },
+  {
+    "id": "greymanes-reunited",
+    "name": "Greymanes Reunited",
+    "slug": "greymanes-reunited",
+    "category": "quests-main",
+    "type": "quest",
+    "typeLabel": "Main Quest",
+    "rarity": "unclassified",
+    "description": "",
+    "source": {
+      "site": "crimsondesert.gg",
+      "url": "https://crimsondesert.gg/quests/greymanes-reunited"
+    }
+  },
+  {
+    "id": "hand-of-deliverance",
+    "name": "Hand of Deliverance",
+    "slug": "hand-of-deliverance",
+    "category": "quests-main",
+    "type": "quest",
+    "typeLabel": "Main Quest",
+    "rarity": "unclassified",
+    "description": "",
+    "source": {
+      "site": "crimsondesert.gg",
+      "url": "https://crimsondesert.gg/quests/hand-of-deliverance"
+    }
+  },
+  {
+    "id": "healing-pailune",
+    "name": "Healing Pailune",
+    "slug": "healing-pailune",
+    "category": "quests-main",
+    "type": "quest",
+    "typeLabel": "Main Quest",
+    "rarity": "unclassified",
+    "description": "",
+    "source": {
+      "site": "crimsondesert.gg",
+      "url": "https://crimsondesert.gg/quests/healing-pailune"
+    }
+  },
+  {
+    "id": "heart-beyond-borders",
+    "name": "Heart Beyond Borders",
+    "slug": "heart-beyond-borders",
+    "category": "quests-main",
+    "type": "quest",
+    "typeLabel": "Main Quest",
+    "rarity": "unclassified",
+    "description": "",
+    "source": {
+      "site": "crimsondesert.gg",
+      "url": "https://crimsondesert.gg/quests/heart-beyond-borders"
+    }
+  },
+  {
+    "id": "hidden-ace",
+    "name": "Hidden Ace",
+    "slug": "hidden-ace",
+    "category": "quests-main",
+    "type": "quest",
+    "typeLabel": "Main Quest",
+    "rarity": "unclassified",
+    "description": "",
+    "source": {
+      "site": "crimsondesert.gg",
+      "url": "https://crimsondesert.gg/quests/hidden-ace"
+    }
+  },
+  {
+    "id": "hidden-fangs",
+    "name": "Hidden Fangs",
+    "slug": "hidden-fangs",
+    "category": "quests-main",
+    "type": "quest",
+    "typeLabel": "Main Quest",
+    "rarity": "unclassified",
+    "description": "",
+    "source": {
+      "site": "crimsondesert.gg",
+      "url": "https://crimsondesert.gg/quests/hidden-fangs"
+    }
+  },
+  {
+    "id": "hope-after-the-draught",
+    "name": "Hope After the Draught",
+    "slug": "hope-after-the-draught",
+    "category": "quests-main",
+    "type": "quest",
+    "typeLabel": "Main Quest",
+    "rarity": "unclassified",
+    "description": "",
+    "source": {
+      "site": "crimsondesert.gg",
+      "url": "https://crimsondesert.gg/quests/hope-after-the-draught"
+    }
+  },
+  {
+    "id": "in-ashes",
+    "name": "In Ashes",
+    "slug": "in-ashes",
+    "category": "quests-main",
+    "type": "quest",
+    "typeLabel": "Main Quest",
+    "rarity": "unclassified",
+    "description": "",
+    "source": {
+      "site": "crimsondesert.gg",
+      "url": "https://crimsondesert.gg/quests/in-ashes"
+    }
+  },
+  {
+    "id": "incomplete-victory",
+    "name": "Incomplete Victory",
+    "slug": "incomplete-victory",
+    "category": "quests-main",
+    "type": "quest",
+    "typeLabel": "Main Quest",
+    "rarity": "unclassified",
+    "description": "",
+    "source": {
+      "site": "crimsondesert.gg",
+      "url": "https://crimsondesert.gg/quests/incomplete-victory"
+    }
+  },
+  {
+    "id": "invaders-from-the-east",
+    "name": "Invaders from the East",
+    "slug": "invaders-from-the-east",
+    "category": "quests-main",
+    "type": "quest",
+    "typeLabel": "Main Quest",
+    "rarity": "unclassified",
+    "description": "",
+    "source": {
+      "site": "crimsondesert.gg",
+      "url": "https://crimsondesert.gg/quests/invaders-from-the-east"
+    }
+  },
+  {
+    "id": "jijeong-temple-in-chaos",
+    "name": "Jijeong Temple in Chaos",
+    "slug": "jijeong-temple-in-chaos",
+    "category": "quests-main",
+    "type": "quest",
+    "typeLabel": "Main Quest",
+    "rarity": "unclassified",
+    "description": "",
+    "source": {
+      "site": "crimsondesert.gg",
+      "url": "https://crimsondesert.gg/quests/jijeong-temple-in-chaos"
+    }
+  },
+  {
+    "id": "kidnapped-healer",
+    "name": "Kidnapped Healer",
+    "slug": "kidnapped-healer",
+    "category": "quests-main",
+    "type": "quest",
+    "typeLabel": "Main Quest",
+    "rarity": "unclassified",
+    "description": "",
+    "source": {
+      "site": "crimsondesert.gg",
+      "url": "https://crimsondesert.gg/quests/kidnapped-healer"
+    }
+  },
+  {
+    "id": "kiln-repair-at-the-kilnden-workshop",
+    "name": "Kiln Repair at the Kilnden Workshop",
+    "slug": "kiln-repair-at-the-kilnden-workshop",
+    "category": "quests-main",
+    "type": "quest",
+    "typeLabel": "Main Quest",
+    "rarity": "unclassified",
+    "description": "",
+    "source": {
+      "site": "crimsondesert.gg",
+      "url": "https://crimsondesert.gg/quests/kiln-repair-at-the-kilnden-workshop"
+    }
+  },
+  {
+    "id": "kilnden-workshop",
+    "name": "Kilnden Workshop",
+    "slug": "kilnden-workshop",
+    "category": "quests-main",
+    "type": "quest",
+    "typeLabel": "Main Quest",
+    "rarity": "unclassified",
+    "description": "",
+    "source": {
+      "site": "crimsondesert.gg",
+      "url": "https://crimsondesert.gg/quests/kilnden-workshop"
+    }
+  },
+  {
+    "id": "lingering-shadow",
+    "name": "Lingering Shadow",
+    "slug": "lingering-shadow",
+    "category": "quests-main",
+    "type": "quest",
+    "typeLabel": "Main Quest",
+    "rarity": "unclassified",
+    "description": "",
+    "source": {
+      "site": "crimsondesert.gg",
+      "url": "https://crimsondesert.gg/quests/lingering-shadow"
+    }
+  },
+  {
+    "id": "lonely-jackals",
+    "name": "Lonely Jackals",
+    "slug": "lonely-jackals",
+    "category": "quests-main",
+    "type": "quest",
+    "typeLabel": "Main Quest",
+    "rarity": "unclassified",
+    "description": "",
+    "source": {
+      "site": "crimsondesert.gg",
+      "url": "https://crimsondesert.gg/quests/lonely-jackals"
+    }
+  },
+  {
+    "id": "ludvigs-whereabouts",
+    "name": "Ludvig's Whereabouts",
+    "slug": "ludvigs-whereabouts",
+    "category": "quests-main",
+    "type": "quest",
+    "typeLabel": "Main Quest",
+    "rarity": "unclassified",
+    "description": "",
+    "source": {
+      "site": "crimsondesert.gg",
+      "url": "https://crimsondesert.gg/quests/ludvigs-whereabouts"
+    }
+  },
+  {
+    "id": "lurking-wolves",
+    "name": "Lurking Wolves",
+    "slug": "lurking-wolves",
+    "category": "quests-main",
+    "type": "quest",
+    "typeLabel": "Main Quest",
+    "rarity": "unclassified",
+    "description": "",
+    "source": {
+      "site": "crimsondesert.gg",
+      "url": "https://crimsondesert.gg/quests/lurking-wolves"
+    }
+  },
+  {
+    "id": "lust-for-power",
+    "name": "Lust for Power",
+    "slug": "lust-for-power",
+    "category": "quests-main",
+    "type": "quest",
+    "typeLabel": "Main Quest",
+    "rarity": "unclassified",
+    "description": "",
+    "source": {
+      "site": "crimsondesert.gg",
+      "url": "https://crimsondesert.gg/quests/lust-for-power"
+    }
+  },
+  {
+    "id": "mark-of-the-scar",
+    "name": "Mark of the Scar",
+    "slug": "mark-of-the-scar",
+    "category": "quests-main",
+    "type": "quest",
+    "typeLabel": "Main Quest",
+    "rarity": "unclassified",
+    "description": "",
+    "source": {
+      "site": "crimsondesert.gg",
+      "url": "https://crimsondesert.gg/quests/mark-of-the-scar"
+    }
+  },
+  {
+    "id": "master-of-a-forgotten-land",
+    "name": "Master of a Forgotten Land",
+    "slug": "master-of-a-forgotten-land",
+    "category": "quests-main",
+    "type": "quest",
+    "typeLabel": "Main Quest",
+    "rarity": "unclassified",
+    "description": "",
+    "source": {
+      "site": "crimsondesert.gg",
+      "url": "https://crimsondesert.gg/quests/master-of-a-forgotten-land"
+    }
+  },
+  {
+    "id": "master-of-the-ironworks",
+    "name": "Master of the Ironworks",
+    "slug": "master-of-the-ironworks",
+    "category": "quests-main",
+    "type": "quest",
+    "typeLabel": "Main Quest",
+    "rarity": "unclassified",
+    "description": "",
+    "source": {
+      "site": "crimsondesert.gg",
+      "url": "https://crimsondesert.gg/quests/master-of-the-ironworks"
+    }
+  },
+  {
+    "id": "memory-fragment",
+    "name": "Memory Fragment",
+    "slug": "memory-fragment",
+    "category": "quests-main",
+    "type": "quest",
+    "typeLabel": "Main Quest",
+    "rarity": "unclassified",
+    "description": "",
+    "source": {
+      "site": "crimsondesert.gg",
+      "url": "https://crimsondesert.gg/quests/memory-fragment"
+    }
+  },
+  {
+    "id": "missing-companion",
+    "name": "Missing Companion",
+    "slug": "missing-companion",
+    "category": "quests-main",
+    "type": "quest",
+    "typeLabel": "Main Quest",
+    "rarity": "unclassified",
+    "description": "",
+    "source": {
+      "site": "crimsondesert.gg",
+      "url": "https://crimsondesert.gg/quests/missing-companion"
+    }
+  },
+  {
+    "id": "morning-fog",
+    "name": "Morning Fog",
+    "slug": "morning-fog",
+    "category": "quests-main",
+    "type": "quest",
+    "typeLabel": "Main Quest",
+    "rarity": "unclassified",
+    "description": "",
+    "source": {
+      "site": "crimsondesert.gg",
+      "url": "https://crimsondesert.gg/quests/morning-fog"
+    }
+  },
+  {
+    "id": "mysterious-man",
+    "name": "Mysterious Man",
+    "slug": "mysterious-man",
+    "category": "quests-main",
+    "type": "quest",
+    "typeLabel": "Main Quest",
+    "rarity": "unclassified",
+    "description": "",
+    "source": {
+      "site": "crimsondesert.gg",
+      "url": "https://crimsondesert.gg/quests/mysterious-man"
+    }
+  },
+  {
+    "id": "mystical-key",
+    "name": "Mystical Key",
+    "slug": "mystical-key",
+    "category": "quests-main",
+    "type": "quest",
+    "typeLabel": "Main Quest",
+    "rarity": "unclassified",
+    "description": "",
+    "source": {
+      "site": "crimsondesert.gg",
+      "url": "https://crimsondesert.gg/quests/mystical-key"
+    }
+  },
+  {
+    "id": "new-horizons",
+    "name": "New Horizons",
+    "slug": "new-horizons",
+    "category": "quests-main",
+    "type": "quest",
+    "typeLabel": "Main Quest",
+    "rarity": "unclassified",
+    "description": "",
+    "source": {
+      "site": "crimsondesert.gg",
+      "url": "https://crimsondesert.gg/quests/new-horizons"
+    }
+  },
+  {
+    "id": "new-journey",
+    "name": "New Journey",
+    "slug": "new-journey",
+    "category": "quests-main",
+    "type": "quest",
+    "typeLabel": "Main Quest",
+    "rarity": "unclassified",
+    "description": "",
+    "source": {
+      "site": "crimsondesert.gg",
+      "url": "https://crimsondesert.gg/quests/new-journey"
+    }
+  },
+  {
+    "id": "new-perspectives",
+    "name": "New Perspectives",
+    "slug": "new-perspectives",
+    "category": "quests-main",
+    "type": "quest",
+    "typeLabel": "Main Quest",
+    "rarity": "unclassified",
+    "description": "",
+    "source": {
+      "site": "crimsondesert.gg",
+      "url": "https://crimsondesert.gg/quests/new-perspectives"
+    }
+  },
+  {
+    "id": "news",
+    "name": "News",
+    "slug": "news",
+    "category": "quests-main",
+    "type": "quest",
+    "typeLabel": "Main Quest",
+    "rarity": "unclassified",
+    "description": "",
+    "source": {
+      "site": "crimsondesert.gg",
+      "url": "https://crimsondesert.gg/quests/news"
+    }
+  },
+  {
+    "id": "news-of-victory",
+    "name": "News of Victory",
+    "slug": "news-of-victory",
+    "category": "quests-main",
+    "type": "quest",
+    "typeLabel": "Main Quest",
+    "rarity": "unclassified",
+    "description": "",
+    "source": {
+      "site": "crimsondesert.gg",
+      "url": "https://crimsondesert.gg/quests/news-of-victory"
+    }
+  },
+  {
+    "id": "nonhuman",
+    "name": "Nonhuman",
+    "slug": "nonhuman",
+    "category": "quests-main",
+    "type": "quest",
+    "typeLabel": "Main Quest",
+    "rarity": "unclassified",
+    "description": "",
+    "source": {
+      "site": "crimsondesert.gg",
+      "url": "https://crimsondesert.gg/quests/nonhuman"
+    }
+  },
+  {
+    "id": "obsession-and-madness",
+    "name": "Obsession and Madness",
+    "slug": "obsession-and-madness",
+    "category": "quests-main",
+    "type": "quest",
+    "typeLabel": "Main Quest",
+    "rarity": "unclassified",
+    "description": "",
+    "source": {
+      "site": "crimsondesert.gg",
+      "url": "https://crimsondesert.gg/quests/obsession-and-madness"
+    }
+  },
+  {
+    "id": "old-friend",
+    "name": "Old Friend",
+    "slug": "old-friend",
+    "category": "quests-main",
+    "type": "quest",
+    "typeLabel": "Main Quest",
+    "rarity": "unclassified",
+    "description": "",
+    "source": {
+      "site": "crimsondesert.gg",
+      "url": "https://crimsondesert.gg/quests/old-friend"
+    }
+  },
+  {
+    "id": "on-the-right-path",
+    "name": "On the Right Path",
+    "slug": "on-the-right-path",
+    "category": "quests-main",
+    "type": "quest",
+    "typeLabel": "Main Quest",
+    "rarity": "unclassified",
+    "description": "",
+    "source": {
+      "site": "crimsondesert.gg",
+      "url": "https://crimsondesert.gg/quests/on-the-right-path"
+    }
+  },
+  {
+    "id": "path-of-the-disciple",
+    "name": "Path of the Disciple",
+    "slug": "path-of-the-disciple",
+    "category": "quests-main",
+    "type": "quest",
+    "typeLabel": "Main Quest",
+    "rarity": "unclassified",
+    "description": "",
+    "source": {
+      "site": "crimsondesert.gg",
+      "url": "https://crimsondesert.gg/quests/path-of-the-disciple"
+    }
+  },
+  {
+    "id": "path-to-enlightenment",
+    "name": "Path to Enlightenment",
+    "slug": "path-to-enlightenment",
+    "category": "quests-main",
+    "type": "quest",
+    "typeLabel": "Main Quest",
+    "rarity": "unclassified",
+    "description": "",
+    "source": {
+      "site": "crimsondesert.gg",
+      "url": "https://crimsondesert.gg/quests/path-to-enlightenment"
+    }
+  },
+  {
+    "id": "peace-in-hernand",
+    "name": "Peace in Hernand",
+    "slug": "peace-in-hernand",
+    "category": "quests-main",
+    "type": "quest",
+    "typeLabel": "Main Quest",
+    "rarity": "unclassified",
+    "description": "",
+    "source": {
+      "site": "crimsondesert.gg",
+      "url": "https://crimsondesert.gg/quests/peace-in-hernand"
+    }
+  },
+  {
+    "id": "podium-of-resolve",
+    "name": "Podium of Resolve",
+    "slug": "podium-of-resolve",
+    "category": "quests-main",
+    "type": "quest",
+    "typeLabel": "Main Quest",
+    "rarity": "unclassified",
+    "description": "",
+    "source": {
+      "site": "crimsondesert.gg",
+      "url": "https://crimsondesert.gg/quests/podium-of-resolve"
+    }
+  },
+  {
+    "id": "polar-opposites",
+    "name": "Polar Opposites",
+    "slug": "polar-opposites",
+    "category": "quests-main",
+    "type": "quest",
+    "typeLabel": "Main Quest",
+    "rarity": "unclassified",
+    "description": "",
+    "source": {
+      "site": "crimsondesert.gg",
+      "url": "https://crimsondesert.gg/quests/polar-opposites"
+    }
+  },
+  {
+    "id": "precise-execution",
+    "name": "Precise Execution",
+    "slug": "precise-execution",
+    "category": "quests-main",
+    "type": "quest",
+    "typeLabel": "Main Quest",
+    "rarity": "unclassified",
+    "description": "",
+    "source": {
+      "site": "crimsondesert.gg",
+      "url": "https://crimsondesert.gg/quests/precise-execution"
+    }
+  },
+  {
+    "id": "preparations-for-advance",
+    "name": "Preparations for Advance",
+    "slug": "preparations-for-advance",
+    "category": "quests-main",
+    "type": "quest",
+    "typeLabel": "Main Quest",
+    "rarity": "unclassified",
+    "description": "",
+    "source": {
+      "site": "crimsondesert.gg",
+      "url": "https://crimsondesert.gg/quests/preparations-for-advance"
+    }
+  },
+  {
+    "id": "pursuit-beyond-the-veil",
+    "name": "Pursuit Beyond the Veil",
+    "slug": "pursuit-beyond-the-veil",
+    "category": "quests-main",
+    "type": "quest",
+    "typeLabel": "Main Quest",
+    "rarity": "unclassified",
+    "description": "",
+    "source": {
+      "site": "crimsondesert.gg",
+      "url": "https://crimsondesert.gg/quests/pursuit-beyond-the-veil"
+    }
+  },
+  {
+    "id": "realm-of-uncertainty",
+    "name": "Realm of Uncertainty",
+    "slug": "realm-of-uncertainty",
+    "category": "quests-main",
+    "type": "quest",
+    "typeLabel": "Main Quest",
+    "rarity": "unclassified",
+    "description": "",
+    "source": {
+      "site": "crimsondesert.gg",
+      "url": "https://crimsondesert.gg/quests/realm-of-uncertainty"
+    }
+  },
+  {
+    "id": "rebel-suppression",
+    "name": "Rebel Suppression",
+    "slug": "rebel-suppression",
+    "category": "quests-main",
+    "type": "quest",
+    "typeLabel": "Main Quest",
+    "rarity": "unclassified",
+    "description": "",
+    "source": {
+      "site": "crimsondesert.gg",
+      "url": "https://crimsondesert.gg/quests/rebel-suppression"
+    }
+  },
+  {
+    "id": "rebellion-or-revolution",
+    "name": "Rebellion or Revolution",
+    "slug": "rebellion-or-revolution",
+    "category": "quests-main",
+    "type": "quest",
+    "typeLabel": "Main Quest",
+    "rarity": "unclassified",
+    "description": "",
+    "source": {
+      "site": "crimsondesert.gg",
+      "url": "https://crimsondesert.gg/quests/rebellion-or-revolution"
+    }
+  },
+  {
+    "id": "reclamation",
+    "name": "Reclamation",
+    "slug": "reclamation",
+    "category": "quests-main",
+    "type": "quest",
+    "typeLabel": "Main Quest",
+    "rarity": "unclassified",
+    "description": "",
+    "source": {
+      "site": "crimsondesert.gg",
+      "url": "https://crimsondesert.gg/quests/reclamation"
+    }
+  },
+  {
+    "id": "rekindled-hope",
+    "name": "Rekindled Hope",
+    "slug": "rekindled-hope",
+    "category": "quests-main",
+    "type": "quest",
+    "typeLabel": "Main Quest",
+    "rarity": "unclassified",
+    "description": "",
+    "source": {
+      "site": "crimsondesert.gg",
+      "url": "https://crimsondesert.gg/quests/rekindled-hope"
+    }
+  },
+  {
+    "id": "resolution",
+    "name": "Resolution",
+    "slug": "resolution",
+    "category": "quests-main",
+    "type": "quest",
+    "typeLabel": "Main Quest",
+    "rarity": "unclassified",
+    "description": "",
+    "source": {
+      "site": "crimsondesert.gg",
+      "url": "https://crimsondesert.gg/quests/resolution"
+    }
+  },
+  {
+    "id": "resolve-amidst-a-storm",
+    "name": "Resolve Amidst a Storm",
+    "slug": "resolve-amidst-a-storm",
+    "category": "quests-main",
+    "type": "quest",
+    "typeLabel": "Main Quest",
+    "rarity": "unclassified",
+    "description": "",
+    "source": {
+      "site": "crimsondesert.gg",
+      "url": "https://crimsondesert.gg/quests/resolve-amidst-a-storm"
+    }
+  },
+  {
+    "id": "return",
+    "name": "Return",
+    "slug": "return",
+    "category": "quests-main",
+    "type": "quest",
+    "typeLabel": "Main Quest",
+    "rarity": "unclassified",
+    "description": "",
+    "source": {
+      "site": "crimsondesert.gg",
+      "url": "https://crimsondesert.gg/quests/return"
+    }
+  },
+  {
+    "id": "return-home",
+    "name": "Return Home",
+    "slug": "return-home",
+    "category": "quests-main",
+    "type": "quest",
+    "typeLabel": "Main Quest",
+    "rarity": "unclassified",
+    "description": "",
+    "source": {
+      "site": "crimsondesert.gg",
+      "url": "https://crimsondesert.gg/quests/return-home"
+    }
+  },
+  {
+    "id": "return-of-the-comrade",
+    "name": "Return of the Comrade",
+    "slug": "return-of-the-comrade",
+    "category": "quests-main",
+    "type": "quest",
+    "typeLabel": "Main Quest",
+    "rarity": "unclassified",
+    "description": "",
+    "source": {
+      "site": "crimsondesert.gg",
+      "url": "https://crimsondesert.gg/quests/return-of-the-comrade"
+    }
+  },
+  {
+    "id": "reunion",
+    "name": "Reunion",
+    "slug": "reunion",
+    "category": "quests-main",
+    "type": "quest",
+    "typeLabel": "Main Quest",
+    "rarity": "unclassified",
+    "description": "",
+    "source": {
+      "site": "crimsondesert.gg",
+      "url": "https://crimsondesert.gg/quests/reunion"
+    }
+  },
+  {
+    "id": "reward-for-their-sweat",
+    "name": "Reward for Their Sweat",
+    "slug": "reward-for-their-sweat",
+    "category": "quests-main",
+    "type": "quest",
+    "typeLabel": "Main Quest",
+    "rarity": "unclassified",
+    "description": "",
+    "source": {
+      "site": "crimsondesert.gg",
+      "url": "https://crimsondesert.gg/quests/reward-for-their-sweat"
+    }
+  },
+  {
+    "id": "ritual-preparations",
+    "name": "Ritual Preparations",
+    "slug": "ritual-preparations",
+    "category": "quests-main",
+    "type": "quest",
+    "typeLabel": "Main Quest",
+    "rarity": "unclassified",
+    "description": "",
+    "source": {
+      "site": "crimsondesert.gg",
+      "url": "https://crimsondesert.gg/quests/ritual-preparations"
+    }
+  },
+  {
+    "id": "rumors-from-the-sawmill",
+    "name": "Rumors from the Sawmill",
+    "slug": "rumors-from-the-sawmill",
+    "category": "quests-main",
+    "type": "quest",
+    "typeLabel": "Main Quest",
+    "rarity": "unclassified",
+    "description": "",
+    "source": {
+      "site": "crimsondesert.gg",
+      "url": "https://crimsondesert.gg/quests/rumors-from-the-sawmill"
+    }
+  },
+  {
+    "id": "scattered-comrades",
+    "name": "Scattered Comrades",
+    "slug": "scattered-comrades",
+    "category": "quests-main",
+    "type": "quest",
+    "typeLabel": "Main Quest",
+    "rarity": "unclassified",
+    "description": "",
+    "source": {
+      "site": "crimsondesert.gg",
+      "url": "https://crimsondesert.gg/quests/scattered-comrades"
+    }
+  },
+  {
+    "id": "scholastone",
+    "name": "Scholastone",
+    "slug": "scholastone",
+    "category": "quests-main",
+    "type": "quest",
+    "typeLabel": "Main Quest",
+    "rarity": "unclassified",
+    "description": "",
+    "source": {
+      "site": "crimsondesert.gg",
+      "url": "https://crimsondesert.gg/quests/scholastone"
+    }
+  },
+  {
+    "id": "secret-at-the-church",
+    "name": "Secret at the Church",
+    "slug": "secret-at-the-church",
+    "category": "quests-main",
+    "type": "quest",
+    "typeLabel": "Main Quest",
+    "rarity": "unclassified",
+    "description": "",
+    "source": {
+      "site": "crimsondesert.gg",
+      "url": "https://crimsondesert.gg/quests/secret-at-the-church"
+    }
+  },
+  {
+    "id": "secrets-hidden-in-the-dark",
+    "name": "Secrets Hidden in the Dark",
+    "slug": "secrets-hidden-in-the-dark",
+    "category": "quests-main",
+    "type": "quest",
+    "typeLabel": "Main Quest",
+    "rarity": "unclassified",
+    "description": "",
+    "source": {
+      "site": "crimsondesert.gg",
+      "url": "https://crimsondesert.gg/quests/secrets-hidden-in-the-dark"
+    }
+  },
+  {
+    "id": "seed-of-unease",
+    "name": "Seed of Unease",
+    "slug": "seed-of-unease",
+    "category": "quests-main",
+    "type": "quest",
+    "typeLabel": "Main Quest",
+    "rarity": "unclassified",
+    "description": "",
+    "source": {
+      "site": "crimsondesert.gg",
+      "url": "https://crimsondesert.gg/quests/seed-of-unease"
+    }
+  },
+  {
+    "id": "shackles-of-fate",
+    "name": "Shackles of Fate",
+    "slug": "shackles-of-fate",
+    "category": "quests-main",
+    "type": "quest",
+    "typeLabel": "Main Quest",
+    "rarity": "unclassified",
+    "description": "",
+    "source": {
+      "site": "crimsondesert.gg",
+      "url": "https://crimsondesert.gg/quests/shackles-of-fate"
+    }
+  },
+  {
+    "id": "shadow-casted-over-the-river",
+    "name": "Shadow Casted Over the River",
+    "slug": "shadow-casted-over-the-river",
+    "category": "quests-main",
+    "type": "quest",
+    "typeLabel": "Main Quest",
+    "rarity": "unclassified",
+    "description": "",
+    "source": {
+      "site": "crimsondesert.gg",
+      "url": "https://crimsondesert.gg/quests/shadow-casted-over-the-river"
+    }
+  },
+  {
+    "id": "shadows-over-pailune",
+    "name": "Shadows Over Pailune",
+    "slug": "shadows-over-pailune",
+    "category": "quests-main",
+    "type": "quest",
+    "typeLabel": "Main Quest",
+    "rarity": "unclassified",
+    "description": "",
+    "source": {
+      "site": "crimsondesert.gg",
+      "url": "https://crimsondesert.gg/quests/shadows-over-pailune"
+    }
+  },
+  {
+    "id": "skilled-in-archery",
+    "name": "Skilled in Archery",
+    "slug": "skilled-in-archery",
+    "category": "quests-main",
+    "type": "quest",
+    "typeLabel": "Main Quest",
+    "rarity": "unclassified",
+    "description": "",
+    "source": {
+      "site": "crimsondesert.gg",
+      "url": "https://crimsondesert.gg/quests/skilled-in-archery"
+    }
+  },
+  {
+    "id": "spire-of-the-stars",
+    "name": "Spire of the Stars",
+    "slug": "spire-of-the-stars",
+    "category": "quests-main",
+    "type": "quest",
+    "typeLabel": "Main Quest",
+    "rarity": "unclassified",
+    "description": "",
+    "source": {
+      "site": "crimsondesert.gg",
+      "url": "https://crimsondesert.gg/quests/spire-of-the-stars"
+    }
+  },
+  {
+    "id": "strange-manor",
+    "name": "Strange Manor",
+    "slug": "strange-manor",
+    "category": "quests-main",
+    "type": "quest",
+    "typeLabel": "Main Quest",
+    "rarity": "unclassified",
+    "description": "",
+    "source": {
+      "site": "crimsondesert.gg",
+      "url": "https://crimsondesert.gg/quests/strange-manor"
+    }
+  },
+  {
+    "id": "the-blood-coronation",
+    "name": "The Blood Coronation",
+    "slug": "the-blood-coronation",
+    "category": "quests-main",
+    "type": "quest",
+    "typeLabel": "Main Quest",
+    "rarity": "unclassified",
+    "description": "",
+    "source": {
+      "site": "crimsondesert.gg",
+      "url": "https://crimsondesert.gg/quests/the-blood-coronation"
+    }
+  },
+  {
+    "id": "the-city-of-steel",
+    "name": "The City of Steel",
+    "slug": "the-city-of-steel",
+    "category": "quests-main",
+    "type": "quest",
+    "typeLabel": "Main Quest",
+    "rarity": "unclassified",
+    "description": "",
+    "source": {
+      "site": "crimsondesert.gg",
+      "url": "https://crimsondesert.gg/quests/the-city-of-steel"
+    }
+  },
+  {
+    "id": "the-cloister-of-enlightenment",
+    "name": "The Cloister of Enlightenment",
+    "slug": "the-cloister-of-enlightenment",
+    "category": "quests-main",
+    "type": "quest",
+    "typeLabel": "Main Quest",
+    "rarity": "unclassified",
+    "description": "",
+    "source": {
+      "site": "crimsondesert.gg",
+      "url": "https://crimsondesert.gg/quests/the-cloister-of-enlightenment"
+    }
+  },
+  {
+    "id": "the-counterattack",
+    "name": "The Counterattack",
+    "slug": "the-counterattack",
+    "category": "quests-main",
+    "type": "quest",
+    "typeLabel": "Main Quest",
+    "rarity": "unclassified",
+    "description": "",
+    "source": {
+      "site": "crimsondesert.gg",
+      "url": "https://crimsondesert.gg/quests/the-counterattack"
+    }
+  },
+  {
+    "id": "the-crows-warning",
+    "name": "The Crow's Warning",
+    "slug": "the-crows-warning",
+    "category": "quests-main",
+    "type": "quest",
+    "typeLabel": "Main Quest",
+    "rarity": "unclassified",
+    "description": "",
+    "source": {
+      "site": "crimsondesert.gg",
+      "url": "https://crimsondesert.gg/quests/the-crows-warning"
+    }
+  },
+  {
+    "id": "the-cursed-knight",
+    "name": "The Cursed Knight",
+    "slug": "the-cursed-knight",
+    "category": "quests-main",
+    "type": "quest",
+    "typeLabel": "Main Quest",
+    "rarity": "unclassified",
+    "description": "",
+    "source": {
+      "site": "crimsondesert.gg",
+      "url": "https://crimsondesert.gg/quests/the-cursed-knight"
+    }
+  },
+  {
+    "id": "the-dark-veil",
+    "name": "The Dark Veil",
+    "slug": "the-dark-veil",
+    "category": "quests-main",
+    "type": "quest",
+    "typeLabel": "Main Quest",
+    "rarity": "unclassified",
+    "description": "",
+    "source": {
+      "site": "crimsondesert.gg",
+      "url": "https://crimsondesert.gg/quests/the-dark-veil"
+    }
+  },
+  {
+    "id": "the-deserts-edge",
+    "name": "The Desert's Edge",
+    "slug": "the-deserts-edge",
+    "category": "quests-main",
+    "type": "quest",
+    "typeLabel": "Main Quest",
+    "rarity": "unclassified",
+    "description": "",
+    "source": {
+      "site": "crimsondesert.gg",
+      "url": "https://crimsondesert.gg/quests/the-deserts-edge"
+    }
+  },
+  {
+    "id": "the-enduring-flame",
+    "name": "The Enduring Flame",
+    "slug": "the-enduring-flame",
+    "category": "quests-main",
+    "type": "quest",
+    "typeLabel": "Main Quest",
+    "rarity": "unclassified",
+    "description": "",
+    "source": {
+      "site": "crimsondesert.gg",
+      "url": "https://crimsondesert.gg/quests/the-enduring-flame"
+    }
+  },
+  {
+    "id": "the-final-bridge",
+    "name": "The Final Bridge",
+    "slug": "the-final-bridge",
+    "category": "quests-main",
+    "type": "quest",
+    "typeLabel": "Main Quest",
+    "rarity": "unclassified",
+    "description": "",
+    "source": {
+      "site": "crimsondesert.gg",
+      "url": "https://crimsondesert.gg/quests/the-final-bridge"
+    }
+  },
+  {
+    "id": "the-flames-of-greed",
+    "name": "The Flames of Greed",
+    "slug": "the-flames-of-greed",
+    "category": "quests-main",
+    "type": "quest",
+    "typeLabel": "Main Quest",
+    "rarity": "unclassified",
+    "description": "",
+    "source": {
+      "site": "crimsondesert.gg",
+      "url": "https://crimsondesert.gg/quests/the-flames-of-greed"
+    }
+  },
+  {
+    "id": "the-gate-of-war",
+    "name": "The Gate of War",
+    "slug": "the-gate-of-war",
+    "category": "quests-main",
+    "type": "quest",
+    "typeLabel": "Main Quest",
+    "rarity": "unclassified",
+    "description": "",
+    "source": {
+      "site": "crimsondesert.gg",
+      "url": "https://crimsondesert.gg/quests/the-gate-of-war"
+    }
+  },
+  {
+    "id": "the-heart-of-pywel",
+    "name": "The Heart of Pywel",
+    "slug": "the-heart-of-pywel",
+    "category": "quests-main",
+    "type": "quest",
+    "typeLabel": "Main Quest",
+    "rarity": "unclassified",
+    "description": "",
+    "source": {
+      "site": "crimsondesert.gg",
+      "url": "https://crimsondesert.gg/quests/the-heart-of-pywel"
+    }
+  },
+  {
+    "id": "the-man-trapped-in-the-mire",
+    "name": "The Man Trapped in the Mire",
+    "slug": "the-man-trapped-in-the-mire",
+    "category": "quests-main",
+    "type": "quest",
+    "typeLabel": "Main Quest",
+    "rarity": "unclassified",
+    "description": "",
+    "source": {
+      "site": "crimsondesert.gg",
+      "url": "https://crimsondesert.gg/quests/the-man-trapped-in-the-mire"
+    }
+  },
+  {
+    "id": "the-missing-seal",
+    "name": "The Missing Seal",
+    "slug": "the-missing-seal",
+    "category": "quests-main",
+    "type": "quest",
+    "typeLabel": "Main Quest",
+    "rarity": "unclassified",
+    "description": "",
+    "source": {
+      "site": "crimsondesert.gg",
+      "url": "https://crimsondesert.gg/quests/the-missing-seal"
+    }
+  },
+  {
+    "id": "the-mysterious-pot",
+    "name": "The Mysterious Pot",
+    "slug": "the-mysterious-pot",
+    "category": "quests-main",
+    "type": "quest",
+    "typeLabel": "Main Quest",
+    "rarity": "unclassified",
+    "description": "",
+    "source": {
+      "site": "crimsondesert.gg",
+      "url": "https://crimsondesert.gg/quests/the-mysterious-pot"
+    }
+  },
+  {
+    "id": "the-pots-use",
+    "name": "The Pot's Use",
+    "slug": "the-pots-use",
+    "category": "quests-main",
+    "type": "quest",
+    "typeLabel": "Main Quest",
+    "rarity": "unclassified",
+    "description": "",
+    "source": {
+      "site": "crimsondesert.gg",
+      "url": "https://crimsondesert.gg/quests/the-pots-use"
+    }
+  },
+  {
+    "id": "the-sage-of-the-desert",
+    "name": "The Sage of the Desert",
+    "slug": "the-sage-of-the-desert",
+    "category": "quests-main",
+    "type": "quest",
+    "typeLabel": "Main Quest",
+    "rarity": "unclassified",
+    "description": "",
+    "source": {
+      "site": "crimsondesert.gg",
+      "url": "https://crimsondesert.gg/quests/the-sage-of-the-desert"
+    }
+  },
+  {
+    "id": "the-unyielding-shields",
+    "name": "The Unyielding Shields",
+    "slug": "the-unyielding-shields",
+    "category": "quests-main",
+    "type": "quest",
+    "typeLabel": "Main Quest",
+    "rarity": "unclassified",
+    "description": "",
+    "source": {
+      "site": "crimsondesert.gg",
+      "url": "https://crimsondesert.gg/quests/the-unyielding-shields"
+    }
+  },
+  {
+    "id": "the-words-of-alustin",
+    "name": "The Words of Alustin",
+    "slug": "the-words-of-alustin",
+    "category": "quests-main",
+    "type": "quest",
+    "typeLabel": "Main Quest",
+    "rarity": "unclassified",
+    "description": "",
+    "source": {
+      "site": "crimsondesert.gg",
+      "url": "https://crimsondesert.gg/quests/the-words-of-alustin"
+    }
+  },
+  {
+    "id": "time-to-face-justice",
+    "name": "Time to Face Justice",
+    "slug": "time-to-face-justice",
+    "category": "quests-main",
+    "type": "quest",
+    "typeLabel": "Main Quest",
+    "rarity": "unclassified",
+    "description": "",
+    "source": {
+      "site": "crimsondesert.gg",
+      "url": "https://crimsondesert.gg/quests/time-to-face-justice"
+    }
+  },
+  {
+    "id": "to-the-battlefield",
+    "name": "To the Battlefield",
+    "slug": "to-the-battlefield",
+    "category": "quests-main",
+    "type": "quest",
+    "typeLabel": "Main Quest",
+    "rarity": "unclassified",
+    "description": "",
+    "source": {
+      "site": "crimsondesert.gg",
+      "url": "https://crimsondesert.gg/quests/to-the-battlefield"
+    }
+  },
+  {
+    "id": "toward-the-nest",
+    "name": "Toward the Nest",
+    "slug": "toward-the-nest",
+    "category": "quests-main",
+    "type": "quest",
+    "typeLabel": "Main Quest",
+    "rarity": "unclassified",
+    "description": "",
+    "source": {
+      "site": "crimsondesert.gg",
+      "url": "https://crimsondesert.gg/quests/toward-the-nest"
+    }
+  },
+  {
+    "id": "traces-in-the-manor",
+    "name": "Traces in the Manor",
+    "slug": "traces-in-the-manor",
+    "category": "quests-main",
+    "type": "quest",
+    "typeLabel": "Main Quest",
+    "rarity": "unclassified",
+    "description": "",
+    "source": {
+      "site": "crimsondesert.gg",
+      "url": "https://crimsondesert.gg/quests/traces-in-the-manor"
+    }
+  },
+  {
+    "id": "traitor",
+    "name": "Traitor",
+    "slug": "traitor",
+    "category": "quests-main",
+    "type": "quest",
+    "typeLabel": "Main Quest",
+    "rarity": "unclassified",
+    "description": "",
+    "source": {
+      "site": "crimsondesert.gg",
+      "url": "https://crimsondesert.gg/quests/traitor"
+    }
+  },
+  {
+    "id": "trial-after-trial",
+    "name": "Trial After Trial",
+    "slug": "trial-after-trial",
+    "category": "quests-main",
+    "type": "quest",
+    "typeLabel": "Main Quest",
+    "rarity": "unclassified",
+    "description": "",
+    "source": {
+      "site": "crimsondesert.gg",
+      "url": "https://crimsondesert.gg/quests/trial-after-trial"
+    }
+  },
+  {
+    "id": "true-strength",
+    "name": "True Strength",
+    "slug": "true-strength",
+    "category": "quests-main",
+    "type": "quest",
+    "typeLabel": "Main Quest",
+    "rarity": "unclassified",
+    "description": "",
+    "source": {
+      "site": "crimsondesert.gg",
+      "url": "https://crimsondesert.gg/quests/true-strength"
+    }
+  },
+  {
+    "id": "true-wisdom-in-kindness",
+    "name": "True Wisdom in Kindness",
+    "slug": "true-wisdom-in-kindness",
+    "category": "quests-main",
+    "type": "quest",
+    "typeLabel": "Main Quest",
+    "rarity": "unclassified",
+    "description": "",
+    "source": {
+      "site": "crimsondesert.gg",
+      "url": "https://crimsondesert.gg/quests/true-wisdom-in-kindness"
+    }
+  },
+  {
+    "id": "trust-lost",
+    "name": "Trust Lost",
+    "slug": "trust-lost",
+    "category": "quests-main",
+    "type": "quest",
+    "typeLabel": "Main Quest",
+    "rarity": "unclassified",
+    "description": "",
+    "source": {
+      "site": "crimsondesert.gg",
+      "url": "https://crimsondesert.gg/quests/trust-lost"
+    }
+  },
+  {
+    "id": "truth-and-lies",
+    "name": "Truth and Lies",
+    "slug": "truth-and-lies",
+    "category": "quests-main",
+    "type": "quest",
+    "typeLabel": "Main Quest",
+    "rarity": "unclassified",
+    "description": "",
+    "source": {
+      "site": "crimsondesert.gg",
+      "url": "https://crimsondesert.gg/quests/truth-and-lies"
+    }
+  },
+  {
+    "id": "unfamiliar-lands",
+    "name": "Unfamiliar Lands",
+    "slug": "unfamiliar-lands",
+    "category": "quests-main",
+    "type": "quest",
+    "typeLabel": "Main Quest",
+    "rarity": "unclassified",
+    "description": "",
+    "source": {
+      "site": "crimsondesert.gg",
+      "url": "https://crimsondesert.gg/quests/unfamiliar-lands"
+    }
+  },
+  {
+    "id": "unleashed-fury",
+    "name": "Unleashed Fury",
+    "slug": "unleashed-fury",
+    "category": "quests-main",
+    "type": "quest",
+    "typeLabel": "Main Quest",
+    "rarity": "unclassified",
+    "description": "",
+    "source": {
+      "site": "crimsondesert.gg",
+      "url": "https://crimsondesert.gg/quests/unleashed-fury"
+    }
+  },
+  {
+    "id": "untouchable",
+    "name": "Untouchable",
+    "slug": "untouchable",
+    "category": "quests-main",
+    "type": "quest",
+    "typeLabel": "Main Quest",
+    "rarity": "unclassified",
+    "description": "",
+    "source": {
+      "site": "crimsondesert.gg",
+      "url": "https://crimsondesert.gg/quests/untouchable"
+    }
+  },
+  {
+    "id": "unwavering-steps",
+    "name": "Unwavering Steps",
+    "slug": "unwavering-steps",
+    "category": "quests-main",
+    "type": "quest",
+    "typeLabel": "Main Quest",
+    "rarity": "unclassified",
+    "description": "",
+    "source": {
+      "site": "crimsondesert.gg",
+      "url": "https://crimsondesert.gg/quests/unwavering-steps"
+    }
+  },
+  {
+    "id": "unwelcomed-guests",
+    "name": "Unwelcomed Guests",
+    "slug": "unwelcomed-guests",
+    "category": "quests-main",
+    "type": "quest",
+    "typeLabel": "Main Quest",
+    "rarity": "unclassified",
+    "description": "",
+    "source": {
+      "site": "crimsondesert.gg",
+      "url": "https://crimsondesert.gg/quests/unwelcomed-guests"
+    }
+  },
+  {
+    "id": "where-misery-gathers",
+    "name": "Where Misery Gathers",
+    "slug": "where-misery-gathers",
+    "category": "quests-main",
+    "type": "quest",
+    "typeLabel": "Main Quest",
+    "rarity": "unclassified",
+    "description": "",
+    "source": {
+      "site": "crimsondesert.gg",
+      "url": "https://crimsondesert.gg/quests/where-misery-gathers"
+    }
+  },
+  {
+    "id": "where-rumors-gather",
+    "name": "Where Rumors Gather",
+    "slug": "where-rumors-gather",
+    "category": "quests-main",
+    "type": "quest",
+    "typeLabel": "Main Quest",
+    "rarity": "unclassified",
+    "description": "",
+    "source": {
+      "site": "crimsondesert.gg",
+      "url": "https://crimsondesert.gg/quests/where-rumors-gather"
+    }
+  },
+  {
+    "id": "where-the-light-leads",
+    "name": "Where the Light Leads",
+    "slug": "where-the-light-leads",
+    "category": "quests-main",
+    "type": "quest",
+    "typeLabel": "Main Quest",
+    "rarity": "unclassified",
+    "description": "",
+    "source": {
+      "site": "crimsondesert.gg",
+      "url": "https://crimsondesert.gg/quests/where-the-light-leads"
+    }
+  },
+  {
+    "id": "where-the-wind-guides-you",
+    "name": "Where the Wind Guides You",
+    "slug": "where-the-wind-guides-you",
+    "category": "quests-main",
+    "type": "quest",
+    "typeLabel": "Main Quest",
+    "rarity": "unclassified",
+    "description": "",
+    "source": {
+      "site": "crimsondesert.gg",
+      "url": "https://crimsondesert.gg/quests/where-the-wind-guides-you"
+    }
+  },
+  {
+    "id": "whispering-shadows",
+    "name": "Whispering Shadows",
+    "slug": "whispering-shadows",
+    "category": "quests-main",
+    "type": "quest",
+    "typeLabel": "Main Quest",
+    "rarity": "unclassified",
+    "description": "",
+    "source": {
+      "site": "crimsondesert.gg",
+      "url": "https://crimsondesert.gg/quests/whispering-shadows"
+    }
+  },
+  {
+    "id": "whispers-in-the-wind",
+    "name": "Whispers in the Wind",
+    "slug": "whispers-in-the-wind",
+    "category": "quests-main",
+    "type": "quest",
+    "typeLabel": "Main Quest",
+    "rarity": "unclassified",
+    "description": "",
+    "source": {
+      "site": "crimsondesert.gg",
+      "url": "https://crimsondesert.gg/quests/whispers-in-the-wind"
+    }
+  },
+  {
+    "id": "woman-in-white",
+    "name": "Woman in White",
+    "slug": "woman-in-white",
+    "category": "quests-main",
+    "type": "quest",
+    "typeLabel": "Main Quest",
+    "rarity": "unclassified",
+    "description": "",
+    "source": {
+      "site": "crimsondesert.gg",
+      "url": "https://crimsondesert.gg/quests/woman-in-white"
+    }
+  }
+]

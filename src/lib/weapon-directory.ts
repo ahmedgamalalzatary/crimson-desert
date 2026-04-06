@@ -20,19 +20,23 @@ function initWeaponDirectory(root: HTMLElement) {
   const sortLabel = root.querySelector("[data-sort-label]");
   const rarityInputs = [...root.querySelectorAll("[data-rarity]")];
   const typeInputs = [...root.querySelectorAll("[data-type]")];
+  const characterInputs = [...root.querySelectorAll("[data-character]")];
   const results = root.querySelector("[data-results]");
   const countNode = root.querySelector("[data-count]");
   const rarityCountNodes = [...root.querySelectorAll('[data-filter-count="rarity"]')];
   const typeCountNodes = [...root.querySelectorAll('[data-filter-count="type"]')];
+  const characterCountNodes = [...root.querySelectorAll('[data-filter-count="character"]')];
 
   const getFilterCounts = ({
     query,
     selectedRarities,
-    selectedTypes
+    selectedTypes,
+    selectedCharacters
   }: {
     query: string;
     selectedRarities: string[];
     selectedTypes: string[];
+    selectedCharacters: string[];
   }) => {
     const normalizedQuery = query.trim().toLowerCase();
     const queryMatches = weapons.filter((weapon) => {
@@ -42,7 +46,8 @@ function initWeaponDirectory(root: HTMLElement) {
 
       return (
         weapon.name.toLowerCase().includes(normalizedQuery) ||
-        weapon.type.toLowerCase().includes(normalizedQuery)
+        weapon.type.toLowerCase().includes(normalizedQuery) ||
+        (weapon.character?.toLowerCase().includes(normalizedQuery) ?? false)
       );
     });
     const rarityPool = queryMatches.filter(
@@ -53,12 +58,19 @@ function initWeaponDirectory(root: HTMLElement) {
       (weapon) =>
         selectedRarities.length === 0 || selectedRarities.includes(weapon.rarity)
     );
+    const characterPool = queryMatches.filter(
+      (weapon) =>
+        selectedCharacters.length === 0 ||
+        selectedCharacters.includes(weapon.character ?? "")
+    );
 
     return {
       total: queryMatches.filter(
         (weapon) =>
           (selectedRarities.length === 0 || selectedRarities.includes(weapon.rarity)) &&
-          (selectedTypes.length === 0 || selectedTypes.includes(weapon.type))
+        (selectedTypes.length === 0 || selectedTypes.includes(weapon.type))
+        && (selectedCharacters.length === 0 ||
+          selectedCharacters.includes(weapon.character ?? ""))
       ).length,
       rarityCounts: Object.fromEntries(
         rarityPool.map((weapon) => weapon.rarity).map((rarity, _, all) => [
@@ -69,16 +81,26 @@ function initWeaponDirectory(root: HTMLElement) {
             all.findIndex(([value]) => value === rarity) === index
         )
       ),
-      typeCounts: Object.fromEntries(
-        typePool.map((weapon) => weapon.type).map((type, _, all) => [
-          type,
-          typePool.filter((weapon) => weapon.type === type).length
-        ]).filter(
-          ([type], index, all) =>
-            all.findIndex(([value]) => value === type) === index
-        )
+    typeCounts: Object.fromEntries(
+      typePool.map((weapon) => weapon.type).map((type, _, all) => [
+        type,
+        typePool.filter((weapon) => weapon.type === type).length
+      ]).filter(
+        ([type], index, all) =>
+          all.findIndex(([value]) => value === type) === index
       )
-    };
+    )
+      ,
+    characterCounts: Object.fromEntries(
+      characterPool.map((weapon) => weapon.character ?? "").map((character, _, all) => [
+        character,
+        characterPool.filter((weapon) => (weapon.character ?? "") === character).length
+      ]).filter(
+        ([character], index, all) =>
+          all.findIndex(([value]) => value === character) === index
+      )
+    )
+  };
   };
 
   const getSelectedValues = (inputs: Element[]) =>
@@ -123,13 +145,15 @@ function initWeaponDirectory(root: HTMLElement) {
     const query = searchInput instanceof HTMLInputElement ? searchInput.value.trim().toLowerCase() : "";
     const selectedRarities = getSelectedValues(rarityInputs);
     const selectedTypes = getSelectedValues(typeInputs);
+    const selectedCharacters = getSelectedValues(characterInputs);
     const sortValue = sortInputs.find((i) => (i as HTMLInputElement).checked)
       ? (sortInputs.find((i) => (i as HTMLInputElement).checked) as HTMLInputElement).value
       : "name-asc";
     const filterCounts = getFilterCounts({
       query,
       selectedRarities,
-      selectedTypes
+      selectedTypes,
+      selectedCharacters
     });
 
     const filtered = weapons.filter((weapon) => {
@@ -140,8 +164,11 @@ function initWeaponDirectory(root: HTMLElement) {
       const matchesRarity =
         selectedRarities.length === 0 || selectedRarities.includes(weapon.rarity);
       const matchesType = selectedTypes.length === 0 || selectedTypes.includes(weapon.type);
+      const matchesCharacter =
+        selectedCharacters.length === 0 ||
+        selectedCharacters.includes(weapon.character ?? "");
 
-      return matchesQuery && matchesRarity && matchesType;
+      return matchesQuery && matchesRarity && matchesType && matchesCharacter;
     });
 
     filtered.sort((left, right) => {
@@ -160,6 +187,10 @@ function initWeaponDirectory(root: HTMLElement) {
           return compareRarity(left.rarity, right.rarity);
         case "rarity-desc":
           return compareRarity(right.rarity, left.rarity);
+        case "character-asc":
+          return compareText(left.character ?? "", right.character ?? "");
+        case "character-desc":
+          return compareText(right.character ?? "", left.character ?? "");
         default:
           return compareText(left.name, right.name);
       }
@@ -186,6 +217,14 @@ function initWeaponDirectory(root: HTMLElement) {
       const value = node.dataset.filterValue ?? "";
       node.textContent = String(filterCounts.typeCounts[value] ?? 0);
     });
+    characterCountNodes.forEach((node) => {
+      if (!(node instanceof HTMLElement)) {
+        return;
+      }
+
+      const value = node.dataset.filterValue ?? "";
+      node.textContent = String(filterCounts.characterCounts[value] ?? 0);
+    });
 
     if (results instanceof HTMLElement) {
       results.innerHTML = filtered.map((weapon) => renderCard(weapon)).join("");
@@ -195,6 +234,7 @@ function initWeaponDirectory(root: HTMLElement) {
   searchInput?.addEventListener("input", render);
   rarityInputs.forEach((input) => input.addEventListener("change", render));
   typeInputs.forEach((input) => input.addEventListener("change", render));
+  characterInputs.forEach((input) => input.addEventListener("change", render));
 
   function updateBadge(badge: Element | null, count: number) {
     if (!badge) return;
@@ -221,13 +261,16 @@ function initWeaponDirectory(root: HTMLElement) {
   function updateFilterBadges() {
     const rarityCount = rarityInputs.filter((i) => (i as HTMLInputElement).checked).length;
     const typeCount = typeInputs.filter((i) => (i as HTMLInputElement).checked).length;
+    const characterCount = characterInputs.filter((i) => (i as HTMLInputElement).checked).length;
     updateBadge(rarityBadge, rarityCount);
     updateBadge(typeBadge, typeCount);
-    updateBadge(filtersBadge, rarityCount + typeCount);
+    updateBadge(root.querySelector('[data-dropdown-count="character"]'), characterCount);
+    updateBadge(filtersBadge, rarityCount + typeCount + characterCount);
   }
 
   rarityInputs.forEach((input) => input.addEventListener("change", updateFilterBadges));
   typeInputs.forEach((input) => input.addEventListener("change", updateFilterBadges));
+  characterInputs.forEach((input) => input.addEventListener("change", updateFilterBadges));
 
   function setupDropdown(name: string, inputs: Element[], labelSelector?: string) {
     const btn = root.querySelector(`[data-dropdown-btn="${name}"]`);
@@ -258,7 +301,7 @@ function initWeaponDirectory(root: HTMLElement) {
     }
   }
 
-  setupDropdown("filters", [...rarityInputs, ...typeInputs]);
+  setupDropdown("filters", [...rarityInputs, ...typeInputs, ...characterInputs]);
   setupDropdown("sort", sortInputs, "[data-sort-label]");
 
   document.addEventListener("click", () => {

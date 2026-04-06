@@ -16,6 +16,17 @@ interface ParsedWeaponContext {
   itemSlug: string;
 }
 
+interface RenderedListingEntry {
+  entryId: string;
+  source: string;
+  href: string;
+  name: string;
+  typeLabel: string;
+  characters: string;
+  primaryStatLabel: string | null;
+  primaryStatValue: string | null;
+}
+
 interface ParsedWeaponMaterial {
   name: string;
   quantity: number;
@@ -52,6 +63,7 @@ interface ParsedWeaponRecord {
   type: string;
   typeLabel: string;
   rarity: string;
+  character: string | null;
   stats: {
     baseDamage: number | null;
     finalDamage: number | null;
@@ -250,7 +262,11 @@ function extractSockets($: ReturnType<typeof load>): ParsedWeaponSockets | "N/A"
   };
 }
 
-export function parseCrimsonDesertGgWeaponDetail(html: string, context: ParsedWeaponContext) {
+export function parseCrimsonDesertGgWeaponDetail(
+  html: string,
+  context: ParsedWeaponContext,
+  character: string | null = null
+) {
   const $ = load(html);
   const name = $(".db-item-name").first().text().trim();
   const typeLabel = $(".db-item-type").first().text().trim();
@@ -269,6 +285,7 @@ export function parseCrimsonDesertGgWeaponDetail(html: string, context: ParsedWe
     type: context.typeSlug,
     typeLabel,
     rarity,
+    character,
     stats,
     sockets,
     craftingMaterials,
@@ -290,16 +307,32 @@ export async function normalizeCrimsonDesertGgWeapons() {
     await readFile("data/generated/crimsondesert-gg/weapons-unique-detail-pages.json", "utf8")
   ) as WeaponManifestEntry[];
 
+  let characterByUrl: Record<string, string> = {};
+  try {
+    const renderedListings = JSON.parse(
+      await readFile("data/generated/crimsondesert-gg/weapons-rendered-listings.json", "utf8")
+    ) as RenderedListingEntry[];
+    characterByUrl = renderedListings.reduce((acc, entry) => {
+      if (entry.characters) {
+        acc[entry.href] = entry.characters;
+      }
+      return acc;
+    }, {} as Record<string, string>);
+  } catch {
+    console.warn("No rendered listings found, character data will not be populated");
+  }
+
   const weapons = [];
 
   for (const entry of manifest) {
     const htmlPath = `sources/crimsondesert-gg/weapons/items/${entry.typeSlug}/${entry.itemSlug}.html`;
     const html = await readFile(htmlPath, "utf8");
+    const character = characterByUrl[entry.url] ?? null;
     const parsed = parseCrimsonDesertGgWeaponDetail(html, {
       url: entry.url,
       typeSlug: entry.typeSlug,
       itemSlug: entry.itemSlug
-    });
+    }, character);
 
     weapons.push(normalizeCrimsonDesertGgWeapon(parsed));
   }

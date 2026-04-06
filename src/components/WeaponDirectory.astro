@@ -10,10 +10,12 @@ interface Props {
 const { weapons } = Astro.props;
 const rarityOptions = getOrderedRarityOptions(weapons.map((weapon) => weapon.rarity));
 const typeOptions = [...new Set(weapons.map((weapon) => weapon.type))].sort();
+const characterOptions = [...new Set(weapons.map((weapon) => weapon.character).filter(Boolean))].sort();
 const initialFilterCounts = getWeaponFilterCounts(weapons, {
   query: "",
   selectedRarities: [],
-  selectedTypes: []
+  selectedTypes: [],
+  selectedCharacters: []
 });
 ---
 
@@ -30,6 +32,7 @@ const initialFilterCounts = getWeaponFilterCounts(weapons, {
       <span class="wd-hero__pill"><strong data-count>{initialFilterCounts.total}</strong>&thinsp;results</span>
       <span class="wd-hero__pill">{typeOptions.length} types</span>
       <span class="wd-hero__pill">{rarityOptions.length} rarities</span>
+      {characterOptions.length > 0 ? <span class="wd-hero__pill">{characterOptions.length} characters</span> : null}
     </div>
   </div>
 
@@ -102,6 +105,32 @@ const initialFilterCounts = getWeaponFilterCounts(weapons, {
               ))}
             </div>
           </div>
+          <!-- Character sub-group -->
+          <div class="wd-filter-group" data-filter-group="character">
+            <button type="button" class="wd-filter-group__toggle" data-filter-group-toggle="character">
+              <span class="wd-filter-group__toggle-left">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M15.75 6.75a3.75 3.75 0 1 1-7.5 0 3.75 3.75 0 0 1 7.5 0Zm-9 11.25a6.75 6.75 0 0 1 13.5 0v1.5H6.75v-1.5Z"/></svg>
+                Character
+              </span>
+              <span class="wd-filter-group__toggle-right">
+                <span data-dropdown-count="character" class="wd-dropdown__badge"></span>
+                <svg class="wd-filter-group__chevron" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2.5" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="m19.5 8.25-7.5 7.5-7.5-7.5"/></svg>
+              </span>
+            </button>
+            <div class="wd-filter-group__items">
+              {characterOptions.map((character) => (
+                <label class="wd-dropdown__option">
+                  <span class="wd-dropdown__option-left">
+                    <input type="checkbox" value={character} data-character />
+                    <span>{character}</span>
+                  </span>
+                  <span data-filter-count="character" data-filter-value={character} class="wd-dropdown__option-count">
+                    {initialFilterCounts.characterCounts[character] ?? 0}
+                  </span>
+                </label>
+              ))}
+            </div>
+          </div>
         </div>
       </div>
     </div>
@@ -126,6 +155,9 @@ const initialFilterCounts = getWeaponFilterCounts(weapons, {
           <div class="wd-dropdown__sep"></div>
           <label class="wd-dropdown__option"><span class="wd-dropdown__option-left"><input type="radio" name="sort" value="rarity-asc" data-sort-option /><span>Rarity Low→High</span></span></label>
           <label class="wd-dropdown__option"><span class="wd-dropdown__option-left"><input type="radio" name="sort" value="rarity-desc" data-sort-option /><span>Rarity High→Low</span></span></label>
+          <div class="wd-dropdown__sep"></div>
+          <label class="wd-dropdown__option"><span class="wd-dropdown__option-left"><input type="radio" name="sort" value="character-asc" data-sort-option /><span>Character A-Z</span></span></label>
+          <label class="wd-dropdown__option"><span class="wd-dropdown__option-left"><input type="radio" name="sort" value="character-desc" data-sort-option /><span>Character Z-A</span></span></label>
         </div>
       </div>
     </div>
@@ -140,6 +172,7 @@ const initialFilterCounts = getWeaponFilterCounts(weapons, {
         data-name={weapon.name.toLowerCase()}
         data-rarity={weapon.rarity}
         data-type={weapon.type}
+        data-character={weapon.character ?? ""}
         data-base-damage={weapon.stats.baseDamage ?? -1}
         data-final-damage={weapon.stats.finalDamage ?? -1}
       >
@@ -147,6 +180,7 @@ const initialFilterCounts = getWeaponFilterCounts(weapons, {
           <div>
             <p class="wd-card__type">{weapon.typeLabel}</p>
             <a href={`/weapon/${weapon.slug}`} class="wd-card__name">{weapon.name}</a>
+            {weapon.character ? <p class="wd-card__meta">{weapon.character}</p> : null}
           </div>
           <span class="wd-card__rarity">{weapon.rarity}</span>
         </div>
@@ -158,6 +192,14 @@ const initialFilterCounts = getWeaponFilterCounts(weapons, {
               <div class="wd-card__stat-value wd-card__stat-value--text">{weapon.type}</div>
             </div>
           </div>
+          {weapon.character ? (
+            <div class="wd-card__stats-row">
+              <div class="wd-card__stat wd-card__stat--full">
+                <div class="wd-card__stat-label">Character</div>
+                <div class="wd-card__stat-value wd-card__stat-value--text">{weapon.character}</div>
+              </div>
+            </div>
+          ) : null}
           <div class="wd-card__stats-row">
             <div class="wd-card__stat">
               <div class="wd-card__stat-label">Base</div>

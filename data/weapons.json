@@ -7,6 +7,7 @@
     "type": "robot-cannon",
     "typeLabel": "A.T.A.G. Cannon",
     "rarity": "legendary",
+    "character": null,
     "stats": {
       "baseDamage": 17,
       "finalDamage": 17
@@ -39,6 +40,7 @@
     "type": "robot-fist",
     "typeLabel": "A.T.A.G. Fist",
     "rarity": "legendary",
+    "character": null,
     "stats": {
       "baseDamage": 25,
       "finalDamage": 25
@@ -71,6 +73,7 @@
     "type": "robot-flame-thrower",
     "typeLabel": "A.T.A.G. Flamespitter",
     "rarity": "legendary",
+    "character": null,
     "stats": {
       "baseDamage": 17,
       "finalDamage": 17
@@ -103,6 +106,7 @@
     "type": "robot-laser",
     "typeLabel": "A.T.A.G. Laser",
     "rarity": "legendary",
+    "character": null,
     "stats": {
       "baseDamage": 17,
       "finalDamage": 17
@@ -135,6 +139,7 @@
     "type": "robot-gatling",
     "typeLabel": "A.T.A.G. Machine Gun",
     "rarity": "legendary",
+    "character": null,
     "stats": {
       "baseDamage": 17,
       "finalDamage": 17
@@ -167,6 +172,7 @@
     "type": "robot-tongs",
     "typeLabel": "A.T.A.G. Pincers",
     "rarity": "legendary",
+    "character": null,
     "stats": {
       "baseDamage": 17,
       "finalDamage": 17
@@ -199,6 +205,7 @@
     "type": "robot-welding",
     "typeLabel": "A.T.A.G. Welder",
     "rarity": "legendary",
+    "character": null,
     "stats": {
       "baseDamage": 17,
       "finalDamage": 17
@@ -231,6 +238,7 @@
     "type": "two-hand-giant-sword",
     "typeLabel": "Giant Longsword",
     "rarity": "uncommon",
+    "character": "Damian",
     "stats": {
       "baseDamage": 17,
       "finalDamage": 45
@@ -498,6 +506,7 @@
     "type": "one-hand-mace",
     "typeLabel": "Mace",
     "rarity": "rare",
+    "character": "Kliff, Oongka",
     "stats": {
       "baseDamage": 13,
       "finalDamage": 37
@@ -774,6 +783,7 @@
     "type": "one-hand-sword",
     "typeLabel": "Sword",
     "rarity": "legendary",
+    "character": "Kliff, Oongka",
     "stats": {
       "baseDamage": 10,
       "finalDamage": 30
@@ -1094,6 +1104,7 @@
     "type": "one-hand-bow",
     "typeLabel": "Bow",
     "rarity": "legendary",
+    "character": "Kliff",
     "stats": {
       "baseDamage": 11,
       "finalDamage": 33
@@ -1382,6 +1393,7 @@
     "type": "one-hand-dagger",
     "typeLabel": "Dagger",
     "rarity": "legendary",
+    "character": "Damian, Kliff, Oongka",
     "stats": {
       "baseDamage": 10,
       "finalDamage": 30
@@ -1709,6 +1721,7 @@
     "type": "two-hand-axe",
     "typeLabel": "Greataxe",
     "rarity": "legendary",
+    "character": "Oongka",
     "stats": {
       "baseDamage": 15,
       "finalDamage": 40
@@ -2041,6 +2054,7 @@
     "type": "two-hand-hammer",
     "typeLabel": "Greathammer",
     "rarity": "legendary",
+    "character": "Oongka",
     "stats": {
       "baseDamage": 17,
       "finalDamage": 45
@@ -2329,6 +2343,7 @@
     "type": "two-hand-halberd",
     "typeLabel": "Halberd",
     "rarity": "legendary",
+    "character": "Damian, Kliff, Oongka",
     "stats": {
       "baseDamage": 14,
       "finalDamage": 39
@@ -2661,6 +2676,7 @@
     "type": "two-hand-sword",
     "typeLabel": "Longsword",
     "rarity": "legendary",
+    "character": "Damian, Kliff, Oongka",
     "stats": {
       "baseDamage": 14,
       "finalDamage": 39
@@ -2993,6 +3009,7 @@
     "type": "one-hand-mace",
     "typeLabel": "Mace",
     "rarity": "legendary",
+    "character": "Kliff, Oongka",
     "stats": {
       "baseDamage": 11,
       "finalDamage": 33
@@ -3325,6 +3342,7 @@
     "type": "two-hand-spear",
     "typeLabel": "Two-Handed Spear",
     "rarity": "legendary",
+    "character": "Damian, Kliff, Oongka",
     "stats": {
       "baseDamage": 12,
       "finalDamage": 35
@@ -3701,6 +3719,7 @@
     "type": "one-hand-sword",
     "typeLabel": "Sword",
     "rarity": "legendary",
+    "character": "Kliff, Oongka",
     "stats": {
       "baseDamage": 12,
       "finalDamage": 34
@@ -3989,6 +4008,7 @@
     "type": "two-hand-war-hammer",
     "typeLabel": "Warhammer",
     "rarity": "legendary",
+    "character": "Oongka",
     "stats": {
       "baseDamage": 15,
       "finalDamage": 41
@@ -4321,6 +4341,7 @@
     "type": "one-hand-cannon",
     "typeLabel": "Blaster",
     "rarity": "epic",
+    "character": "Oongka",
     "stats": {
       "baseDamage": 24,
       "finalDamage": 24
@@ -4353,6 +4374,7 @@
     "type": "one-hand-sword",
     "typeLabel": "Sword",
     "rarity": "rare",
+    "character": "Kliff, Oongka",
     "stats": {
       "baseDamage": 12,
       "finalDamage": 34
@@ -4629,6 +4651,7 @@
     "type": "one-hand-dagger",
     "typeLabel": "Dagger",
     "rarity": "rare",
+    "character": "Damian, Kliff, Oongka",
     "stats": {
       "baseDamage": 10,
       "finalDamage": 30
@@ -4988,6 +5011,7 @@
     "type": "two-hand-halberd",
     "typeLabel": "Halberd",
     "rarity": "rare",
+    "character": "Damian, Kliff, Oongka",
     "stats": {
       "baseDamage": 12,
       "finalDamage": 35
@@ -5308,6 +5332,7 @@
     "type": "one-hand-mace",
     "typeLabel": "Mace",
     "rarity": "rare",
+    "character": "Kliff, Oongka",
     "stats": {
       "baseDamage": 11,
       "finalDamage": 33
@@ -5628,6 +5653,7 @@
     "type": "two-hand-spear",
     "typeLabel": "Two-Handed Spear",
     "rarity": "rare",
+    "character": "Damian, Kliff, Oongka",
     "stats": {
       "baseDamage": 12,
       "finalDamage": 35
@@ -5948,6 +5974,7 @@
     "type": "two-hand-spear",
     "typeLabel": "Two-Handed Spear",
     "rarity": "rare",
+    "character": "Damian, Kliff, Oongka",
     "stats": {
       "baseDamage": 12,
       "finalDamage": 35
@@ -6321,6 +6348,7 @@
     "type": "two-hand-cannon",
     "typeLabel": "Two-Handed Cannon",
     "rarity": "rare",
+    "character": "Damian, Kliff, Oongka",
     "stats": {
       "baseDamage": 15,
       "finalDamage": 40
@@ -6646,6 +6674,7 @@
     "type": "two-hand-spear",
     "typeLabel": "Two-Handed Spear",
     "rarity": "common",
+    "character": "Damian, Kliff, Oongka",
     "stats": {
       "baseDamage": 12,
       "finalDamage": 35
@@ -6975,6 +7004,7 @@
     "type": "two-hand-pike",
     "typeLabel": "Two-Handed Pike",
     "rarity": "common",
+    "character": "Damian, Kliff, Oongka",
     "stats": {
       "baseDamage": 24,
       "finalDamage": 24
@@ -7007,6 +7037,7 @@
     "type": "two-hand-war-hammer",
     "typeLabel": "Warhammer",
     "rarity": "legendary",
+    "character": "Oongka",
     "stats": {
       "baseDamage": 17,
       "finalDamage": 45
@@ -7274,6 +7305,7 @@
     "type": "two-hand-giant-sword",
     "typeLabel": "Giant Longsword",
     "rarity": "rare",
+    "character": "Damian",
     "stats": {
       "baseDamage": 17,
       "finalDamage": 45
@@ -7541,6 +7573,7 @@
     "type": "two-hand-war-hammer",
     "typeLabel": "Warhammer",
     "rarity": "common",
+    "character": "Oongka",
     "stats": {
       "baseDamage": 17,
       "finalDamage": 45
@@ -7826,6 +7859,7 @@
     "type": "one-hand-musket",
     "typeLabel": "Musket",
     "rarity": "rare",
+    "character": "Damian",
     "stats": {
       "baseDamage": 13,
       "finalDamage": 38
@@ -8146,6 +8180,7 @@
     "type": "two-hand-war-hammer",
     "typeLabel": "Warhammer",
     "rarity": "rare",
+    "character": "Oongka",
     "stats": {
       "baseDamage": 16,
       "finalDamage": 42
@@ -8466,6 +8501,7 @@
     "type": "one-hand-mace",
     "typeLabel": "Mace",
     "rarity": "epic",
+    "character": "Kliff, Oongka",
     "stats": {
       "baseDamage": 13,
       "finalDamage": 37
@@ -8742,6 +8778,7 @@
     "type": "two-hand-war-hammer",
     "typeLabel": "Warhammer",
     "rarity": "epic",
+    "character": "Oongka",
     "stats": {
       "baseDamage": 17,
       "finalDamage": 45
@@ -9018,6 +9055,7 @@
     "type": "one-hand-dagger",
     "typeLabel": "Dagger",
     "rarity": "rare",
+    "character": "Damian, Kliff, Oongka",
     "stats": {
       "baseDamage": 12,
       "finalDamage": 34
@@ -9333,6 +9371,7 @@
     "type": "two-hand-halberd",
     "typeLabel": "Halberd",
     "rarity": "rare",
+    "character": "Damian, Kliff, Oongka",
     "stats": {
       "baseDamage": 13,
       "finalDamage": 36
@@ -9653,6 +9692,7 @@
     "type": "one-hand-mace",
     "typeLabel": "Mace",
     "rarity": "common",
+    "character": "Kliff, Oongka",
     "stats": {
       "baseDamage": 11,
       "finalDamage": 33
@@ -9982,6 +10022,7 @@
     "type": "two-hand-sword",
     "typeLabel": "Longsword",
     "rarity": "common",
+    "character": "Damian, Kliff, Oongka",
     "stats": {
       "baseDamage": 16,
       "finalDamage": 43
@@ -10267,6 +10308,7 @@
     "type": "one-hand-mace",
     "typeLabel": "Mace",
     "rarity": "common",
+    "character": "Kliff, Oongka",
     "stats": {
       "baseDamage": 13,
       "finalDamage": 37
@@ -10552,6 +10594,7 @@
     "type": "two-hand-spear",
     "typeLabel": "Two-Handed Spear",
     "rarity": "common",
+    "character": "Damian, Kliff, Oongka",
     "stats": {
       "baseDamage": 12,
       "finalDamage": 35
@@ -10925,6 +10968,7 @@
     "type": "one-hand-mace",
     "typeLabel": "Mace",
     "rarity": "rare",
+    "character": "Kliff, Oongka",
     "stats": {
       "baseDamage": 18,
       "finalDamage": 18
@@ -10957,6 +11001,7 @@
     "type": "one-hand-axe",
     "typeLabel": "Axe",
     "rarity": "common",
+    "character": "Kliff, Oongka",
     "stats": {
       "baseDamage": 12,
       "finalDamage": 34
@@ -11277,6 +11322,7 @@
     "type": "one-hand-bow",
     "typeLabel": "Bow",
     "rarity": "common",
+    "character": "Kliff",
     "stats": {
       "baseDamage": 10,
       "finalDamage": 30
@@ -11606,6 +11652,7 @@
     "type": "one-hand-dagger",
     "typeLabel": "Dagger",
     "rarity": "common",
+    "character": "Damian, Kliff, Oongka",
     "stats": {
       "baseDamage": 10,
       "finalDamage": 30
@@ -11974,6 +12021,7 @@
     "type": "two-hand-axe",
     "typeLabel": "Greataxe",
     "rarity": "common",
+    "character": "Oongka",
     "stats": {
       "baseDamage": 16,
       "finalDamage": 43
@@ -12303,6 +12351,7 @@
     "type": "two-hand-hammer",
     "typeLabel": "Greathammer",
     "rarity": "common",
+    "character": "Oongka",
     "stats": {
       "baseDamage": 17,
       "finalDamage": 45
@@ -12588,6 +12637,7 @@
     "type": "two-hand-halberd",
     "typeLabel": "Halberd",
     "rarity": "common",
+    "character": "Damian, Kliff, Oongka",
     "stats": {
       "baseDamage": 13,
       "finalDamage": 36
@@ -12917,6 +12967,7 @@
     "type": "one-hand-mace",
     "typeLabel": "Mace",
     "rarity": "common",
+    "character": "Kliff, Oongka",
     "stats": {
       "baseDamage": 13,
       "finalDamage": 37
@@ -13202,6 +13253,7 @@
     "type": "one-hand-musket",
     "typeLabel": "Musket",
     "rarity": "common",
+    "character": "Damian",
     "stats": {
       "baseDamage": 12,
       "finalDamage": 35
@@ -13531,6 +13583,7 @@
     "type": "two-hand-war-hammer",
     "typeLabel": "Warhammer",
     "rarity": "common",
+    "character": "Oongka",
     "stats": {
       "baseDamage": 15,
       "finalDamage": 41
@@ -13860,6 +13913,7 @@
     "type": "two-hand-cannon",
     "typeLabel": "Two-Handed Cannon",
     "rarity": "rare",
+    "character": "Damian, Kliff, Oongka",
     "stats": {
       "baseDamage": 16,
       "finalDamage": 43
@@ -14140,6 +14194,7 @@
     "type": "two-hand-spear",
     "typeLabel": "Two-Handed Spear",
     "rarity": "common",
+    "character": "Damian, Kliff, Oongka",
     "stats": {
       "baseDamage": 27,
       "finalDamage": 27
@@ -14172,6 +14227,7 @@
     "type": "two-hand-pike",
     "typeLabel": "Two-Handed Pike",
     "rarity": "common",
+    "character": "Damian, Kliff, Oongka",
     "stats": {
       "baseDamage": 17,
       "finalDamage": 17
@@ -14204,6 +14260,7 @@
     "type": "one-hand-axe",
     "typeLabel": "Axe",
     "rarity": "epic",
+    "character": "Kliff, Oongka",
     "stats": {
       "baseDamage": 12,
       "finalDamage": 34
@@ -14524,6 +14581,7 @@
     "type": "one-hand-cannon",
     "typeLabel": "Blaster",
     "rarity": "epic",
+    "character": "Oongka",
     "stats": {
       "baseDamage": 12,
       "finalDamage": 34
@@ -14804,6 +14862,7 @@
     "type": "two-hand-spear",
     "typeLabel": "Two-Handed Spear",
     "rarity": "rare",
+    "character": "Damian, Kliff, Oongka",
     "stats": {
       "baseDamage": 22,
       "finalDamage": 22
@@ -14836,6 +14895,7 @@
     "type": "one-hand-shotgun",
     "typeLabel": "Shotgun",
     "rarity": "uncommon",
+    "character": "Damian",
     "stats": {
       "baseDamage": 13,
       "finalDamage": 37
@@ -15147,6 +15207,7 @@
     "type": "one-hand-bow",
     "typeLabel": "Bow",
     "rarity": "uncommon",
+    "character": "Kliff",
     "stats": {
       "baseDamage": 10,
       "finalDamage": 30
@@ -15467,6 +15528,7 @@
     "type": "two-hand-axe",
     "typeLabel": "Greataxe",
     "rarity": "uncommon",
+    "character": "Oongka",
     "stats": {
       "baseDamage": 15,
       "finalDamage": 40
@@ -15787,6 +15849,7 @@
     "type": "two-hand-hammer",
     "typeLabel": "Greathammer",
     "rarity": "uncommon",
+    "character": "Oongka",
     "stats": {
       "baseDamage": 16,
       "finalDamage": 42
@@ -16107,6 +16170,7 @@
     "type": "two-hand-halberd",
     "typeLabel": "Halberd",
     "rarity": "uncommon",
+    "character": "Damian, Kliff, Oongka",
     "stats": {
       "baseDamage": 13,
       "finalDamage": 36
@@ -16427,6 +16491,7 @@
     "type": "one-hand-mace",
     "typeLabel": "Mace",
     "rarity": "uncommon",
+    "character": "Kliff, Oongka",
     "stats": {
       "baseDamage": 11,
       "finalDamage": 33
@@ -16747,6 +16812,7 @@
     "type": "two-hand-war-hammer",
     "typeLabel": "Warhammer",
     "rarity": "uncommon",
+    "character": "Oongka",
     "stats": {
       "baseDamage": 17,
       "finalDamage": 45
@@ -17023,6 +17089,7 @@
     "type": "one-hand-bow",
     "typeLabel": "Bow",
     "rarity": "rare",
+    "character": "Kliff",
     "stats": {
       "baseDamage": 10,
       "finalDamage": 30
@@ -17343,6 +17410,7 @@
     "type": "one-hand-rapier",
     "typeLabel": "Rapiers",
     "rarity": "epic",
+    "character": "Damian",
     "stats": {
       "baseDamage": 9,
       "finalDamage": 27
@@ -17698,6 +17766,7 @@
     "type": "two-hand-sword",
     "typeLabel": "Longsword",
     "rarity": "epic",
+    "character": "Damian, Kliff, Oongka",
     "stats": {
       "baseDamage": 15,
       "finalDamage": 40
@@ -18026,6 +18095,7 @@
     "type": "two-hand-war-hammer",
     "typeLabel": "Warhammer",
     "rarity": "uncommon",
+    "character": "Oongka",
     "stats": {
       "baseDamage": 16,
       "finalDamage": 42
@@ -18346,6 +18416,7 @@
     "type": "one-hand-pistol",
     "typeLabel": "Pistol",
     "rarity": "legendary",
+    "character": "Damian",
     "stats": {
       "baseDamage": 12,
       "finalDamage": 36
@@ -18657,6 +18728,7 @@
     "type": "two-hand-pike",
     "typeLabel": "Two-Handed Pike",
     "rarity": "common",
+    "character": "Damian, Kliff, Oongka",
     "stats": {
       "baseDamage": 20,
       "finalDamage": 20
@@ -18689,6 +18761,7 @@
     "type": "two-hand-halberd",
     "typeLabel": "Halberd",
     "rarity": "epic",
+    "character": "Damian, Kliff, Oongka",
     "stats": {
       "baseDamage": 14,
       "finalDamage": 39
@@ -19014,6 +19087,7 @@
     "type": "two-hand-war-hammer",
     "typeLabel": "Warhammer",
     "rarity": "rare",
+    "character": "Oongka",
     "stats": {
       "baseDamage": 15,
       "finalDamage": 41
@@ -19339,6 +19413,7 @@
     "type": "one-hand-sword",
     "typeLabel": "Sword",
     "rarity": "legendary",
+    "character": "Kliff, Oongka",
     "stats": {
       "baseDamage": 10,
       "finalDamage": 30
@@ -19663,6 +19738,7 @@
     "type": "two-hand-spear",
     "typeLabel": "Two-Handed Spear",
     "rarity": "rare",
+    "character": "Damian, Kliff, Oongka",
     "stats": {
       "baseDamage": 12,
       "finalDamage": 35
@@ -20027,6 +20103,7 @@
     "type": "two-hand-spear",
     "typeLabel": "Two-Handed Spear",
     "rarity": "rare",
+    "character": "Damian, Kliff, Oongka",
     "stats": {
       "baseDamage": 12,
       "finalDamage": 35
@@ -20391,6 +20468,7 @@
     "type": "one-hand-musket",
     "typeLabel": "Musket",
     "rarity": "uncommon",
+    "character": "Damian",
     "stats": {
       "baseDamage": 12,
       "finalDamage": 35
@@ -20755,6 +20833,7 @@
     "type": "two-hand-spear",
     "typeLabel": "Two-Handed Spear",
     "rarity": "common",
+    "character": "Damian, Kliff, Oongka",
     "stats": {
       "baseDamage": 13,
       "finalDamage": 38
@@ -21084,6 +21163,7 @@
     "type": "one-hand-sword",
     "typeLabel": "Sword",
     "rarity": "uncommon",
+    "character": "Kliff, Oongka",
     "stats": {
       "baseDamage": 10,
       "finalDamage": 30
@@ -21395,6 +21475,7 @@
     "type": "one-hand-bow",
     "typeLabel": "Bow",
     "rarity": "uncommon",
+    "character": "Kliff",
     "stats": {
       "baseDamage": 11,
       "finalDamage": 33
@@ -21671,6 +21752,7 @@
     "type": "one-hand-drill",
     "typeLabel": "Drill",
     "rarity": "rare",
+    "character": "Damian, Kliff, Oongka",
     "stats": {
       "baseDamage": 22,
       "finalDamage": 22
@@ -21703,6 +21785,7 @@
     "type": "one-hand-bow",
     "typeLabel": "Bow",
     "rarity": "epic",
+    "character": "Kliff",
     "stats": {
       "baseDamage": 11,
       "finalDamage": 33
@@ -21983,6 +22066,7 @@
     "type": "one-hand-axe",
     "typeLabel": "Axe",
     "rarity": "rare",
+    "character": "Kliff, Oongka",
     "stats": {
       "baseDamage": 10,
       "finalDamage": 30
@@ -22308,6 +22392,7 @@
     "type": "one-hand-dagger",
     "typeLabel": "Dagger",
     "rarity": "rare",
+    "character": "Damian, Kliff, Oongka",
     "stats": {
       "baseDamage": 10,
       "finalDamage": 30
@@ -22623,6 +22708,7 @@
     "type": "two-hand-war-hammer",
     "typeLabel": "Warhammer",
     "rarity": "rare",
+    "character": "Oongka",
     "stats": {
       "baseDamage": 16,
       "finalDamage": 42
@@ -22943,6 +23029,7 @@
     "type": "two-hand-war-hammer",
     "typeLabel": "Warhammer",
     "rarity": "epic",
+    "character": "Oongka",
     "stats": {
       "baseDamage": 15,
       "finalDamage": 41
@@ -23263,6 +23350,7 @@
     "type": "one-hand-mace",
     "typeLabel": "Mace",
     "rarity": "common",
+    "character": "Kliff, Oongka",
     "stats": {
       "baseDamage": 11,
       "finalDamage": 33
@@ -23592,6 +23680,7 @@
     "type": "one-hand-dagger",
     "typeLabel": "Dagger",
     "rarity": "epic",
+    "character": "Damian, Kliff, Oongka",
     "stats": {
       "baseDamage": 12,
       "finalDamage": 34
@@ -23907,6 +23996,7 @@
     "type": "two-hand-pike",
     "typeLabel": "Two-Handed Pike",
     "rarity": "common",
+    "character": "Damian, Kliff, Oongka",
     "stats": {
       "baseDamage": 21,
       "finalDamage": 21
@@ -23939,6 +24029,7 @@
     "type": "two-hand-sword",
     "typeLabel": "Longsword",
     "rarity": "epic",
+    "character": "Damian, Kliff, Oongka",
     "stats": {
       "baseDamage": 15,
       "finalDamage": 40
@@ -24259,6 +24350,7 @@
     "type": "one-hand-shotgun",
     "typeLabel": "Shotgun",
     "rarity": "uncommon",
+    "character": "Damian",
     "stats": {
       "baseDamage": 15,
       "finalDamage": 41
@@ -24539,6 +24631,7 @@
     "type": "two-hand-war-hammer",
     "typeLabel": "Warhammer",
     "rarity": "epic",
+    "character": "Oongka",
     "stats": {
       "baseDamage": 16,
       "finalDamage": 42
@@ -24864,6 +24957,7 @@
     "type": "two-hand-sword",
     "typeLabel": "Longsword",
     "rarity": "legendary",
+    "character": "Damian, Kliff, Oongka",
     "stats": {
       "baseDamage": 14,
       "finalDamage": 39
@@ -25184,6 +25278,7 @@
     "type": "one-hand-bow",
     "typeLabel": "Bow",
     "rarity": "uncommon",
+    "character": "Kliff",
     "stats": {
       "baseDamage": 11,
       "finalDamage": 33
@@ -25460,6 +25555,7 @@
     "type": "one-hand-dagger",
     "typeLabel": "Dagger",
     "rarity": "uncommon",
+    "character": "Damian, Kliff, Oongka",
     "stats": {
       "baseDamage": 10,
       "finalDamage": 30
@@ -25775,6 +25871,7 @@
     "type": "two-hand-axe",
     "typeLabel": "Greataxe",
     "rarity": "uncommon",
+    "character": "Oongka",
     "stats": {
       "baseDamage": 16,
       "finalDamage": 43
@@ -26086,6 +26183,7 @@
     "type": "one-hand-mace",
     "typeLabel": "Mace",
     "rarity": "uncommon",
+    "character": "Kliff, Oongka",
     "stats": {
       "baseDamage": 11,
       "finalDamage": 33
@@ -26406,6 +26504,7 @@
     "type": "one-hand-sword",
     "typeLabel": "Sword",
     "rarity": "uncommon",
+    "character": "Kliff, Oongka",
     "stats": {
       "baseDamage": 12,
       "finalDamage": 34
@@ -26682,6 +26781,7 @@
     "type": "two-hand-pike",
     "typeLabel": "Two-Handed Pike",
     "rarity": "common",
+    "character": "Damian, Kliff, Oongka",
     "stats": {
       "baseDamage": 20,
       "finalDamage": 20
@@ -26714,6 +26814,7 @@
     "type": "one-hand-dagger",
     "typeLabel": "Dagger",
     "rarity": "uncommon",
+    "character": "Damian, Kliff, Oongka",
     "stats": {
       "baseDamage": 10,
       "finalDamage": 30
@@ -27073,6 +27174,7 @@
     "type": "two-hand-sword",
     "typeLabel": "Longsword",
     "rarity": "epic",
+    "character": "Damian, Kliff, Oongka",
     "stats": {
       "baseDamage": 14,
       "finalDamage": 39
@@ -27397,6 +27499,7 @@
     "type": "one-hand-musket",
     "typeLabel": "Musket",
     "rarity": "uncommon",
+    "character": "Damian",
     "stats": {
       "baseDamage": 13,
       "finalDamage": 38
@@ -27717,6 +27820,7 @@
     "type": "one-hand-shotgun",
     "typeLabel": "Shotgun",
     "rarity": "uncommon",
+    "character": "Damian",
     "stats": {
       "baseDamage": 14,
       "finalDamage": 38
@@ -28037,6 +28141,7 @@
     "type": "one-hand-axe",
     "typeLabel": "Axe",
     "rarity": "rare",
+    "character": "Kliff, Oongka",
     "stats": {
       "baseDamage": 10,
       "finalDamage": 30
@@ -28401,6 +28506,7 @@
     "type": "one-hand-saw",
     "typeLabel": "Chainsaw",
     "rarity": "rare",
+    "character": "Damian, Kliff",
     "stats": {
       "baseDamage": 11,
       "finalDamage": 33
@@ -28668,6 +28774,7 @@
     "type": "two-hand-pike",
     "typeLabel": "Two-Handed Pike",
     "rarity": "common",
+    "character": "Damian, Kliff, Oongka",
     "stats": {
       "baseDamage": 20,
       "finalDamage": 20
@@ -28700,6 +28807,7 @@
     "type": "one-hand-musket",
     "typeLabel": "Musket",
     "rarity": "legendary",
+    "character": "Damian",
     "stats": {
       "baseDamage": 13,
       "finalDamage": 38
@@ -29024,6 +29132,7 @@
     "type": "two-hand-spear",
     "typeLabel": "Two-Handed Spear",
     "rarity": "uncommon",
+    "character": "Damian, Kliff, Oongka",
     "stats": {
       "baseDamage": 12,
       "finalDamage": 35
@@ -29379,6 +29488,7 @@
     "type": "one-hand-mace",
     "typeLabel": "Mace",
     "rarity": "epic",
+    "character": "Kliff, Oongka",
     "stats": {
       "baseDamage": 11,
       "finalDamage": 33
@@ -29699,6 +29809,7 @@
     "type": "two-hand-sword",
     "typeLabel": "Longsword",
     "rarity": "rare",
+    "character": "Damian, Kliff, Oongka",
     "stats": {
       "baseDamage": 16,
       "finalDamage": 43
@@ -29980,6 +30091,7 @@
     "type": "one-hand-shotgun",
     "typeLabel": "Shotgun",
     "rarity": "rare",
+    "character": "Damian",
     "stats": {
       "baseDamage": 13,
       "finalDamage": 37
@@ -30291,6 +30403,7 @@
     "type": "two-hand-spear",
     "typeLabel": "Two-Handed Spear",
     "rarity": "common",
+    "character": "Damian, Kliff, Oongka",
     "stats": {
       "baseDamage": 27,
       "finalDamage": 27
@@ -30323,6 +30436,7 @@
     "type": "one-hand-drill",
     "typeLabel": "Drill",
     "rarity": "uncommon",
+    "character": "Damian, Kliff, Oongka",
     "stats": {
       "baseDamage": 18,
       "finalDamage": 18
@@ -30355,6 +30469,7 @@
     "type": "two-hand-spear",
     "typeLabel": "Two-Handed Spear",
     "rarity": "rare",
+    "character": "Damian, Kliff, Oongka",
     "stats": {
       "baseDamage": 12,
       "finalDamage": 35
@@ -30675,6 +30790,7 @@
     "type": "one-hand-bow",
     "typeLabel": "Bow",
     "rarity": "legendary",
+    "character": "Kliff",
     "stats": {
       "baseDamage": 11,
       "finalDamage": 33
@@ -30955,6 +31071,7 @@
     "type": "one-hand-axe",
     "typeLabel": "Axe",
     "rarity": "legendary",
+    "character": "Kliff, Oongka",
     "stats": {
       "baseDamage": 10,
       "finalDamage": 30
@@ -31271,6 +31388,7 @@
     "type": "two-hand-pike",
     "typeLabel": "Two-Handed Pike",
     "rarity": "common",
+    "character": "Damian, Kliff, Oongka",
     "stats": {
       "baseDamage": 17,
       "finalDamage": 17
@@ -31303,6 +31421,7 @@
     "type": "one-hand-mace",
     "typeLabel": "Mace",
     "rarity": "epic",
+    "character": "Kliff, Oongka",
     "stats": {
       "baseDamage": 11,
       "finalDamage": 33
@@ -31628,6 +31747,7 @@
     "type": "one-hand-rapier",
     "typeLabel": "Rapiers",
     "rarity": "uncommon",
+    "character": "Damian",
     "stats": {
       "baseDamage": 9,
       "finalDamage": 27
@@ -31992,6 +32112,7 @@
     "type": "two-hand-axe",
     "typeLabel": "Greataxe",
     "rarity": "legendary",
+    "character": "Oongka",
     "stats": {
       "baseDamage": 16,
       "finalDamage": 43
@@ -32316,6 +32437,7 @@
     "type": "one-hand-fan",
     "typeLabel": "Fan",
     "rarity": "common",
+    "character": "Kliff",
     "stats": {
       "baseDamage": 10,
       "finalDamage": 33
@@ -32578,6 +32700,7 @@
     "type": "two-hand-sword",
     "typeLabel": "Longsword",
     "rarity": "rare",
+    "character": "Damian, Kliff, Oongka",
     "stats": {
       "baseDamage": 27,
       "finalDamage": 27
@@ -32610,6 +32733,7 @@
     "type": "two-hand-spear",
     "typeLabel": "Two-Handed Spear",
     "rarity": "epic",
+    "character": "Damian, Kliff, Oongka",
     "stats": {
       "baseDamage": 30,
       "finalDamage": 30
@@ -32646,6 +32770,7 @@
     "type": "two-hand-lightningthrower",
     "typeLabel": "Boltspitter",
     "rarity": "rare",
+    "character": "Damian, Kliff, Oongka",
     "stats": {
       "baseDamage": 25,
       "finalDamage": 25
@@ -32678,6 +32803,7 @@
     "type": "two-hand-flamethrower",
     "typeLabel": "Flamespitter",
     "rarity": "rare",
+    "character": "Damian, Kliff, Oongka",
     "stats": {
       "baseDamage": 25,
       "finalDamage": 25
@@ -32710,6 +32836,7 @@
     "type": "two-hand-icethrower",
     "typeLabel": "Frostspitter",
     "rarity": "rare",
+    "character": "Damian, Kliff, Oongka",
     "stats": {
       "baseDamage": 25,
       "finalDamage": 25
@@ -32742,6 +32869,7 @@
     "type": "one-hand-rapier",
     "typeLabel": "Rapiers",
     "rarity": "rare",
+    "character": "Damian",
     "stats": {
       "baseDamage": 9,
       "finalDamage": 27
@@ -33111,6 +33239,7 @@
     "type": "one-hand-rapier",
     "typeLabel": "Rapiers",
     "rarity": "common",
+    "character": "Damian",
     "stats": {
       "baseDamage": 9,
       "finalDamage": 27
@@ -33475,6 +33604,7 @@
     "type": "two-hand-spear",
     "typeLabel": "Two-Handed Spear",
     "rarity": "epic",
+    "character": "Damian, Kliff, Oongka",
     "stats": {
       "baseDamage": 12,
       "finalDamage": 35
@@ -33799,6 +33929,7 @@
     "type": "one-hand-mace",
     "typeLabel": "Mace",
     "rarity": "uncommon",
+    "character": "Kliff, Oongka",
     "stats": {
       "baseDamage": 11,
       "finalDamage": 33
@@ -34119,6 +34250,7 @@
     "type": "one-hand-pistol",
     "typeLabel": "Pistol",
     "rarity": "common",
+    "character": "Damian",
     "stats": {
       "baseDamage": 11,
       "finalDamage": 33
@@ -34483,6 +34615,7 @@
     "type": "one-hand-rapier",
     "typeLabel": "Rapiers",
     "rarity": "legendary",
+    "character": "Damian",
     "stats": {
       "baseDamage": 9,
       "finalDamage": 27
@@ -34794,6 +34927,7 @@
     "type": "one-hand-sword",
     "typeLabel": "Sword",
     "rarity": "uncommon",
+    "character": "Kliff, Oongka",
     "stats": {
       "baseDamage": 12,
       "finalDamage": 34
@@ -35070,6 +35204,7 @@
     "type": "one-hand-rapier",
     "typeLabel": "Rapiers",
     "rarity": "epic",
+    "character": "Damian",
     "stats": {
       "baseDamage": 9,
       "finalDamage": 27
@@ -35425,6 +35560,7 @@
     "type": "two-hand-axe",
     "typeLabel": "Greataxe",
     "rarity": "common",
+    "character": "Oongka",
     "stats": {
       "baseDamage": 15,
       "finalDamage": 40
@@ -35754,6 +35890,7 @@
     "type": "one-hand-sword",
     "typeLabel": "Sword",
     "rarity": "legendary",
+    "character": "Kliff, Oongka",
     "stats": {
       "baseDamage": 12,
       "finalDamage": 34
@@ -36030,6 +36167,7 @@
     "type": "two-hand-cannon",
     "typeLabel": "Two-Handed Cannon",
     "rarity": "epic",
+    "character": "Damian, Kliff, Oongka",
     "stats": {
       "baseDamage": 16,
       "finalDamage": 43
@@ -36306,6 +36444,7 @@
     "type": "two-hand-spear",
     "typeLabel": "Two-Handed Spear",
     "rarity": "common",
+    "character": "Damian, Kliff, Oongka",
     "stats": {
       "baseDamage": 27,
       "finalDamage": 27
@@ -36344,6 +36483,7 @@
     "type": "two-hand-halberd",
     "typeLabel": "Halberd",
     "rarity": "common",
+    "character": "Damian, Kliff, Oongka",
     "stats": {
       "baseDamage": 14,
       "finalDamage": 39
@@ -36673,6 +36813,7 @@
     "type": "two-hand-spear",
     "typeLabel": "Two-Handed Spear",
     "rarity": "epic",
+    "character": "Damian, Kliff, Oongka",
     "stats": {
       "baseDamage": 13,
       "finalDamage": 38
@@ -36997,6 +37138,7 @@
     "type": "two-hand-sword",
     "typeLabel": "Longsword",
     "rarity": "legendary",
+    "character": "Damian, Kliff, Oongka",
     "stats": {
       "baseDamage": 16,
       "finalDamage": 43
@@ -37277,6 +37419,7 @@
     "type": "one-hand-mace",
     "typeLabel": "Mace",
     "rarity": "epic",
+    "character": "Kliff, Oongka",
     "stats": {
       "baseDamage": 11,
       "finalDamage": 33
@@ -37602,6 +37745,7 @@
     "type": "gauntlet",
     "typeLabel": "Gauntlets",
     "rarity": "epic",
+    "character": null,
     "stats": {
       "baseDamage": 28,
       "finalDamage": 28
@@ -37634,6 +37778,7 @@
     "type": "two-hand-cannon",
     "typeLabel": "Two-Handed Cannon",
     "rarity": "rare",
+    "character": "Damian, Kliff, Oongka",
     "stats": {
       "baseDamage": 14,
       "finalDamage": 39
@@ -37954,6 +38099,7 @@
     "type": "one-hand-axe",
     "typeLabel": "Axe",
     "rarity": "uncommon",
+    "character": "Kliff, Oongka",
     "stats": {
       "baseDamage": 12,
       "finalDamage": 34
@@ -38274,6 +38420,7 @@
     "type": "two-hand-halberd",
     "typeLabel": "Halberd",
     "rarity": "uncommon",
+    "character": "Damian, Kliff, Oongka",
     "stats": {
       "baseDamage": 14,
       "finalDamage": 39
@@ -38594,6 +38741,7 @@
     "type": "one-hand-rapier",
     "typeLabel": "Rapiers",
     "rarity": "uncommon",
+    "character": "Damian",
     "stats": {
       "baseDamage": 11,
       "finalDamage": 31
@@ -38914,6 +39062,7 @@
     "type": "one-hand-sword",
     "typeLabel": "Sword",
     "rarity": "common",
+    "character": "Kliff, Oongka",
     "stats": {
       "baseDamage": 10,
       "finalDamage": 30
@@ -39243,6 +39392,7 @@
     "type": "one-hand-dagger",
     "typeLabel": "Dagger",
     "rarity": "legendary",
+    "character": "Damian, Kliff, Oongka",
     "stats": {
       "baseDamage": 12,
       "finalDamage": 34
@@ -39549,6 +39699,7 @@
     "type": "two-hand-hammer",
     "typeLabel": "Greathammer",
     "rarity": "epic",
+    "character": "Oongka",
     "stats": {
       "baseDamage": 15,
       "finalDamage": 41
@@ -39860,6 +40011,7 @@
     "type": "one-hand-cannon",
     "typeLabel": "Blaster",
     "rarity": "legendary",
+    "character": "Oongka",
     "stats": {
       "baseDamage": 12,
       "finalDamage": 34
@@ -40140,6 +40292,7 @@
     "type": "two-hand-hammer",
     "typeLabel": "Greathammer",
     "rarity": "epic",
+    "character": "Oongka",
     "stats": {
       "baseDamage": 17,
       "finalDamage": 45
@@ -40420,6 +40573,7 @@
     "type": "one-hand-sword",
     "typeLabel": "Sword",
     "rarity": "rare",
+    "character": "Kliff, Oongka",
     "stats": {
       "baseDamage": 10,
       "finalDamage": 30
@@ -40731,6 +40885,7 @@
     "type": "two-hand-halberd",
     "typeLabel": "Halberd",
     "rarity": "rare",
+    "character": "Damian, Kliff, Oongka",
     "stats": {
       "baseDamage": 14,
       "finalDamage": 39
@@ -41055,6 +41210,7 @@
     "type": "one-hand-bow",
     "typeLabel": "Bow",
     "rarity": "epic",
+    "character": "Kliff",
     "stats": {
       "baseDamage": 11,
       "finalDamage": 33
@@ -41335,6 +41491,7 @@
     "type": "two-hand-axe",
     "typeLabel": "Greataxe",
     "rarity": "rare",
+    "character": "Oongka",
     "stats": {
       "baseDamage": 15,
       "finalDamage": 40
@@ -41655,6 +41812,7 @@
     "type": "two-hand-war-hammer",
     "typeLabel": "Warhammer",
     "rarity": "rare",
+    "character": "Oongka",
     "stats": {
       "baseDamage": 17,
       "finalDamage": 45
@@ -41931,6 +42089,7 @@
     "type": "one-hand-rapier",
     "typeLabel": "Rapiers",
     "rarity": "common",
+    "character": "Damian",
     "stats": {
       "baseDamage": 11,
       "finalDamage": 31
@@ -42260,6 +42419,7 @@
     "type": "two-hand-spear",
     "typeLabel": "Two-Handed Spear",
     "rarity": "rare",
+    "character": "Damian, Kliff, Oongka",
     "stats": {
       "baseDamage": 13,
       "finalDamage": 38
@@ -42580,6 +42740,7 @@
     "type": "two-hand-hammer",
     "typeLabel": "Greathammer",
     "rarity": "legendary",
+    "character": "Oongka",
     "stats": {
       "baseDamage": 16,
       "finalDamage": 42
@@ -42904,6 +43065,7 @@
     "type": "one-hand-bow",
     "typeLabel": "Bow",
     "rarity": "common",
+    "character": "Kliff",
     "stats": {
       "baseDamage": 10,
       "finalDamage": 30
@@ -43215,6 +43377,7 @@
     "type": "one-hand-sword",
     "typeLabel": "Sword",
     "rarity": "rare",
+    "character": "Kliff, Oongka",
     "stats": {
       "baseDamage": 10,
       "finalDamage": 30
@@ -43540,6 +43703,7 @@
     "type": "two-hand-war-hammer",
     "typeLabel": "Warhammer",
     "rarity": "epic",
+    "character": "Oongka",
     "stats": {
       "baseDamage": 17,
       "finalDamage": 45
@@ -43816,6 +43980,7 @@
     "type": "one-hand-musket",
     "typeLabel": "Musket",
     "rarity": "epic",
+    "character": "Damian",
     "stats": {
       "baseDamage": 13,
       "finalDamage": 38
@@ -44140,6 +44305,7 @@
     "type": "two-hand-axe",
     "typeLabel": "Greataxe",
     "rarity": "uncommon",
+    "character": "Oongka",
     "stats": {
       "baseDamage": 15,
       "finalDamage": 40
@@ -44460,6 +44626,7 @@
     "type": "two-hand-hammer",
     "typeLabel": "Greathammer",
     "rarity": "rare",
+    "character": "Oongka",
     "stats": {
       "baseDamage": 16,
       "finalDamage": 42
@@ -44780,6 +44947,7 @@
     "type": "one-hand-musket",
     "typeLabel": "Musket",
     "rarity": "rare",
+    "character": "Damian",
     "stats": {
       "baseDamage": 12,
       "finalDamage": 35
@@ -45144,6 +45312,7 @@
     "type": "two-hand-pike",
     "typeLabel": "Two-Handed Pike",
     "rarity": "common",
+    "character": "Damian, Kliff, Oongka",
     "stats": {
       "baseDamage": 20,
       "finalDamage": 20
@@ -45176,6 +45345,7 @@
     "type": "one-hand-sword",
     "typeLabel": "Sword",
     "rarity": "rare",
+    "character": "Kliff",
     "stats": {
       "baseDamage": 10,
       "finalDamage": 30
@@ -45500,6 +45670,7 @@
     "type": "two-hand-axe",
     "typeLabel": "Greataxe",
     "rarity": "uncommon",
+    "character": "Oongka",
     "stats": {
       "baseDamage": 16,
       "finalDamage": 43
@@ -45820,6 +45991,7 @@
     "type": "two-hand-sword",
     "typeLabel": "Longsword",
     "rarity": "uncommon",
+    "character": "Damian, Kliff, Oongka",
     "stats": {
       "baseDamage": 14,
       "finalDamage": 39
@@ -46140,6 +46312,7 @@
     "type": "two-hand-sword",
     "typeLabel": "Longsword",
     "rarity": "epic",
+    "character": "Damian, Kliff, Oongka",
     "stats": {
       "baseDamage": 16,
       "finalDamage": 43
@@ -46420,6 +46593,7 @@
     "type": "one-hand-cross-bow",
     "typeLabel": "Crossbow",
     "rarity": "uncommon",
+    "character": null,
     "stats": {
       "baseDamage": 18,
       "finalDamage": 18
@@ -46452,6 +46626,7 @@
     "type": "two-hand-sword",
     "typeLabel": "Longsword",
     "rarity": "rare",
+    "character": "Damian, Kliff, Oongka",
     "stats": {
       "baseDamage": 16,
       "finalDamage": 43
@@ -46732,6 +46907,7 @@
     "type": "two-hand-axe",
     "typeLabel": "Greataxe",
     "rarity": "epic",
+    "character": "Oongka",
     "stats": {
       "baseDamage": 15,
       "finalDamage": 40
@@ -47043,6 +47219,7 @@
     "type": "two-hand-axe",
     "typeLabel": "Greataxe",
     "rarity": "rare",
+    "character": "Oongka",
     "stats": {
       "baseDamage": 14,
       "finalDamage": 39
@@ -47363,6 +47540,7 @@
     "type": "one-hand-rapier",
     "typeLabel": "Rapiers",
     "rarity": "rare",
+    "character": "Damian",
     "stats": {
       "baseDamage": 9,
       "finalDamage": 27
@@ -47683,6 +47861,7 @@
     "type": "two-hand-sword",
     "typeLabel": "Longsword",
     "rarity": "common",
+    "character": "Damian, Kliff, Oongka",
     "stats": {
       "baseDamage": 15,
       "finalDamage": 15
@@ -47723,6 +47902,7 @@
     "type": "two-hand-axe",
     "typeLabel": "Greataxe",
     "rarity": "rare",
+    "character": "Oongka",
     "stats": {
       "baseDamage": 14,
       "finalDamage": 39
@@ -48043,6 +48223,7 @@
     "type": "two-hand-halberd",
     "typeLabel": "Halberd",
     "rarity": "rare",
+    "character": "Damian, Kliff, Oongka",
     "stats": {
       "baseDamage": 13,
       "finalDamage": 36
@@ -48363,6 +48544,7 @@
     "type": "two-hand-sword",
     "typeLabel": "Longsword",
     "rarity": "rare",
+    "character": "Damian, Kliff, Oongka",
     "stats": {
       "baseDamage": 15,
       "finalDamage": 40
@@ -48683,6 +48865,7 @@
     "type": "one-hand-mace",
     "typeLabel": "Mace",
     "rarity": "uncommon",
+    "character": "Kliff, Oongka",
     "stats": {
       "baseDamage": 13,
       "finalDamage": 37
@@ -48959,6 +49142,7 @@
     "type": "two-hand-war-hammer",
     "typeLabel": "Warhammer",
     "rarity": "rare",
+    "character": "Oongka",
     "stats": {
       "baseDamage": 15,
       "finalDamage": 41
@@ -49279,6 +49463,7 @@
     "type": "gauntlet",
     "typeLabel": "Gauntlets",
     "rarity": "epic",
+    "character": null,
     "stats": {
       "baseDamage": 28,
       "finalDamage": 28
@@ -49311,6 +49496,7 @@
     "type": "one-hand-pistol",
     "typeLabel": "Pistol",
     "rarity": "uncommon",
+    "character": "Damian",
     "stats": {
       "baseDamage": 12,
       "finalDamage": 36
@@ -49631,6 +49817,7 @@
     "type": "one-hand-mace",
     "typeLabel": "Mace",
     "rarity": "legendary",
+    "character": "Kliff, Oongka",
     "stats": {
       "baseDamage": 11,
       "finalDamage": 33
@@ -49947,6 +50134,7 @@
     "type": "one-hand-dagger",
     "typeLabel": "Dagger",
     "rarity": "legendary",
+    "character": "Damian, Kliff, Oongka",
     "stats": {
       "baseDamage": 10,
       "finalDamage": 30
@@ -50297,6 +50485,7 @@
     "type": "one-hand-sword",
     "typeLabel": "Sword",
     "rarity": "legendary",
+    "character": "Kliff, Oongka",
     "stats": {
       "baseDamage": 10,
       "finalDamage": 30
@@ -50621,6 +50810,7 @@
     "type": "one-hand-mace",
     "typeLabel": "Mace",
     "rarity": "rare",
+    "character": "Kliff, Oongka",
     "stats": {
       "baseDamage": 13,
       "finalDamage": 37
@@ -50897,6 +51087,7 @@
     "type": "two-hand-spear",
     "typeLabel": "Two-Handed Spear",
     "rarity": "epic",
+    "character": "Damian, Kliff, Oongka",
     "stats": {
       "baseDamage": 13,
       "finalDamage": 38
@@ -51220,6 +51411,7 @@
     "type": "two-hand-lightningthrower",
     "typeLabel": "Boltspitter",
     "rarity": "rare",
+    "character": "Damian, Kliff, Oongka",
     "stats": {
       "baseDamage": 25,
       "finalDamage": 25
@@ -51262,6 +51454,7 @@
     "type": "two-hand-spear",
     "typeLabel": "Two-Handed Spear",
     "rarity": "epic",
+    "character": "Damian, Kliff, Oongka",
     "stats": {
       "baseDamage": 13,
       "finalDamage": 38
@@ -51589,6 +51782,7 @@
     "type": "two-hand-spear",
     "typeLabel": "Two-Handed Spear",
     "rarity": "epic",
+    "character": "Damian, Kliff, Oongka",
     "stats": {
       "baseDamage": 12,
       "finalDamage": 35
@@ -51956,6 +52150,7 @@
     "type": "two-hand-flamethrower",
     "typeLabel": "Flamespitter",
     "rarity": "rare",
+    "character": "Damian, Kliff, Oongka",
     "stats": {
       "baseDamage": 25,
       "finalDamage": 25
@@ -51998,6 +52193,7 @@
     "type": "two-hand-icethrower",
     "typeLabel": "Frostspitter",
     "rarity": "rare",
+    "character": "Damian, Kliff, Oongka",
     "stats": {
       "baseDamage": 25,
       "finalDamage": 25
@@ -52040,6 +52236,7 @@
     "type": "two-hand-spear",
     "typeLabel": "Two-Handed Spear",
     "rarity": "epic",
+    "character": "Damian, Kliff, Oongka",
     "stats": {
       "baseDamage": 13,
       "finalDamage": 38
@@ -52367,6 +52564,7 @@
     "type": "two-hand-spear",
     "typeLabel": "Two-Handed Spear",
     "rarity": "epic",
+    "character": "Damian, Kliff, Oongka",
     "stats": {
       "baseDamage": 12,
       "finalDamage": 35
@@ -52734,6 +52932,7 @@
     "type": "two-hand-spear",
     "typeLabel": "Two-Handed Spear",
     "rarity": "epic",
+    "character": "Damian, Kliff, Oongka",
     "stats": {
       "baseDamage": 12,
       "finalDamage": 35
@@ -53061,6 +53260,7 @@
     "type": "two-hand-spear",
     "typeLabel": "Two-Handed Spear",
     "rarity": "epic",
+    "character": "Damian, Kliff, Oongka",
     "stats": {
       "baseDamage": 1,
       "finalDamage": 1
@@ -53091,6 +53291,7 @@
     "type": "one-hand-axe",
     "typeLabel": "Axe",
     "rarity": "rare",
+    "character": "Kliff, Oongka",
     "stats": {
       "baseDamage": 10,
       "finalDamage": 30
@@ -53411,6 +53612,7 @@
     "type": "one-hand-bow",
     "typeLabel": "Bow",
     "rarity": "rare",
+    "character": "Kliff",
     "stats": {
       "baseDamage": 11,
       "finalDamage": 33
@@ -53687,6 +53889,7 @@
     "type": "one-hand-dagger",
     "typeLabel": "Dagger",
     "rarity": "rare",
+    "character": "Damian, Kliff, Oongka",
     "stats": {
       "baseDamage": 10,
       "finalDamage": 30
@@ -54046,6 +54249,7 @@
     "type": "two-hand-axe",
     "typeLabel": "Greataxe",
     "rarity": "rare",
+    "character": "Oongka",
     "stats": {
       "baseDamage": 16,
       "finalDamage": 43
@@ -54366,6 +54570,7 @@
     "type": "two-hand-spear",
     "typeLabel": "Two-Handed Spear",
     "rarity": "rare",
+    "character": "Damian, Kliff, Oongka",
     "stats": {
       "baseDamage": 13,
       "finalDamage": 38
@@ -54686,6 +54891,7 @@
     "type": "one-hand-axe",
     "typeLabel": "Axe",
     "rarity": "uncommon",
+    "character": "Kliff, Oongka",
     "stats": {
       "baseDamage": 10,
       "finalDamage": 30
@@ -55006,6 +55212,7 @@
     "type": "two-hand-halberd",
     "typeLabel": "Halberd",
     "rarity": "rare",
+    "character": "Damian, Kliff, Oongka",
     "stats": {
       "baseDamage": 12,
       "finalDamage": 35
@@ -55326,6 +55533,7 @@
     "type": "one-hand-rapier",
     "typeLabel": "Rapiers",
     "rarity": "uncommon",
+    "character": "Damian",
     "stats": {
       "baseDamage": 9,
       "finalDamage": 27
@@ -55646,6 +55854,7 @@
     "type": "one-hand-axe",
     "typeLabel": "Axe",
     "rarity": "rare",
+    "character": "Kliff, Oongka",
     "stats": {
       "baseDamage": 12,
       "finalDamage": 34
@@ -55966,6 +56175,7 @@
     "type": "two-hand-hammer",
     "typeLabel": "Greathammer",
     "rarity": "rare",
+    "character": "Oongka",
     "stats": {
       "baseDamage": 15,
       "finalDamage": 41
@@ -56286,6 +56496,7 @@
     "type": "one-hand-mace",
     "typeLabel": "Mace",
     "rarity": "rare",
+    "character": "Kliff, Oongka",
     "stats": {
       "baseDamage": 11,
       "finalDamage": 33
@@ -56606,6 +56817,7 @@
     "type": "one-hand-mace",
     "typeLabel": "Mace",
     "rarity": "rare",
+    "character": "Kliff, Oongka",
     "stats": {
       "baseDamage": 13,
       "finalDamage": 37
@@ -56882,6 +57094,7 @@
     "type": "two-hand-spear",
     "typeLabel": "Two-Handed Spear",
     "rarity": "common",
+    "character": "Damian, Kliff, Oongka",
     "stats": {
       "baseDamage": 27,
       "finalDamage": 27
@@ -56914,6 +57127,7 @@
     "type": "one-hand-sword",
     "typeLabel": "Sword",
     "rarity": "epic",
+    "character": "Kliff, Oongka",
     "stats": {
       "baseDamage": 10,
       "finalDamage": 30
@@ -57234,6 +57448,7 @@
     "type": "one-hand-axe",
     "typeLabel": "Axe",
     "rarity": "epic",
+    "character": "Kliff, Oongka",
     "stats": {
       "baseDamage": 10,
       "finalDamage": 30
@@ -57603,6 +57818,7 @@
     "type": "one-hand-musket",
     "typeLabel": "Musket",
     "rarity": "epic",
+    "character": "Damian",
     "stats": {
       "baseDamage": 12,
       "finalDamage": 35
@@ -57971,6 +58187,7 @@
     "type": "one-hand-rapier",
     "typeLabel": "Rapiers",
     "rarity": "epic",
+    "character": "Damian",
     "stats": {
       "baseDamage": 11,
       "finalDamage": 31
@@ -58291,6 +58508,7 @@
     "type": "one-hand-rapier",
     "typeLabel": "Rapiers",
     "rarity": "epic",
+    "character": "Damian",
     "stats": {
       "baseDamage": 9,
       "finalDamage": 27
@@ -58611,6 +58829,7 @@
     "type": "two-hand-hammer",
     "typeLabel": "Greathammer",
     "rarity": "rare",
+    "character": "Oongka",
     "stats": {
       "baseDamage": 27,
       "finalDamage": 27
@@ -58643,6 +58862,7 @@
     "type": "two-hand-spear",
     "typeLabel": "Two-Handed Spear",
     "rarity": "common",
+    "character": "Damian, Kliff, Oongka",
     "stats": {
       "baseDamage": 27,
       "finalDamage": 27
@@ -58681,6 +58901,7 @@
     "type": "one-hand-sword",
     "typeLabel": "Sword",
     "rarity": "uncommon",
+    "character": "Kliff, Oongka",
     "stats": {
       "baseDamage": 10,
       "finalDamage": 30
@@ -59005,6 +59226,7 @@
     "type": "two-hand-giant-sword",
     "typeLabel": "Giant Longsword",
     "rarity": "rare",
+    "character": "Damian",
     "stats": {
       "baseDamage": 16,
       "finalDamage": 42
@@ -59325,6 +59547,7 @@
     "type": "one-hand-mace",
     "typeLabel": "Mace",
     "rarity": "epic",
+    "character": "Kliff, Oongka",
     "stats": {
       "baseDamage": 11,
       "finalDamage": 33
@@ -59649,6 +59872,7 @@
     "type": "one-hand-mace",
     "typeLabel": "Mace",
     "rarity": "rare",
+    "character": "Kliff, Oongka",
     "stats": {
       "baseDamage": 11,
       "finalDamage": 33
@@ -59973,6 +60197,7 @@
     "type": "one-hand-mace",
     "typeLabel": "Mace",
     "rarity": "legendary",
+    "character": "Kliff, Oongka",
     "stats": {
       "baseDamage": 13,
       "finalDamage": 37
@@ -60240,6 +60465,7 @@
     "type": "one-hand-mace",
     "typeLabel": "Mace",
     "rarity": "common",
+    "character": "Kliff, Oongka",
     "stats": {
       "baseDamage": 11,
       "finalDamage": 33
@@ -60560,6 +60786,7 @@
     "type": "one-hand-axe",
     "typeLabel": "Axe",
     "rarity": "uncommon",
+    "character": "Kliff, Oongka",
     "stats": {
       "baseDamage": 10,
       "finalDamage": 30
@@ -60924,6 +61151,7 @@
     "type": "two-hand-halberd",
     "typeLabel": "Halberd",
     "rarity": "common",
+    "character": "Damian, Kliff, Oongka",
     "stats": {
       "baseDamage": 12,
       "finalDamage": 35
@@ -61244,6 +61472,7 @@
     "type": "one-hand-mace",
     "typeLabel": "Mace",
     "rarity": "epic",
+    "character": "Kliff, Oongka",
     "stats": {
       "baseDamage": 11,
       "finalDamage": 33
@@ -61564,6 +61793,7 @@
     "type": "one-hand-mace",
     "typeLabel": "Mace",
     "rarity": "legendary",
+    "character": "Kliff, Oongka",
     "stats": {
       "baseDamage": 11,
       "finalDamage": 33
@@ -61875,6 +62105,7 @@
     "type": "one-hand-musket",
     "typeLabel": "Musket",
     "rarity": "epic",
+    "character": "Damian",
     "stats": {
       "baseDamage": 12,
       "finalDamage": 35
@@ -62199,6 +62430,7 @@
     "type": "one-hand-cannon",
     "typeLabel": "Blaster",
     "rarity": "epic",
+    "character": "Oongka",
     "stats": {
       "baseDamage": 10,
       "finalDamage": 30
@@ -62523,6 +62755,7 @@
     "type": "one-hand-cannon",
     "typeLabel": "Blaster",
     "rarity": "legendary",
+    "character": "Oongka",
     "stats": {
       "baseDamage": 10,
       "finalDamage": 30
@@ -62847,6 +63080,7 @@
     "type": "two-hand-pike",
     "typeLabel": "Two-Handed Pike",
     "rarity": "common",
+    "character": "Damian, Kliff, Oongka",
     "stats": {
       "baseDamage": 17,
       "finalDamage": 17
@@ -62879,6 +63113,7 @@
     "type": "two-hand-pike",
     "typeLabel": "Two-Handed Pike",
     "rarity": "common",
+    "character": "Damian, Kliff, Oongka",
     "stats": {
       "baseDamage": 19,
       "finalDamage": 19
@@ -62911,6 +63146,7 @@
     "type": "two-hand-pike",
     "typeLabel": "Two-Handed Pike",
     "rarity": "common",
+    "character": "Damian, Kliff, Oongka",
     "stats": {
       "baseDamage": 24,
       "finalDamage": 24
@@ -62943,6 +63179,7 @@
     "type": "two-hand-pike",
     "typeLabel": "Two-Handed Pike",
     "rarity": "common",
+    "character": "Damian, Kliff, Oongka",
     "stats": {
       "baseDamage": 24,
       "finalDamage": 24
@@ -62975,6 +63212,7 @@
     "type": "two-hand-pike",
     "typeLabel": "Two-Handed Pike",
     "rarity": "common",
+    "character": "Damian, Kliff, Oongka",
     "stats": {
       "baseDamage": 21,
       "finalDamage": 21
@@ -63007,6 +63245,7 @@
     "type": "two-hand-pike",
     "typeLabel": "Two-Handed Pike",
     "rarity": "common",
+    "character": "Damian, Kliff, Oongka",
     "stats": {
       "baseDamage": 27,
       "finalDamage": 27
@@ -63039,6 +63278,7 @@
     "type": "two-hand-pike",
     "typeLabel": "Two-Handed Pike",
     "rarity": "common",
+    "character": "Damian, Kliff, Oongka",
     "stats": {
       "baseDamage": 24,
       "finalDamage": 24
@@ -63071,6 +63311,7 @@
     "type": "two-hand-pike",
     "typeLabel": "Two-Handed Pike",
     "rarity": "common",
+    "character": "Damian, Kliff, Oongka",
     "stats": {
       "baseDamage": 24,
       "finalDamage": 24
@@ -63103,6 +63344,7 @@
     "type": "two-hand-pike",
     "typeLabel": "Two-Handed Pike",
     "rarity": "common",
+    "character": "Damian, Kliff, Oongka",
     "stats": {
       "baseDamage": 27,
       "finalDamage": 27
@@ -63135,6 +63377,7 @@
     "type": "two-hand-pike",
     "typeLabel": "Two-Handed Pike",
     "rarity": "common",
+    "character": "Damian, Kliff, Oongka",
     "stats": {
       "baseDamage": 24,
       "finalDamage": 24
@@ -63167,6 +63410,7 @@
     "type": "two-hand-pike",
     "typeLabel": "Two-Handed Pike",
     "rarity": "common",
+    "character": "Damian, Kliff, Oongka",
     "stats": {
       "baseDamage": 24,
       "finalDamage": 24
@@ -63199,6 +63443,7 @@
     "type": "two-hand-pike",
     "typeLabel": "Two-Handed Pike",
     "rarity": "common",
+    "character": "Damian, Kliff, Oongka",
     "stats": {
       "baseDamage": 33,
       "finalDamage": 33
@@ -63231,6 +63476,7 @@
     "type": "two-hand-pike",
     "typeLabel": "Two-Handed Pike",
     "rarity": "common",
+    "character": "Damian, Kliff, Oongka",
     "stats": {
       "baseDamage": 19,
       "finalDamage": 19
@@ -63263,6 +63509,7 @@
     "type": "two-hand-pike",
     "typeLabel": "Two-Handed Pike",
     "rarity": "common",
+    "character": "Damian, Kliff, Oongka",
     "stats": {
       "baseDamage": 17,
       "finalDamage": 17
@@ -63295,6 +63542,7 @@
     "type": "two-hand-pike",
     "typeLabel": "Two-Handed Pike",
     "rarity": "common",
+    "character": "Damian, Kliff, Oongka",
     "stats": {
       "baseDamage": 19,
       "finalDamage": 19
@@ -63327,6 +63575,7 @@
     "type": "two-hand-pike",
     "typeLabel": "Two-Handed Pike",
     "rarity": "common",
+    "character": "Damian, Kliff, Oongka",
     "stats": {
       "baseDamage": 19,
       "finalDamage": 19
@@ -63359,6 +63608,7 @@
     "type": "two-hand-pike",
     "typeLabel": "Two-Handed Pike",
     "rarity": "common",
+    "character": "Damian, Kliff, Oongka",
     "stats": {
       "baseDamage": 19,
       "finalDamage": 19
@@ -63391,6 +63641,7 @@
     "type": "two-hand-pike",
     "typeLabel": "Two-Handed Pike",
     "rarity": "common",
+    "character": "Damian, Kliff, Oongka",
     "stats": {
       "baseDamage": 27,
       "finalDamage": 27
@@ -63423,6 +63674,7 @@
     "type": "two-hand-pike",
     "typeLabel": "Two-Handed Pike",
     "rarity": "common",
+    "character": "Damian, Kliff, Oongka",
     "stats": {
       "baseDamage": 27,
       "finalDamage": 27
@@ -63455,6 +63707,7 @@
     "type": "two-hand-pike",
     "typeLabel": "Two-Handed Pike",
     "rarity": "common",
+    "character": "Damian, Kliff, Oongka",
     "stats": {
       "baseDamage": 17,
       "finalDamage": 17
@@ -63487,6 +63740,7 @@
     "type": "two-hand-pike",
     "typeLabel": "Two-Handed Pike",
     "rarity": "common",
+    "character": "Damian, Kliff, Oongka",
     "stats": {
       "baseDamage": 21,
       "finalDamage": 21
@@ -63519,6 +63773,7 @@
     "type": "two-hand-pike",
     "typeLabel": "Two-Handed Pike",
     "rarity": "common",
+    "character": "Damian, Kliff, Oongka",
     "stats": {
       "baseDamage": 24,
       "finalDamage": 24
@@ -63551,6 +63806,7 @@
     "type": "two-hand-pike",
     "typeLabel": "Two-Handed Pike",
     "rarity": "common",
+    "character": "Damian, Kliff, Oongka",
     "stats": {
       "baseDamage": 24,
       "finalDamage": 24
@@ -63583,6 +63839,7 @@
     "type": "two-hand-pike",
     "typeLabel": "Two-Handed Pike",
     "rarity": "common",
+    "character": "Damian, Kliff, Oongka",
     "stats": {
       "baseDamage": 24,
       "finalDamage": 24
@@ -63615,6 +63872,7 @@
     "type": "two-hand-pike",
     "typeLabel": "Two-Handed Pike",
     "rarity": "common",
+    "character": "Damian, Kliff, Oongka",
     "stats": {
       "baseDamage": 24,
       "finalDamage": 24
@@ -63647,6 +63905,7 @@
     "type": "two-hand-pike",
     "typeLabel": "Two-Handed Pike",
     "rarity": "common",
+    "character": "Damian, Kliff, Oongka",
     "stats": {
       "baseDamage": 19,
       "finalDamage": 19
@@ -63679,6 +63938,7 @@
     "type": "two-hand-pike",
     "typeLabel": "Two-Handed Pike",
     "rarity": "common",
+    "character": "Damian, Kliff, Oongka",
     "stats": {
       "baseDamage": 24,
       "finalDamage": 24
@@ -63711,6 +63971,7 @@
     "type": "two-hand-pike",
     "typeLabel": "Two-Handed Pike",
     "rarity": "common",
+    "character": "Damian, Kliff, Oongka",
     "stats": {
       "baseDamage": 24,
       "finalDamage": 24
@@ -63743,6 +64004,7 @@
     "type": "one-hand-sword",
     "typeLabel": "Sword",
     "rarity": "epic",
+    "character": "Kliff, Oongka",
     "stats": {
       "baseDamage": 10,
       "finalDamage": 30
@@ -64063,6 +64325,7 @@
     "type": "one-hand-shotgun",
     "typeLabel": "Shotgun",
     "rarity": "common",
+    "character": "Damian",
     "stats": {
       "baseDamage": 14,
       "finalDamage": 38
@@ -64392,6 +64655,7 @@
     "type": "one-hand-drill",
     "typeLabel": "Drill",
     "rarity": "uncommon",
+    "character": "Damian, Kliff",
     "stats": {
       "baseDamage": 11,
       "finalDamage": 33
@@ -64659,6 +64923,7 @@
     "type": "one-hand-shotgun",
     "typeLabel": "Shotgun",
     "rarity": "common",
+    "character": "Damian",
     "stats": {
       "baseDamage": 15,
       "finalDamage": 41
@@ -64944,6 +65209,7 @@
     "type": "one-hand-fist",
     "typeLabel": "Fists",
     "rarity": "common",
+    "character": "Damian",
     "stats": {
       "baseDamage": 10,
       "finalDamage": 10
@@ -64976,6 +65242,7 @@
     "type": "one-hand-fist",
     "typeLabel": "Fists",
     "rarity": "common",
+    "character": "Damian",
     "stats": {
       "baseDamage": 10,
       "finalDamage": 10
@@ -65008,6 +65275,7 @@
     "type": "one-hand-sword",
     "typeLabel": "Sword",
     "rarity": "epic",
+    "character": "Kliff, Oongka",
     "stats": {
       "baseDamage": 12,
       "finalDamage": 34
@@ -65288,6 +65556,7 @@
     "type": "one-hand-bow",
     "typeLabel": "Bow",
     "rarity": "legendary",
+    "character": "Kliff",
     "stats": {
       "baseDamage": 11,
       "finalDamage": 33
@@ -65568,6 +65837,7 @@
     "type": "two-hand-spear",
     "typeLabel": "Two-Handed Spear",
     "rarity": "rare",
+    "character": "Damian, Kliff, Oongka",
     "stats": {
       "baseDamage": 13,
       "finalDamage": 38
@@ -65897,6 +66167,7 @@
     "type": "two-hand-war-hammer",
     "typeLabel": "Warhammer",
     "rarity": "epic",
+    "character": "Oongka",
     "stats": {
       "baseDamage": 16,
       "finalDamage": 42
@@ -66221,6 +66492,7 @@
     "type": "one-hand-mace",
     "typeLabel": "Mace",
     "rarity": "rare",
+    "character": "Kliff, Oongka",
     "stats": {
       "baseDamage": 13,
       "finalDamage": 37
@@ -66497,6 +66769,7 @@
     "type": "one-hand-mace",
     "typeLabel": "Mace",
     "rarity": "rare",
+    "character": "Kliff, Oongka",
     "stats": {
       "baseDamage": 13,
       "finalDamage": 37
@@ -66773,6 +67046,7 @@
     "type": "one-hand-cannon",
     "typeLabel": "Blaster",
     "rarity": "common",
+    "character": "Oongka",
     "stats": {
       "baseDamage": 12,
       "finalDamage": 34
@@ -67040,6 +67314,7 @@
     "type": "one-hand-fist",
     "typeLabel": "Fists",
     "rarity": "common",
+    "character": "Oongka",
     "stats": {
       "baseDamage": null,
       "finalDamage": null
@@ -67067,6 +67342,7 @@
     "type": "two-hand-pike",
     "typeLabel": "Two-Handed Pike",
     "rarity": "common",
+    "character": "Damian, Kliff, Oongka",
     "stats": {
       "baseDamage": 20,
       "finalDamage": 20
@@ -67099,6 +67375,7 @@
     "type": "two-hand-axe",
     "typeLabel": "Greataxe",
     "rarity": "uncommon",
+    "character": "Oongka",
     "stats": {
       "baseDamage": 14,
       "finalDamage": 39
@@ -67419,6 +67696,7 @@
     "type": "one-hand-musket",
     "typeLabel": "Musket",
     "rarity": "uncommon",
+    "character": "Damian",
     "stats": {
       "baseDamage": 12,
       "finalDamage": 35
@@ -67783,6 +68061,7 @@
     "type": "one-hand-dagger",
     "typeLabel": "Dagger",
     "rarity": "common",
+    "character": "Damian, Kliff, Oongka",
     "stats": {
       "baseDamage": 12,
       "finalDamage": 34
@@ -68107,6 +68386,7 @@
     "type": "one-hand-shotgun",
     "typeLabel": "Shotgun",
     "rarity": "rare",
+    "character": "Damian",
     "stats": {
       "baseDamage": 14,
       "finalDamage": 38
@@ -68427,6 +68707,7 @@
     "type": "one-hand-axe",
     "typeLabel": "Axe",
     "rarity": "rare",
+    "character": "Kliff, Oongka",
     "stats": {
       "baseDamage": 10,
       "finalDamage": 30
@@ -68747,6 +69028,7 @@
     "type": "two-hand-giant-sword",
     "typeLabel": "Giant Longsword",
     "rarity": "rare",
+    "character": "Damian",
     "stats": {
       "baseDamage": 15,
       "finalDamage": 41
@@ -69067,6 +69349,7 @@
     "type": "two-hand-axe",
     "typeLabel": "Greataxe",
     "rarity": "uncommon",
+    "character": "Oongka",
     "stats": {
       "baseDamage": 14,
       "finalDamage": 39
@@ -69392,6 +69675,7 @@
     "type": "one-hand-sword",
     "typeLabel": "Sword",
     "rarity": "epic",
+    "character": "Kliff, Oongka",
     "stats": {
       "baseDamage": 10,
       "finalDamage": 30
@@ -69717,6 +70001,7 @@
     "type": "two-hand-spear",
     "typeLabel": "Two-Handed Spear",
     "rarity": "common",
+    "character": "Damian, Kliff, Oongka",
     "stats": {
       "baseDamage": 27,
       "finalDamage": 27
@@ -69755,6 +70040,7 @@
     "type": "one-hand-rapier",
     "typeLabel": "Rapiers",
     "rarity": "rare",
+    "character": "Damian",
     "stats": {
       "baseDamage": 11,
       "finalDamage": 31
@@ -70075,6 +70361,7 @@
     "type": "two-hand-spear",
     "typeLabel": "Two-Handed Spear",
     "rarity": "legendary",
+    "character": "Damian, Kliff, Oongka",
     "stats": {
       "baseDamage": 12,
       "finalDamage": 35
@@ -70395,6 +70682,7 @@
     "type": "one-hand-sword",
     "typeLabel": "Sword",
     "rarity": "legendary",
+    "character": "Kliff, Oongka",
     "stats": {
       "baseDamage": 10,
       "finalDamage": 30
@@ -70719,6 +71007,7 @@
     "type": "one-hand-sword",
     "typeLabel": "Sword",
     "rarity": "rare",
+    "character": "Kliff, Oongka",
     "stats": {
       "baseDamage": 10,
       "finalDamage": 30
@@ -71043,6 +71332,7 @@
     "type": "one-hand-cannon",
     "typeLabel": "Blaster",
     "rarity": "rare",
+    "character": "Oongka",
     "stats": {
       "baseDamage": 10,
       "finalDamage": 30
@@ -71368,6 +71658,7 @@
     "type": "two-hand-spear",
     "typeLabel": "Two-Handed Spear",
     "rarity": "uncommon",
+    "character": "Damian, Kliff, Oongka",
     "stats": {
       "baseDamage": 12,
       "finalDamage": 35
@@ -71688,6 +71979,7 @@
     "type": "two-hand-sword",
     "typeLabel": "Longsword",
     "rarity": "uncommon",
+    "character": "Damian, Kliff, Oongka",
     "stats": {
       "baseDamage": 15,
       "finalDamage": 40
@@ -72017,6 +72309,7 @@
     "type": "one-hand-axe",
     "typeLabel": "Axe",
     "rarity": "epic",
+    "character": "Kliff, Oongka",
     "stats": {
       "baseDamage": 10,
       "finalDamage": 30
@@ -72333,6 +72626,7 @@
     "type": "two-hand-cannon",
     "typeLabel": "Two-Handed Cannon",
     "rarity": "common",
+    "character": "Damian, Kliff, Oongka",
     "stats": {
       "baseDamage": 14,
       "finalDamage": 39
@@ -72662,6 +72956,7 @@
     "type": "two-hand-sword",
     "typeLabel": "Longsword",
     "rarity": "epic",
+    "character": "Damian, Kliff, Oongka",
     "stats": {
       "baseDamage": 14,
       "finalDamage": 39
@@ -72986,6 +73281,7 @@
     "type": "one-hand-axe",
     "typeLabel": "Axe",
     "rarity": "rare",
+    "character": "Kliff, Oongka",
     "stats": {
       "baseDamage": 12,
       "finalDamage": 34
@@ -73306,6 +73602,7 @@
     "type": "two-hand-war-hammer",
     "typeLabel": "Warhammer",
     "rarity": "epic",
+    "character": "Oongka",
     "stats": {
       "baseDamage": 16,
       "finalDamage": 42
@@ -73630,6 +73927,7 @@
     "type": "one-hand-mace",
     "typeLabel": "Mace",
     "rarity": "common",
+    "character": "Kliff, Oongka",
     "stats": {
       "baseDamage": 11,
       "finalDamage": 33
@@ -73950,6 +74248,7 @@
     "type": "one-hand-pistol",
     "typeLabel": "Pistol",
     "rarity": "common",
+    "character": "Damian",
     "stats": {
       "baseDamage": 11,
       "finalDamage": 33
@@ -74279,6 +74578,7 @@
     "type": "one-hand-rapier",
     "typeLabel": "Rapiers",
     "rarity": "legendary",
+    "character": "Damian",
     "stats": {
       "baseDamage": 11,
       "finalDamage": 31
@@ -74603,6 +74903,7 @@
     "type": "two-hand-hammer",
     "typeLabel": "Greathammer",
     "rarity": "rare",
+    "character": "Oongka",
     "stats": {
       "baseDamage": 17,
       "finalDamage": 45
@@ -74883,6 +75184,7 @@
     "type": "one-hand-mace",
     "typeLabel": "Mace",
     "rarity": "rare",
+    "character": "Kliff, Oongka",
     "stats": {
       "baseDamage": 11,
       "finalDamage": 33
@@ -75203,6 +75505,7 @@
     "type": "two-hand-war-hammer",
     "typeLabel": "Warhammer",
     "rarity": "rare",
+    "character": "Oongka",
     "stats": {
       "baseDamage": 17,
       "finalDamage": 45
@@ -75479,6 +75782,7 @@
     "type": "two-hand-war-hammer",
     "typeLabel": "Warhammer",
     "rarity": "epic",
+    "character": "Oongka",
     "stats": {
       "baseDamage": 15,
       "finalDamage": 41
@@ -75803,6 +76107,7 @@
     "type": "two-hand-sword",
     "typeLabel": "Longsword",
     "rarity": "epic",
+    "character": "Damian, Kliff, Oongka",
     "stats": {
       "baseDamage": 15,
       "finalDamage": 40
@@ -76123,6 +76428,7 @@
     "type": "one-hand-sword",
     "typeLabel": "Sword",
     "rarity": "rare",
+    "character": "Kliff, Oongka",
     "stats": {
       "baseDamage": 12,
       "finalDamage": 34
@@ -76403,6 +76709,7 @@
     "type": "one-hand-mace",
     "typeLabel": "Mace",
     "rarity": "rare",
+    "character": "Kliff, Oongka",
     "stats": {
       "baseDamage": 11,
       "finalDamage": 33
@@ -76723,6 +77030,7 @@
     "type": "two-hand-giant-sword",
     "typeLabel": "Giant Longsword",
     "rarity": "epic",
+    "character": "Damian",
     "stats": {
       "baseDamage": 16,
       "finalDamage": 42
@@ -77034,6 +77342,7 @@
     "type": "one-hand-sword",
     "typeLabel": "Sword",
     "rarity": "rare",
+    "character": "Kliff, Oongka",
     "stats": {
       "baseDamage": 10,
       "finalDamage": 30
@@ -77354,6 +77663,7 @@
     "type": "one-hand-pistol",
     "typeLabel": "Pistol",
     "rarity": "epic",
+    "character": "Damian",
     "stats": {
       "baseDamage": 11,
       "finalDamage": 33
@@ -77665,6 +77975,7 @@
     "type": "one-hand-bow",
     "typeLabel": "Bow",
     "rarity": "rare",
+    "character": "Kliff",
     "stats": {
       "baseDamage": 11,
       "finalDamage": 33
@@ -77941,6 +78252,7 @@
     "type": "two-hand-war-hammer",
     "typeLabel": "Warhammer",
     "rarity": "rare",
+    "character": "Oongka",
     "stats": {
       "baseDamage": 16,
       "finalDamage": 42
@@ -78261,6 +78573,7 @@
     "type": "two-hand-war-hammer",
     "typeLabel": "Warhammer",
     "rarity": "common",
+    "character": "Oongka",
     "stats": {
       "baseDamage": 16,
       "finalDamage": 42
@@ -78590,6 +78903,7 @@
     "type": "two-hand-sword",
     "typeLabel": "Longsword",
     "rarity": "uncommon",
+    "character": "Damian, Kliff, Oongka",
     "stats": {
       "baseDamage": 14,
       "finalDamage": 39
@@ -78901,6 +79215,7 @@
     "type": "two-hand-axe",
     "typeLabel": "Greataxe",
     "rarity": "legendary",
+    "character": "Oongka",
     "stats": {
       "baseDamage": 14,
       "finalDamage": 39
@@ -79212,6 +79527,7 @@
     "type": "two-hand-spear",
     "typeLabel": "Two-Handed Spear",
     "rarity": "rare",
+    "character": "Damian, Kliff, Oongka",
     "stats": {
       "baseDamage": 12,
       "finalDamage": 35
@@ -79576,6 +79892,7 @@
     "type": "one-hand-axe",
     "typeLabel": "Axe",
     "rarity": "rare",
+    "character": "Oongka",
     "stats": {
       "baseDamage": 10,
       "finalDamage": 30
@@ -79931,6 +80248,7 @@
     "type": "one-hand-cannon",
     "typeLabel": "Blaster",
     "rarity": "legendary",
+    "character": "Oongka",
     "stats": {
       "baseDamage": 10,
       "finalDamage": 30
@@ -80255,6 +80573,7 @@
     "type": "two-hand-spear",
     "typeLabel": "Two-Handed Spear",
     "rarity": "uncommon",
+    "character": "Damian, Kliff, Oongka",
     "stats": {
       "baseDamage": 13,
       "finalDamage": 38
@@ -80575,6 +80894,7 @@
     "type": "two-hand-pike",
     "typeLabel": "Two-Handed Pike",
     "rarity": "common",
+    "character": "Damian, Kliff, Oongka",
     "stats": {
       "baseDamage": 17,
       "finalDamage": 17
@@ -80607,6 +80927,7 @@
     "type": "two-hand-pike",
     "typeLabel": "Two-Handed Pike",
     "rarity": "common",
+    "character": "Damian, Kliff, Oongka",
     "stats": {
       "baseDamage": 17,
       "finalDamage": 17
@@ -80639,6 +80960,7 @@
     "type": "two-hand-pike",
     "typeLabel": "Two-Handed Pike",
     "rarity": "common",
+    "character": "Damian, Kliff, Oongka",
     "stats": {
       "baseDamage": 19,
       "finalDamage": 19
@@ -80671,6 +80993,7 @@
     "type": "two-hand-pike",
     "typeLabel": "Two-Handed Pike",
     "rarity": "common",
+    "character": "Damian, Kliff, Oongka",
     "stats": {
       "baseDamage": 24,
       "finalDamage": 24
@@ -80703,6 +81026,7 @@
     "type": "two-hand-pike",
     "typeLabel": "Two-Handed Pike",
     "rarity": "common",
+    "character": "Damian, Kliff, Oongka",
     "stats": {
       "baseDamage": 24,
       "finalDamage": 24
@@ -80735,6 +81059,7 @@
     "type": "two-hand-pike",
     "typeLabel": "Two-Handed Pike",
     "rarity": "common",
+    "character": "Damian, Kliff, Oongka",
     "stats": {
       "baseDamage": 24,
       "finalDamage": 24
@@ -80767,6 +81092,7 @@
     "type": "two-hand-pike",
     "typeLabel": "Two-Handed Pike",
     "rarity": "common",
+    "character": "Damian, Kliff, Oongka",
     "stats": {
       "baseDamage": 27,
       "finalDamage": 27
@@ -80799,6 +81125,7 @@
     "type": "two-hand-pike",
     "typeLabel": "Two-Handed Pike",
     "rarity": "common",
+    "character": "Damian, Kliff, Oongka",
     "stats": {
       "baseDamage": 24,
       "finalDamage": 24
@@ -80831,6 +81158,7 @@
     "type": "two-hand-pike",
     "typeLabel": "Two-Handed Pike",
     "rarity": "common",
+    "character": "Damian, Kliff, Oongka",
     "stats": {
       "baseDamage": 24,
       "finalDamage": 24
@@ -80863,6 +81191,7 @@
     "type": "two-hand-pike",
     "typeLabel": "Two-Handed Pike",
     "rarity": "common",
+    "character": "Damian, Kliff, Oongka",
     "stats": {
       "baseDamage": 27,
       "finalDamage": 27
@@ -80895,6 +81224,7 @@
     "type": "two-hand-pike",
     "typeLabel": "Two-Handed Pike",
     "rarity": "common",
+    "character": "Damian, Kliff, Oongka",
     "stats": {
       "baseDamage": 24,
       "finalDamage": 24
@@ -80927,6 +81257,7 @@
     "type": "two-hand-pike",
     "typeLabel": "Two-Handed Pike",
     "rarity": "common",
+    "character": "Damian, Kliff, Oongka",
     "stats": {
       "baseDamage": 24,
       "finalDamage": 24
@@ -80959,6 +81290,7 @@
     "type": "two-hand-pike",
     "typeLabel": "Two-Handed Pike",
     "rarity": "common",
+    "character": "Damian, Kliff, Oongka",
     "stats": {
       "baseDamage": 33,
       "finalDamage": 33
@@ -80991,6 +81323,7 @@
     "type": "two-hand-pike",
     "typeLabel": "Two-Handed Pike",
     "rarity": "common",
+    "character": "Damian, Kliff, Oongka",
     "stats": {
       "baseDamage": 19,
       "finalDamage": 19
@@ -81023,6 +81356,7 @@
     "type": "two-hand-pike",
     "typeLabel": "Two-Handed Pike",
     "rarity": "common",
+    "character": "Damian, Kliff, Oongka",
     "stats": {
       "baseDamage": 17,
       "finalDamage": 17
@@ -81055,6 +81389,7 @@
     "type": "two-hand-pike",
     "typeLabel": "Two-Handed Pike",
     "rarity": "common",
+    "character": "Damian, Kliff, Oongka",
     "stats": {
       "baseDamage": 19,
       "finalDamage": 19
@@ -81087,6 +81422,7 @@
     "type": "two-hand-pike",
     "typeLabel": "Two-Handed Pike",
     "rarity": "common",
+    "character": "Damian, Kliff, Oongka",
     "stats": {
       "baseDamage": 19,
       "finalDamage": 19
@@ -81119,6 +81455,7 @@
     "type": "two-hand-pike",
     "typeLabel": "Two-Handed Pike",
     "rarity": "common",
+    "character": "Damian, Kliff, Oongka",
     "stats": {
       "baseDamage": 24,
       "finalDamage": 24
@@ -81151,6 +81488,7 @@
     "type": "two-hand-pike",
     "typeLabel": "Two-Handed Pike",
     "rarity": "common",
+    "character": "Damian, Kliff, Oongka",
     "stats": {
       "baseDamage": 27,
       "finalDamage": 27
@@ -81183,6 +81521,7 @@
     "type": "two-hand-pike",
     "typeLabel": "Two-Handed Pike",
     "rarity": "common",
+    "character": "Damian, Kliff, Oongka",
     "stats": {
       "baseDamage": 27,
       "finalDamage": 27
@@ -81215,6 +81554,7 @@
     "type": "two-hand-pike",
     "typeLabel": "Two-Handed Pike",
     "rarity": "common",
+    "character": "Damian, Kliff, Oongka",
     "stats": {
       "baseDamage": 19,
       "finalDamage": 19
@@ -81247,6 +81587,7 @@
     "type": "two-hand-pike",
     "typeLabel": "Two-Handed Pike",
     "rarity": "common",
+    "character": "Damian, Kliff, Oongka",
     "stats": {
       "baseDamage": 17,
       "finalDamage": 17
@@ -81279,6 +81620,7 @@
     "type": "two-hand-pike",
     "typeLabel": "Two-Handed Pike",
     "rarity": "common",
+    "character": "Damian, Kliff, Oongka",
     "stats": {
       "baseDamage": 21,
       "finalDamage": 21
@@ -81311,6 +81653,7 @@
     "type": "two-hand-pike",
     "typeLabel": "Two-Handed Pike",
     "rarity": "common",
+    "character": "Damian, Kliff, Oongka",
     "stats": {
       "baseDamage": 19,
       "finalDamage": 19
@@ -81343,6 +81686,7 @@
     "type": "two-hand-pike",
     "typeLabel": "Two-Handed Pike",
     "rarity": "common",
+    "character": "Damian, Kliff, Oongka",
     "stats": {
       "baseDamage": 24,
       "finalDamage": 24
@@ -81375,6 +81719,7 @@
     "type": "two-hand-pike",
     "typeLabel": "Two-Handed Pike",
     "rarity": "common",
+    "character": "Damian, Kliff, Oongka",
     "stats": {
       "baseDamage": 24,
       "finalDamage": 24
@@ -81407,6 +81752,7 @@
     "type": "two-hand-pike",
     "typeLabel": "Two-Handed Pike",
     "rarity": "common",
+    "character": "Damian, Kliff, Oongka",
     "stats": {
       "baseDamage": 24,
       "finalDamage": 24
@@ -81439,6 +81785,7 @@
     "type": "two-hand-pike",
     "typeLabel": "Two-Handed Pike",
     "rarity": "common",
+    "character": "Damian, Kliff, Oongka",
     "stats": {
       "baseDamage": 24,
       "finalDamage": 24
@@ -81471,6 +81818,7 @@
     "type": "two-hand-pike",
     "typeLabel": "Two-Handed Pike",
     "rarity": "common",
+    "character": "Damian, Kliff, Oongka",
     "stats": {
       "baseDamage": 19,
       "finalDamage": 19
@@ -81503,6 +81851,7 @@
     "type": "two-hand-pike",
     "typeLabel": "Two-Handed Pike",
     "rarity": "common",
+    "character": "Damian, Kliff, Oongka",
     "stats": {
       "baseDamage": 24,
       "finalDamage": 24
@@ -81535,6 +81884,7 @@
     "type": "two-hand-pike",
     "typeLabel": "Two-Handed Pike",
     "rarity": "common",
+    "character": "Damian, Kliff, Oongka",
     "stats": {
       "baseDamage": 24,
       "finalDamage": 24
@@ -81567,6 +81917,7 @@
     "type": "two-hand-pike",
     "typeLabel": "Two-Handed Pike",
     "rarity": "common",
+    "character": "Damian, Kliff, Oongka",
     "stats": {
       "baseDamage": 24,
       "finalDamage": 24
@@ -81599,6 +81950,7 @@
     "type": "two-hand-blow-pipe",
     "typeLabel": "Soporific Blowpipe",
     "rarity": "uncommon",
+    "character": null,
     "stats": {
       "baseDamage": 20,
       "finalDamage": 20
@@ -81631,6 +81983,7 @@
     "type": "one-hand-mace",
     "typeLabel": "Mace",
     "rarity": "rare",
+    "character": "Kliff, Oongka",
     "stats": {
       "baseDamage": 13,
       "finalDamage": 37
@@ -81907,6 +82260,7 @@
     "type": "two-hand-spear",
     "typeLabel": "Two-Handed Spear",
     "rarity": "epic",
+    "character": "Damian, Kliff, Oongka",
     "stats": {
       "baseDamage": 12,
       "finalDamage": 35
@@ -82271,6 +82625,7 @@
     "type": "two-hand-spear",
     "typeLabel": "Two-Handed Spear",
     "rarity": "rare",
+    "character": "Damian, Kliff, Oongka",
     "stats": {
       "baseDamage": 27,
       "finalDamage": 27
@@ -82303,6 +82658,7 @@
     "type": "one-hand-cross-bow",
     "typeLabel": "Crossbow",
     "rarity": "common",
+    "character": null,
     "stats": {
       "baseDamage": 10,
       "finalDamage": 10
@@ -82335,6 +82691,7 @@
     "type": "one-hand-sword",
     "typeLabel": "Sword",
     "rarity": "rare",
+    "character": "Kliff, Oongka",
     "stats": {
       "baseDamage": 10,
       "finalDamage": 30
@@ -82659,6 +83016,7 @@
     "type": "two-hand-spear",
     "typeLabel": "Two-Handed Spear",
     "rarity": "rare",
+    "character": "Damian, Kliff, Oongka",
     "stats": {
       "baseDamage": 12,
       "finalDamage": 35
@@ -82979,6 +83337,7 @@
     "type": "two-hand-spear",
     "typeLabel": "Two-Handed Spear",
     "rarity": "rare",
+    "character": "Damian, Kliff, Oongka",
     "stats": {
       "baseDamage": 12,
       "finalDamage": 35
@@ -83299,6 +83658,7 @@
     "type": "one-hand-sword",
     "typeLabel": "Sword",
     "rarity": "common",
+    "character": "Kliff, Oongka",
     "stats": {
       "baseDamage": 16,
       "finalDamage": 16
@@ -83331,6 +83691,7 @@
     "type": "one-hand-pistol",
     "typeLabel": "Pistol",
     "rarity": "uncommon",
+    "character": "Damian",
     "stats": {
       "baseDamage": 11,
       "finalDamage": 33
@@ -83642,6 +84003,7 @@
     "type": "one-hand-mace",
     "typeLabel": "Mace",
     "rarity": "uncommon",
+    "character": "Kliff, Oongka",
     "stats": {
       "baseDamage": 11,
       "finalDamage": 33
@@ -83962,6 +84324,7 @@
     "type": "two-hand-axe",
     "typeLabel": "Greataxe",
     "rarity": "epic",
+    "character": "Oongka",
     "stats": {
       "baseDamage": 16,
       "finalDamage": 43
@@ -84286,6 +84649,7 @@
     "type": "two-hand-spear",
     "typeLabel": "Two-Handed Spear",
     "rarity": "rare",
+    "character": "Damian, Kliff, Oongka",
     "stats": {
       "baseDamage": 12,
       "finalDamage": 35
@@ -84606,6 +84970,7 @@
     "type": "one-hand-cannon",
     "typeLabel": "Blaster",
     "rarity": "uncommon",
+    "character": "Oongka",
     "stats": {
       "baseDamage": 10,
       "finalDamage": 30
@@ -84926,6 +85291,7 @@
     "type": "one-hand-sword",
     "typeLabel": "Sword",
     "rarity": "epic",
+    "character": "Kliff, Oongka",
     "stats": {
       "baseDamage": 12,
       "finalDamage": 34
@@ -85206,6 +85572,7 @@
     "type": "one-hand-sword",
     "typeLabel": "Sword",
     "rarity": "epic",
+    "character": "Kliff, Oongka",
     "stats": {
       "baseDamage": 10,
       "finalDamage": 30
@@ -85530,6 +85897,7 @@
     "type": "one-hand-sword",
     "typeLabel": "Sword",
     "rarity": "rare",
+    "character": "Kliff, Oongka",
     "stats": {
       "baseDamage": 10,
       "finalDamage": 30
@@ -85850,6 +86218,7 @@
     "type": "one-hand-sword",
     "typeLabel": "Sword",
     "rarity": "uncommon",
+    "character": "Kliff, Oongka",
     "stats": {
       "baseDamage": 10,
       "finalDamage": 30
@@ -86170,6 +86539,7 @@
     "type": "one-hand-sword",
     "typeLabel": "Sword",
     "rarity": "common",
+    "character": "Kliff",
     "stats": {
       "baseDamage": 12,
       "finalDamage": 34
@@ -86437,6 +86807,7 @@
     "type": "one-hand-sword",
     "typeLabel": "Sword",
     "rarity": "rare",
+    "character": "Kliff, Oongka",
     "stats": {
       "baseDamage": 22,
       "finalDamage": 22
@@ -86469,6 +86840,7 @@
     "type": "one-hand-bow",
     "typeLabel": "Bow",
     "rarity": "uncommon",
+    "character": "Kliff",
     "stats": {
       "baseDamage": 11,
       "finalDamage": 33
@@ -86745,6 +87117,7 @@
     "type": "one-hand-dagger",
     "typeLabel": "Dagger",
     "rarity": "uncommon",
+    "character": "Damian, Kliff, Oongka",
     "stats": {
       "baseDamage": 12,
       "finalDamage": 34
@@ -87060,6 +87433,7 @@
     "type": "one-hand-mace",
     "typeLabel": "Mace",
     "rarity": "uncommon",
+    "character": "Kliff, Oongka",
     "stats": {
       "baseDamage": 11,
       "finalDamage": 33
@@ -87380,6 +87754,7 @@
     "type": "two-hand-sword",
     "typeLabel": "Longsword",
     "rarity": "uncommon",
+    "character": "Damian, Kliff, Oongka",
     "stats": {
       "baseDamage": 16,
       "finalDamage": 43
@@ -87656,6 +88031,7 @@
     "type": "two-hand-spear",
     "typeLabel": "Two-Handed Spear",
     "rarity": "uncommon",
+    "character": "Damian, Kliff, Oongka",
     "stats": {
       "baseDamage": 13,
       "finalDamage": 38
@@ -87976,6 +88352,7 @@
     "type": "one-hand-sword",
     "typeLabel": "Sword",
     "rarity": "uncommon",
+    "character": "Kliff, Oongka",
     "stats": {
       "baseDamage": 10,
       "finalDamage": 30
@@ -88296,6 +88673,7 @@
     "type": "one-hand-axe",
     "typeLabel": "Axe",
     "rarity": "rare",
+    "character": "Kliff, Oongka",
     "stats": {
       "baseDamage": 12,
       "finalDamage": 34
@@ -88616,6 +88994,7 @@
     "type": "one-hand-bow",
     "typeLabel": "Bow",
     "rarity": "rare",
+    "character": "Kliff",
     "stats": {
       "baseDamage": 10,
       "finalDamage": 30
@@ -88936,6 +89315,7 @@
     "type": "two-hand-axe",
     "typeLabel": "Greataxe",
     "rarity": "rare",
+    "character": "Oongka",
     "stats": {
       "baseDamage": 15,
       "finalDamage": 40
@@ -89256,6 +89636,7 @@
     "type": "two-hand-sword",
     "typeLabel": "Longsword",
     "rarity": "rare",
+    "character": "Damian, Kliff, Oongka",
     "stats": {
       "baseDamage": 14,
       "finalDamage": 39
@@ -89576,6 +89957,7 @@
     "type": "two-hand-war-hammer",
     "typeLabel": "Warhammer",
     "rarity": "rare",
+    "character": "Oongka",
     "stats": {
       "baseDamage": 15,
       "finalDamage": 41
@@ -89896,6 +90278,7 @@
     "type": "one-hand-sword",
     "typeLabel": "Sword",
     "rarity": "rare",
+    "character": "Kliff, Oongka",
     "stats": {
       "baseDamage": 12,
       "finalDamage": 34
@@ -90172,6 +90555,7 @@
     "type": "one-hand-mace",
     "typeLabel": "Mace",
     "rarity": "uncommon",
+    "character": "Kliff, Oongka",
     "stats": {
       "baseDamage": 11,
       "finalDamage": 33
@@ -90492,6 +90876,7 @@
     "type": "two-hand-sword",
     "typeLabel": "Longsword",
     "rarity": "uncommon",
+    "character": "Damian, Kliff, Oongka",
     "stats": {
       "baseDamage": 14,
       "finalDamage": 39
@@ -90812,6 +91197,7 @@
     "type": "two-hand-war-hammer",
     "typeLabel": "Warhammer",
     "rarity": "uncommon",
+    "character": "Oongka",
     "stats": {
       "baseDamage": 17,
       "finalDamage": 45
@@ -91088,6 +91474,7 @@
     "type": "one-hand-mace",
     "typeLabel": "Mace",
     "rarity": "rare",
+    "character": "Kliff, Oongka",
     "stats": {
       "baseDamage": 11,
       "finalDamage": 33
@@ -91404,6 +91791,7 @@
     "type": "two-hand-spear",
     "typeLabel": "Two-Handed Spear",
     "rarity": "epic",
+    "character": "Damian, Kliff, Oongka",
     "stats": {
       "baseDamage": 13,
       "finalDamage": 38
@@ -91728,6 +92116,7 @@
     "type": "one-hand-axe",
     "typeLabel": "Axe",
     "rarity": "common",
+    "character": "Kliff, Oongka",
     "stats": {
       "baseDamage": 10,
       "finalDamage": 30
@@ -92057,6 +92446,7 @@
     "type": "two-hand-pike",
     "typeLabel": "Two-Handed Pike",
     "rarity": "common",
+    "character": "Damian, Kliff, Oongka",
     "stats": {
       "baseDamage": 19,
       "finalDamage": 19
@@ -92089,6 +92479,7 @@
     "type": "two-hand-spear",
     "typeLabel": "Two-Handed Spear",
     "rarity": "uncommon",
+    "character": "Damian, Kliff, Oongka",
     "stats": {
       "baseDamage": 12,
       "finalDamage": 35
@@ -92453,6 +92844,7 @@
     "type": "one-hand-bow",
     "typeLabel": "Bow",
     "rarity": "epic",
+    "character": "Kliff",
     "stats": {
       "baseDamage": 10,
       "finalDamage": 30
@@ -92773,6 +93165,7 @@
     "type": "two-hand-pike",
     "typeLabel": "Two-Handed Pike",
     "rarity": "common",
+    "character": "Damian, Kliff, Oongka",
     "stats": {
       "baseDamage": 20,
       "finalDamage": 20
@@ -92805,6 +93198,7 @@
     "type": "one-hand-bow",
     "typeLabel": "Bow",
     "rarity": "uncommon",
+    "character": "Kliff",
     "stats": {
       "baseDamage": 10,
       "finalDamage": 30
@@ -93116,6 +93510,7 @@
     "type": "two-hand-spear",
     "typeLabel": "Two-Handed Spear",
     "rarity": "epic",
+    "character": "Damian, Kliff, Oongka",
     "stats": {
       "baseDamage": 12,
       "finalDamage": 35
@@ -93480,6 +93875,7 @@
     "type": "two-hand-axe",
     "typeLabel": "Greataxe",
     "rarity": "epic",
+    "character": "Oongka",
     "stats": {
       "baseDamage": 14,
       "finalDamage": 39
@@ -93791,6 +94187,7 @@
     "type": "one-hand-shotgun",
     "typeLabel": "Shotgun",
     "rarity": "rare",
+    "character": "Damian",
     "stats": {
       "baseDamage": 15,
       "finalDamage": 41
@@ -94067,6 +94464,7 @@
     "type": "one-hand-bow",
     "typeLabel": "Bow",
     "rarity": "rare",
+    "character": "Kliff",
     "stats": {
       "baseDamage": 10,
       "finalDamage": 30
@@ -94387,6 +94785,7 @@
     "type": "two-hand-sword",
     "typeLabel": "Longsword",
     "rarity": "legendary",
+    "character": "Damian, Kliff, Oongka",
     "stats": {
       "baseDamage": 15,
       "finalDamage": 40
@@ -94707,6 +95106,7 @@
     "type": "two-hand-spear",
     "typeLabel": "Two-Handed Spear",
     "rarity": "rare",
+    "character": "Damian, Kliff, Oongka",
     "stats": {
       "baseDamage": 12,
       "finalDamage": 35
@@ -95071,6 +95471,7 @@
     "type": "two-hand-pike",
     "typeLabel": "Two-Handed Pike",
     "rarity": "common",
+    "character": "Damian, Kliff, Oongka",
     "stats": {
       "baseDamage": 20,
       "finalDamage": 20
@@ -95103,6 +95504,7 @@
     "type": "one-hand-dagger",
     "typeLabel": "Dagger",
     "rarity": "uncommon",
+    "character": "Damian, Kliff, Oongka",
     "stats": {
       "baseDamage": 10,
       "finalDamage": 30
@@ -95418,6 +95820,7 @@
     "type": "one-hand-sword",
     "typeLabel": "Sword",
     "rarity": "epic",
+    "character": "Kliff, Oongka",
     "stats": {
       "baseDamage": 10,
       "finalDamage": 30
@@ -95750,6 +96153,7 @@
     "type": "two-hand-giant-sword",
     "typeLabel": "Giant Longsword",
     "rarity": "epic",
+    "character": "Damian",
     "stats": {
       "baseDamage": 15,
       "finalDamage": 41
@@ -96061,6 +96465,7 @@
     "type": "two-hand-sword",
     "typeLabel": "Longsword",
     "rarity": "epic",
+    "character": "Damian, Kliff, Oongka",
     "stats": {
       "baseDamage": 16,
       "finalDamage": 43
@@ -96337,6 +96742,7 @@
     "type": "one-hand-pistol",
     "typeLabel": "Pistol",
     "rarity": "rare",
+    "character": "Damian",
     "stats": {
       "baseDamage": 11,
       "finalDamage": 33
@@ -96701,6 +97107,7 @@
     "type": "one-hand-cannon",
     "typeLabel": "Blaster",
     "rarity": "epic",
+    "character": "Oongka",
     "stats": {
       "baseDamage": 12,
       "finalDamage": 34
@@ -96981,6 +97388,7 @@
     "type": "one-hand-rapier",
     "typeLabel": "Rapiers",
     "rarity": "rare",
+    "character": "Damian",
     "stats": {
       "baseDamage": 11,
       "finalDamage": 31
@@ -97301,6 +97709,7 @@
     "type": "one-hand-sword",
     "typeLabel": "Sword",
     "rarity": "rare",
+    "character": "Kliff, Oongka",
     "stats": {
       "baseDamage": 10,
       "finalDamage": 30
@@ -97621,6 +98030,7 @@
     "type": "two-hand-halberd",
     "typeLabel": "Halberd",
     "rarity": "legendary",
+    "character": "Damian, Kliff, Oongka",
     "stats": {
       "baseDamage": 12,
       "finalDamage": 35
@@ -97945,6 +98355,7 @@
     "type": "one-hand-bow",
     "typeLabel": "Bow",
     "rarity": "uncommon",
+    "character": "Kliff",
     "stats": {
       "baseDamage": 10,
       "finalDamage": 30
@@ -98265,6 +98676,7 @@
     "type": "two-hand-spear",
     "typeLabel": "Two-Handed Spear",
     "rarity": "common",
+    "character": "Damian, Kliff, Oongka",
     "stats": {
       "baseDamage": 13,
       "finalDamage": 38
@@ -98594,6 +99006,7 @@
     "type": "one-hand-mace",
     "typeLabel": "Mace",
     "rarity": "uncommon",
+    "character": "Kliff, Oongka",
     "stats": {
       "baseDamage": 13,
       "finalDamage": 37
@@ -98870,6 +99283,7 @@
     "type": "one-hand-musket",
     "typeLabel": "Musket",
     "rarity": "uncommon",
+    "character": "Damian",
     "stats": {
       "baseDamage": 12,
       "finalDamage": 35
@@ -99190,6 +99604,7 @@
     "type": "one-hand-sword",
     "typeLabel": "Sword",
     "rarity": "uncommon",
+    "character": "Kliff, Oongka",
     "stats": {
       "baseDamage": 10,
       "finalDamage": 30
@@ -99510,6 +99925,7 @@
     "type": "two-hand-axe",
     "typeLabel": "Greataxe",
     "rarity": "rare",
+    "character": "Oongka",
     "stats": {
       "baseDamage": 16,
       "finalDamage": 43
@@ -99834,6 +100250,7 @@
     "type": "one-hand-rapier",
     "typeLabel": "Rapiers",
     "rarity": "uncommon",
+    "character": "Damian",
     "stats": {
       "baseDamage": 9,
       "finalDamage": 27
@@ -100145,6 +100562,7 @@
     "type": "one-hand-bow",
     "typeLabel": "Bow",
     "rarity": "common",
+    "character": "Kliff",
     "stats": {
       "baseDamage": 10,
       "finalDamage": 30
@@ -100474,6 +100892,7 @@
     "type": "one-hand-sword",
     "typeLabel": "Sword",
     "rarity": "rare",
+    "character": "Kliff, Oongka",
     "stats": {
       "baseDamage": 12,
       "finalDamage": 34
@@ -100754,6 +101173,7 @@
     "type": "one-hand-cannon",
     "typeLabel": "Blaster",
     "rarity": "epic",
+    "character": "Oongka",
     "stats": {
       "baseDamage": 10,
       "finalDamage": 30
@@ -101078,6 +101498,7 @@
     "type": "two-hand-war-hammer",
     "typeLabel": "Warhammer",
     "rarity": "uncommon",
+    "character": "Oongka",
     "stats": {
       "baseDamage": 15,
       "finalDamage": 41

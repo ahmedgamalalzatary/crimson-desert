@@ -79,6 +79,7 @@ export const cleanWeaponSchema = z.object({
   type: z.string().min(1),
   typeLabel: z.string().min(1),
   rarity: z.string().min(1),
+  character: z.string().nullable(),
   stats: z.object({
     baseDamage: z.number().nonnegative().nullable(),
     finalDamage: z.number().nonnegative().nullable()

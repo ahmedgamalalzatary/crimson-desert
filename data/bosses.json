@@ -1,1 +1,1080 @@
-[]
+[
+  {
+    "id": "aeserion-the-great-serpent",
+    "name": "Aeserion, the Great Serpent",
+    "slug": "aeserion-the-great-serpent",
+    "category": "bosses",
+    "type": "boss",
+    "typeLabel": "Boss",
+    "rarity": "unclassified",
+    "description": "",
+    "source": {
+      "site": "crimsondesert.gg",
+      "url": "https://crimsondesert.gg/bosses/aeserion-the-great-serpent"
+    }
+  },
+  {
+    "id": "antumbras-spear",
+    "name": "Antumbra's Spear",
+    "slug": "antumbras-spear",
+    "category": "bosses",
+    "type": "boss",
+    "typeLabel": "Boss",
+    "rarity": "unclassified",
+    "description": "",
+    "source": {
+      "site": "crimsondesert.gg",
+      "url": "https://crimsondesert.gg/bosses/antumbras-spear"
+    }
+  },
+  {
+    "id": "antumbras-staff",
+    "name": "Antumbra's Staff",
+    "slug": "antumbras-staff",
+    "category": "bosses",
+    "type": "boss",
+    "typeLabel": "Boss",
+    "rarity": "unclassified",
+    "description": "",
+    "source": {
+      "site": "crimsondesert.gg",
+      "url": "https://crimsondesert.gg/bosses/antumbras-staff"
+    }
+  },
+  {
+    "id": "antumbras-sword",
+    "name": "Antumbra's Sword",
+    "slug": "antumbras-sword",
+    "category": "bosses",
+    "type": "boss",
+    "typeLabel": "Boss",
+    "rarity": "unclassified",
+    "description": "",
+    "source": {
+      "site": "crimsondesert.gg",
+      "url": "https://crimsondesert.gg/bosses/antumbras-sword"
+    }
+  },
+  {
+    "id": "ator-archon-of-antumbra",
+    "name": "Ator, Archon of Antumbra",
+    "slug": "ator-archon-of-antumbra",
+    "category": "bosses",
+    "type": "boss",
+    "typeLabel": "Boss",
+    "rarity": "unclassified",
+    "description": "",
+    "source": {
+      "site": "crimsondesert.gg",
+      "url": "https://crimsondesert.gg/bosses/ator-archon-of-antumbra"
+    }
+  },
+  {
+    "id": "awakened-lucian-bastier",
+    "name": "Awakened Lucian Bastier",
+    "slug": "awakened-lucian-bastier",
+    "category": "bosses",
+    "type": "boss",
+    "typeLabel": "Boss",
+    "rarity": "unclassified",
+    "description": "",
+    "source": {
+      "site": "crimsondesert.gg",
+      "url": "https://crimsondesert.gg/bosses/awakened-lucian-bastier"
+    }
+  },
+  {
+    "id": "awakened-ludvig",
+    "name": "Awakened Ludvig",
+    "slug": "awakened-ludvig",
+    "category": "bosses",
+    "type": "boss",
+    "typeLabel": "Boss",
+    "rarity": "unclassified",
+    "description": "",
+    "source": {
+      "site": "crimsondesert.gg",
+      "url": "https://crimsondesert.gg/bosses/awakened-ludvig"
+    }
+  },
+  {
+    "id": "balthazar-the-wyvernflame",
+    "name": "Balthazar, the Wyvernflame",
+    "slug": "balthazar-the-wyvernflame",
+    "category": "bosses",
+    "type": "boss",
+    "typeLabel": "Boss",
+    "rarity": "unclassified",
+    "description": "",
+    "source": {
+      "site": "crimsondesert.gg",
+      "url": "https://crimsondesert.gg/bosses/balthazar-the-wyvernflame"
+    }
+  },
+  {
+    "id": "beloth-the-darksworn",
+    "name": "Beloth, the Darksworn",
+    "slug": "beloth-the-darksworn",
+    "category": "bosses",
+    "type": "boss",
+    "typeLabel": "Boss",
+    "rarity": "unclassified",
+    "description": "",
+    "source": {
+      "site": "crimsondesert.gg",
+      "url": "https://crimsondesert.gg/bosses/beloth-the-darksworn"
+    }
+  },
+  {
+    "id": "black-bear-captain",
+    "name": "Black Bear Captain",
+    "slug": "black-bear-captain",
+    "category": "bosses",
+    "type": "boss",
+    "typeLabel": "Boss",
+    "rarity": "unclassified",
+    "description": "",
+    "source": {
+      "site": "crimsondesert.gg",
+      "url": "https://crimsondesert.gg/bosses/black-bear-captain"
+    }
+  },
+  {
+    "id": "blackstar",
+    "name": "Blackstar",
+    "slug": "blackstar",
+    "category": "bosses",
+    "type": "boss",
+    "typeLabel": "Boss",
+    "rarity": "unclassified",
+    "description": "",
+    "source": {
+      "site": "crimsondesert.gg",
+      "url": "https://crimsondesert.gg/bosses/blackstar"
+    }
+  },
+  {
+    "id": "bradie-gu",
+    "name": "Bradie Gu",
+    "slug": "bradie-gu",
+    "category": "bosses",
+    "type": "boss",
+    "typeLabel": "Boss",
+    "rarity": "unclassified",
+    "description": "",
+    "source": {
+      "site": "crimsondesert.gg",
+      "url": "https://crimsondesert.gg/bosses/bradie-gu"
+    }
+  },
+  {
+    "id": "cassius-morten",
+    "name": "Cassius Morten",
+    "slug": "cassius-morten",
+    "category": "bosses",
+    "type": "boss",
+    "typeLabel": "Boss",
+    "rarity": "unclassified",
+    "description": "",
+    "source": {
+      "site": "crimsondesert.gg",
+      "url": "https://crimsondesert.gg/bosses/cassius-morten"
+    }
+  },
+  {
+    "id": "clockwork-white-horn",
+    "name": "Clockwork White Horn",
+    "slug": "clockwork-white-horn",
+    "category": "bosses",
+    "type": "boss",
+    "typeLabel": "Boss",
+    "rarity": "unclassified",
+    "description": "",
+    "source": {
+      "site": "crimsondesert.gg",
+      "url": "https://crimsondesert.gg/bosses/clockwork-white-horn"
+    }
+  },
+  {
+    "id": "corrupted-caliburn",
+    "name": "Corrupted Caliburn",
+    "slug": "corrupted-caliburn",
+    "category": "bosses",
+    "type": "boss",
+    "typeLabel": "Boss",
+    "rarity": "unclassified",
+    "description": "",
+    "source": {
+      "site": "crimsondesert.gg",
+      "url": "https://crimsondesert.gg/bosses/corrupted-caliburn"
+    }
+  },
+  {
+    "id": "crowcaller",
+    "name": "Crowcaller",
+    "slug": "crowcaller",
+    "category": "bosses",
+    "type": "boss",
+    "typeLabel": "Boss",
+    "rarity": "unclassified",
+    "description": "",
+    "source": {
+      "site": "crimsondesert.gg",
+      "url": "https://crimsondesert.gg/bosses/crowcaller"
+    }
+  },
+  {
+    "id": "duane",
+    "name": "Duane",
+    "slug": "duane",
+    "category": "bosses",
+    "type": "boss",
+    "typeLabel": "Boss",
+    "rarity": "unclassified",
+    "description": "",
+    "source": {
+      "site": "crimsondesert.gg",
+      "url": "https://crimsondesert.gg/bosses/duane"
+    }
+  },
+  {
+    "id": "fortain-the-cursed-knight",
+    "name": "Fortain, the Cursed Knight",
+    "slug": "fortain-the-cursed-knight",
+    "category": "bosses",
+    "type": "boss",
+    "typeLabel": "Boss",
+    "rarity": "unclassified",
+    "description": "",
+    "source": {
+      "site": "crimsondesert.gg",
+      "url": "https://crimsondesert.gg/bosses/fortain-the-cursed-knight"
+    }
+  },
+  {
+    "id": "full-moon-reaper",
+    "name": "Full Moon Reaper",
+    "slug": "full-moon-reaper",
+    "category": "bosses",
+    "type": "boss",
+    "typeLabel": "Boss",
+    "rarity": "unclassified",
+    "description": "",
+    "source": {
+      "site": "crimsondesert.gg",
+      "url": "https://crimsondesert.gg/bosses/full-moon-reaper"
+    }
+  },
+  {
+    "id": "gabriel-caliburn",
+    "name": "Gabriel Caliburn",
+    "slug": "gabriel-caliburn",
+    "category": "bosses",
+    "type": "boss",
+    "typeLabel": "Boss",
+    "rarity": "unclassified",
+    "description": "",
+    "source": {
+      "site": "crimsondesert.gg",
+      "url": "https://crimsondesert.gg/bosses/gabriel-caliburn"
+    }
+  },
+  {
+    "id": "giath",
+    "name": "Giath",
+    "slug": "giath",
+    "category": "bosses",
+    "type": "boss",
+    "typeLabel": "Boss",
+    "rarity": "unclassified",
+    "description": "",
+    "source": {
+      "site": "crimsondesert.gg",
+      "url": "https://crimsondesert.gg/bosses/giath"
+    }
+  },
+  {
+    "id": "gigantified-titan",
+    "name": "Gigantified Titan",
+    "slug": "gigantified-titan",
+    "category": "bosses",
+    "type": "boss",
+    "typeLabel": "Boss",
+    "rarity": "unclassified",
+    "description": "",
+    "source": {
+      "site": "crimsondesert.gg",
+      "url": "https://crimsondesert.gg/bosses/gigantified-titan"
+    }
+  },
+  {
+    "id": "gilded-guardian",
+    "name": "Gilded Guardian",
+    "slug": "gilded-guardian",
+    "category": "bosses",
+    "type": "boss",
+    "typeLabel": "Boss",
+    "rarity": "unclassified",
+    "description": "",
+    "source": {
+      "site": "crimsondesert.gg",
+      "url": "https://crimsondesert.gg/bosses/gilded-guardian"
+    }
+  },
+  {
+    "id": "golden-star",
+    "name": "Golden Star",
+    "slug": "golden-star",
+    "category": "bosses",
+    "type": "boss",
+    "typeLabel": "Boss",
+    "rarity": "unclassified",
+    "description": "",
+    "source": {
+      "site": "crimsondesert.gg",
+      "url": "https://crimsondesert.gg/bosses/golden-star"
+    }
+  },
+  {
+    "id": "goyen",
+    "name": "Goyen",
+    "slug": "goyen",
+    "category": "bosses",
+    "type": "boss",
+    "typeLabel": "Boss",
+    "rarity": "unclassified",
+    "description": "",
+    "source": {
+      "site": "crimsondesert.gg",
+      "url": "https://crimsondesert.gg/bosses/goyen"
+    }
+  },
+  {
+    "id": "gregor-the-halberd-of-carnage",
+    "name": "Gregor, the Halberd of Carnage",
+    "slug": "gregor-the-halberd-of-carnage",
+    "category": "bosses",
+    "type": "boss",
+    "typeLabel": "Boss",
+    "rarity": "unclassified",
+    "description": "",
+    "source": {
+      "site": "crimsondesert.gg",
+      "url": "https://crimsondesert.gg/bosses/gregor-the-halberd-of-carnage"
+    }
+  },
+  {
+    "id": "gristle-the-sandfang-marauder",
+    "name": "Gristle, the Sandfang Marauder",
+    "slug": "gristle-the-sandfang-marauder",
+    "category": "bosses",
+    "type": "boss",
+    "typeLabel": "Boss",
+    "rarity": "unclassified",
+    "description": "",
+    "source": {
+      "site": "crimsondesert.gg",
+      "url": "https://crimsondesert.gg/bosses/gristle-the-sandfang-marauder"
+    }
+  },
+  {
+    "id": "gwen-kraber",
+    "name": "Gwen Kraber",
+    "slug": "gwen-kraber",
+    "category": "bosses",
+    "type": "boss",
+    "typeLabel": "Boss",
+    "rarity": "unclassified",
+    "description": "",
+    "source": {
+      "site": "crimsondesert.gg",
+      "url": "https://crimsondesert.gg/bosses/gwen-kraber"
+    }
+  },
+  {
+    "id": "half-moon-reaper",
+    "name": "Half Moon Reaper",
+    "slug": "half-moon-reaper",
+    "category": "bosses",
+    "type": "boss",
+    "typeLabel": "Boss",
+    "rarity": "unclassified",
+    "description": "",
+    "source": {
+      "site": "crimsondesert.gg",
+      "url": "https://crimsondesert.gg/bosses/half-moon-reaper"
+    }
+  },
+  {
+    "id": "hemon-beindel",
+    "name": "Hemon Beindel",
+    "slug": "hemon-beindel",
+    "category": "bosses",
+    "type": "boss",
+    "typeLabel": "Boss",
+    "rarity": "unclassified",
+    "description": "",
+    "source": {
+      "site": "crimsondesert.gg",
+      "url": "https://crimsondesert.gg/bosses/hemon-beindel"
+    }
+  },
+  {
+    "id": "hexe-marie",
+    "name": "Hexe Marie",
+    "slug": "hexe-marie",
+    "category": "bosses",
+    "type": "boss",
+    "typeLabel": "Boss",
+    "rarity": "unclassified",
+    "description": "",
+    "source": {
+      "site": "crimsondesert.gg",
+      "url": "https://crimsondesert.gg/bosses/hexe-marie"
+    }
+  },
+  {
+    "id": "kailok-of-the-past",
+    "name": "Kailok of the Past",
+    "slug": "kailok-of-the-past",
+    "category": "bosses",
+    "type": "boss",
+    "typeLabel": "Boss",
+    "rarity": "unclassified",
+    "description": "",
+    "source": {
+      "site": "crimsondesert.gg",
+      "url": "https://crimsondesert.gg/bosses/kailok-of-the-past"
+    }
+  },
+  {
+    "id": "kailok-the-hornsplitter",
+    "name": "Kailok, the Hornsplitter",
+    "slug": "kailok-the-hornsplitter",
+    "category": "bosses",
+    "type": "boss",
+    "typeLabel": "Boss",
+    "rarity": "unclassified",
+    "description": "",
+    "source": {
+      "site": "crimsondesert.gg",
+      "url": "https://crimsondesert.gg/bosses/kailok-the-hornsplitter"
+    }
+  },
+  {
+    "id": "karanda",
+    "name": "Karanda",
+    "slug": "karanda",
+    "category": "bosses",
+    "type": "boss",
+    "typeLabel": "Boss",
+    "rarity": "unclassified",
+    "description": "",
+    "source": {
+      "site": "crimsondesert.gg",
+      "url": "https://crimsondesert.gg/bosses/karanda"
+    }
+  },
+  {
+    "id": "kearush-the-slayer",
+    "name": "Kearush the Slayer",
+    "slug": "kearush-the-slayer",
+    "category": "bosses",
+    "type": "boss",
+    "typeLabel": "Boss",
+    "rarity": "unclassified",
+    "description": "",
+    "source": {
+      "site": "crimsondesert.gg",
+      "url": "https://crimsondesert.gg/bosses/kearush-the-slayer"
+    }
+  },
+  {
+    "id": "lava-myurdin",
+    "name": "Lava Myurdin",
+    "slug": "lava-myurdin",
+    "category": "bosses",
+    "type": "boss",
+    "typeLabel": "Boss",
+    "rarity": "unclassified",
+    "description": "",
+    "source": {
+      "site": "crimsondesert.gg",
+      "url": "https://crimsondesert.gg/bosses/lava-myurdin"
+    }
+  },
+  {
+    "id": "ludvig",
+    "name": "Ludvig",
+    "slug": "ludvig",
+    "category": "bosses",
+    "type": "boss",
+    "typeLabel": "Boss",
+    "rarity": "unclassified",
+    "description": "",
+    "source": {
+      "site": "crimsondesert.gg",
+      "url": "https://crimsondesert.gg/bosses/ludvig"
+    }
+  },
+  {
+    "id": "machina-knight-with-marni-longsword",
+    "name": "Machina Knight with Marni Longsword",
+    "slug": "machina-knight-with-marni-longsword",
+    "category": "bosses",
+    "type": "boss",
+    "typeLabel": "Boss",
+    "rarity": "unclassified",
+    "description": "",
+    "source": {
+      "site": "crimsondesert.gg",
+      "url": "https://crimsondesert.gg/bosses/machina-knight-with-marni-longsword"
+    }
+  },
+  {
+    "id": "machina-knight-with-marni-spear",
+    "name": "Machina Knight with Marni Spear",
+    "slug": "machina-knight-with-marni-spear",
+    "category": "bosses",
+    "type": "boss",
+    "typeLabel": "Boss",
+    "rarity": "unclassified",
+    "description": "",
+    "source": {
+      "site": "crimsondesert.gg",
+      "url": "https://crimsondesert.gg/bosses/machina-knight-with-marni-spear"
+    }
+  },
+  {
+    "id": "marnis-excavatron",
+    "name": "Marni's Excavatron",
+    "slug": "marnis-excavatron",
+    "category": "bosses",
+    "type": "boss",
+    "typeLabel": "Boss",
+    "rarity": "unclassified",
+    "description": "",
+    "source": {
+      "site": "crimsondesert.gg",
+      "url": "https://crimsondesert.gg/bosses/marnis-excavatron"
+    }
+  },
+  {
+    "id": "master-du",
+    "name": "Master Du",
+    "slug": "master-du",
+    "category": "bosses",
+    "type": "boss",
+    "typeLabel": "Boss",
+    "rarity": "unclassified",
+    "description": "",
+    "source": {
+      "site": "crimsondesert.gg",
+      "url": "https://crimsondesert.gg/bosses/master-du"
+    }
+  },
+  {
+    "id": "mazzul-the-dark-justiciar",
+    "name": "Mazzul, the Dark Justiciar",
+    "slug": "mazzul-the-dark-justiciar",
+    "category": "bosses",
+    "type": "boss",
+    "typeLabel": "Boss",
+    "rarity": "unclassified",
+    "description": "",
+    "source": {
+      "site": "crimsondesert.gg",
+      "url": "https://crimsondesert.gg/bosses/mazzul-the-dark-justiciar"
+    }
+  },
+  {
+    "id": "mechanicus",
+    "name": "Mechanicus",
+    "slug": "mechanicus",
+    "category": "bosses",
+    "type": "boss",
+    "typeLabel": "Boss",
+    "rarity": "unclassified",
+    "description": "",
+    "source": {
+      "site": "crimsondesert.gg",
+      "url": "https://crimsondesert.gg/bosses/mechanicus"
+    }
+  },
+  {
+    "id": "merrick-the-knight-of-fortune",
+    "name": "Merrick, the Knight of Fortune",
+    "slug": "merrick-the-knight-of-fortune",
+    "category": "bosses",
+    "type": "boss",
+    "typeLabel": "Boss",
+    "rarity": "unclassified",
+    "description": "",
+    "source": {
+      "site": "crimsondesert.gg",
+      "url": "https://crimsondesert.gg/bosses/merrick-the-knight-of-fortune"
+    }
+  },
+  {
+    "id": "moren-the-mistwood-huntmaster",
+    "name": "Moren, the Mistwood Huntmaster",
+    "slug": "moren-the-mistwood-huntmaster",
+    "category": "bosses",
+    "type": "boss",
+    "typeLabel": "Boss",
+    "rarity": "unclassified",
+    "description": "",
+    "source": {
+      "site": "crimsondesert.gg",
+      "url": "https://crimsondesert.gg/bosses/moren-the-mistwood-huntmaster"
+    }
+  },
+  {
+    "id": "muskan",
+    "name": "Muskan",
+    "slug": "muskan",
+    "category": "bosses",
+    "type": "boss",
+    "typeLabel": "Boss",
+    "rarity": "unclassified",
+    "description": "",
+    "source": {
+      "site": "crimsondesert.gg",
+      "url": "https://crimsondesert.gg/bosses/muskan"
+    }
+  },
+  {
+    "id": "myurdin",
+    "name": "Myurdin",
+    "slug": "myurdin",
+    "category": "bosses",
+    "type": "boss",
+    "typeLabel": "Boss",
+    "rarity": "unclassified",
+    "description": "",
+    "source": {
+      "site": "crimsondesert.gg",
+      "url": "https://crimsondesert.gg/bosses/myurdin"
+    }
+  },
+  {
+    "id": "new-moon-reaper",
+    "name": "New Moon Reaper",
+    "slug": "new-moon-reaper",
+    "category": "bosses",
+    "type": "boss",
+    "typeLabel": "Boss",
+    "rarity": "unclassified",
+    "description": "",
+    "source": {
+      "site": "crimsondesert.gg",
+      "url": "https://crimsondesert.gg/bosses/new-moon-reaper"
+    }
+  },
+  {
+    "id": "ogre",
+    "name": "Ogre",
+    "slug": "ogre",
+    "category": "bosses",
+    "type": "boss",
+    "typeLabel": "Boss",
+    "rarity": "unclassified",
+    "description": "",
+    "source": {
+      "site": "crimsondesert.gg",
+      "url": "https://crimsondesert.gg/bosses/ogre"
+    }
+  },
+  {
+    "id": "one-armed-ludvig",
+    "name": "One-Armed Ludvig",
+    "slug": "one-armed-ludvig",
+    "category": "bosses",
+    "type": "boss",
+    "typeLabel": "Boss",
+    "rarity": "unclassified",
+    "description": "",
+    "source": {
+      "site": "crimsondesert.gg",
+      "url": "https://crimsondesert.gg/bosses/one-armed-ludvig"
+    }
+  },
+  {
+    "id": "one-eyed-jackal-captain",
+    "name": "One-Eyed Jackal Captain",
+    "slug": "one-eyed-jackal-captain",
+    "category": "bosses",
+    "type": "boss",
+    "typeLabel": "Boss",
+    "rarity": "unclassified",
+    "description": "",
+    "source": {
+      "site": "crimsondesert.gg",
+      "url": "https://crimsondesert.gg/bosses/one-eyed-jackal-captain"
+    }
+  },
+  {
+    "id": "praevus-the-ancient",
+    "name": "Praevus the Ancient",
+    "slug": "praevus-the-ancient",
+    "category": "bosses",
+    "type": "boss",
+    "typeLabel": "Boss",
+    "rarity": "unclassified",
+    "description": "",
+    "source": {
+      "site": "crimsondesert.gg",
+      "url": "https://crimsondesert.gg/bosses/praevus-the-ancient"
+    }
+  },
+  {
+    "id": "primus-the-ancient",
+    "name": "Primus the Ancient",
+    "slug": "primus-the-ancient",
+    "category": "bosses",
+    "type": "boss",
+    "typeLabel": "Boss",
+    "rarity": "unclassified",
+    "description": "",
+    "source": {
+      "site": "crimsondesert.gg",
+      "url": "https://crimsondesert.gg/bosses/primus-the-ancient"
+    }
+  },
+  {
+    "id": "priscus-the-ancient",
+    "name": "Priscus the Ancient",
+    "slug": "priscus-the-ancient",
+    "category": "bosses",
+    "type": "boss",
+    "typeLabel": "Boss",
+    "rarity": "unclassified",
+    "description": "",
+    "source": {
+      "site": "crimsondesert.gg",
+      "url": "https://crimsondesert.gg/bosses/priscus-the-ancient"
+    }
+  },
+  {
+    "id": "queen-bismuth-oreback-crab",
+    "name": "Queen Bismuth Oreback Crab",
+    "slug": "queen-bismuth-oreback-crab",
+    "category": "bosses",
+    "type": "boss",
+    "typeLabel": "Boss",
+    "rarity": "unclassified",
+    "description": "",
+    "source": {
+      "site": "crimsondesert.gg",
+      "url": "https://crimsondesert.gg/bosses/queen-bismuth-oreback-crab"
+    }
+  },
+  {
+    "id": "queen-spider",
+    "name": "Queen Spider",
+    "slug": "queen-spider",
+    "category": "bosses",
+    "type": "boss",
+    "typeLabel": "Boss",
+    "rarity": "unclassified",
+    "description": "",
+    "source": {
+      "site": "crimsondesert.gg",
+      "url": "https://crimsondesert.gg/bosses/queen-spider"
+    }
+  },
+  {
+    "id": "queen-stoneback-crab",
+    "name": "Queen Stoneback Crab",
+    "slug": "queen-stoneback-crab",
+    "category": "bosses",
+    "type": "boss",
+    "typeLabel": "Boss",
+    "rarity": "unclassified",
+    "description": "",
+    "source": {
+      "site": "crimsondesert.gg",
+      "url": "https://crimsondesert.gg/bosses/queen-stoneback-crab"
+    }
+  },
+  {
+    "id": "reed-devil",
+    "name": "Reed Devil",
+    "slug": "reed-devil",
+    "category": "bosses",
+    "type": "boss",
+    "typeLabel": "Boss",
+    "rarity": "unclassified",
+    "description": "",
+    "source": {
+      "site": "crimsondesert.gg",
+      "url": "https://crimsondesert.gg/bosses/reed-devil"
+    }
+  },
+  {
+    "id": "saigord-the-staglord",
+    "name": "Saigord, the Staglord",
+    "slug": "saigord-the-staglord",
+    "category": "bosses",
+    "type": "boss",
+    "typeLabel": "Boss",
+    "rarity": "unclassified",
+    "description": "",
+    "source": {
+      "site": "crimsondesert.gg",
+      "url": "https://crimsondesert.gg/bosses/saigord-the-staglord"
+    }
+  },
+  {
+    "id": "samara-the-sandwatcher",
+    "name": "Samara, the Sandwatcher",
+    "slug": "samara-the-sandwatcher",
+    "category": "bosses",
+    "type": "boss",
+    "typeLabel": "Boss",
+    "rarity": "unclassified",
+    "description": "",
+    "source": {
+      "site": "crimsondesert.gg",
+      "url": "https://crimsondesert.gg/bosses/samara-the-sandwatcher"
+    }
+  },
+  {
+    "id": "sir-catfish",
+    "name": "Sir Catfish",
+    "slug": "sir-catfish",
+    "category": "bosses",
+    "type": "boss",
+    "typeLabel": "Boss",
+    "rarity": "unclassified",
+    "description": "",
+    "source": {
+      "site": "crimsondesert.gg",
+      "url": "https://crimsondesert.gg/bosses/sir-catfish"
+    }
+  },
+  {
+    "id": "sizlek-the-insatiable",
+    "name": "Sizlek the Insatiable",
+    "slug": "sizlek-the-insatiable",
+    "category": "bosses",
+    "type": "boss",
+    "typeLabel": "Boss",
+    "rarity": "unclassified",
+    "description": "",
+    "source": {
+      "site": "crimsondesert.gg",
+      "url": "https://crimsondesert.gg/bosses/sizlek-the-insatiable"
+    }
+  },
+  {
+    "id": "skull-knight",
+    "name": "Skull Knight",
+    "slug": "skull-knight",
+    "category": "bosses",
+    "type": "boss",
+    "typeLabel": "Boss",
+    "rarity": "unclassified",
+    "description": "",
+    "source": {
+      "site": "crimsondesert.gg",
+      "url": "https://crimsondesert.gg/bosses/skull-knight"
+    }
+  },
+  {
+    "id": "trukan-the-ascended",
+    "name": "T'rukan the Ascended",
+    "slug": "trukan-the-ascended",
+    "category": "bosses",
+    "type": "boss",
+    "typeLabel": "Boss",
+    "rarity": "unclassified",
+    "description": "",
+    "source": {
+      "site": "crimsondesert.gg",
+      "url": "https://crimsondesert.gg/bosses/trukan-the-ascended"
+    }
+  },
+  {
+    "id": "tarandus-the-ashen",
+    "name": "Tarandus the Ashen",
+    "slug": "tarandus-the-ashen",
+    "category": "bosses",
+    "type": "boss",
+    "typeLabel": "Boss",
+    "rarity": "unclassified",
+    "description": "",
+    "source": {
+      "site": "crimsondesert.gg",
+      "url": "https://crimsondesert.gg/bosses/tarandus-the-ashen"
+    }
+  },
+  {
+    "id": "the-crimson-warden",
+    "name": "The Crimson Warden",
+    "slug": "the-crimson-warden",
+    "category": "bosses",
+    "type": "boss",
+    "typeLabel": "Boss",
+    "rarity": "unclassified",
+    "description": "",
+    "source": {
+      "site": "crimsondesert.gg",
+      "url": "https://crimsondesert.gg/bosses/the-crimson-warden"
+    }
+  },
+  {
+    "id": "the-forgotten-general",
+    "name": "The Forgotten General",
+    "slug": "the-forgotten-general",
+    "category": "bosses",
+    "type": "boss",
+    "typeLabel": "Boss",
+    "rarity": "unclassified",
+    "description": "",
+    "source": {
+      "site": "crimsondesert.gg",
+      "url": "https://crimsondesert.gg/bosses/the-forgotten-general"
+    }
+  },
+  {
+    "id": "the-masked-liberator",
+    "name": "The Masked Liberator",
+    "slug": "the-masked-liberator",
+    "category": "bosses",
+    "type": "boss",
+    "typeLabel": "Boss",
+    "rarity": "unclassified",
+    "description": "",
+    "source": {
+      "site": "crimsondesert.gg",
+      "url": "https://crimsondesert.gg/bosses/the-masked-liberator"
+    }
+  },
+  {
+    "id": "the-raging-tempest",
+    "name": "The Raging Tempest",
+    "slug": "the-raging-tempest",
+    "category": "bosses",
+    "type": "boss",
+    "typeLabel": "Boss",
+    "rarity": "unclassified",
+    "description": "",
+    "source": {
+      "site": "crimsondesert.gg",
+      "url": "https://crimsondesert.gg/bosses/the-raging-tempest"
+    }
+  },
+  {
+    "id": "titan",
+    "name": "Titan",
+    "slug": "titan",
+    "category": "bosses",
+    "type": "boss",
+    "typeLabel": "Boss",
+    "rarity": "unclassified",
+    "description": "",
+    "source": {
+      "site": "crimsondesert.gg",
+      "url": "https://crimsondesert.gg/bosses/titan"
+    }
+  },
+  {
+    "id": "tristan-the-flame-knight",
+    "name": "Tristan, the Flame Knight",
+    "slug": "tristan-the-flame-knight",
+    "category": "bosses",
+    "type": "boss",
+    "typeLabel": "Boss",
+    "rarity": "unclassified",
+    "description": "",
+    "source": {
+      "site": "crimsondesert.gg",
+      "url": "https://crimsondesert.gg/bosses/tristan-the-flame-knight"
+    }
+  },
+  {
+    "id": "unleashed-aeserion-the-great-serpent",
+    "name": "Unleashed Aeserion, the Great Serpent",
+    "slug": "unleashed-aeserion-the-great-serpent",
+    "category": "bosses",
+    "type": "boss",
+    "typeLabel": "Boss",
+    "rarity": "unclassified",
+    "description": "",
+    "source": {
+      "site": "crimsondesert.gg",
+      "url": "https://crimsondesert.gg/bosses/unleashed-aeserion-the-great-serpent"
+    }
+  },
+  {
+    "id": "walter-lanford",
+    "name": "Walter Lanford",
+    "slug": "walter-lanford",
+    "category": "bosses",
+    "type": "boss",
+    "typeLabel": "Boss",
+    "rarity": "unclassified",
+    "description": "",
+    "source": {
+      "site": "crimsondesert.gg",
+      "url": "https://crimsondesert.gg/bosses/walter-lanford"
+    }
+  },
+  {
+    "id": "whistling-arrow-blackstar",
+    "name": "Whistling Arrow Blackstar",
+    "slug": "whistling-arrow-blackstar",
+    "category": "bosses",
+    "type": "boss",
+    "typeLabel": "Boss",
+    "rarity": "unclassified",
+    "description": "",
+    "source": {
+      "site": "crimsondesert.gg",
+      "url": "https://crimsondesert.gg/bosses/whistling-arrow-blackstar"
+    }
+  },
+  {
+    "id": "white-bear-of-the-high-mountains",
+    "name": "White Bear of the High Mountains",
+    "slug": "white-bear-of-the-high-mountains",
+    "category": "bosses",
+    "type": "boss",
+    "typeLabel": "Boss",
+    "rarity": "unclassified",
+    "description": "",
+    "source": {
+      "site": "crimsondesert.gg",
+      "url": "https://crimsondesert.gg/bosses/white-bear-of-the-high-mountains"
+    }
+  },
+  {
+    "id": "white-bearclaw",
+    "name": "White Bearclaw",
+    "slug": "white-bearclaw",
+    "category": "bosses",
+    "type": "boss",
+    "typeLabel": "Boss",
+    "rarity": "unclassified",
+    "description": "",
+    "source": {
+      "site": "crimsondesert.gg",
+      "url": "https://crimsondesert.gg/bosses/white-bearclaw"
+    }
+  },
+  {
+    "id": "white-horn-shepherd-of-souls",
+    "name": "White Horn, Shepherd of Souls",
+    "slug": "white-horn-shepherd-of-souls",
+    "category": "bosses",
+    "type": "boss",
+    "typeLabel": "Boss",
+    "rarity": "unclassified",
+    "description": "",
+    "source": {
+      "site": "crimsondesert.gg",
+      "url": "https://crimsondesert.gg/bosses/white-horn-shepherd-of-souls"
+    }
+  }
+]

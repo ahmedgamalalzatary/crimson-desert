@@ -38,6 +38,7 @@ export interface WeaponRecord {
   type: string;
   typeLabel: string;
   rarity: string;
+  character: string | null;
   stats: {
     baseDamage: number | null;
     finalDamage: number | null;
@@ -54,13 +55,14 @@ export interface WeaponRecord {
 
 export type WeaponListItem = Pick<
   WeaponRecord,
-  "id" | "name" | "slug" | "category" | "type" | "typeLabel" | "rarity" | "stats"
+  "id" | "name" | "slug" | "category" | "type" | "typeLabel" | "rarity" | "character" | "stats"
 >;
 
 export interface WeaponFilterState {
   query: string;
   selectedRarities: string[];
   selectedTypes: string[];
+  selectedCharacters: string[];
 }
 
 export interface WeaponDirectoryState extends WeaponFilterState {
@@ -71,6 +73,7 @@ export interface WeaponFilterCounts {
   total: number;
   rarityCounts: Record<string, number>;
   typeCounts: Record<string, number>;
+  characterCounts: Record<string, number>;
 }
 
 const DEFAULT_WEAPON_DIRECTORY_SORT = "name-asc";
@@ -81,7 +84,7 @@ const parseDirectoryValues = (value: string | null) =>
     .map((entry) => entry.trim())
     .filter(Boolean) ?? [];
 
-const matchesQuery = (weapon: Pick<WeaponRecord, "name" | "type">, query: string) => {
+const matchesQuery = (weapon: Pick<WeaponRecord, "name" | "type" | "character">, query: string) => {
   if (query.length === 0) {
     return true;
   }
@@ -90,7 +93,8 @@ const matchesQuery = (weapon: Pick<WeaponRecord, "name" | "type">, query: string
 
   return (
     weapon.name.toLowerCase().includes(normalizedQuery) ||
-    weapon.type.toLowerCase().includes(normalizedQuery)
+    weapon.type.toLowerCase().includes(normalizedQuery) ||
+    (weapon.character?.toLowerCase().includes(normalizedQuery) ?? false)
   );
 };
 
@@ -98,7 +102,7 @@ export const loadWeapons = async (): Promise<WeaponRecord[]> =>
   JSON.parse(await readFile("data/weapons.json", "utf8"));
 
 export const createWeaponListItems = (weapons: WeaponRecord[]): WeaponListItem[] =>
-  weapons.map(({ id, name, slug, category, type, typeLabel, rarity, stats }) => ({
+  weapons.map(({ id, name, slug, category, type, typeLabel, rarity, character, stats }) => ({
     id,
     name,
     slug,
@@ -106,6 +110,7 @@ export const createWeaponListItems = (weapons: WeaponRecord[]): WeaponListItem[]
     type,
     typeLabel,
     rarity,
+    character,
     stats
   }));
 
@@ -120,7 +125,7 @@ export const getStaticWeaponPaths = (weapons: WeaponRecord[]) =>
   }));
 
 export const getWeaponFilterCounts = (
-  weapons: Pick<WeaponRecord, "name" | "type" | "rarity">[],
+  weapons: Pick<WeaponRecord, "name" | "type" | "rarity" | "character">[],
   filters: WeaponFilterState
 ): WeaponFilterCounts => {
   const query = filters.query.trim().toLowerCase();
@@ -134,13 +139,20 @@ export const getWeaponFilterCounts = (
     (weapon) =>
       filters.selectedRarities.length === 0 || filters.selectedRarities.includes(weapon.rarity)
   );
+  const characterPool = queryMatches.filter(
+    (weapon) =>
+      filters.selectedCharacters.length === 0 ||
+      filters.selectedCharacters.includes(weapon.character ?? "")
+  );
 
   return {
     total: queryMatches.filter(
       (weapon) =>
         (filters.selectedRarities.length === 0 ||
           filters.selectedRarities.includes(weapon.rarity)) &&
-        (filters.selectedTypes.length === 0 || filters.selectedTypes.includes(weapon.type))
+        (filters.selectedTypes.length === 0 || filters.selectedTypes.includes(weapon.type)) &&
+        (filters.selectedCharacters.length === 0 ||
+          filters.selectedCharacters.includes(weapon.character ?? ""))
     ).length,
     rarityCounts: Object.fromEntries(
       [...new Set(rarityPool.map((weapon) => weapon.rarity))].map((rarity) => [
@@ -153,6 +165,12 @@ export const getWeaponFilterCounts = (
         type,
         typePool.filter((weapon) => weapon.type === type).length
       ])
+    ),
+    characterCounts: Object.fromEntries(
+      [...new Set(characterPool.map((weapon) => weapon.character ?? ""))].map((character) => [
+        character,
+        characterPool.filter((weapon) => (weapon.character ?? "") === character).length
+      ])
     )
   };
 };
@@ -163,6 +181,7 @@ export const getWeaponDirectoryStateFromSearchParams = (
   query: searchParams.get("q")?.trim() ?? "",
   selectedRarities: parseDirectoryValues(searchParams.get("rarity")),
   selectedTypes: parseDirectoryValues(searchParams.get("type")),
+  selectedCharacters: parseDirectoryValues(searchParams.get("character")),
   sort: searchParams.get("sort")?.trim() || DEFAULT_WEAPON_DIRECTORY_SORT
 });
 
@@ -181,6 +200,10 @@ export const toWeaponDirectorySearchParams = (
 
   if (state.selectedTypes.length > 0) {
     searchParams.set("type", state.selectedTypes.join(","));
+  }
+
+  if (state.selectedCharacters.length > 0) {
+    searchParams.set("character", state.selectedCharacters.join(","));
   }
 
   if (state.sort !== DEFAULT_WEAPON_DIRECTORY_SORT) {

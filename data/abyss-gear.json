@@ -1,1 +1,842 @@
-[]
+[
+  {
+    "id": "abyssal-assimilation",
+    "name": "Abyssal Assimilation",
+    "slug": "abyssal-assimilation",
+    "category": "abyss-gear",
+    "type": "abyss-gear",
+    "typeLabel": "Abyss Gear",
+    "rarity": "unclassified",
+    "description": "Grants a variety of effects when embedded in an equipment socket. Witches found in each region have the power to embed or remove Abyss gears.",
+    "source": {
+      "site": "crimsondesert.gg",
+      "url": "https://crimsondesert.gg/database/abyss-gear/abyssal-assimilation"
+    }
+  },
+  {
+    "id": "abyssal-rays",
+    "name": "Abyssal Rays",
+    "slug": "abyssal-rays",
+    "category": "abyss-gear",
+    "type": "abyss-gear",
+    "typeLabel": "Abyss Gear",
+    "rarity": "unclassified",
+    "description": "Grants a variety of effects when embedded in an equipment socket. Witches found in each region have the power to embed or remove Abyss gears.  Abyssal Rays: Draws power from the Abyss to shoot damaging rays of light.",
+    "source": {
+      "site": "crimsondesert.gg",
+      "url": "https://crimsondesert.gg/database/abyss-gear/abyssal-rays"
+    }
+  },
+  {
+    "id": "abyssbane-i",
+    "name": "Abyssbane I",
+    "slug": "abyssbane-i",
+    "category": "abyss-gear",
+    "type": "abyss-gear",
+    "typeLabel": "Abyss Gear",
+    "rarity": "unclassified",
+    "description": "Grants a variety of effects when embedded in an equipment socket. Witches found in each region have the power to embed or remove Abyss gears.",
+    "source": {
+      "site": "crimsondesert.gg",
+      "url": "https://crimsondesert.gg/database/abyss-gear/abyssbane-i"
+    }
+  },
+  {
+    "id": "abyssbane-ii",
+    "name": "Abyssbane II",
+    "slug": "abyssbane-ii",
+    "category": "abyss-gear",
+    "type": "abyss-gear",
+    "typeLabel": "Abyss Gear",
+    "rarity": "unclassified",
+    "description": "Grants a variety of effects when embedded in an equipment socket. Witches found in each region have the power to embed or remove Abyss gears.",
+    "source": {
+      "site": "crimsondesert.gg",
+      "url": "https://crimsondesert.gg/database/abyss-gear/abyssbane-ii"
+    }
+  },
+  {
+    "id": "abyssbane-iii",
+    "name": "Abyssbane III",
+    "slug": "abyssbane-iii",
+    "category": "abyss-gear",
+    "type": "abyss-gear",
+    "typeLabel": "Abyss Gear",
+    "rarity": "unclassified",
+    "description": "Grants a variety of effects when embedded in an equipment socket. Witches found in each region have the power to embed or remove Abyss gears.",
+    "source": {
+      "site": "crimsondesert.gg",
+      "url": "https://crimsondesert.gg/database/abyss-gear/abyssbane-iii"
+    }
+  },
+  {
+    "id": "aegis-i",
+    "name": "Aegis I",
+    "slug": "aegis-i",
+    "category": "abyss-gear",
+    "type": "abyss-gear",
+    "typeLabel": "Abyss Gear",
+    "rarity": "unclassified",
+    "description": "Grants a variety of effects when embedded in an equipment socket. Witches found in each region have the power to embed or remove Abyss gears.",
+    "source": {
+      "site": "crimsondesert.gg",
+      "url": "https://crimsondesert.gg/database/abyss-gear/aegis-i"
+    }
+  },
+  {
+    "id": "aegis-ii",
+    "name": "Aegis II",
+    "slug": "aegis-ii",
+    "category": "abyss-gear",
+    "type": "abyss-gear",
+    "typeLabel": "Abyss Gear",
+    "rarity": "unclassified",
+    "description": "Grants a variety of effects when embedded in an equipment socket. Witches found in each region have the power to embed or remove Abyss gears.",
+    "source": {
+      "site": "crimsondesert.gg",
+      "url": "https://crimsondesert.gg/database/abyss-gear/aegis-ii"
+    }
+  },
+  {
+    "id": "aegis-iii",
+    "name": "Aegis III",
+    "slug": "aegis-iii",
+    "category": "abyss-gear",
+    "type": "abyss-gear",
+    "typeLabel": "Abyss Gear",
+    "rarity": "unclassified",
+    "description": "Grants a variety of effects when embedded in an equipment socket. Witches found in each region have the power to embed or remove Abyss gears.",
+    "source": {
+      "site": "crimsondesert.gg",
+      "url": "https://crimsondesert.gg/database/abyss-gear/aegis-iii"
+    }
+  },
+  {
+    "id": "ancient-reckoning",
+    "name": "Ancient Reckoning",
+    "slug": "ancient-reckoning",
+    "category": "abyss-gear",
+    "type": "abyss-gear",
+    "typeLabel": "Abyss Gear",
+    "rarity": "unclassified",
+    "description": "Grants a variety of effects when embedded in an equipment socket. Witches found in each region have the power to embed or remove Abyss gears.  Ancient Reckoning: Create a storm where the enemy is to deal additional damage.",
+    "source": {
+      "site": "crimsondesert.gg",
+      "url": "https://crimsondesert.gg/database/abyss-gear/ancient-reckoning"
+    }
+  },
+  {
+    "id": "ancient-retribution",
+    "name": "Ancient Retribution",
+    "slug": "ancient-retribution",
+    "category": "abyss-gear",
+    "type": "abyss-gear",
+    "typeLabel": "Abyss Gear",
+    "rarity": "unclassified",
+    "description": "Grants a variety of effects when embedded in an equipment socket. Witches found in each region have the power to embed or remove Abyss gears.  Ancient Retribution: Commands an ancient sentry weapon to shoot down at enemies from above.",
+    "source": {
+      "site": "crimsondesert.gg",
+      "url": "https://crimsondesert.gg/database/abyss-gear/ancient-retribution"
+    }
+  },
+  {
+    "id": "ancient-wrath",
+    "name": "Ancient Wrath",
+    "slug": "ancient-wrath",
+    "category": "abyss-gear",
+    "type": "abyss-gear",
+    "typeLabel": "Abyss Gear",
+    "rarity": "unclassified",
+    "description": "Grants a variety of effects when embedded in an equipment socket. Witches found in each region have the power to embed or remove Abyss gears.  Ancient Wrath: Summons orbs that track nearby enemies, exploding on impact.",
+    "source": {
+      "site": "crimsondesert.gg",
+      "url": "https://crimsondesert.gg/database/abyss-gear/ancient-wrath"
+    }
+  },
+  {
+    "id": "aptitude-i",
+    "name": "Aptitude I",
+    "slug": "aptitude-i",
+    "category": "abyss-gear",
+    "type": "abyss-gear",
+    "typeLabel": "Abyss Gear",
+    "rarity": "unclassified",
+    "description": "Grants a variety of effects when embedded in an equipment socket. Witches found in each region have the power to embed or remove Abyss gears.",
+    "source": {
+      "site": "crimsondesert.gg",
+      "url": "https://crimsondesert.gg/database/abyss-gear/aptitude-i"
+    }
+  },
+  {
+    "id": "aptitude-ii",
+    "name": "Aptitude II",
+    "slug": "aptitude-ii",
+    "category": "abyss-gear",
+    "type": "abyss-gear",
+    "typeLabel": "Abyss Gear",
+    "rarity": "unclassified",
+    "description": "Grants a variety of effects when embedded in an equipment socket. Witches found in each region have the power to embed or remove Abyss gears.",
+    "source": {
+      "site": "crimsondesert.gg",
+      "url": "https://crimsondesert.gg/database/abyss-gear/aptitude-ii"
+    }
+  },
+  {
+    "id": "aptitude-iii",
+    "name": "Aptitude III",
+    "slug": "aptitude-iii",
+    "category": "abyss-gear",
+    "type": "abyss-gear",
+    "typeLabel": "Abyss Gear",
+    "rarity": "unclassified",
+    "description": "Grants a variety of effects when embedded in an equipment socket. Witches found in each region have the power to embed or remove Abyss gears.",
+    "source": {
+      "site": "crimsondesert.gg",
+      "url": "https://crimsondesert.gg/database/abyss-gear/aptitude-iii"
+    }
+  },
+  {
+    "id": "ascent-i",
+    "name": "Ascent I",
+    "slug": "ascent-i",
+    "category": "abyss-gear",
+    "type": "abyss-gear",
+    "typeLabel": "Abyss Gear",
+    "rarity": "unclassified",
+    "description": "Grants a variety of effects when embedded in an equipment socket. Witches found in each region have the power to embed or remove Abyss gears.",
+    "source": {
+      "site": "crimsondesert.gg",
+      "url": "https://crimsondesert.gg/database/abyss-gear/ascent-i"
+    }
+  },
+  {
+    "id": "ascent-ii",
+    "name": "Ascent II",
+    "slug": "ascent-ii",
+    "category": "abyss-gear",
+    "type": "abyss-gear",
+    "typeLabel": "Abyss Gear",
+    "rarity": "unclassified",
+    "description": "Grants a variety of effects when embedded in an equipment socket. Witches found in each region have the power to embed or remove Abyss gears.",
+    "source": {
+      "site": "crimsondesert.gg",
+      "url": "https://crimsondesert.gg/database/abyss-gear/ascent-ii"
+    }
+  },
+  {
+    "id": "ascent-iii",
+    "name": "Ascent III",
+    "slug": "ascent-iii",
+    "category": "abyss-gear",
+    "type": "abyss-gear",
+    "typeLabel": "Abyss Gear",
+    "rarity": "unclassified",
+    "description": "Grants a variety of effects when embedded in an equipment socket. Witches found in each region have the power to embed or remove Abyss gears.",
+    "source": {
+      "site": "crimsondesert.gg",
+      "url": "https://crimsondesert.gg/database/abyss-gear/ascent-iii"
+    }
+  },
+  {
+    "id": "ators-orb",
+    "name": "Ator's Orb",
+    "slug": "ators-orb",
+    "category": "abyss-gear",
+    "type": "abyss-gear",
+    "typeLabel": "Abyss Gear",
+    "rarity": "unclassified",
+    "description": "Grants a variety of effects when embedded in an equipment socket. Witches found in each region have the power to embed or remove Abyss gears.  Ator's Orb: Summons orbs that track nearby enemies after a short delay, dealing damage on impact.",
+    "source": {
+      "site": "crimsondesert.gg",
+      "url": "https://crimsondesert.gg/database/abyss-gear/ators-orb"
+    }
+  },
+  {
+    "id": "beastbane-i",
+    "name": "Beastbane I",
+    "slug": "beastbane-i",
+    "category": "abyss-gear",
+    "type": "abyss-gear",
+    "typeLabel": "Abyss Gear",
+    "rarity": "unclassified",
+    "description": "Grants a variety of effects when embedded in an equipment socket. Witches found in each region have the power to embed or remove Abyss gears.",
+    "source": {
+      "site": "crimsondesert.gg",
+      "url": "https://crimsondesert.gg/database/abyss-gear/beastbane-i"
+    }
+  },
+  {
+    "id": "beastbane-ii",
+    "name": "Beastbane II",
+    "slug": "beastbane-ii",
+    "category": "abyss-gear",
+    "type": "abyss-gear",
+    "typeLabel": "Abyss Gear",
+    "rarity": "unclassified",
+    "description": "Grants a variety of effects when embedded in an equipment socket. Witches found in each region have the power to embed or remove Abyss gears.",
+    "source": {
+      "site": "crimsondesert.gg",
+      "url": "https://crimsondesert.gg/database/abyss-gear/beastbane-ii"
+    }
+  },
+  {
+    "id": "beastbane-iii",
+    "name": "Beastbane III",
+    "slug": "beastbane-iii",
+    "category": "abyss-gear",
+    "type": "abyss-gear",
+    "typeLabel": "Abyss Gear",
+    "rarity": "unclassified",
+    "description": "Grants a variety of effects when embedded in an equipment socket. Witches found in each region have the power to embed or remove Abyss gears.",
+    "source": {
+      "site": "crimsondesert.gg",
+      "url": "https://crimsondesert.gg/database/abyss-gear/beastbane-iii"
+    }
+  },
+  {
+    "id": "blessing-of-nature-i",
+    "name": "Blessing of Nature I",
+    "slug": "blessing-of-nature-i",
+    "category": "abyss-gear",
+    "type": "abyss-gear",
+    "typeLabel": "Abyss Gear",
+    "rarity": "unclassified",
+    "description": "Grants a variety of effects when embedded in an equipment socket. Witches found in each region have the power to embed or remove Abyss gears.",
+    "source": {
+      "site": "crimsondesert.gg",
+      "url": "https://crimsondesert.gg/database/abyss-gear/blessing-of-nature-i"
+    }
+  },
+  {
+    "id": "blessing-of-nature-ii",
+    "name": "Blessing of Nature II",
+    "slug": "blessing-of-nature-ii",
+    "category": "abyss-gear",
+    "type": "abyss-gear",
+    "typeLabel": "Abyss Gear",
+    "rarity": "unclassified",
+    "description": "Grants a variety of effects when embedded in an equipment socket. Witches found in each region have the power to embed or remove Abyss gears.",
+    "source": {
+      "site": "crimsondesert.gg",
+      "url": "https://crimsondesert.gg/database/abyss-gear/blessing-of-nature-ii"
+    }
+  },
+  {
+    "id": "blessing-of-nature-iii",
+    "name": "Blessing of Nature III",
+    "slug": "blessing-of-nature-iii",
+    "category": "abyss-gear",
+    "type": "abyss-gear",
+    "typeLabel": "Abyss Gear",
+    "rarity": "unclassified",
+    "description": "Grants a variety of effects when embedded in an equipment socket. Witches found in each region have the power to embed or remove Abyss gears.",
+    "source": {
+      "site": "crimsondesert.gg",
+      "url": "https://crimsondesert.gg/database/abyss-gear/blessing-of-nature-iii"
+    }
+  },
+  {
+    "id": "blessing-of-the-beast-i",
+    "name": "Blessing of the Beast I",
+    "slug": "blessing-of-the-beast-i",
+    "category": "abyss-gear",
+    "type": "abyss-gear",
+    "typeLabel": "Abyss Gear",
+    "rarity": "unclassified",
+    "description": "Grants a variety of effects when embedded in an equipment socket. Witches found in each region have the power to embed or remove Abyss gears.",
+    "source": {
+      "site": "crimsondesert.gg",
+      "url": "https://crimsondesert.gg/database/abyss-gear/blessing-of-the-beast-i"
+    }
+  },
+  {
+    "id": "blessing-of-the-beast-ii",
+    "name": "Blessing of the Beast II",
+    "slug": "blessing-of-the-beast-ii",
+    "category": "abyss-gear",
+    "type": "abyss-gear",
+    "typeLabel": "Abyss Gear",
+    "rarity": "unclassified",
+    "description": "Grants a variety of effects when embedded in an equipment socket. Witches found in each region have the power to embed or remove Abyss gears.",
+    "source": {
+      "site": "crimsondesert.gg",
+      "url": "https://crimsondesert.gg/database/abyss-gear/blessing-of-the-beast-ii"
+    }
+  },
+  {
+    "id": "blessing-of-the-beast-iii",
+    "name": "Blessing of the Beast III",
+    "slug": "blessing-of-the-beast-iii",
+    "category": "abyss-gear",
+    "type": "abyss-gear",
+    "typeLabel": "Abyss Gear",
+    "rarity": "unclassified",
+    "description": "Grants a variety of effects when embedded in an equipment socket. Witches found in each region have the power to embed or remove Abyss gears.",
+    "source": {
+      "site": "crimsondesert.gg",
+      "url": "https://crimsondesert.gg/database/abyss-gear/blessing-of-the-beast-iii"
+    }
+  },
+  {
+    "id": "blessing-of-the-earth-i",
+    "name": "Blessing of the Earth I",
+    "slug": "blessing-of-the-earth-i",
+    "category": "abyss-gear",
+    "type": "abyss-gear",
+    "typeLabel": "Abyss Gear",
+    "rarity": "unclassified",
+    "description": "Grants a variety of effects when embedded in an equipment socket. Witches found in each region have the power to embed or remove Abyss gears.",
+    "source": {
+      "site": "crimsondesert.gg",
+      "url": "https://crimsondesert.gg/database/abyss-gear/blessing-of-the-earth-i"
+    }
+  },
+  {
+    "id": "blessing-of-the-earth-ii",
+    "name": "Blessing of the Earth II",
+    "slug": "blessing-of-the-earth-ii",
+    "category": "abyss-gear",
+    "type": "abyss-gear",
+    "typeLabel": "Abyss Gear",
+    "rarity": "unclassified",
+    "description": "Grants a variety of effects when embedded in an equipment socket. Witches found in each region have the power to embed or remove Abyss gears.",
+    "source": {
+      "site": "crimsondesert.gg",
+      "url": "https://crimsondesert.gg/database/abyss-gear/blessing-of-the-earth-ii"
+    }
+  },
+  {
+    "id": "blessing-of-the-earth-iii",
+    "name": "Blessing of the Earth III",
+    "slug": "blessing-of-the-earth-iii",
+    "category": "abyss-gear",
+    "type": "abyss-gear",
+    "typeLabel": "Abyss Gear",
+    "rarity": "unclassified",
+    "description": "Grants a variety of effects when embedded in an equipment socket. Witches found in each region have the power to embed or remove Abyss gears.",
+    "source": {
+      "site": "crimsondesert.gg",
+      "url": "https://crimsondesert.gg/database/abyss-gear/blessing-of-the-earth-iii"
+    }
+  },
+  {
+    "id": "blessing-of-the-forest-i",
+    "name": "Blessing of the Forest I",
+    "slug": "blessing-of-the-forest-i",
+    "category": "abyss-gear",
+    "type": "abyss-gear",
+    "typeLabel": "Abyss Gear",
+    "rarity": "unclassified",
+    "description": "Grants a variety of effects when embedded in an equipment socket. Witches found in each region have the power to embed or remove Abyss gears.",
+    "source": {
+      "site": "crimsondesert.gg",
+      "url": "https://crimsondesert.gg/database/abyss-gear/blessing-of-the-forest-i"
+    }
+  },
+  {
+    "id": "blessing-of-the-forest-ii",
+    "name": "Blessing of the Forest II",
+    "slug": "blessing-of-the-forest-ii",
+    "category": "abyss-gear",
+    "type": "abyss-gear",
+    "typeLabel": "Abyss Gear",
+    "rarity": "unclassified",
+    "description": "Grants a variety of effects when embedded in an equipment socket. Witches found in each region have the power to embed or remove Abyss gears.",
+    "source": {
+      "site": "crimsondesert.gg",
+      "url": "https://crimsondesert.gg/database/abyss-gear/blessing-of-the-forest-ii"
+    }
+  },
+  {
+    "id": "blessing-of-the-forest-iii",
+    "name": "Blessing of the Forest III",
+    "slug": "blessing-of-the-forest-iii",
+    "category": "abyss-gear",
+    "type": "abyss-gear",
+    "typeLabel": "Abyss Gear",
+    "rarity": "unclassified",
+    "description": "Grants a variety of effects when embedded in an equipment socket. Witches found in each region have the power to embed or remove Abyss gears.",
+    "source": {
+      "site": "crimsondesert.gg",
+      "url": "https://crimsondesert.gg/database/abyss-gear/blessing-of-the-forest-iii"
+    }
+  },
+  {
+    "id": "bloodbane-i",
+    "name": "Bloodbane I",
+    "slug": "bloodbane-i",
+    "category": "abyss-gear",
+    "type": "abyss-gear",
+    "typeLabel": "Abyss Gear",
+    "rarity": "unclassified",
+    "description": "Grants a variety of effects when embedded in an equipment socket. Witches found in each region have the power to embed or remove Abyss gears.",
+    "source": {
+      "site": "crimsondesert.gg",
+      "url": "https://crimsondesert.gg/database/abyss-gear/bloodbane-i"
+    }
+  },
+  {
+    "id": "bloodbane-ii",
+    "name": "Bloodbane II",
+    "slug": "bloodbane-ii",
+    "category": "abyss-gear",
+    "type": "abyss-gear",
+    "typeLabel": "Abyss Gear",
+    "rarity": "unclassified",
+    "description": "Grants a variety of effects when embedded in an equipment socket. Witches found in each region have the power to embed or remove Abyss gears.",
+    "source": {
+      "site": "crimsondesert.gg",
+      "url": "https://crimsondesert.gg/database/abyss-gear/bloodbane-ii"
+    }
+  },
+  {
+    "id": "bloodbane-iii",
+    "name": "Bloodbane III",
+    "slug": "bloodbane-iii",
+    "category": "abyss-gear",
+    "type": "abyss-gear",
+    "typeLabel": "Abyss Gear",
+    "rarity": "unclassified",
+    "description": "Grants a variety of effects when embedded in an equipment socket. Witches found in each region have the power to embed or remove Abyss gears.",
+    "source": {
+      "site": "crimsondesert.gg",
+      "url": "https://crimsondesert.gg/database/abyss-gear/bloodbane-iii"
+    }
+  },
+  {
+    "id": "colossal-might",
+    "name": "Colossal Might",
+    "slug": "colossal-might",
+    "category": "abyss-gear",
+    "type": "abyss-gear",
+    "typeLabel": "Abyss Gear",
+    "rarity": "unclassified",
+    "description": "Grants a variety of effects when embedded in an equipment socket. Witches found in each region have the power to embed or remove Abyss gears.  Colossal Might: Slams the ground with immense force, dealing additional damage.",
+    "source": {
+      "site": "crimsondesert.gg",
+      "url": "https://crimsondesert.gg/database/abyss-gear/colossal-might"
+    }
+  },
+  {
+    "id": "companionship-i",
+    "name": "Companionship I",
+    "slug": "companionship-i",
+    "category": "abyss-gear",
+    "type": "abyss-gear",
+    "typeLabel": "Abyss Gear",
+    "rarity": "unclassified",
+    "description": "Grants a variety of effects when embedded in an equipment socket. Witches found in each region have the power to embed or remove Abyss gears.",
+    "source": {
+      "site": "crimsondesert.gg",
+      "url": "https://crimsondesert.gg/database/abyss-gear/companionship-i"
+    }
+  },
+  {
+    "id": "companionship-ii",
+    "name": "Companionship II",
+    "slug": "companionship-ii",
+    "category": "abyss-gear",
+    "type": "abyss-gear",
+    "typeLabel": "Abyss Gear",
+    "rarity": "unclassified",
+    "description": "Grants a variety of effects when embedded in an equipment socket. Witches found in each region have the power to embed or remove Abyss gears.",
+    "source": {
+      "site": "crimsondesert.gg",
+      "url": "https://crimsondesert.gg/database/abyss-gear/companionship-ii"
+    }
+  },
+  {
+    "id": "companionship-iii",
+    "name": "Companionship III",
+    "slug": "companionship-iii",
+    "category": "abyss-gear",
+    "type": "abyss-gear",
+    "typeLabel": "Abyss Gear",
+    "rarity": "unclassified",
+    "description": "Grants a variety of effects when embedded in an equipment socket. Witches found in each region have the power to embed or remove Abyss gears.",
+    "source": {
+      "site": "crimsondesert.gg",
+      "url": "https://crimsondesert.gg/database/abyss-gear/companionship-iii"
+    }
+  },
+  {
+    "id": "composure-i",
+    "name": "Composure I",
+    "slug": "composure-i",
+    "category": "abyss-gear",
+    "type": "abyss-gear",
+    "typeLabel": "Abyss Gear",
+    "rarity": "unclassified",
+    "description": "Grants a variety of effects when embedded in an equipment socket. Witches found in each region have the power to embed or remove Abyss gears.",
+    "source": {
+      "site": "crimsondesert.gg",
+      "url": "https://crimsondesert.gg/database/abyss-gear/composure-i"
+    }
+  },
+  {
+    "id": "composure-ii",
+    "name": "Composure II",
+    "slug": "composure-ii",
+    "category": "abyss-gear",
+    "type": "abyss-gear",
+    "typeLabel": "Abyss Gear",
+    "rarity": "unclassified",
+    "description": "Grants a variety of effects when embedded in an equipment socket. Witches found in each region have the power to embed or remove Abyss gears.",
+    "source": {
+      "site": "crimsondesert.gg",
+      "url": "https://crimsondesert.gg/database/abyss-gear/composure-ii"
+    }
+  },
+  {
+    "id": "composure-iii",
+    "name": "Composure III",
+    "slug": "composure-iii",
+    "category": "abyss-gear",
+    "type": "abyss-gear",
+    "typeLabel": "Abyss Gear",
+    "rarity": "unclassified",
+    "description": "Grants a variety of effects when embedded in an equipment socket. Witches found in each region have the power to embed or remove Abyss gears.",
+    "source": {
+      "site": "crimsondesert.gg",
+      "url": "https://crimsondesert.gg/database/abyss-gear/composure-iii"
+    }
+  },
+  {
+    "id": "crescent-moon-slash",
+    "name": "Crescent Moon Slash",
+    "slug": "crescent-moon-slash",
+    "category": "abyss-gear",
+    "type": "abyss-gear",
+    "typeLabel": "Abyss Gear",
+    "rarity": "unclassified",
+    "description": "Grants a variety of effects when embedded in an equipment socket. Witches found in each region have the power to embed or remove Abyss gears.  Crescent Moon Slash: Unleashes a moon-shaped blade of energy forward, dealing additional damage.",
+    "source": {
+      "site": "crimsondesert.gg",
+      "url": "https://crimsondesert.gg/database/abyss-gear/crescent-moon-slash"
+    }
+  },
+  {
+    "id": "crow-storm",
+    "name": "Crow Storm",
+    "slug": "crow-storm",
+    "category": "abyss-gear",
+    "type": "abyss-gear",
+    "typeLabel": "Abyss Gear",
+    "rarity": "unclassified",
+    "description": "Grants a variety of effects when embedded in an equipment socket. Witches found in each region have the power to embed or remove Abyss gears.  Crow Storm: Unleashes a murder of crows in three directions, then recalls them to deal additional damage.",
+    "source": {
+      "site": "crimsondesert.gg",
+      "url": "https://crimsondesert.gg/database/abyss-gear/crow-storm"
+    }
+  },
+  {
+    "id": "crows-pursuit",
+    "name": "Crow's Pursuit",
+    "slug": "crows-pursuit",
+    "category": "abyss-gear",
+    "type": "abyss-gear",
+    "typeLabel": "Abyss Gear",
+    "rarity": "unclassified",
+    "description": "Grants a variety of effects when embedded in an equipment socket. Witches found in each region have the power to embed or remove Abyss gears.  Crow's Pursuit: Summons a murder of crows to viciously attack nearby enemies.",
+    "source": {
+      "site": "crimsondesert.gg",
+      "url": "https://crimsondesert.gg/database/abyss-gear/crows-pursuit"
+    }
+  },
+  {
+    "id": "dark-crescent",
+    "name": "Dark Crescent",
+    "slug": "dark-crescent",
+    "category": "abyss-gear",
+    "type": "abyss-gear",
+    "typeLabel": "Abyss Gear",
+    "rarity": "unclassified",
+    "description": "Grants a variety of effects when embedded in an equipment socket. Witches found in each region have the power to embed or remove Abyss gears.  Dark Crescent: Unleashes arching bolts of dark energy, dealing damage to enemies.",
+    "source": {
+      "site": "crimsondesert.gg",
+      "url": "https://crimsondesert.gg/database/abyss-gear/dark-crescent"
+    }
+  },
+  {
+    "id": "destruction-i",
+    "name": "Destruction I",
+    "slug": "destruction-i",
+    "category": "abyss-gear",
+    "type": "abyss-gear",
+    "typeLabel": "Abyss Gear",
+    "rarity": "unclassified",
+    "description": "Grants a variety of effects when embedded in an equipment socket. Witches found in each region have the power to embed or remove Abyss gears.",
+    "source": {
+      "site": "crimsondesert.gg",
+      "url": "https://crimsondesert.gg/database/abyss-gear/destruction-i"
+    }
+  },
+  {
+    "id": "destruction-ii",
+    "name": "Destruction II",
+    "slug": "destruction-ii",
+    "category": "abyss-gear",
+    "type": "abyss-gear",
+    "typeLabel": "Abyss Gear",
+    "rarity": "unclassified",
+    "description": "Grants a variety of effects when embedded in an equipment socket. Witches found in each region have the power to embed or remove Abyss gears.",
+    "source": {
+      "site": "crimsondesert.gg",
+      "url": "https://crimsondesert.gg/database/abyss-gear/destruction-ii"
+    }
+  },
+  {
+    "id": "destruction-iii",
+    "name": "Destruction III",
+    "slug": "destruction-iii",
+    "category": "abyss-gear",
+    "type": "abyss-gear",
+    "typeLabel": "Abyss Gear",
+    "rarity": "unclassified",
+    "description": "Grants a variety of effects when embedded in an equipment socket. Witches found in each region have the power to embed or remove Abyss gears.",
+    "source": {
+      "site": "crimsondesert.gg",
+      "url": "https://crimsondesert.gg/database/abyss-gear/destruction-iii"
+    }
+  },
+  {
+    "id": "disarm-i",
+    "name": "Disarm I",
+    "slug": "disarm-i",
+    "category": "abyss-gear",
+    "type": "abyss-gear",
+    "typeLabel": "Abyss Gear",
+    "rarity": "unclassified",
+    "description": "Grants a variety of effects when embedded in an equipment socket. Witches found in each region have the power to embed or remove Abyss gears.",
+    "source": {
+      "site": "crimsondesert.gg",
+      "url": "https://crimsondesert.gg/database/abyss-gear/disarm-i"
+    }
+  },
+  {
+    "id": "disarm-ii",
+    "name": "Disarm II",
+    "slug": "disarm-ii",
+    "category": "abyss-gear",
+    "type": "abyss-gear",
+    "typeLabel": "Abyss Gear",
+    "rarity": "unclassified",
+    "description": "Grants a variety of effects when embedded in an equipment socket. Witches found in each region have the power to embed or remove Abyss gears.",
+    "source": {
+      "site": "crimsondesert.gg",
+      "url": "https://crimsondesert.gg/database/abyss-gear/disarm-ii"
+    }
+  },
+  {
+    "id": "disarm-iii",
+    "name": "Disarm III",
+    "slug": "disarm-iii",
+    "category": "abyss-gear",
+    "type": "abyss-gear",
+    "typeLabel": "Abyss Gear",
+    "rarity": "unclassified",
+    "description": "Grants a variety of effects when embedded in an equipment socket. Witches found in each region have the power to embed or remove Abyss gears.",
+    "source": {
+      "site": "crimsondesert.gg",
+      "url": "https://crimsondesert.gg/database/abyss-gear/disarm-iii"
+    }
+  },
+  {
+    "id": "earthrending-strike",
+    "name": "Earthrending Strike",
+    "slug": "earthrending-strike",
+    "category": "abyss-gear",
+    "type": "abyss-gear",
+    "typeLabel": "Abyss Gear",
+    "rarity": "unclassified",
+    "description": "Grants a variety of effects when embedded in an equipment socket. Witches found in each region have the power to embed or remove Abyss gears.  Earthrending Strike: Sends out a ground-shattering shockwave forward, dealing damage to enemies in its path.",
+    "source": {
+      "site": "crimsondesert.gg",
+      "url": "https://crimsondesert.gg/database/abyss-gear/earthrending-strike"
+    }
+  },
+  {
+    "id": "efficiency-i",
+    "name": "Efficiency I",
+    "slug": "efficiency-i",
+    "category": "abyss-gear",
+    "type": "abyss-gear",
+    "typeLabel": "Abyss Gear",
+    "rarity": "unclassified",
+    "description": "Grants a variety of effects when embedded in an equipment socket. Witches found in each region have the power to embed or remove Abyss gears.",
+    "source": {
+      "site": "crimsondesert.gg",
+      "url": "https://crimsondesert.gg/database/abyss-gear/efficiency-i"
+    }
+  },
+  {
+    "id": "efficiency-ii",
+    "name": "Efficiency II",
+    "slug": "efficiency-ii",
+    "category": "abyss-gear",
+    "type": "abyss-gear",
+    "typeLabel": "Abyss Gear",
+    "rarity": "unclassified",
+    "description": "Grants a variety of effects when embedded in an equipment socket. Witches found in each region have the power to embed or remove Abyss gears.",
+    "source": {
+      "site": "crimsondesert.gg",
+      "url": "https://crimsondesert.gg/database/abyss-gear/efficiency-ii"
+    }
+  },
+  {
+    "id": "efficiency-iii",
+    "name": "Efficiency III",
+    "slug": "efficiency-iii",
+    "category": "abyss-gear",
+    "type": "abyss-gear",
+    "typeLabel": "Abyss Gear",
+    "rarity": "unclassified",
+    "description": "Grants a variety of effects when embedded in an equipment socket. Witches found in each region have the power to embed or remove Abyss gears.",
+    "source": {
+      "site": "crimsondesert.gg",
+      "url": "https://crimsondesert.gg/database/abyss-gear/efficiency-iii"
+    }
+  },
+  {
+    "id": "energy-drain-i",
+    "name": "Energy Drain I",
+    "slug": "energy-drain-i",
+    "category": "abyss-gear",
+    "type": "abyss-gear",
+    "typeLabel": "Abyss Gear",
+    "rarity": "unclassified",
+    "description": "Grants a variety of effects when embedded in an equipment socket. Witches found in each region have the power to embed or remove Abyss gears.",
+    "source": {
+      "site": "crimsondesert.gg",
+      "url": "https://crimsondesert.gg/database/abyss-gear/energy-drain-i"
+    }
+  },
+  {
+    "id": "energy-drain-ii",
+    "name": "Energy Drain II",
+    "slug": "energy-drain-ii",
+    "category": "abyss-gear",
+    "type": "abyss-gear",
+    "typeLabel": "Abyss Gear",
+    "rarity": "unclassified",
+    "description": "Grants a variety of effects when embedded in an equipment socket. Witches found in each region have the power to embed or remove Abyss gears.",
+    "source": {
+      "site": "crimsondesert.gg",
+      "url": "https://crimsondesert.gg/database/abyss-gear/energy-drain-ii"
+    }
+  },
+  {
+    "id": "energy-drain-iii",
+    "name": "Energy Drain III",
+    "slug": "energy-drain-iii",
+    "category": "abyss-gear",
+    "type": "abyss-gear",
+    "typeLabel": "Abyss Gear",
+    "rarity": "unclassified",
+    "description": "Grants a variety of effects when embedded in an equipment socket. Witches found in each region have the power to embed or remove Abyss gears.",
+    "source": {
+      "site": "crimsondesert.gg",
+      "url": "https://crimsondesert.gg/database/abyss-gear/energy-drain-iii"
+    }
+  }
+]
