@@ -1,8 +1,11 @@
 ---
 import BaseLayout from "../../layouts/BaseLayout.astro";
+import WeaponDirectory from "../../components/WeaponDirectory.astro";
+import { readFile } from "node:fs/promises";
+
+const weapons = JSON.parse(await readFile("data/weapons.json", "utf8"));
 ---
 
 <BaseLayout title="Weapons | Crimson Desert">
-  <h1>Weapons</h1>
-  <p>Category page scaffold. Generated data hookup comes after the first data pipeline pass.</p>
+  <WeaponDirectory weapons={weapons} />
 </BaseLayout>

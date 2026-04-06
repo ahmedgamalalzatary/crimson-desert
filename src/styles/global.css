@@ -1,14 +1,15 @@
 :root {
   color-scheme: dark;
-  --bg: #0d1118;
-  --panel: #131a24;
-  --panel-2: #1a2431;
-  --text: #edf2f7;
-  --muted: #9fb0c3;
-  --accent: #d48d3f;
-  --border: #2a3747;
-  --max-width: 1200px;
-  font-family: "Segoe UI", sans-serif;
+  --bg: #0f1413;
+  --panel: rgba(15, 25, 24, 0.92);
+  --panel-2: rgba(23, 35, 34, 0.95);
+  --text: #f3f1e7;
+  --muted: #b6b2a0;
+  --accent: #d2a45c;
+  --accent-soft: rgba(210, 164, 92, 0.16);
+  --border: rgba(210, 164, 92, 0.22);
+  --max-width: 1280px;
+  font-family: Georgia, "Times New Roman", serif;
 }
 
 * {
@@ -18,8 +19,8 @@
 body {
   margin: 0;
   background:
-    radial-gradient(circle at top, rgba(212, 141, 63, 0.14), transparent 28%),
-    linear-gradient(180deg, #0b1017, #0d1118 45%, #111824);
+    radial-gradient(circle at top, rgba(210, 164, 92, 0.18), transparent 28%),
+    linear-gradient(180deg, #0a0f0e, #101716 45%, #16201e);
   color: var(--text);
 }
 
@@ -31,4 +32,226 @@ a {
 main {
   width: min(100% - 2rem, var(--max-width));
   margin: 0 auto;
+  padding: 2rem 0 4rem;
+}
+
+code,
+input,
+select,
+button {
+  font-family: "Segoe UI", sans-serif;
+}
+
+.weapon-directory {
+  display: grid;
+  gap: 1.5rem;
+}
+
+.hero,
+.toolbar,
+.filters,
+.results-head,
+.weapon-card {
+  border: 1px solid var(--border);
+  background: var(--panel);
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.22);
+}
+
+.hero,
+.toolbar,
+.filters,
+.results-head {
+  border-radius: 24px;
+  padding: 1.5rem;
+}
+
+.hero h1 {
+  margin: 0.25rem 0 0.75rem;
+  font-size: clamp(2.2rem, 6vw, 4.25rem);
+  line-height: 0.95;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.eyebrow,
+.card-type,
+.card-rarity,
+.materials span,
+.filter-group legend {
+  font-family: "Segoe UI", sans-serif;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+}
+
+.eyebrow {
+  margin: 0;
+  color: var(--accent);
+}
+
+.intro,
+.results-head p,
+.description,
+.materials p,
+.materials li {
+  color: var(--muted);
+}
+
+.summary {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+}
+
+.summary span {
+  border: 1px solid var(--border);
+  background: var(--accent-soft);
+  border-radius: 999px;
+  padding: 0.55rem 0.9rem;
+}
+
+.toolbar {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: minmax(0, 1.8fr) minmax(220px, 0.7fr);
+}
+
+.field {
+  display: grid;
+  gap: 0.45rem;
+  font-family: "Segoe UI", sans-serif;
+}
+
+.field span {
+  color: var(--muted);
+  font-size: 0.92rem;
+}
+
+.field input,
+.field select {
+  width: 100%;
+  border: 1px solid var(--border);
+  background: var(--panel-2);
+  color: var(--text);
+  border-radius: 14px;
+  padding: 0.95rem 1rem;
+}
+
+.filters {
+  display: grid;
+  gap: 1.25rem;
+}
+
+.filter-group {
+  margin: 0;
+  border: 0;
+  padding: 0;
+}
+
+.chip-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.7rem;
+}
+
+.chip {
+  position: relative;
+}
+
+.chip input {
+  position: absolute;
+  opacity: 0;
+  inset: 0;
+}
+
+.chip span {
+  display: inline-flex;
+  align-items: center;
+  border: 1px solid var(--border);
+  background: var(--panel-2);
+  border-radius: 999px;
+  padding: 0.55rem 0.85rem;
+  font-family: "Segoe UI", sans-serif;
+}
+
+.chip input:checked + span {
+  background: var(--accent-soft);
+  color: var(--accent);
+}
+
+.cards {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+}
+
+.weapon-card {
+  display: grid;
+  gap: 1rem;
+  border-radius: 22px;
+  padding: 1.2rem;
+}
+
+.weapon-card h2 {
+  margin: 0.2rem 0 0;
+  font-size: 1.5rem;
+}
+
+.card-top {
+  display: flex;
+  justify-content: space-between;
+  gap: 0.75rem;
+}
+
+.card-type,
+.card-rarity {
+  margin: 0;
+  color: var(--accent);
+  font-size: 0.78rem;
+}
+
+.stats-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 0.9rem;
+  margin: 0;
+}
+
+.stats-grid div {
+  border-top: 1px solid var(--border);
+  padding-top: 0.75rem;
+}
+
+.stats-grid dt {
+  color: var(--muted);
+  font-family: "Segoe UI", sans-serif;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+}
+
+.stats-grid dd {
+  margin: 0.2rem 0 0;
+  font-size: 1.15rem;
+}
+
+.materials ul {
+  margin: 0.55rem 0 0;
+  padding-left: 1rem;
+}
+
+.weapon-card > a {
+  color: var(--accent);
+  font-family: "Segoe UI", sans-serif;
+}
+
+@media (max-width: 800px) {
+  .toolbar {
+    grid-template-columns: 1fr;
+  }
+
+  .hero,
+  .toolbar,
+  .filters,
+  .results-head {
+    padding: 1.1rem;
+  }
 }

@@ -1,0 +1,275 @@
+---
+interface WeaponMaterial {
+  name: string;
+  quantity: number;
+}
+
+interface WeaponRecord {
+  id: string;
+  name: string;
+  slug: string;
+  category: "weapons";
+  type: string;
+  typeLabel: string;
+  rarity: string;
+  stats: {
+    baseDamage: number | null;
+    finalDamage: number | null;
+  };
+  materials: WeaponMaterial[];
+  description: string;
+  source: {
+    site: "crimsondesert.gg";
+    url: string;
+  };
+}
+
+interface Props {
+  weapons: WeaponRecord[];
+}
+
+const { weapons } = Astro.props;
+const rarityOptions = [...new Set(weapons.map((weapon) => weapon.rarity))].sort();
+const typeOptions = [...new Set(weapons.map((weapon) => weapon.type))].sort();
+---
+
+<section class="weapon-directory" data-weapon-directory>
+  <div class="hero">
+    <p class="eyebrow">Primary Source</p>
+    <h1>Weapons</h1>
+    <p class="intro">
+      Cleaned weapon data from <code>crimsondesert.gg</code>. Search is instant, filters are
+      multi-select, and sorting stays numeric for damage values.
+    </p>
+    <div class="summary">
+      <span><strong data-count>{weapons.length}</strong> unique weapons</span>
+      <span>{typeOptions.length} weapon types</span>
+      <span>{rarityOptions.length} rarity tiers</span>
+    </div>
+  </div>
+
+  <div class="toolbar">
+    <label class="field search-field">
+      <span>Search</span>
+      <input type="search" placeholder="Type a weapon name..." data-search />
+    </label>
+
+    <label class="field sort-field">
+      <span>Sort By</span>
+      <select data-sort>
+        <option value="name-asc">Name A-Z</option>
+        <option value="name-desc">Name Z-A</option>
+        <option value="baseDamage-desc">Base Damage High-Low</option>
+        <option value="baseDamage-asc">Base Damage Low-High</option>
+        <option value="finalDamage-desc">Final Damage High-Low</option>
+        <option value="finalDamage-asc">Final Damage Low-High</option>
+        <option value="rarity-asc">Rarity A-Z</option>
+        <option value="rarity-desc">Rarity Z-A</option>
+      </select>
+    </label>
+  </div>
+
+  <div class="filters">
+    <fieldset class="filter-group">
+      <legend>Rarity</legend>
+      <div class="chip-grid">
+        {rarityOptions.map((rarity) => (
+          <label class="chip">
+            <input type="checkbox" value={rarity} data-rarity />
+            <span>{rarity}</span>
+          </label>
+        ))}
+      </div>
+    </fieldset>
+
+    <fieldset class="filter-group">
+      <legend>Type</legend>
+      <div class="chip-grid">
+        {typeOptions.map((type) => (
+          <label class="chip">
+            <input type="checkbox" value={type} data-type />
+            <span>{type}</span>
+          </label>
+        ))}
+      </div>
+    </fieldset>
+  </div>
+
+  <div class="results-head">
+    <p data-results-text>Showing all {weapons.length} weapons</p>
+  </div>
+
+  <div class="cards" data-results>
+    {weapons.map((weapon) => (
+      <article
+        class="weapon-card"
+        data-card
+        data-name={weapon.name.toLowerCase()}
+        data-rarity={weapon.rarity}
+        data-type={weapon.type}
+        data-base-damage={weapon.stats.baseDamage ?? -1}
+        data-final-damage={weapon.stats.finalDamage ?? -1}
+      >
+        <div class="card-top">
+          <div>
+            <p class="card-type">{weapon.typeLabel}</p>
+            <h2>{weapon.name}</h2>
+          </div>
+          <span class="card-rarity">{weapon.rarity}</span>
+        </div>
+
+        <dl class="stats-grid">
+          <div>
+            <dt>Base</dt>
+            <dd>{weapon.stats.baseDamage ?? "N/A"}</dd>
+          </div>
+          <div>
+            <dt>Final</dt>
+            <dd>{weapon.stats.finalDamage ?? "N/A"}</dd>
+          </div>
+          <div>
+            <dt>Type</dt>
+            <dd>{weapon.type}</dd>
+          </div>
+          <div>
+            <dt>Materials</dt>
+            <dd>{weapon.materials.length}</dd>
+          </div>
+        </dl>
+
+        <p class="description">{weapon.description || "No description available."}</p>
+
+        <div class="materials">
+          <span>Materials</span>
+          {
+            weapon.materials.length > 0 ? (
+              <ul>
+                {weapon.materials.map((material) => (
+                  <li>{material.name} x{material.quantity}</li>
+                ))}
+              </ul>
+            ) : (
+              <p>None listed</p>
+            )
+          }
+        </div>
+
+        <a href={weapon.source.url} target="_blank" rel="noreferrer">Source page</a>
+      </article>
+    ))}
+  </div>
+</section>
+
+<script type="application/json" id="weapon-directory-data" set:html={JSON.stringify(weapons)} />
+
+<script>
+  const root = document.querySelector("[data-weapon-directory]");
+  const dataNode = document.getElementById("weapon-directory-data");
+
+  if (root instanceof HTMLElement && dataNode?.textContent) {
+    const weapons = JSON.parse(dataNode.textContent);
+    const searchInput = root.querySelector("[data-search]");
+    const sortSelect = root.querySelector("[data-sort]");
+    const rarityInputs = [...root.querySelectorAll("[data-rarity]")];
+    const typeInputs = [...root.querySelectorAll("[data-type]")];
+    const results = root.querySelector("[data-results]");
+    const countNode = root.querySelector("[data-count]");
+    const resultsText = root.querySelector("[data-results-text]");
+
+    const compareText = (left, right) => left.localeCompare(right);
+    const compareNumber = (left, right) => left - right;
+
+    const getSelectedValues = (inputs) =>
+      inputs.filter((input) => input.checked).map((input) => input.value);
+
+    const render = () => {
+      const query = searchInput instanceof HTMLInputElement ? searchInput.value.trim().toLowerCase() : "";
+      const selectedRarities = getSelectedValues(rarityInputs);
+      const selectedTypes = getSelectedValues(typeInputs);
+      const sortValue = sortSelect instanceof HTMLSelectElement ? sortSelect.value : "name-asc";
+
+      const filtered = weapons.filter((weapon) => {
+        const matchesQuery =
+          query.length === 0 ||
+          weapon.name.toLowerCase().includes(query) ||
+          weapon.type.toLowerCase().includes(query) ||
+          weapon.description.toLowerCase().includes(query);
+        const matchesRarity =
+          selectedRarities.length === 0 || selectedRarities.includes(weapon.rarity);
+        const matchesType = selectedTypes.length === 0 || selectedTypes.includes(weapon.type);
+
+        return matchesQuery && matchesRarity && matchesType;
+      });
+
+      filtered.sort((left, right) => {
+        switch (sortValue) {
+          case "name-desc":
+            return compareText(right.name, left.name);
+          case "baseDamage-desc":
+            return compareNumber((right.stats.baseDamage ?? -1), (left.stats.baseDamage ?? -1));
+          case "baseDamage-asc":
+            return compareNumber((left.stats.baseDamage ?? -1), (right.stats.baseDamage ?? -1));
+          case "finalDamage-desc":
+            return compareNumber((right.stats.finalDamage ?? -1), (left.stats.finalDamage ?? -1));
+          case "finalDamage-asc":
+            return compareNumber((left.stats.finalDamage ?? -1), (right.stats.finalDamage ?? -1));
+          case "rarity-asc":
+            return compareText(left.rarity, right.rarity);
+          case "rarity-desc":
+            return compareText(right.rarity, left.rarity);
+          default:
+            return compareText(left.name, right.name);
+        }
+      });
+
+      if (countNode) {
+        countNode.textContent = String(filtered.length);
+      }
+
+      if (resultsText) {
+        resultsText.textContent = `Showing ${filtered.length} of ${weapons.length} weapons`;
+      }
+
+      if (results instanceof HTMLElement) {
+        results.innerHTML = filtered
+          .map(
+            (weapon) => `
+              <article class="weapon-card">
+                <div class="card-top">
+                  <div>
+                    <p class="card-type">${weapon.typeLabel}</p>
+                    <h2>${weapon.name}</h2>
+                  </div>
+                  <span class="card-rarity">${weapon.rarity}</span>
+                </div>
+                <dl class="stats-grid">
+                  <div><dt>Base</dt><dd>${weapon.stats.baseDamage ?? "N/A"}</dd></div>
+                  <div><dt>Final</dt><dd>${weapon.stats.finalDamage ?? "N/A"}</dd></div>
+                  <div><dt>Type</dt><dd>${weapon.type}</dd></div>
+                  <div><dt>Materials</dt><dd>${weapon.materials.length}</dd></div>
+                </dl>
+                <p class="description">${weapon.description || "No description available."}</p>
+                <div class="materials">
+                  <span>Materials</span>
+                  ${
+                    weapon.materials.length > 0
+                      ? `<ul>${weapon.materials
+                          .map((material) => `<li>${material.name} x${material.quantity}</li>`)
+                          .join("")}</ul>`
+                      : "<p>None listed</p>"
+                  }
+                </div>
+                <a href="${weapon.source.url}" target="_blank" rel="noreferrer">Source page</a>
+              </article>
+            `
+          )
+          .join("");
+      }
+    };
+
+    searchInput?.addEventListener("input", render);
+    sortSelect?.addEventListener("change", render);
+    rarityInputs.forEach((input) => input.addEventListener("change", render));
+    typeInputs.forEach((input) => input.addEventListener("change", render));
+  }
+</script>

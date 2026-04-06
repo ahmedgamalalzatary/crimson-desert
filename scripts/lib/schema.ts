@@ -41,6 +41,31 @@ export const conflictFieldSchema = z.object({
   values: z.array(conflictValueSchema)
 });
 
+export const cleanWeaponMaterialSchema = z.object({
+  name: z.string().min(1),
+  quantity: z.number().int().nonnegative()
+});
+
+export const cleanWeaponSchema = z.object({
+  id: z.string().min(1),
+  name: z.string().min(1),
+  slug: z.string().min(1),
+  category: z.literal("weapons"),
+  type: z.string().min(1),
+  typeLabel: z.string().min(1),
+  rarity: z.string().min(1),
+  stats: z.object({
+    baseDamage: z.number().nonnegative().nullable(),
+    finalDamage: z.number().nonnegative().nullable()
+  }),
+  materials: z.array(cleanWeaponMaterialSchema),
+  description: z.string(),
+  source: z.object({
+    site: z.literal("crimsondesert.gg"),
+    url: z.string().url()
+  })
+});
+
 type ConflictValue = z.infer<typeof conflictValueSchema>;
 
 export function createConflictField(field: string, values: ConflictValue[]) {

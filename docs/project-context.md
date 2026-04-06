@@ -81,6 +81,31 @@ The repo now targets these generated JSON outputs for the weapons phase:
 - unique discovered detail URLs from `crimsondesert.gg`
 - count verification summary
 
+The repo also now has a clean website data target for weapons:
+
+- `data/weapons.json`
+
+That file is the current source for the Astro weapons page and contains only the cleaned public fields needed for:
+
+- instant search
+- multi-select filtering
+- stable sorting by numeric damage values
+
+Current clean weapon schema:
+
+- `id`
+- `name`
+- `slug`
+- `category`
+- `type`
+- `typeLabel`
+- `rarity`
+- `stats.baseDamage`
+- `stats.finalDamage`
+- `materials[]`
+- `description`
+- `source`
+
 ## Important Working Rule
 
 When a future chat starts, this repo documentation should be enough context to continue without re-explaining:
@@ -91,3 +116,4 @@ When a future chat starts, this repo documentation should be enough context to c
 - current strategy
 - verified counts
 - current extraction status
+- authored vs generated files
