@@ -35,10 +35,20 @@ describe("parseCrimsonDesertGgWeaponDetail", () => {
         empty: 3,
         stats: []
       },
-      materials: [
+      craftingMaterials: [
         { name: "Iron Ore", quantity: 19 },
         { name: "Copper Ore", quantity: 8 }
       ],
+      refinement: expect.arrayContaining([
+        {
+          level: "+0",
+          stats: [
+            { label: "Attack", value: "12" },
+            { label: "Critical Rate", value: "Lv.1" }
+          ],
+          materials: []
+        }
+      ]),
       description:
         "An axe featuring an imposing black blade. Blacksmiths of old believed that forging weapons with black blades would allow the wielder to absorb the souls of fallen enemies. While the era of such superstition has passed, the tradition of crafting weapons from black iron remains.",
       source: {
@@ -60,7 +70,7 @@ describe("parseCrimsonDesertGgWeaponDetail", () => {
       itemSlug: "furious-waves-gauntlet"
     });
 
-    expect(parsed.materials).toEqual([]);
+    expect(parsed.craftingMaterials).toEqual([]);
     expect(parsed.stats).toEqual({
       baseDamage: 28,
       finalDamage: 28
@@ -115,6 +125,40 @@ describe("parseCrimsonDesertGgWeaponDetail", () => {
           name: "Attack Speed Lv.1",
           slug: "swift-i"
         }
+      ]
+    });
+  });
+
+  it("extracts refinement rows with per-level stats and materials", async () => {
+    const html = await readFile(
+      "sources/crimsondesert-gg/weapons/items/one-hand-axe/black-iron-axe.html",
+      "utf8"
+    );
+
+    const parsed = parseCrimsonDesertGgWeaponDetail(html, {
+      url: "https://crimsondesert.gg/database/weapons/one-hand-axe/black-iron-axe",
+      typeSlug: "one-hand-axe",
+      itemSlug: "black-iron-axe"
+    });
+
+    expect(parsed.refinement[0]).toEqual({
+      level: "+0",
+      stats: [
+        { label: "Attack", value: "12" },
+        { label: "Critical Rate", value: "Lv.1" }
+      ],
+      materials: []
+    });
+
+    expect(parsed.refinement.at(-1)).toEqual({
+      level: "+10",
+      stats: [
+        { label: "Attack", value: "34" },
+        { label: "Critical Rate", value: "Lv.1" }
+      ],
+      materials: [
+        { name: "Aeserion's Scale", quantity: 1 },
+        { name: "Abyss Artifact", quantity: 1 }
       ]
     });
   });

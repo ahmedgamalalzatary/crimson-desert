@@ -5,6 +5,17 @@ export interface WeaponMaterial {
   quantity: number;
 }
 
+export interface WeaponRefinementStat {
+  label: string;
+  value: string;
+}
+
+export interface WeaponRefinementRow {
+  level: string;
+  stats: WeaponRefinementStat[];
+  materials: WeaponMaterial[];
+}
+
 export interface WeaponSocketStat {
   name: string;
   slug: string;
@@ -32,7 +43,8 @@ export interface WeaponRecord {
     finalDamage: number | null;
   };
   sockets: WeaponSockets;
-  materials: WeaponMaterial[];
+  craftingMaterials: WeaponMaterial[];
+  refinement: WeaponRefinementRow[];
   description: string;
   source: {
     site: "crimsondesert.gg";
@@ -51,11 +63,23 @@ export interface WeaponFilterState {
   selectedTypes: string[];
 }
 
+export interface WeaponDirectoryState extends WeaponFilterState {
+  sort: string;
+}
+
 export interface WeaponFilterCounts {
   total: number;
   rarityCounts: Record<string, number>;
   typeCounts: Record<string, number>;
 }
+
+const DEFAULT_WEAPON_DIRECTORY_SORT = "name-asc";
+
+const parseDirectoryValues = (value: string | null) =>
+  value
+    ?.split(",")
+    .map((entry) => entry.trim())
+    .filter(Boolean) ?? [];
 
 const matchesQuery = (weapon: Pick<WeaponRecord, "name" | "type">, query: string) => {
   if (query.length === 0) {
@@ -131,4 +155,37 @@ export const getWeaponFilterCounts = (
       ])
     )
   };
+};
+
+export const getWeaponDirectoryStateFromSearchParams = (
+  searchParams: URLSearchParams
+): WeaponDirectoryState => ({
+  query: searchParams.get("q")?.trim() ?? "",
+  selectedRarities: parseDirectoryValues(searchParams.get("rarity")),
+  selectedTypes: parseDirectoryValues(searchParams.get("type")),
+  sort: searchParams.get("sort")?.trim() || DEFAULT_WEAPON_DIRECTORY_SORT
+});
+
+export const toWeaponDirectorySearchParams = (
+  state: WeaponDirectoryState
+) => {
+  const searchParams = new URLSearchParams();
+
+  if (state.query.trim().length > 0) {
+    searchParams.set("q", state.query.trim());
+  }
+
+  if (state.selectedRarities.length > 0) {
+    searchParams.set("rarity", state.selectedRarities.join(","));
+  }
+
+  if (state.selectedTypes.length > 0) {
+    searchParams.set("type", state.selectedTypes.join(","));
+  }
+
+  if (state.sort !== DEFAULT_WEAPON_DIRECTORY_SORT) {
+    searchParams.set("sort", state.sort);
+  }
+
+  return searchParams.toString();
 };

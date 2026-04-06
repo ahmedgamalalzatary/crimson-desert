@@ -26,6 +26,17 @@ interface ParsedWeaponSocketStat {
   slug: string;
 }
 
+interface ParsedWeaponRefinementStat {
+  label: string;
+  value: string;
+}
+
+interface ParsedWeaponRefinementRow {
+  level: string;
+  stats: ParsedWeaponRefinementStat[];
+  materials: ParsedWeaponMaterial[];
+}
+
 interface ParsedWeaponSockets {
   filled: number;
   total: number;
@@ -46,7 +57,8 @@ interface ParsedWeaponRecord {
     finalDamage: number | null;
   };
   sockets: ParsedWeaponSockets | "N/A";
-  materials: ParsedWeaponMaterial[];
+  craftingMaterials: ParsedWeaponMaterial[];
+  refinement: ParsedWeaponRefinementRow[];
   description: string;
   source: {
     site: "crimsondesert.gg";
@@ -140,6 +152,60 @@ function extractCraftMaterials($: ReturnType<typeof load>) {
     .filter((entry): entry is ParsedWeaponMaterial => entry !== null);
 }
 
+function extractRefinement($: ReturnType<typeof load>) {
+  return $("tr")
+    .map((_, row) => {
+      const level = $(row).find("td.db-enchant-level").first().text().trim();
+
+      if (!level) {
+        return null;
+      }
+
+      const stats = $(row)
+        .find(".db-enchant-stats-cell .db-enchant-stat-line")
+        .map((__, statLine) => {
+          const label = $(statLine).find(".db-enchant-stat-label").first().text().trim();
+          const value = $(statLine).find(".db-enchant-stat-val").first().text().trim();
+
+          if (!label || !value) {
+            return null;
+          }
+
+          return { label, value };
+        })
+        .get()
+        .filter((entry): entry is ParsedWeaponRefinementStat => entry !== null);
+
+      const materials = $(row)
+        .find(".db-enchant-mats-cell > .db-enchant-mat-row:first-child .db-enchant-mat-pill")
+        .map((__, element) => {
+          const name = $(element).find(".db-enchant-mat-name").first().text().trim();
+          const quantity = parseNumber(
+            $(element).find(".db-enchant-mat-qty").first().text().trim()
+          );
+
+          if (!name || quantity === null) {
+            return null;
+          }
+
+          return {
+            name,
+            quantity
+          };
+        })
+        .get()
+        .filter((entry): entry is ParsedWeaponMaterial => entry !== null);
+
+      return {
+        level,
+        stats,
+        materials
+      };
+    })
+    .get()
+    .filter((entry): entry is ParsedWeaponRefinementRow => entry !== null);
+}
+
 function extractSockets($: ReturnType<typeof load>): ParsedWeaponSockets | "N/A" {
   const socketLabel = $(".db-socket-label").first().text().trim();
 
@@ -192,7 +258,8 @@ export function parseCrimsonDesertGgWeaponDetail(html: string, context: ParsedWe
   const description = $(".db-item-desc").first().text().trim();
   const stats = extractDamageByLevel($);
   const sockets = extractSockets($);
-  const materials = extractCraftMaterials($);
+  const craftingMaterials = extractCraftMaterials($);
+  const refinement = extractRefinement($);
 
   return {
     id: context.itemSlug,
@@ -204,7 +271,8 @@ export function parseCrimsonDesertGgWeaponDetail(html: string, context: ParsedWe
     rarity,
     stats,
     sockets,
-    materials,
+    craftingMaterials,
+    refinement,
     description,
     source: {
       site: "crimsondesert.gg" as const,

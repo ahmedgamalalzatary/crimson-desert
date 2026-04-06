@@ -45,6 +45,17 @@ export const cleanWeaponMaterialSchema = z.object({
   quantity: z.number().int().nonnegative()
 });
 
+export const cleanWeaponRefinementStatSchema = z.object({
+  label: z.string().min(1),
+  value: z.string().min(1)
+});
+
+export const cleanWeaponRefinementSchema = z.object({
+  level: z.string().min(1),
+  stats: z.array(cleanWeaponRefinementStatSchema),
+  materials: z.array(cleanWeaponMaterialSchema)
+});
+
 export const cleanWeaponSocketStatSchema = z.object({
   name: z.string().min(1),
   slug: z.string().min(1)
@@ -73,7 +84,8 @@ export const cleanWeaponSchema = z.object({
     finalDamage: z.number().nonnegative().nullable()
   }),
   sockets: cleanWeaponSocketsSchema,
-  materials: z.array(cleanWeaponMaterialSchema),
+  craftingMaterials: z.array(cleanWeaponMaterialSchema),
+  refinement: z.array(cleanWeaponRefinementSchema),
   description: z.string(),
   source: z.object({
     site: z.literal("crimsondesert.gg"),

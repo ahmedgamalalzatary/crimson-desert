@@ -3,6 +3,8 @@ import { describe, expect, it } from "vitest";
 import {
   createWeaponListItems,
   getWeaponFilterCounts,
+  getWeaponDirectoryStateFromSearchParams,
+  toWeaponDirectorySearchParams,
   getStaticWeaponPaths,
   getWeaponBySlug
 } from "../src/lib/weapons";
@@ -20,7 +22,8 @@ const weapons = [
       baseDamage: 14,
       finalDamage: 18
     },
-    materials: [{ name: "Iron Ore", quantity: 4 }],
+    craftingMaterials: [{ name: "Iron Ore", quantity: 4 }],
+    refinement: [],
     description: "An axe featuring an imposing black blade.",
     source: {
       site: "crimsondesert.gg" as const,
@@ -39,7 +42,8 @@ const weapons = [
       baseDamage: 9,
       finalDamage: 12
     },
-    materials: [{ name: "Ash Wood", quantity: 3 }],
+    craftingMaterials: [{ name: "Ash Wood", quantity: 3 }],
+    refinement: [],
     description: "A light bow with a stable draw.",
     source: {
       site: "crimsondesert.gg" as const,
@@ -58,7 +62,8 @@ const weapons = [
       baseDamage: 17,
       finalDamage: 22
     },
-    materials: [{ name: "Storm Fragment", quantity: 2 }],
+    craftingMaterials: [{ name: "Storm Fragment", quantity: 2 }],
+    refinement: [],
     description: "A bow that crackles with static energy.",
     source: {
       site: "crimsondesert.gg" as const,
@@ -113,6 +118,37 @@ describe("weapon data helpers", () => {
       typeCounts: {
         bow: 2
       }
+    });
+  });
+
+  it("serializes only active directory state into URL search params", () => {
+    expect(
+      toWeaponDirectorySearchParams({
+        query: "bow",
+        selectedRarities: ["common", "rare"],
+        selectedTypes: ["bow"],
+        sort: "finalDamage-desc"
+      })
+    ).toBe("q=bow&rarity=common%2Crare&type=bow&sort=finalDamage-desc");
+  });
+
+  it("reads directory state from URL search params with sane defaults", () => {
+    expect(
+      getWeaponDirectoryStateFromSearchParams(
+        new URLSearchParams("q=axe&rarity=epic,rare&type=bow,one-hand-axe&sort=name-desc")
+      )
+    ).toEqual({
+      query: "axe",
+      selectedRarities: ["epic", "rare"],
+      selectedTypes: ["bow", "one-hand-axe"],
+      sort: "name-desc"
+    });
+
+    expect(getWeaponDirectoryStateFromSearchParams(new URLSearchParams(""))).toEqual({
+      query: "",
+      selectedRarities: [],
+      selectedTypes: [],
+      sort: "name-asc"
     });
   });
 });

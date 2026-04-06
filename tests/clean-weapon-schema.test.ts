@@ -21,9 +21,24 @@ describe("cleanWeaponSchema", () => {
         empty: 3,
         stats: []
       },
-      materials: [
+      craftingMaterials: [
         { name: "Iron Ore", quantity: 19 },
         { name: "Copper Ore", quantity: 8 }
+      ],
+      refinement: [
+        {
+          level: "+0",
+          stats: [{ label: "Attack", value: "12" }],
+          materials: []
+        },
+        {
+          level: "+1",
+          stats: [{ label: "Attack", value: "14" }],
+          materials: [
+            { name: "Iron Ore", quantity: 5 },
+            { name: "Copper Ore", quantity: 5 }
+          ]
+        }
       ],
       description: "An axe featuring an imposing black blade.",
       source: {
@@ -34,5 +49,6 @@ describe("cleanWeaponSchema", () => {
 
     expect(parsed.stats.finalDamage).toBeGreaterThan(parsed.stats.baseDamage);
     expect(parsed.sockets).not.toBe("N/A");
+    expect(parsed.refinement).toHaveLength(2);
   });
 });
