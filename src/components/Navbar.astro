@@ -1,0 +1,83 @@
+---
+import ThemeToggle from "./ThemeToggle.astro";
+
+const navItems = [
+  { href: "/weapons", label: "Weapons" },
+  { href: "/armors", label: "Armors" },
+  { href: "/shields", label: "Shields" },
+  { href: "/accessories", label: "Accessories" },
+  { href: "/abyss-gear", label: "Abyss Gear" },
+  { href: "/bosses", label: "Bosses" },
+  { href: "/mounts", label: "Mounts" },
+  { href: "/quests", label: "Quests" },
+];
+
+const currentPath = Astro.url.pathname;
+---
+
+<header class="sticky top-0 z-50 border-b border-border bg-background/80 backdrop-blur-lg">
+  <nav class="mx-auto flex max-w-7xl items-center justify-between px-4 py-3 sm:px-6">
+    <a href="/" class="flex items-center gap-2 font-sans text-lg font-semibold tracking-tight text-foreground">
+      <span class="inline-flex size-8 items-center justify-center rounded-lg bg-primary text-primary-foreground text-sm font-bold">CD</span>
+      <span class="hidden sm:inline">Crimson Desert</span>
+    </a>
+
+    <div class="hidden items-center gap-1 md:flex">
+      {navItems.map((item) => (
+        <a
+          href={item.href}
+          class:list={[
+            "rounded-md px-3 py-1.5 font-sans text-sm transition-colors",
+            currentPath.startsWith(item.href)
+              ? "bg-primary/10 text-primary font-medium"
+              : "text-muted-foreground hover:bg-accent hover:text-accent-foreground",
+          ]}
+        >
+          {item.label}
+        </a>
+      ))}
+    </div>
+
+    <div class="flex items-center gap-2">
+      <ThemeToggle />
+      <button
+        id="mobile-menu-btn"
+        type="button"
+        aria-label="Open menu"
+        class="inline-flex items-center justify-center rounded-lg border border-border bg-card p-2 text-muted-foreground shadow-sm md:hidden"
+      >
+        <svg class="size-5" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+        </svg>
+      </button>
+    </div>
+  </nav>
+
+  <div id="mobile-menu" class="hidden border-t border-border bg-background px-4 pb-4 md:hidden">
+    <div class="flex flex-col gap-1 pt-2">
+      {navItems.map((item) => (
+        <a
+          href={item.href}
+          class:list={[
+            "rounded-md px-3 py-2 font-sans text-sm transition-colors",
+            currentPath.startsWith(item.href)
+              ? "bg-primary/10 text-primary font-medium"
+              : "text-muted-foreground hover:bg-accent hover:text-accent-foreground",
+          ]}
+        >
+          {item.label}
+        </a>
+      ))}
+    </div>
+  </div>
+</header>
+
+<script>
+  const btn = document.getElementById("mobile-menu-btn");
+  const menu = document.getElementById("mobile-menu");
+  if (btn && menu) {
+    btn.addEventListener("click", () => {
+      menu.classList.toggle("hidden");
+    });
+  }
+</script>

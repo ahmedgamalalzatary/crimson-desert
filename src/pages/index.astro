@@ -2,80 +2,47 @@
 import BaseLayout from "../layouts/BaseLayout.astro";
 
 const categories = [
-  { href: "/weapons", label: "Weapons" },
-  { href: "/armors", label: "Armors" },
-  { href: "/shields", label: "Shields" },
-  { href: "/accessories", label: "Accessories" },
-  { href: "/abyss-gear", label: "Abyss Gear" },
-  { href: "/bosses", label: "Bosses" },
-  { href: "/mounts", label: "Mounts" },
-  { href: "/quests", label: "Quests" }
+  { href: "/weapons", label: "Weapons", icon: "⚔️", desc: "Swords, bows, staves and more" },
+  { href: "/armors", label: "Armors", icon: "🛡️", desc: "Chest, helm, gloves and boots" },
+  { href: "/shields", label: "Shields", icon: "🔰", desc: "Block and parry gear" },
+  { href: "/accessories", label: "Accessories", icon: "💍", desc: "Rings, necklaces and earrings" },
+  { href: "/abyss-gear", label: "Abyss Gear", icon: "🌀", desc: "Rare abyss dungeon drops" },
+  { href: "/bosses", label: "Bosses", icon: "👹", desc: "World and dungeon bosses" },
+  { href: "/mounts", label: "Mounts", icon: "🐴", desc: "Horses, camels and more" },
+  { href: "/quests", label: "Quests", icon: "📜", desc: "Main and faction quest lines" },
 ];
 ---
 
 <BaseLayout title="Crimson Desert">
-  <section class="hero">
-    <p class="eyebrow">Static game reference</p>
-    <h1>Crimson Desert</h1>
-    <p class="lede">
+  <section class="py-12 sm:py-20">
+    <p class="mb-3 font-sans text-sm font-medium uppercase tracking-widest text-primary">
+      Static game reference
+    </p>
+    <h1 class="font-serif text-5xl font-bold leading-[0.95] tracking-tight text-foreground sm:text-7xl">
+      Crimson Desert
+    </h1>
+    <p class="mt-4 max-w-xl text-lg text-muted-foreground">
       Aggregated item, boss, mount, and quest data built from multiple public sources.
     </p>
   </section>
 
-  <section class="grid">
-    {categories.map((category) => (
-      <a class="card" href={category.href}>
-        <span>{category.label}</span>
+  <section class="grid grid-cols-1 gap-4 pb-12 sm:grid-cols-2 lg:grid-cols-4">
+    {categories.map((cat) => (
+      <a
+        href={cat.href}
+        class="group flex flex-col justify-between rounded-xl border border-border bg-card p-5 shadow-sm transition-all duration-150 hover:-translate-y-0.5 hover:border-primary/40 hover:shadow-md"
+      >
+        <span class="mb-4 text-3xl">{cat.icon}</span>
+        <div>
+          <h2 class="font-sans text-lg font-semibold text-card-foreground group-hover:text-primary">
+            {cat.label}
+          </h2>
+          <p class="mt-1 text-sm text-muted-foreground">{cat.desc}</p>
+        </div>
+        <span class="mt-4 inline-flex items-center gap-1 text-sm font-medium text-primary opacity-0 transition-opacity group-hover:opacity-100">
+          Browse →
+        </span>
       </a>
     ))}
   </section>
 </BaseLayout>
-
-<style>
-  .hero {
-    padding: 4rem 0 2rem;
-  }
-
-  .eyebrow {
-    margin: 0 0 0.75rem;
-    color: var(--accent);
-    text-transform: uppercase;
-    letter-spacing: 0.12em;
-    font-size: 0.8rem;
-  }
-
-  h1 {
-    margin: 0;
-    font-size: clamp(2.6rem, 8vw, 5rem);
-    line-height: 0.94;
-  }
-
-  .lede {
-    max-width: 44rem;
-    color: var(--muted);
-    font-size: 1.1rem;
-  }
-
-  .grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
-    gap: 1rem;
-    padding-bottom: 3rem;
-  }
-
-  .card {
-    display: flex;
-    min-height: 120px;
-    padding: 1.25rem;
-    border: 1px solid var(--border);
-    border-radius: 16px;
-    background: linear-gradient(180deg, rgba(255, 255, 255, 0.02), rgba(255, 255, 255, 0.04));
-    align-items: end;
-    transition: transform 120ms ease, border-color 120ms ease;
-  }
-
-  .card:hover {
-    transform: translateY(-2px);
-    border-color: var(--accent);
-  }
-</style>
