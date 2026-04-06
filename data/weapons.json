@@ -8065,6 +8065,348 @@
     }
   },
   {
+    "id": "small-halberd-of-carnages-banner-pike",
+    "name": "Small Halberd of Carnage's Banner Pike",
+    "slug": "small-halberd-of-carnages-banner-pike",
+    "category": "weapons",
+    "type": "two-hand-pike",
+    "typeLabel": "Two-Handed Pike",
+    "rarity": "common",
+    "stats": {
+      "baseDamage": 17,
+      "finalDamage": 17
+    },
+    "materials": [],
+    "description": "A small banner pike bearing Gregor, the Halberd of Carnage's symbol. It looks like it could be used as a weapon in a pinch.",
+    "source": {
+      "site": "crimsondesert.gg",
+      "url": "https://crimsondesert.gg/database/weapons/two-hand-pike/small-halberd-of-carnages-banner-pike"
+    }
+  },
+  {
+    "id": "small-heavy-silence-banner-pike",
+    "name": "Small Heavy Silence Banner Pike",
+    "slug": "small-heavy-silence-banner-pike",
+    "category": "weapons",
+    "type": "two-hand-pike",
+    "typeLabel": "Two-Handed Pike",
+    "rarity": "common",
+    "stats": {
+      "baseDamage": 19,
+      "finalDamage": 19
+    },
+    "materials": [],
+    "description": "A small banner pike bearing the Heavy Silence's symbol. It looks like it could be used as a weapon in a pinch.",
+    "source": {
+      "site": "crimsondesert.gg",
+      "url": "https://crimsondesert.gg/database/weapons/two-hand-pike/small-heavy-silence-banner-pike"
+    }
+  },
+  {
+    "id": "small-hellhounds-banner-pike",
+    "name": "Small Hellhounds Banner Pike",
+    "slug": "small-hellhounds-banner-pike",
+    "category": "weapons",
+    "type": "two-hand-pike",
+    "typeLabel": "Two-Handed Pike",
+    "rarity": "common",
+    "stats": {
+      "baseDamage": 19,
+      "finalDamage": 19
+    },
+    "materials": [],
+    "description": "A small banner pike bearing the Hellhounds' symbol. It looks like it could be used as a weapon in a pinch.",
+    "source": {
+      "site": "crimsondesert.gg",
+      "url": "https://crimsondesert.gg/database/weapons/two-hand-pike/small-hellhounds-banner-pike"
+    }
+  },
+  {
+    "id": "small-hernandian-banner-pike",
+    "name": "Small Hernandian Banner Pike",
+    "slug": "small-hernandian-banner-pike",
+    "category": "weapons",
+    "type": "two-hand-pike",
+    "typeLabel": "Two-Handed Pike",
+    "rarity": "common",
+    "stats": {
+      "baseDamage": 24,
+      "finalDamage": 24
+    },
+    "materials": [],
+    "description": "A small banner pike bearing the Duchy of Hernand's symbol. It looks like it could be used as a weapon in a pinch.",
+    "source": {
+      "site": "crimsondesert.gg",
+      "url": "https://crimsondesert.gg/database/weapons/two-hand-pike/small-hernandian-banner-pike"
+    }
+  },
+  {
+    "id": "small-ironflame-orcs-banner-pike",
+    "name": "Small Ironflame Orcs Banner Pike",
+    "slug": "small-ironflame-orcs-banner-pike",
+    "category": "weapons",
+    "type": "two-hand-pike",
+    "typeLabel": "Two-Handed Pike",
+    "rarity": "common",
+    "stats": {
+      "baseDamage": 27,
+      "finalDamage": 27
+    },
+    "materials": [],
+    "description": "A small banner pike bearing the Ironflame Orc Clan's symbol. It looks like it could be used as a weapon in a pinch.",
+    "source": {
+      "site": "crimsondesert.gg",
+      "url": "https://crimsondesert.gg/database/weapons/two-hand-pike/small-ironflame-orcs-banner-pike"
+    }
+  },
+  {
+    "id": "small-marni-banner-pike",
+    "name": "Small Marni Banner Pike",
+    "slug": "small-marni-banner-pike",
+    "category": "weapons",
+    "type": "two-hand-pike",
+    "typeLabel": "Two-Handed Pike",
+    "rarity": "common",
+    "stats": {
+      "baseDamage": 27,
+      "finalDamage": 27
+    },
+    "materials": [],
+    "description": "A small banner pike bearing Marni's symbol. It looks like it could be used as a weapon in a pinch.",
+    "source": {
+      "site": "crimsondesert.gg",
+      "url": "https://crimsondesert.gg/database/weapons/two-hand-pike/small-marni-banner-pike"
+    }
+  },
+  {
+    "id": "small-militia-banner-pike",
+    "name": "Small Militia Banner Pike",
+    "slug": "small-militia-banner-pike",
+    "category": "weapons",
+    "type": "two-hand-pike",
+    "typeLabel": "Two-Handed Pike",
+    "rarity": "common",
+    "stats": {
+      "baseDamage": 19,
+      "finalDamage": 19
+    },
+    "materials": [],
+    "description": "A small banner pike bearing the militia's symbol. It looks like it could be used as a weapon in a pinch.",
+    "source": {
+      "site": "crimsondesert.gg",
+      "url": "https://crimsondesert.gg/database/weapons/two-hand-pike/small-militia-banner-pike"
+    }
+  },
+  {
+    "id": "small-musket-of-demeniss-banner-pike",
+    "name": "Small Musket of Demeniss Banner Pike",
+    "slug": "small-musket-of-demeniss-banner-pike",
+    "category": "weapons",
+    "type": "two-hand-pike",
+    "typeLabel": "Two-Handed Pike",
+    "rarity": "common",
+    "stats": {
+      "baseDamage": 17,
+      "finalDamage": 17
+    },
+    "materials": [],
+    "description": "A small banner pike bearing Musket of Demeniss' symbol. It looks like it could be used as a weapon in a pinch.",
+    "source": {
+      "site": "crimsondesert.gg",
+      "url": "https://crimsondesert.gg/database/weapons/two-hand-pike/small-musket-of-demeniss-banner-pike"
+    }
+  },
+  {
+    "id": "small-pailunese-banner-pike",
+    "name": "Small Pailunese Banner Pike",
+    "slug": "small-pailunese-banner-pike",
+    "category": "weapons",
+    "type": "two-hand-pike",
+    "typeLabel": "Two-Handed Pike",
+    "rarity": "common",
+    "stats": {
+      "baseDamage": 21,
+      "finalDamage": 21
+    },
+    "materials": [],
+    "description": "A small banner pike bearing the Tribal State of Pailune's symbol. It looks like it could be used as a weapon in a pinch.",
+    "source": {
+      "site": "crimsondesert.gg",
+      "url": "https://crimsondesert.gg/database/weapons/two-hand-pike/small-pailunese-banner-pike"
+    }
+  },
+  {
+    "id": "small-royal-hunting-ground-banner-pike",
+    "name": "Small Royal Hunting Ground Banner Pike",
+    "slug": "small-royal-hunting-ground-banner-pike",
+    "category": "weapons",
+    "type": "two-hand-pike",
+    "typeLabel": "Two-Handed Pike",
+    "rarity": "common",
+    "stats": {
+      "baseDamage": 19,
+      "finalDamage": 19
+    },
+    "materials": [],
+    "description": "A small banner pike bearing the Royal Hunting Ground's symbol. It looks like it could be used as a weapon in a pinch.",
+    "source": {
+      "site": "crimsondesert.gg",
+      "url": "https://crimsondesert.gg/database/weapons/two-hand-pike/small-royal-hunting-ground-banner-pike"
+    }
+  },
+  {
+    "id": "small-staglord-banner-pike",
+    "name": "Small Staglord Banner Pike",
+    "slug": "small-staglord-banner-pike",
+    "category": "weapons",
+    "type": "two-hand-pike",
+    "typeLabel": "Two-Handed Pike",
+    "rarity": "common",
+    "stats": {
+      "baseDamage": 24,
+      "finalDamage": 24
+    },
+    "materials": [],
+    "description": "A small banner pike bearing the Staglord's symbol. It looks like it could be used as a weapon in a pinch.",
+    "source": {
+      "site": "crimsondesert.gg",
+      "url": "https://crimsondesert.gg/database/weapons/two-hand-pike/small-staglord-banner-pike"
+    }
+  },
+  {
+    "id": "small-tommaso-banner-pike",
+    "name": "Small Tommaso Banner Pike",
+    "slug": "small-tommaso-banner-pike",
+    "category": "weapons",
+    "type": "two-hand-pike",
+    "typeLabel": "Two-Handed Pike",
+    "rarity": "common",
+    "stats": {
+      "baseDamage": 24,
+      "finalDamage": 24
+    },
+    "materials": [],
+    "description": "A small banner pike bearing Tommaso's symbol. It looks like it could be used as a weapon in a pinch.",
+    "source": {
+      "site": "crimsondesert.gg",
+      "url": "https://crimsondesert.gg/database/weapons/two-hand-pike/small-tommaso-banner-pike"
+    }
+  },
+  {
+    "id": "small-twilight-messengers-banner-pike",
+    "name": "Small Twilight Messengers Banner Pike",
+    "slug": "small-twilight-messengers-banner-pike",
+    "category": "weapons",
+    "type": "two-hand-pike",
+    "typeLabel": "Two-Handed Pike",
+    "rarity": "common",
+    "stats": {
+      "baseDamage": 24,
+      "finalDamage": 24
+    },
+    "materials": [],
+    "description": "A small banner pike bearing the Twilight Messengers' symbol. It looks like it could be used as a weapon in a pinch.",
+    "source": {
+      "site": "crimsondesert.gg",
+      "url": "https://crimsondesert.gg/database/weapons/two-hand-pike/small-twilight-messengers-banner-pike"
+    }
+  },
+  {
+    "id": "small-varnian-banner-pike",
+    "name": "Small Varnian Banner Pike",
+    "slug": "small-varnian-banner-pike",
+    "category": "weapons",
+    "type": "two-hand-pike",
+    "typeLabel": "Two-Handed Pike",
+    "rarity": "common",
+    "stats": {
+      "baseDamage": 24,
+      "finalDamage": 24
+    },
+    "materials": [],
+    "description": "A small banner pike bearing Varnia's symbol. It looks like it could be used as a weapon in a pinch.",
+    "source": {
+      "site": "crimsondesert.gg",
+      "url": "https://crimsondesert.gg/database/weapons/two-hand-pike/small-varnian-banner-pike"
+    }
+  },
+  {
+    "id": "small-vellua-pirates-banner-pike",
+    "name": "Small Vellua Pirates Banner Pike",
+    "slug": "small-vellua-pirates-banner-pike",
+    "category": "weapons",
+    "type": "two-hand-pike",
+    "typeLabel": "Two-Handed Pike",
+    "rarity": "common",
+    "stats": {
+      "baseDamage": 19,
+      "finalDamage": 19
+    },
+    "materials": [],
+    "description": "A small banner pike bearing the Vellua Pirates' symbol. It looks like it could be used as a weapon in a pinch.",
+    "source": {
+      "site": "crimsondesert.gg",
+      "url": "https://crimsondesert.gg/database/weapons/two-hand-pike/small-vellua-pirates-banner-pike"
+    }
+  },
+  {
+    "id": "small-wells-banner-pike",
+    "name": "Small Wells Banner Pike",
+    "slug": "small-wells-banner-pike",
+    "category": "weapons",
+    "type": "two-hand-pike",
+    "typeLabel": "Two-Handed Pike",
+    "rarity": "common",
+    "stats": {
+      "baseDamage": 24,
+      "finalDamage": 24
+    },
+    "materials": [],
+    "description": "A small banner pike bearing House Wells' symbol. It looks like it could be used as a weapon in a pinch.",
+    "source": {
+      "site": "crimsondesert.gg",
+      "url": "https://crimsondesert.gg/database/weapons/two-hand-pike/small-wells-banner-pike"
+    }
+  },
+  {
+    "id": "small-wells-brigade-banner-pike",
+    "name": "Small Wells Brigade Banner Pike",
+    "slug": "small-wells-brigade-banner-pike",
+    "category": "weapons",
+    "type": "two-hand-pike",
+    "typeLabel": "Two-Handed Pike",
+    "rarity": "common",
+    "stats": {
+      "baseDamage": 24,
+      "finalDamage": 24
+    },
+    "materials": [],
+    "description": "A small banner pike bearing House Wells' symbol. It looks like it could be used as a weapon in a pinch.",
+    "source": {
+      "site": "crimsondesert.gg",
+      "url": "https://crimsondesert.gg/database/weapons/two-hand-pike/small-wells-brigade-banner-pike"
+    }
+  },
+  {
+    "id": "small-wyvernflames-banner-pike",
+    "name": "Small Wyvernflames Banner Pike",
+    "slug": "small-wyvernflames-banner-pike",
+    "category": "weapons",
+    "type": "two-hand-pike",
+    "typeLabel": "Two-Handed Pike",
+    "rarity": "common",
+    "stats": {
+      "baseDamage": 24,
+      "finalDamage": 24
+    },
+    "materials": [],
+    "description": "A small banner pike bearing the Wyvernflames' symbol. It looks like it could be used as a weapon in a pinch.",
+    "source": {
+      "site": "crimsondesert.gg",
+      "url": "https://crimsondesert.gg/database/weapons/two-hand-pike/small-wyvernflames-banner-pike"
+    }
+  },
+  {
     "id": "soporific-blowpipe",
     "name": "Soporific Blowpipe",
     "slug": "soporific-blowpipe",
@@ -8994,6 +9336,25 @@
     }
   },
   {
+    "id": "tiny-greymane-banner-pike",
+    "name": "Tiny Greymane Banner Pike",
+    "slug": "tiny-greymane-banner-pike",
+    "category": "weapons",
+    "type": "two-hand-pike",
+    "typeLabel": "Two-Handed Pike",
+    "rarity": "common",
+    "stats": {
+      "baseDamage": 19,
+      "finalDamage": 19
+    },
+    "materials": [],
+    "description": "A tiny banner pike bearing the Greymane's symbol. It looks like it could be used as a weapon in a pinch.",
+    "source": {
+      "site": "crimsondesert.gg",
+      "url": "https://crimsondesert.gg/database/weapons/two-hand-pike/tiny-greymane-banner-pike"
+    }
+  },
+  {
     "id": "tommaso-guards-dagger-tipped-spear",
     "name": "Tommaso Guard's Dagger-Tipped Spear",
     "slug": "tommaso-guards-dagger-tipped-spear",
@@ -9047,6 +9408,25 @@
     "source": {
       "site": "crimsondesert.gg",
       "url": "https://crimsondesert.gg/database/weapons/one-hand-bow/tommasoan-bow"
+    }
+  },
+  {
+    "id": "tommasoan-contribution-banner-pike",
+    "name": "Tommasoan Contribution Banner Pike",
+    "slug": "tommasoan-contribution-banner-pike",
+    "category": "weapons",
+    "type": "two-hand-pike",
+    "typeLabel": "Two-Handed Pike",
+    "rarity": "common",
+    "stats": {
+      "baseDamage": 20,
+      "finalDamage": 20
+    },
+    "materials": [],
+    "description": "A banner pike engraved with the pattern representing Tommaso. It is lashed to a long shaft, allowing it to be used as a weapon. Only those who have contributed to Tashkalp are permitted to possess it.",
+    "source": {
+      "site": "crimsondesert.gg",
+      "url": "https://crimsondesert.gg/database/weapons/two-hand-pike/tommasoan-contribution-banner-pike"
     }
   },
   {
@@ -9207,6 +9587,25 @@
     "source": {
       "site": "crimsondesert.gg",
       "url": "https://crimsondesert.gg/database/weapons/two-hand-spear/valgashs-incomplete-work"
+    }
+  },
+  {
+    "id": "varnian-contribution-banner-pike",
+    "name": "Varnian Contribution Banner Pike",
+    "slug": "varnian-contribution-banner-pike",
+    "category": "weapons",
+    "type": "two-hand-pike",
+    "typeLabel": "Two-Handed Pike",
+    "rarity": "common",
+    "stats": {
+      "baseDamage": 20,
+      "finalDamage": 20
+    },
+    "materials": [],
+    "description": "A banner pike engraved with the emblem of Varnia. The long pole features a unique Varnian decorative design, allowing it to be used as a weapon. Only those who have contributed to Tashkalp are permitted to possess it.",
+    "source": {
+      "site": "crimsondesert.gg",
+      "url": "https://crimsondesert.gg/database/weapons/two-hand-pike/varnian-contribution-banner-pike"
     }
   },
   {

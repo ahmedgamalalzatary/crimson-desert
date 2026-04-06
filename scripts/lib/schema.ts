@@ -5,7 +5,6 @@ export const categoryIds = [
   "weapons",
   "armors",
   "shields",
-  "accessories",
   "abyss-gear",
   "bosses",
   "mounts",

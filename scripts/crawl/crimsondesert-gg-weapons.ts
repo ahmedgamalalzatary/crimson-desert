@@ -1,5 +1,5 @@
+import { chromium } from "playwright";
 import { saveTextFile } from "../lib/raw-storage";
-import { fetchHtml } from "./fetch-html";
 import { extractCrimsonDesertGgWeaponTypeLinks } from "../parse/crimsondesert-gg-weapons";
 
 function getTypeSlug(url: string) {
@@ -8,14 +8,49 @@ function getTypeSlug(url: string) {
   return segments.at(-1) ?? "unknown";
 }
 
+export function getCrimsonDesertGgWeaponPagePath(typeSlug: string, pageNumber: number) {
+  if (pageNumber <= 1) {
+    return `sources/crimsondesert-gg/weapons/${typeSlug}.html`;
+  }
+
+  return `sources/crimsondesert-gg/weapons/${typeSlug}.page-${pageNumber}.html`;
+}
+
+export function extractCrimsonDesertGgWeaponPageCount(html: string) {
+  const match = html.match(/Page\s+\d+\s+of\s+(\d+)/i);
+
+  return match ? Number(match[1]) : 1;
+}
+
 export async function crawlCrimsonDesertGgWeaponPages(indexHtml: string) {
   const typeUrls = extractCrimsonDesertGgWeaponTypeLinks(indexHtml);
+  const browser = await chromium.launch({ headless: true });
+  const page = await browser.newPage({ viewport: { width: 1400, height: 2200 } });
 
-  for (const typeUrl of typeUrls) {
-    const html = await fetchHtml(typeUrl);
-    const typeSlug = getTypeSlug(typeUrl);
+  try {
+    for (const typeUrl of typeUrls) {
+      await page.goto(typeUrl, { waitUntil: "networkidle" });
 
-    await saveTextFile(`sources/crimsondesert-gg/weapons/${typeSlug}.html`, html);
+      const typeSlug = getTypeSlug(typeUrl);
+      let pageNumber = 1;
+
+      while (true) {
+        const html = await page.content();
+        await saveTextFile(getCrimsonDesertGgWeaponPagePath(typeSlug, pageNumber), html);
+
+        const nextButton = page.locator("button.db-page-btn", { hasText: "Next" });
+
+        if ((await nextButton.count()) === 0 || (await nextButton.isDisabled())) {
+          break;
+        }
+
+        pageNumber += 1;
+        await nextButton.click();
+        await page.waitForLoadState("networkidle");
+      }
+    }
+  } finally {
+    await browser.close();
   }
 
   return typeUrls;

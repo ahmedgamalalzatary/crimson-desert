@@ -14,7 +14,6 @@ Planned files:
 - `weapons.json`
 - `armors.json`
 - `shields.json`
-- `accessories.json`
 - `abyss-gear.json`
 - `bosses.json`
 - `mounts.json`

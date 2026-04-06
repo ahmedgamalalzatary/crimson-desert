@@ -16,7 +16,6 @@ describe("schema constants", () => {
       "weapons",
       "armors",
       "shields",
-      "accessories",
       "abyss-gear",
       "bosses",
       "mounts",

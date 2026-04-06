@@ -20,7 +20,6 @@ Secondary comparison sources for later phases:
 - weapons
 - armors
 - shields
-- accessories
 - abyss gear
 - bosses
 - mounts

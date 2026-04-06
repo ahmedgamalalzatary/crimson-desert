@@ -13,7 +13,6 @@ The first release covers:
 - weapons
 - armors
 - shields
-- accessories
 - abyss gear
 - bosses
 - mounts

@@ -9,7 +9,6 @@ Current categories:
 - weapons
 - armors
 - shields
-- accessories
 - abyss gear
 - bosses
 - mounts
