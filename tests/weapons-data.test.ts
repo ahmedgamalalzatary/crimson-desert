@@ -18,6 +18,8 @@ const weapons = [
     type: "one-hand-axe",
     typeLabel: "One-Hand Axe",
     rarity: "rare",
+    character: null,
+    sockets: "N/A" as const,
     stats: {
       baseDamage: 14,
       finalDamage: 18
@@ -38,6 +40,8 @@ const weapons = [
     type: "bow",
     typeLabel: "Bow",
     rarity: "common",
+    character: null,
+    sockets: "N/A" as const,
     stats: {
       baseDamage: 9,
       finalDamage: 12
@@ -58,6 +62,8 @@ const weapons = [
     type: "bow",
     typeLabel: "Bow",
     rarity: "rare",
+    character: null,
+    sockets: "N/A" as const,
     stats: {
       baseDamage: 17,
       finalDamage: 22
@@ -82,10 +88,13 @@ describe("weapon data helpers", () => {
       type: "one-hand-axe",
       typeLabel: "One-Hand Axe",
       rarity: "rare",
+      character: null,
       stats: {
         baseDamage: 14,
         finalDamage: 18
-      }
+      },
+      hasCrafting: true,
+      hasSockets: false
     });
   });
 
@@ -107,7 +116,12 @@ describe("weapon data helpers", () => {
       getWeaponFilterCounts(weapons, {
         query: "bow",
         selectedRarities: ["common", "rare"],
-        selectedTypes: ["bow"]
+        selectedTypes: ["bow"],
+        selectedCharacters: [],
+        hasCrafting: null,
+        hasSockets: null,
+        minDamage: null,
+        maxDamage: null
       })
     ).toEqual({
       total: 2,
@@ -117,6 +131,9 @@ describe("weapon data helpers", () => {
       },
       typeCounts: {
         bow: 2
+      },
+      characterCounts: {
+        "": 2
       }
     });
   });
@@ -127,6 +144,11 @@ describe("weapon data helpers", () => {
         query: "bow",
         selectedRarities: ["common", "rare"],
         selectedTypes: ["bow"],
+        selectedCharacters: [],
+        hasCrafting: null,
+        hasSockets: null,
+        minDamage: null,
+        maxDamage: null,
         sort: "finalDamage-desc"
       })
     ).toBe("q=bow&rarity=common%2Crare&type=bow&sort=finalDamage-desc");
@@ -141,6 +163,11 @@ describe("weapon data helpers", () => {
       query: "axe",
       selectedRarities: ["epic", "rare"],
       selectedTypes: ["bow", "one-hand-axe"],
+      selectedCharacters: [],
+      hasCrafting: null,
+      hasSockets: null,
+      minDamage: null,
+      maxDamage: null,
       sort: "name-desc"
     });
 
@@ -148,6 +175,11 @@ describe("weapon data helpers", () => {
       query: "",
       selectedRarities: [],
       selectedTypes: [],
+      selectedCharacters: [],
+      hasCrafting: null,
+      hasSockets: null,
+      minDamage: null,
+      maxDamage: null,
       sort: "name-asc"
     });
   });

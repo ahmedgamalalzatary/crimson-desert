@@ -56,13 +56,20 @@ export interface WeaponRecord {
 export type WeaponListItem = Pick<
   WeaponRecord,
   "id" | "name" | "slug" | "category" | "type" | "typeLabel" | "rarity" | "character" | "stats"
->;
+> & {
+  hasCrafting: boolean;
+  hasSockets: boolean;
+};
 
 export interface WeaponFilterState {
   query: string;
   selectedRarities: string[];
   selectedTypes: string[];
   selectedCharacters: string[];
+  hasCrafting: boolean | null;
+  hasSockets: boolean | null;
+  minDamage: number | null;
+  maxDamage: number | null;
 }
 
 export interface WeaponDirectoryState extends WeaponFilterState {
@@ -102,7 +109,7 @@ export const loadWeapons = async (): Promise<WeaponRecord[]> =>
   JSON.parse(await readFile("data/weapons.json", "utf8"));
 
 export const createWeaponListItems = (weapons: WeaponRecord[]): WeaponListItem[] =>
-  weapons.map(({ id, name, slug, category, type, typeLabel, rarity, character, stats }) => ({
+  weapons.map(({ id, name, slug, category, type, typeLabel, rarity, character, stats, craftingMaterials, sockets }) => ({
     id,
     name,
     slug,
@@ -111,7 +118,9 @@ export const createWeaponListItems = (weapons: WeaponRecord[]): WeaponListItem[]
     typeLabel,
     rarity,
     character,
-    stats
+    stats,
+    hasCrafting: craftingMaterials.length > 0,
+    hasSockets: sockets !== "N/A"
   }));
 
 export const getWeaponBySlug = (weapons: WeaponRecord[], slug: string) =>
@@ -182,6 +191,10 @@ export const getWeaponDirectoryStateFromSearchParams = (
   selectedRarities: parseDirectoryValues(searchParams.get("rarity")),
   selectedTypes: parseDirectoryValues(searchParams.get("type")),
   selectedCharacters: parseDirectoryValues(searchParams.get("character")),
+  hasCrafting: searchParams.get("crafting") === "1" ? true : null,
+  hasSockets: searchParams.get("sockets") === "1" ? true : null,
+  minDamage: searchParams.get("minDmg") ? Number(searchParams.get("minDmg")) : null,
+  maxDamage: searchParams.get("maxDmg") ? Number(searchParams.get("maxDmg")) : null,
   sort: searchParams.get("sort")?.trim() || DEFAULT_WEAPON_DIRECTORY_SORT
 });
 
@@ -204,6 +217,22 @@ export const toWeaponDirectorySearchParams = (
 
   if (state.selectedCharacters.length > 0) {
     searchParams.set("character", state.selectedCharacters.join(","));
+  }
+
+  if (state.hasCrafting) {
+    searchParams.set("crafting", "1");
+  }
+
+  if (state.hasSockets) {
+    searchParams.set("sockets", "1");
+  }
+
+  if (state.minDamage !== null) {
+    searchParams.set("minDmg", String(state.minDamage));
+  }
+
+  if (state.maxDamage !== null) {
+    searchParams.set("maxDmg", String(state.maxDamage));
   }
 
   if (state.sort !== DEFAULT_WEAPON_DIRECTORY_SORT) {

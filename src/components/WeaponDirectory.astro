@@ -8,14 +8,23 @@ interface Props {
 }
 
 const { weapons } = Astro.props;
-const rarityOptions = getOrderedRarityOptions(weapons.map((weapon) => weapon.rarity));
-const typeOptions = [...new Set(weapons.map((weapon) => weapon.type))].sort();
-const characterOptions = [...new Set(weapons.map((weapon) => weapon.character).filter(Boolean))].sort();
+const rarityOptions = getOrderedRarityOptions(weapons.map((w) => w.rarity));
+const typeOptions = [...new Set(weapons.map((w) => w.type))].sort();
+const characterOptions = [...new Set(weapons.map((w) => w.character).filter(Boolean))].sort() as string[];
+
+const allDamages = weapons.map((w) => w.stats.baseDamage ?? 0).filter((d) => d > 0);
+const globalMinDamage = allDamages.length ? Math.min(...allDamages) : 0;
+const globalMaxDamage = allDamages.length ? Math.max(...allDamages) : 100;
+
 const initialFilterCounts = getWeaponFilterCounts(weapons, {
   query: "",
   selectedRarities: [],
   selectedTypes: [],
-  selectedCharacters: []
+  selectedCharacters: [],
+  hasCrafting: null,
+  hasSockets: null,
+  minDamage: null,
+  maxDamage: null,
 });
 ---
 
@@ -40,10 +49,14 @@ const initialFilterCounts = getWeaponFilterCounts(weapons, {
   <div class="wd-toolbar wd-anim wd-anim-d1">
     <!-- Search -->
     <div class="wd-toolbar__cell wd-toolbar__cell--search">
-      <input type="search" placeholder="Search weapons by name or type…" data-search class="wd-toolbar__search" />
+      <svg class="wd-toolbar__search-icon" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z"/></svg>
+      <input type="search" placeholder="Search by name, type, or character…" data-search class="wd-toolbar__search" autocomplete="off" />
+      <button type="button" class="wd-toolbar__search-clear" data-search-clear aria-label="Clear search">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2.5" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M6 18 18 6M6 6l12 12"/></svg>
+      </button>
     </div>
 
-    <!-- Filters (nested: Rarity + Type) -->
+    <!-- Filters dropdown -->
     <div class="wd-toolbar__cell">
       <div class="wd-dropdown" data-dropdown="filters">
         <button type="button" data-dropdown-btn="filters" class="wd-dropdown__btn">
@@ -52,9 +65,10 @@ const initialFilterCounts = getWeaponFilterCounts(weapons, {
           <span data-dropdown-count="filters" class="wd-dropdown__badge"></span>
           <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" style="margin-left:auto;"><path stroke-linecap="round" stroke-linejoin="round" d="m19.5 8.25-7.5 7.5-7.5-7.5"/></svg>
         </button>
-        <div data-dropdown-panel="filters" class="wd-dropdown__panel" style="min-width:14rem;">
+        <div data-dropdown-panel="filters" class="wd-dropdown__panel" style="min-width:16rem;">
+
           <!-- Rarity sub-group -->
-          <div class="wd-filter-group" data-filter-group="rarity">
+          <div class="wd-filter-group wd-filter-group--open" data-filter-group="rarity">
             <button type="button" class="wd-filter-group__toggle" data-filter-group-toggle="rarity">
               <span class="wd-filter-group__toggle-left">
                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M9.813 15.904 9 18.75l-.813-2.846a4.5 4.5 0 0 0-3.09-3.09L2.25 12l2.846-.813a4.5 4.5 0 0 0 3.09-3.09L9 5.25l.813 2.846a4.5 4.5 0 0 0 3.09 3.09L15.75 12l-2.846.813a4.5 4.5 0 0 0-3.09 3.09ZM18.259 8.715 18 9.75l-.259-1.035a3.375 3.375 0 0 0-2.455-2.456L14.25 6l1.036-.259a3.375 3.375 0 0 0 2.455-2.456L18 2.25l.259 1.035a3.375 3.375 0 0 0 2.456 2.456L21.75 6l-1.035.259a3.375 3.375 0 0 0-2.456 2.456Z"/></svg>
@@ -70,7 +84,7 @@ const initialFilterCounts = getWeaponFilterCounts(weapons, {
                 <label class="wd-dropdown__option">
                   <span class="wd-dropdown__option-left">
                     <input type="checkbox" value={rarity} data-rarity />
-                    <span style="text-transform:capitalize;">{rarity}</span>
+                    <span class={`wd-rarity wd-rarity--${rarity}`}>{rarity}</span>
                   </span>
                   <span data-filter-count="rarity" data-filter-value={rarity} class="wd-dropdown__option-count">
                     {initialFilterCounts.rarityCounts[rarity] ?? 0}
@@ -79,6 +93,7 @@ const initialFilterCounts = getWeaponFilterCounts(weapons, {
               ))}
             </div>
           </div>
+
           <!-- Type sub-group -->
           <div class="wd-filter-group" data-filter-group="type">
             <button type="button" class="wd-filter-group__toggle" data-filter-group-toggle="type">
@@ -105,47 +120,120 @@ const initialFilterCounts = getWeaponFilterCounts(weapons, {
               ))}
             </div>
           </div>
+
           <!-- Character sub-group -->
-          <div class="wd-filter-group" data-filter-group="character">
-            <button type="button" class="wd-filter-group__toggle" data-filter-group-toggle="character">
+          {characterOptions.length > 0 && (
+            <div class="wd-filter-group" data-filter-group="character">
+              <button type="button" class="wd-filter-group__toggle" data-filter-group-toggle="character">
+                <span class="wd-filter-group__toggle-left">
+                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M15.75 6.75a3.75 3.75 0 1 1-7.5 0 3.75 3.75 0 0 1 7.5 0Zm-9 11.25a6.75 6.75 0 0 1 13.5 0v1.5H6.75v-1.5Z"/></svg>
+                  Character
+                </span>
+                <span class="wd-filter-group__toggle-right">
+                  <span data-dropdown-count="character" class="wd-dropdown__badge"></span>
+                  <svg class="wd-filter-group__chevron" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2.5" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="m19.5 8.25-7.5 7.5-7.5-7.5"/></svg>
+                </span>
+              </button>
+              <div class="wd-filter-group__items">
+                {characterOptions.map((character) => (
+                  <label class="wd-dropdown__option">
+                    <span class="wd-dropdown__option-left">
+                      <input type="checkbox" value={character} data-character />
+                      <span>{character}</span>
+                    </span>
+                    <span data-filter-count="character" data-filter-value={character} class="wd-dropdown__option-count">
+                      {initialFilterCounts.characterCounts[character] ?? 0}
+                    </span>
+                  </label>
+                ))}
+              </div>
+            </div>
+          )}
+
+          <!-- Damage Range sub-group -->
+          <div class="wd-filter-group" data-filter-group="damage">
+            <button type="button" class="wd-filter-group__toggle" data-filter-group-toggle="damage">
               <span class="wd-filter-group__toggle-left">
-                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M15.75 6.75a3.75 3.75 0 1 1-7.5 0 3.75 3.75 0 0 1 7.5 0Zm-9 11.25a6.75 6.75 0 0 1 13.5 0v1.5H6.75v-1.5Z"/></svg>
-                Character
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M3.75 3v11.25A2.25 2.25 0 0 0 6 16.5h2.25M3.75 3h-1.5m1.5 0h16.5m0 0h1.5m-1.5 0v11.25A2.25 2.25 0 0 1 18 16.5h-2.25m-7.5 0h7.5m-7.5 0-1 3m8.5-3 1 3m0 0 .5 1.5m-.5-1.5h-9.5m0 0-.5 1.5m.75-9 3-3 2.148 2.148A12.061 12.061 0 0 1 16.5 7.605"/></svg>
+                Base Damage Range
               </span>
               <span class="wd-filter-group__toggle-right">
-                <span data-dropdown-count="character" class="wd-dropdown__badge"></span>
+                <span data-dropdown-count="damage" class="wd-dropdown__badge"></span>
                 <svg class="wd-filter-group__chevron" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2.5" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="m19.5 8.25-7.5 7.5-7.5-7.5"/></svg>
               </span>
             </button>
             <div class="wd-filter-group__items">
-              {characterOptions.map((character) => (
-                <label class="wd-dropdown__option">
-                  <span class="wd-dropdown__option-left">
-                    <input type="checkbox" value={character} data-character />
-                    <span>{character}</span>
-                  </span>
-                  <span data-filter-count="character" data-filter-value={character} class="wd-dropdown__option-count">
-                    {initialFilterCounts.characterCounts[character] ?? 0}
-                  </span>
-                </label>
-              ))}
+              <div class="wd-range-group">
+                <div class="wd-range-row">
+                  <label class="wd-range-label">Min</label>
+                  <input
+                    type="number"
+                    class="wd-range-input"
+                    data-min-damage
+                    min={globalMinDamage}
+                    max={globalMaxDamage}
+                    placeholder={String(globalMinDamage)}
+                  />
+                </div>
+                <div class="wd-range-sep">—</div>
+                <div class="wd-range-row">
+                  <label class="wd-range-label">Max</label>
+                  <input
+                    type="number"
+                    class="wd-range-input"
+                    data-max-damage
+                    min={globalMinDamage}
+                    max={globalMaxDamage}
+                    placeholder={String(globalMaxDamage)}
+                  />
+                </div>
+              </div>
             </div>
           </div>
+
+          <!-- Boolean toggles sub-group -->
+          <div class="wd-filter-group" data-filter-group="extras">
+            <button type="button" class="wd-filter-group__toggle" data-filter-group-toggle="extras">
+              <span class="wd-filter-group__toggle-left">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M9.594 3.94c.09-.542.56-.94 1.11-.94h2.593c.55 0 1.02.398 1.11.94l.213 1.281c.063.374.313.686.645.87.074.04.147.083.22.127.325.196.72.257 1.075.124l1.217-.456a1.125 1.125 0 0 1 1.37.49l1.296 2.247a1.125 1.125 0 0 1-.26 1.431l-1.003.827c-.293.241-.438.613-.43.992a7.723 7.723 0 0 1 0 .255c-.008.378.137.75.43.991l1.004.827c.424.35.534.955.26 1.43l-1.298 2.247a1.125 1.125 0 0 1-1.369.491l-1.217-.456c-.355-.133-.75-.072-1.076.124a6.47 6.47 0 0 1-.22.128c-.331.183-.581.495-.644.869l-.213 1.281c-.09.543-.56.94-1.11.94h-2.594c-.55 0-1.019-.398-1.11-.94l-.213-1.281c-.062-.374-.312-.686-.644-.87a6.52 6.52 0 0 1-.22-.127c-.325-.196-.72-.257-1.076-.124l-1.217.456a1.125 1.125 0 0 1-1.369-.49l-1.297-2.247a1.125 1.125 0 0 1 .26-1.431l1.004-.827c.292-.24.437-.613.43-.991a6.932 6.932 0 0 1 0-.255c.007-.38-.138-.751-.43-.992l-1.004-.827a1.125 1.125 0 0 1-.26-1.43l1.297-2.247a1.125 1.125 0 0 1 1.37-.491l1.216.456c.356.133.751.072 1.076-.124.072-.044.146-.086.22-.128.332-.183.582-.495.644-.869l.214-1.28Z"/><path stroke-linecap="round" stroke-linejoin="round" d="M15 12a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z"/></svg>
+                Special
+              </span>
+              <span class="wd-filter-group__toggle-right">
+                <span data-dropdown-count="extras" class="wd-dropdown__badge"></span>
+                <svg class="wd-filter-group__chevron" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2.5" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="m19.5 8.25-7.5 7.5-7.5-7.5"/></svg>
+              </span>
+            </button>
+            <div class="wd-filter-group__items">
+              <label class="wd-dropdown__option">
+                <span class="wd-dropdown__option-left">
+                  <input type="checkbox" data-has-crafting />
+                  <span>Has Crafting Recipe</span>
+                </span>
+              </label>
+              <label class="wd-dropdown__option">
+                <span class="wd-dropdown__option-left">
+                  <input type="checkbox" data-has-sockets />
+                  <span>Has Sockets</span>
+                </span>
+              </label>
+            </div>
+          </div>
+
         </div>
       </div>
     </div>
 
-    <!-- Sort -->
+    <!-- Sort dropdown -->
     <div class="wd-toolbar__cell">
       <div class="wd-dropdown" data-dropdown="sort">
         <button type="button" data-dropdown-btn="sort" class="wd-dropdown__btn">
           <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M3 7.5 7.5 3m0 0L12 7.5M7.5 3v13.5m13.5 0L16.5 21m0 0L12 16.5m4.5 4.5V7.5"/></svg>
-          <span data-sort-label>Name A-Z</span>
+          <span data-sort-label>Name A–Z</span>
           <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" style="margin-left:auto;"><path stroke-linecap="round" stroke-linejoin="round" d="m19.5 8.25-7.5 7.5-7.5-7.5"/></svg>
         </button>
         <div data-dropdown-panel="sort" class="wd-dropdown__panel">
-          <label class="wd-dropdown__option"><span class="wd-dropdown__option-left"><input type="radio" name="sort" value="name-asc" data-sort-option checked /><span>Name A-Z</span></span></label>
-          <label class="wd-dropdown__option"><span class="wd-dropdown__option-left"><input type="radio" name="sort" value="name-desc" data-sort-option /><span>Name Z-A</span></span></label>
+          <label class="wd-dropdown__option"><span class="wd-dropdown__option-left"><input type="radio" name="sort" value="name-asc" data-sort-option checked /><span>Name A–Z</span></span></label>
+          <label class="wd-dropdown__option"><span class="wd-dropdown__option-left"><input type="radio" name="sort" value="name-desc" data-sort-option /><span>Name Z–A</span></span></label>
           <div class="wd-dropdown__sep"></div>
           <label class="wd-dropdown__option"><span class="wd-dropdown__option-left"><input type="radio" name="sort" value="baseDamage-desc" data-sort-option /><span>Base Damage ↓</span></span></label>
           <label class="wd-dropdown__option"><span class="wd-dropdown__option-left"><input type="radio" name="sort" value="baseDamage-asc" data-sort-option /><span>Base Damage ↑</span></span></label>
@@ -153,15 +241,18 @@ const initialFilterCounts = getWeaponFilterCounts(weapons, {
           <label class="wd-dropdown__option"><span class="wd-dropdown__option-left"><input type="radio" name="sort" value="finalDamage-desc" data-sort-option /><span>Final Damage ↓</span></span></label>
           <label class="wd-dropdown__option"><span class="wd-dropdown__option-left"><input type="radio" name="sort" value="finalDamage-asc" data-sort-option /><span>Final Damage ↑</span></span></label>
           <div class="wd-dropdown__sep"></div>
-          <label class="wd-dropdown__option"><span class="wd-dropdown__option-left"><input type="radio" name="sort" value="rarity-asc" data-sort-option /><span>Rarity Low→High</span></span></label>
           <label class="wd-dropdown__option"><span class="wd-dropdown__option-left"><input type="radio" name="sort" value="rarity-desc" data-sort-option /><span>Rarity High→Low</span></span></label>
+          <label class="wd-dropdown__option"><span class="wd-dropdown__option-left"><input type="radio" name="sort" value="rarity-asc" data-sort-option /><span>Rarity Low→High</span></span></label>
           <div class="wd-dropdown__sep"></div>
-          <label class="wd-dropdown__option"><span class="wd-dropdown__option-left"><input type="radio" name="sort" value="character-asc" data-sort-option /><span>Character A-Z</span></span></label>
-          <label class="wd-dropdown__option"><span class="wd-dropdown__option-left"><input type="radio" name="sort" value="character-desc" data-sort-option /><span>Character Z-A</span></span></label>
+          <label class="wd-dropdown__option"><span class="wd-dropdown__option-left"><input type="radio" name="sort" value="character-asc" data-sort-option /><span>Character A–Z</span></span></label>
+          <label class="wd-dropdown__option"><span class="wd-dropdown__option-left"><input type="radio" name="sort" value="character-desc" data-sort-option /><span>Character Z–A</span></span></label>
         </div>
       </div>
     </div>
   </div>
+
+  <!-- ── ACTIVE FILTER CHIPS ── -->
+  <div class="wd-chips wd-anim wd-anim-d1" data-chips></div>
 
   <!-- ── RESULTS GRID ── -->
   <div class="wd-grid wd-anim wd-anim-d2" data-results>
@@ -175,6 +266,8 @@ const initialFilterCounts = getWeaponFilterCounts(weapons, {
         data-character={weapon.character ?? ""}
         data-base-damage={weapon.stats.baseDamage ?? -1}
         data-final-damage={weapon.stats.finalDamage ?? -1}
+        data-has-crafting={weapon.hasCrafting ? "true" : "false"}
+        data-has-sockets={weapon.hasSockets ? "true" : "false"}
       >
         <div class="wd-card__top">
           <div>
@@ -182,16 +275,10 @@ const initialFilterCounts = getWeaponFilterCounts(weapons, {
             <a href={`/weapon/${weapon.slug}`} class="wd-card__name">{weapon.name}</a>
             {weapon.character ? <p class="wd-card__meta">{weapon.character}</p> : null}
           </div>
-          <span class="wd-card__rarity">{weapon.rarity}</span>
+          <span class={`wd-card__rarity wd-card__rarity--${weapon.rarity}`}>{weapon.rarity}</span>
         </div>
 
         <div class="wd-card__stats-group">
-          <div class="wd-card__stats-row">
-            <div class="wd-card__stat wd-card__stat--full">
-              <div class="wd-card__stat-label">Type</div>
-              <div class="wd-card__stat-value wd-card__stat-value--text">{weapon.type}</div>
-            </div>
-          </div>
           {weapon.character ? (
             <div class="wd-card__stats-row">
               <div class="wd-card__stat wd-card__stat--full">
@@ -202,12 +289,20 @@ const initialFilterCounts = getWeaponFilterCounts(weapons, {
           ) : null}
           <div class="wd-card__stats-row">
             <div class="wd-card__stat">
-              <div class="wd-card__stat-label">Base</div>
+              <div class="wd-card__stat-label">Base DMG</div>
               <div class="wd-card__stat-value">{weapon.stats.baseDamage ?? "—"}</div>
             </div>
             <div class="wd-card__stat">
-              <div class="wd-card__stat-label">Final</div>
+              <div class="wd-card__stat-label">Final DMG</div>
               <div class="wd-card__stat-value wd-card__stat-value--accent">{weapon.stats.finalDamage ?? "—"}</div>
+            </div>
+          </div>
+          <div class="wd-card__stats-row">
+            <div class="wd-card__stat wd-card__stat--full">
+              <div class="wd-card__badges">
+                {weapon.hasCrafting ? <span class="wd-badge wd-badge--crafting">Craftable</span> : null}
+                {weapon.hasSockets ? <span class="wd-badge wd-badge--socket">Socketed</span> : null}
+              </div>
             </div>
           </div>
         </div>
@@ -221,6 +316,7 @@ const initialFilterCounts = getWeaponFilterCounts(weapons, {
       </article>
     ))}
   </div>
+
 </section>
 
 <script type="application/json" id="weapon-directory-data" set:html={JSON.stringify(weapons)} />
