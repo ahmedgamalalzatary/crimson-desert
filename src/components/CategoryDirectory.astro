@@ -1,72 +1,243 @@
 ---
 import "../styles/weapon-directory.css";
+import { getOrderedRarityOptions } from "../lib/rarity";
+
+interface ItemShape {
+  id: string;
+  name: string;
+  slug: string;
+  category: string;
+  type?: string;
+  typeLabel?: string;
+  rarity?: string;
+  stats?: Record<string, string | number | null> | Array<{ label: string; value: string; max?: string }> | null;
+  route?: string;
+  description?: string;
+}
 
 interface Props {
   title: string;
   eyebrow: string;
   description: string;
-  items: Array<{
-    id: string;
-    name: string;
-    slug: string;
-    category: string;
-    type?: string;
-    typeLabel?: string;
-    rarity?: string;
-    stats?: Record<string, number | null> | null;
-    route?: string;
-  }>;
+  items: ItemShape[];
   emptyLabel: string;
-  sortLabel?: string;
 }
 
-const { title, eyebrow, description, items, emptyLabel, sortLabel = "Name A-Z" } = Astro.props;
+const { title, eyebrow, description, items, emptyLabel } = Astro.props;
+
+// Derive filter options from data
+const rarities = getOrderedRarityOptions(
+  items.map((i) => i.rarity ?? "unclassified")
+);
+const types = [...new Set(items.map((i) => i.type).filter(Boolean) as string[])].sort();
+const hasRarityFilter = rarities.length > 1;
+const hasTypeFilter = types.length > 1;
 ---
 
 <section class="wd" data-category-directory>
+
+  <!-- ── HERO ── -->
   <div class="wd-hero wd-anim">
     <p class="wd-hero__eyebrow">{eyebrow}</p>
     <h1 class="wd-hero__title">{title}</h1>
     <p class="wd-hero__desc">{description}</p>
     <div class="wd-hero__pills">
-      <span class="wd-hero__pill"><strong data-count>{items.length}</strong>&thinsp;results</span>
-      <span class="wd-hero__pill">{sortLabel}</span>
+      <span class="wd-hero__pill">
+        <strong data-count>{items.length}</strong>&thinsp;results
+      </span>
+      <span class="wd-hero__pill" data-sort-label>Name A–Z</span>
     </div>
   </div>
 
+  <!-- ── TOOLBAR ── -->
+  <div class="wd-toolbar wd-anim wd-anim-d1">
+
+    <!-- Search -->
+    <div class="wd-toolbar__cell wd-toolbar__cell--search">
+      <svg class="wd-toolbar__search-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+        <circle cx="10" cy="10" r="6" />
+        <line x1="14" y1="14" x2="20" y2="20" stroke-linecap="round" />
+      </svg>
+      <input
+        type="text"
+        class="wd-toolbar__search"
+        placeholder={`Search ${title.toLowerCase()}…`}
+        data-search
+        autocomplete="off"
+      />
+      <button class="wd-toolbar__search-clear" data-search-clear aria-label="Clear search">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <line x1="18" y1="6" x2="6" y2="18" />
+          <line x1="6" y1="6" x2="18" y2="18" />
+        </svg>
+      </button>
+    </div>
+
+    <!-- Rarity filter -->
+    {hasRarityFilter && (
+      <div class="wd-toolbar__cell">
+        <div class="wd-dropdown">
+          <button class="wd-dropdown__btn" data-dropdown-btn="rarity">
+            <span>Rarity</span>
+            <span class="wd-dropdown__badge" data-dropdown-count="rarity">0</span>
+            <svg class="wd-dropdown__chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <polyline points="6 9 12 15 18 9" />
+            </svg>
+          </button>
+          <div class="wd-dropdown__panel" data-dropdown-panel="rarity">
+            <div class="wd-filter-group">
+              {rarities.map((rarity) => (
+                <label class="wd-dropdown__option">
+                  <input type="checkbox" value={rarity} data-rarity />
+                  <span class="wd-rarity">{rarity}</span>
+                  <span class="wd-dropdown__option-count" data-filter-count="rarity" data-filter-value={rarity}>0</span>
+                </label>
+              ))}
+            </div>
+          </div>
+        </div>
+      </div>
+    )}
+
+    <!-- Type filter -->
+    {hasTypeFilter && (
+      <div class="wd-toolbar__cell">
+        <div class="wd-dropdown">
+          <button class="wd-dropdown__btn" data-dropdown-btn="type">
+            <span>Type</span>
+            <span class="wd-dropdown__badge" data-dropdown-count="type">0</span>
+            <svg class="wd-dropdown__chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <polyline points="6 9 12 15 18 9" />
+            </svg>
+          </button>
+          <div class="wd-dropdown__panel" data-dropdown-panel="type">
+            <div class="wd-filter-group">
+              {types.map((type) => (
+                <label class="wd-dropdown__option">
+                  <input type="checkbox" value={type} data-type-filter />
+                  <span>{type}</span>
+                  <span class="wd-dropdown__option-count" data-filter-count="type" data-filter-value={type}>0</span>
+                </label>
+              ))}
+            </div>
+          </div>
+        </div>
+      </div>
+    )}
+
+    <!-- Sort -->
+    <div class="wd-toolbar__cell">
+      <div class="wd-dropdown">
+        <button class="wd-dropdown__btn" data-dropdown-btn="sort">
+          <span>Sort</span>
+          <svg class="wd-dropdown__chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <polyline points="6 9 12 15 18 9" />
+          </svg>
+        </button>
+        <div class="wd-dropdown__panel" data-dropdown-panel="sort">
+          <div class="wd-filter-group">
+            <label class="wd-dropdown__option">
+              <input type="radio" name={`sort-${title}`} value="name-asc" data-sort-option checked />
+              <span>Name (A–Z)</span>
+            </label>
+            <label class="wd-dropdown__option">
+              <input type="radio" name={`sort-${title}`} value="name-desc" data-sort-option />
+              <span>Name (Z–A)</span>
+            </label>
+            {hasRarityFilter && (
+              <>
+                <label class="wd-dropdown__option">
+                  <input type="radio" name={`sort-${title}`} value="rarity-asc" data-sort-option />
+                  <span>Rarity (Common → Legendary)</span>
+                </label>
+                <label class="wd-dropdown__option">
+                  <input type="radio" name={`sort-${title}`} value="rarity-desc" data-sort-option />
+                  <span>Rarity (Legendary → Common)</span>
+                </label>
+              </>
+            )}
+            {hasTypeFilter && (
+              <>
+                <label class="wd-dropdown__option">
+                  <input type="radio" name={`sort-${title}`} value="type-asc" data-sort-option />
+                  <span>Type (A–Z)</span>
+                </label>
+                <label class="wd-dropdown__option">
+                  <input type="radio" name={`sort-${title}`} value="type-desc" data-sort-option />
+                  <span>Type (Z–A)</span>
+                </label>
+              </>
+            )}
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ── ACTIVE FILTER CHIPS ── -->
+  <div class="wd-chips wd-anim wd-anim-d1" data-chips></div>
+
+  <!-- ── RESULTS GRID ── -->
   <div class="wd-grid wd-anim wd-anim-d2" data-results>
     {items.length > 0 ? (
-      items.map((item) => (
-        <article class="wd-card">
-          <div class="wd-card__top">
-            <div>
-              <p class="wd-card__type">{item.typeLabel ?? item.type ?? item.category}</p>
-              <a href={item.route ?? `/${item.category === "weapons" ? "weapon" : item.category}/${item.slug}`} class="wd-card__name">
-                {item.name}
-              </a>
-            </div>
-            <span class="wd-card__rarity">{item.rarity ?? "unclassified"}</span>
-          </div>
-          <div class="wd-card__stats-group">
-            <div class="wd-card__stats-row">
-              <div class="wd-card__stat wd-card__stat--full">
-                <div class="wd-card__stat-label">Slug</div>
-                <div class="wd-card__stat-value wd-card__stat-value--text">{item.slug}</div>
+      items.map((item) => {
+        const rarity = item.rarity ?? "unclassified";
+        const typeDisplay = item.typeLabel ?? item.type ?? item.category;
+        const route = item.route ?? `/${item.category === "weapons" ? "weapon" : item.category}/${item.slug}`;
+        const statsArr = Array.isArray(item.stats) ? item.stats.slice(0, 3) : [];
+        return (
+          <article
+            class="wd-card"
+            data-card
+            data-name={item.name.toLowerCase()}
+            data-rarity={rarity}
+            data-type={item.type ?? ""}
+          >
+            <div class="wd-card__top">
+              <div>
+                <p class="wd-card__type">{typeDisplay}</p>
+                <a href={route} class="wd-card__name">{item.name}</a>
               </div>
+              <span class={`wd-card__rarity wd-card__rarity--${rarity}`}>{rarity}</span>
             </div>
-          </div>
-          <a href={item.route ?? `/${item.category === "weapons" ? "weapon" : item.category}/${item.slug}`} class="wd-card__link">
-            View details
-            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2.5" stroke="currentColor">
-              <path stroke-linecap="round" stroke-linejoin="round" d="m8.25 4.5 7.5 7.5-7.5 7.5" />
-            </svg>
-          </a>
-        </article>
-      ))
+            {statsArr.length > 0 && (
+              <div class="wd-card__stats-group">
+                <div class="wd-card__stats-row">
+                  {statsArr.map((s) => (
+                    <div class="wd-card__stat">
+                      <div class="wd-card__stat-label">{s.label}</div>
+                      <div class="wd-card__stat-value">
+                        {s.value}{s.max ? <span class="wd-card__stat-max"> / {s.max}</span> : ""}
+                      </div>
+                    </div>
+                  ))}
+                </div>
+              </div>
+            )}
+            <a href={route} class="wd-card__link">
+              View details
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2.5" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" d="m8.25 4.5 7.5 7.5-7.5 7.5" />
+              </svg>
+            </a>
+          </article>
+        );
+      })
     ) : (
       <div class="wd-empty">
         <p class="wd-empty__text">{emptyLabel}</p>
       </div>
     )}
   </div>
+
+  <!-- Empty state (shown by JS when no results) -->
+  <div class="wd-empty" data-empty style="display:none">
+    <p class="wd-empty__text">No items match your filters.</p>
+    <button class="wd-empty__reset" data-reset-filters>Reset filters</button>
+  </div>
+
 </section>
+
+<script>
+  import "../lib/category-directory.ts";
+</script>

@@ -494,6 +494,11 @@
   font-family: var(--wd-body);
   margin-top: 0.35rem;
 }
+.wd-card__stat-max {
+  font-size: 0.75rem;
+  color: var(--muted-foreground);
+  font-weight: 400;
+}
 
 /* ── Inline badges (Craftable / Socketed) ── */
 .wd-badge-row,

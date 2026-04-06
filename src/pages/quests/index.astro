@@ -15,7 +15,6 @@ const questsFaction = await loadJsonArray("data/quests-faction.json");
       description="Main story quest lines and chapters."
       items={questsMain}
       emptyLabel="Main quest data is not populated yet."
-      sortLabel="Story progress"
     />
     <CategoryDirectory
       title="Faction Quests"
@@ -23,7 +22,6 @@ const questsFaction = await loadJsonArray("data/quests-faction.json");
       description="Faction quest lines and repeatable objectives."
       items={questsFaction}
       emptyLabel="Faction quest data is not populated yet."
-      sortLabel="Faction progress"
     />
   </div>
 </BaseLayout>
