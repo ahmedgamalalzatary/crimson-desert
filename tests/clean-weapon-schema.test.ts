@@ -15,6 +15,12 @@ describe("cleanWeaponSchema", () => {
         baseDamage: 12,
         finalDamage: 34
       },
+      sockets: {
+        filled: 0,
+        total: 3,
+        empty: 3,
+        stats: []
+      },
       materials: [
         { name: "Iron Ore", quantity: 19 },
         { name: "Copper Ore", quantity: 8 }
@@ -27,5 +33,6 @@ describe("cleanWeaponSchema", () => {
     });
 
     expect(parsed.stats.finalDamage).toBeGreaterThan(parsed.stats.baseDamage);
+    expect(parsed.sockets).not.toBe("N/A");
   });
 });

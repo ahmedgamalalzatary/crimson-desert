@@ -11,6 +11,7 @@
       "baseDamage": 17,
       "finalDamage": 17
     },
+    "sockets": "N/A",
     "materials": [],
     "description": "A cannon that can be equipped on the left hand of an A.T.A.G. It fires a cannon shot that flies straight ahead.",
     "source": {
@@ -30,6 +31,7 @@
       "baseDamage": 25,
       "finalDamage": 25
     },
+    "sockets": "N/A",
     "materials": [],
     "description": "A fist that can be equipped on both hands of an A.T.A.G. It knocks foes down with heavy blows.",
     "source": {
@@ -49,6 +51,7 @@
       "baseDamage": 17,
       "finalDamage": 17
     },
+    "sockets": "N/A",
     "materials": [],
     "description": "A flamespitter that can be equipped on the right hand of an A.T.A.G. It spews flames that swallow everything.",
     "source": {
@@ -68,6 +71,7 @@
       "baseDamage": 17,
       "finalDamage": 17
     },
+    "sockets": "N/A",
     "materials": [],
     "description": "Laser that can be equipped on the left hand of an A.T.A.G. The temperatures that this laser can reach are hotter that fire itself.",
     "source": {
@@ -87,6 +91,7 @@
       "baseDamage": 17,
       "finalDamage": 17
     },
+    "sockets": "N/A",
     "materials": [],
     "description": "A machine gun that can be equipped on the right hand of an A.T.A.G. Its rapid-fire makes it well-suited to dealing with multiple enemies.",
     "source": {
@@ -106,6 +111,7 @@
       "baseDamage": 17,
       "finalDamage": 17
     },
+    "sockets": "N/A",
     "materials": [],
     "description": "A repairing claw that can be equipped on the right hand of an A.T.A.G. Used for holding firmly onto something.",
     "source": {
@@ -125,6 +131,7 @@
       "baseDamage": 17,
       "finalDamage": 17
     },
+    "sockets": "N/A",
     "materials": [],
     "description": "A welder that can be equipped on the right hand of an A.T.A.G. Used to weld metal parts together.",
     "source": {
@@ -144,6 +151,12 @@
       "baseDamage": 17,
       "finalDamage": 45
     },
+    "sockets": {
+      "filled": 0,
+      "total": 5,
+      "empty": 5,
+      "stats": []
+    },
     "materials": [],
     "description": "A folding greatsword made by House Spencer. Rumors say a last survivor of the exterminated House Spencer remains. If true, she would surely be fighting bravely for Demeniss's justice. Built with a special mechanism, the blade can be folded for carrying when not in use.",
     "source": {
@@ -162,6 +175,12 @@
     "stats": {
       "baseDamage": 13,
       "finalDamage": 37
+    },
+    "sockets": {
+      "filled": 0,
+      "total": 3,
+      "empty": 3,
+      "stats": []
     },
     "materials": [
       {
@@ -191,6 +210,21 @@
       "baseDamage": 10,
       "finalDamage": 30
     },
+    "sockets": {
+      "filled": 2,
+      "total": 3,
+      "empty": 1,
+      "stats": [
+        {
+          "name": "Attack +1",
+          "slug": "destruction-i"
+        },
+        {
+          "name": "Critical Rate Lv.1",
+          "slug": "insight-i"
+        }
+      ]
+    },
     "materials": [],
     "description": "A mysterious curved sword imbued with a radiant golden glow. Much like the history of the Crimson Desert, shrouded in mystery to outsiders, this weapon is equally enigmatic. Its ornate patterns and bizarre embellishments suggest the blade was forged for ritualistic purposes.",
     "source": {
@@ -209,6 +243,12 @@
     "stats": {
       "baseDamage": 11,
       "finalDamage": 33
+    },
+    "sockets": {
+      "filled": 0,
+      "total": 5,
+      "empty": 5,
+      "stats": []
     },
     "materials": [
       {
@@ -250,6 +290,7 @@
       "baseDamage": 10,
       "finalDamage": 30
     },
+    "sockets": "N/A",
     "materials": [
       {
         "name": "Aeserion's Scale",
@@ -289,6 +330,12 @@
     "stats": {
       "baseDamage": 15,
       "finalDamage": 40
+    },
+    "sockets": {
+      "filled": 0,
+      "total": 5,
+      "empty": 5,
+      "stats": []
     },
     "materials": [
       {
@@ -330,6 +377,12 @@
       "baseDamage": 17,
       "finalDamage": 45
     },
+    "sockets": {
+      "filled": 0,
+      "total": 5,
+      "empty": 5,
+      "stats": []
+    },
     "materials": [
       {
         "name": "Aeserion's Scale",
@@ -369,6 +422,12 @@
     "stats": {
       "baseDamage": 14,
       "finalDamage": 39
+    },
+    "sockets": {
+      "filled": 0,
+      "total": 5,
+      "empty": 5,
+      "stats": []
     },
     "materials": [
       {
@@ -410,6 +469,12 @@
       "baseDamage": 14,
       "finalDamage": 39
     },
+    "sockets": {
+      "filled": 0,
+      "total": 5,
+      "empty": 5,
+      "stats": []
+    },
     "materials": [
       {
         "name": "Aeserion's Scale",
@@ -449,6 +514,12 @@
     "stats": {
       "baseDamage": 11,
       "finalDamage": 33
+    },
+    "sockets": {
+      "filled": 0,
+      "total": 3,
+      "empty": 3,
+      "stats": []
     },
     "materials": [
       {
@@ -490,6 +561,12 @@
       "baseDamage": 12,
       "finalDamage": 35
     },
+    "sockets": {
+      "filled": 0,
+      "total": 5,
+      "empty": 5,
+      "stats": []
+    },
     "materials": [
       {
         "name": "Aeserion's Scale",
@@ -529,6 +606,12 @@
     "stats": {
       "baseDamage": 12,
       "finalDamage": 34
+    },
+    "sockets": {
+      "filled": 0,
+      "total": 3,
+      "empty": 3,
+      "stats": []
     },
     "materials": [
       {
@@ -570,6 +653,12 @@
       "baseDamage": 15,
       "finalDamage": 41
     },
+    "sockets": {
+      "filled": 0,
+      "total": 5,
+      "empty": 5,
+      "stats": []
+    },
     "materials": [
       {
         "name": "Aeserion's Scale",
@@ -610,6 +699,7 @@
       "baseDamage": 24,
       "finalDamage": 24
     },
+    "sockets": "N/A",
     "materials": [],
     "description": "A blaster that can compress and fire air. The compressed air unleashes a powerful blast of pressure, sending enemies flying on contact.",
     "source": {
@@ -628,6 +718,12 @@
     "stats": {
       "baseDamage": 12,
       "finalDamage": 34
+    },
+    "sockets": {
+      "filled": 0,
+      "total": 3,
+      "empty": 3,
+      "stats": []
     },
     "materials": [
       {
@@ -657,6 +753,7 @@
       "baseDamage": 10,
       "finalDamage": 30
     },
+    "sockets": "N/A",
     "materials": [
       {
         "name": "Iron Ore",
@@ -684,6 +781,12 @@
     "stats": {
       "baseDamage": 12,
       "finalDamage": 35
+    },
+    "sockets": {
+      "filled": 0,
+      "total": 5,
+      "empty": 5,
+      "stats": []
     },
     "materials": [
       {
@@ -713,6 +816,12 @@
       "baseDamage": 11,
       "finalDamage": 33
     },
+    "sockets": {
+      "filled": 0,
+      "total": 3,
+      "empty": 3,
+      "stats": []
+    },
     "materials": [
       {
         "name": "Iron Ore",
@@ -740,6 +849,12 @@
     "stats": {
       "baseDamage": 12,
       "finalDamage": 35
+    },
+    "sockets": {
+      "filled": 0,
+      "total": 5,
+      "empty": 5,
+      "stats": []
     },
     "materials": [
       {
@@ -769,6 +884,12 @@
       "baseDamage": 12,
       "finalDamage": 35
     },
+    "sockets": {
+      "filled": 0,
+      "total": 5,
+      "empty": 5,
+      "stats": []
+    },
     "materials": [
       {
         "name": "Iron Ore",
@@ -796,6 +917,17 @@
     "stats": {
       "baseDamage": 15,
       "finalDamage": 40
+    },
+    "sockets": {
+      "filled": 1,
+      "total": 5,
+      "empty": 4,
+      "stats": [
+        {
+          "name": "+4% damage to machines",
+          "slug": "steelbane-i"
+        }
+      ]
     },
     "materials": [
       {
@@ -825,6 +957,12 @@
       "baseDamage": 12,
       "finalDamage": 35
     },
+    "sockets": {
+      "filled": 0,
+      "total": 5,
+      "empty": 5,
+      "stats": []
+    },
     "materials": [
       {
         "name": "Iron Ore",
@@ -853,6 +991,7 @@
       "baseDamage": 24,
       "finalDamage": 24
     },
+    "sockets": "N/A",
     "materials": [],
     "description": "A signboard showing opposition to Caliburn. It looks like it could be used as a weapon in a pinch.",
     "source": {
@@ -871,6 +1010,12 @@
     "stats": {
       "baseDamage": 17,
       "finalDamage": 45
+    },
+    "sockets": {
+      "filled": 0,
+      "total": 5,
+      "empty": 5,
+      "stats": []
     },
     "materials": [],
     "description": "A staff used by the high priests of the Antumbra Order. When held by one who wields the power of darkness, it amplifies that power.",
@@ -891,6 +1036,12 @@
       "baseDamage": 17,
       "finalDamage": 45
     },
+    "sockets": {
+      "filled": 0,
+      "total": 5,
+      "empty": 5,
+      "stats": []
+    },
     "materials": [],
     "description": "A folding greatsword made by House Spencer. As the house faded into history, the arms it created scattered across Pywel through countless channels. Built with a special mechanism, the blade can be folded for carrying when not in use.",
     "source": {
@@ -909,6 +1060,12 @@
     "stats": {
       "baseDamage": 17,
       "finalDamage": 45
+    },
+    "sockets": {
+      "filled": 0,
+      "total": 5,
+      "empty": 5,
+      "stats": []
     },
     "materials": [
       {
@@ -938,6 +1095,12 @@
       "baseDamage": 13,
       "finalDamage": 38
     },
+    "sockets": {
+      "filled": 0,
+      "total": 5,
+      "empty": 5,
+      "stats": []
+    },
     "materials": [
       {
         "name": "Iron Ore",
@@ -965,6 +1128,12 @@
     "stats": {
       "baseDamage": 16,
       "finalDamage": 42
+    },
+    "sockets": {
+      "filled": 0,
+      "total": 5,
+      "empty": 5,
+      "stats": []
     },
     "materials": [
       {
@@ -994,6 +1163,12 @@
       "baseDamage": 13,
       "finalDamage": 37
     },
+    "sockets": {
+      "filled": 0,
+      "total": 3,
+      "empty": 3,
+      "stats": []
+    },
     "materials": [
       {
         "name": "Iron Ore",
@@ -1022,6 +1197,21 @@
       "baseDamage": 17,
       "finalDamage": 45
     },
+    "sockets": {
+      "filled": 3,
+      "total": 5,
+      "empty": 2,
+      "stats": [
+        {
+          "name": "Attack Speed Lv.1",
+          "slug": "swift-i"
+        },
+        {
+          "name": "Attack +1",
+          "slug": "destruction-i"
+        }
+      ]
+    },
     "materials": [],
     "description": "A warhammer once used by Tarandus the Ashen. Crafted to fit Tarandus's grip, it is refined yet built to swing with brutal force. The hammer head has a narrow striking face to focus its impact, while the other side is a spike sharp enough to punch through armor.",
     "source": {
@@ -1041,6 +1231,7 @@
       "baseDamage": 12,
       "finalDamage": 34
     },
+    "sockets": "N/A",
     "materials": [
       {
         "name": "Iron Ore",
@@ -1069,6 +1260,21 @@
       "baseDamage": 13,
       "finalDamage": 36
     },
+    "sockets": {
+      "filled": 3,
+      "total": 5,
+      "empty": 2,
+      "stats": [
+        {
+          "name": "Critical Rate Lv.1",
+          "slug": "insight-i"
+        },
+        {
+          "name": "Attack +1",
+          "slug": "destruction-i"
+        }
+      ]
+    },
     "materials": [],
     "description": "A halberd once wielded by the Forgotten General. It seems designed to knock foes down with its sharp spearhead, then finish them off with its crescent blade. It carries the general's resolve to remain behind, even as a spirit, to protect Odeck.",
     "source": {
@@ -1087,6 +1293,12 @@
     "stats": {
       "baseDamage": 11,
       "finalDamage": 33
+    },
+    "sockets": {
+      "filled": 0,
+      "total": 3,
+      "empty": 3,
+      "stats": []
     },
     "materials": [
       {
@@ -1116,6 +1328,12 @@
       "baseDamage": 16,
       "finalDamage": 43
     },
+    "sockets": {
+      "filled": 0,
+      "total": 5,
+      "empty": 5,
+      "stats": []
+    },
     "materials": [
       {
         "name": "Iron Ore",
@@ -1143,6 +1361,12 @@
     "stats": {
       "baseDamage": 13,
       "finalDamage": 37
+    },
+    "sockets": {
+      "filled": 0,
+      "total": 3,
+      "empty": 3,
+      "stats": []
     },
     "materials": [
       {
@@ -1172,6 +1396,12 @@
       "baseDamage": 12,
       "finalDamage": 35
     },
+    "sockets": {
+      "filled": 0,
+      "total": 5,
+      "empty": 5,
+      "stats": []
+    },
     "materials": [
       {
         "name": "Iron Ore",
@@ -1200,6 +1430,7 @@
       "baseDamage": 18,
       "finalDamage": 18
     },
+    "sockets": "N/A",
     "materials": [],
     "description": "A club with a beehive impaled on a stick. Bees sleep inside the hive, and when an enemy is struck, they awaken and swarm out.",
     "source": {
@@ -1218,6 +1449,12 @@
     "stats": {
       "baseDamage": 12,
       "finalDamage": 34
+    },
+    "sockets": {
+      "filled": 0,
+      "total": 3,
+      "empty": 3,
+      "stats": []
     },
     "materials": [
       {
@@ -1247,6 +1484,12 @@
       "baseDamage": 10,
       "finalDamage": 30
     },
+    "sockets": {
+      "filled": 0,
+      "total": 5,
+      "empty": 5,
+      "stats": []
+    },
     "materials": [
       {
         "name": "Timber",
@@ -1275,6 +1518,7 @@
       "baseDamage": 10,
       "finalDamage": 30
     },
+    "sockets": "N/A",
     "materials": [
       {
         "name": "Iron Ore",
@@ -1302,6 +1546,12 @@
     "stats": {
       "baseDamage": 16,
       "finalDamage": 43
+    },
+    "sockets": {
+      "filled": 0,
+      "total": 5,
+      "empty": 5,
+      "stats": []
     },
     "materials": [
       {
@@ -1331,6 +1581,12 @@
       "baseDamage": 17,
       "finalDamage": 45
     },
+    "sockets": {
+      "filled": 0,
+      "total": 5,
+      "empty": 5,
+      "stats": []
+    },
     "materials": [
       {
         "name": "Iron Ore",
@@ -1358,6 +1614,12 @@
     "stats": {
       "baseDamage": 13,
       "finalDamage": 36
+    },
+    "sockets": {
+      "filled": 0,
+      "total": 5,
+      "empty": 5,
+      "stats": []
     },
     "materials": [
       {
@@ -1387,6 +1649,12 @@
       "baseDamage": 13,
       "finalDamage": 37
     },
+    "sockets": {
+      "filled": 0,
+      "total": 3,
+      "empty": 3,
+      "stats": []
+    },
     "materials": [
       {
         "name": "Iron Ore",
@@ -1414,6 +1682,12 @@
     "stats": {
       "baseDamage": 12,
       "finalDamage": 35
+    },
+    "sockets": {
+      "filled": 0,
+      "total": 5,
+      "empty": 5,
+      "stats": []
     },
     "materials": [
       {
@@ -1443,6 +1717,12 @@
       "baseDamage": 15,
       "finalDamage": 41
     },
+    "sockets": {
+      "filled": 0,
+      "total": 5,
+      "empty": 5,
+      "stats": []
+    },
     "materials": [
       {
         "name": "Iron Ore",
@@ -1470,6 +1750,12 @@
     "stats": {
       "baseDamage": 16,
       "finalDamage": 43
+    },
+    "sockets": {
+      "filled": 0,
+      "total": 5,
+      "empty": 5,
+      "stats": []
     },
     "materials": [
       {
@@ -1503,6 +1789,7 @@
       "baseDamage": 27,
       "finalDamage": 27
     },
+    "sockets": "N/A",
     "materials": [],
     "description": "A spear made from bismuth ore. When struck, crystals grow through the victim's veins, turning the body rigid as stone and greatly slowing movement. A brief recharge time is required after an attack.",
     "source": {
@@ -1522,6 +1809,7 @@
       "baseDamage": 17,
       "finalDamage": 17
     },
+    "sockets": "N/A",
     "materials": [],
     "description": "A Black Bears' banner pike with a tassel attached to it. It looks like it could be used as a weapon in a pinch.",
     "source": {
@@ -1540,6 +1828,12 @@
     "stats": {
       "baseDamage": 12,
       "finalDamage": 34
+    },
+    "sockets": {
+      "filled": 0,
+      "total": 3,
+      "empty": 3,
+      "stats": []
     },
     "materials": [
       {
@@ -1569,6 +1863,25 @@
       "baseDamage": 12,
       "finalDamage": 34
     },
+    "sockets": {
+      "filled": 3,
+      "total": 5,
+      "empty": 2,
+      "stats": [
+        {
+          "name": "Attack +1",
+          "slug": "destruction-i"
+        },
+        {
+          "name": "Health Siphon Lv +1",
+          "slug": "life-transference"
+        },
+        {
+          "name": "Attack Speed Lv.1",
+          "slug": "swift-i"
+        }
+      ]
+    },
     "materials": [],
     "description": "A blaster crafted using parts of the Golden Star. Beneath Delesyia's signature ornate embellishments lies an internal mechanism far more complex than any would ever expect.",
     "source": {
@@ -1588,6 +1901,7 @@
       "baseDamage": 22,
       "finalDamage": 22
     },
+    "sockets": "N/A",
     "materials": [],
     "description": "A spear that spits fire. Designed by an engineer inspired by fire-breathing dragons. Not merely a weapon for stabbing a single foe, but forged to face many at once.",
     "source": {
@@ -1607,6 +1921,12 @@
       "baseDamage": 13,
       "finalDamage": 37
     },
+    "sockets": {
+      "filled": 0,
+      "total": 5,
+      "empty": 5,
+      "stats": []
+    },
     "materials": [],
     "description": "A shotgun crafted by a technician of the Bleed Bandits. When Walter Lanford, the leader of them, ordered a flashy yet highly lethal shotgun, this prototype was hastily crafted. Though not exceptional, its performance was good enough to spare the technician from Walter's temper.",
     "source": {
@@ -1625,6 +1945,12 @@
     "stats": {
       "baseDamage": 10,
       "finalDamage": 30
+    },
+    "sockets": {
+      "filled": 0,
+      "total": 5,
+      "empty": 5,
+      "stats": []
     },
     "materials": [
       {
@@ -1654,6 +1980,12 @@
       "baseDamage": 15,
       "finalDamage": 40
     },
+    "sockets": {
+      "filled": 0,
+      "total": 5,
+      "empty": 5,
+      "stats": []
+    },
     "materials": [
       {
         "name": "Iron Ore",
@@ -1681,6 +2013,12 @@
     "stats": {
       "baseDamage": 16,
       "finalDamage": 42
+    },
+    "sockets": {
+      "filled": 0,
+      "total": 5,
+      "empty": 5,
+      "stats": []
     },
     "materials": [
       {
@@ -1710,6 +2048,12 @@
       "baseDamage": 13,
       "finalDamage": 36
     },
+    "sockets": {
+      "filled": 0,
+      "total": 5,
+      "empty": 5,
+      "stats": []
+    },
     "materials": [
       {
         "name": "Iron Ore",
@@ -1737,6 +2081,12 @@
     "stats": {
       "baseDamage": 11,
       "finalDamage": 33
+    },
+    "sockets": {
+      "filled": 0,
+      "total": 3,
+      "empty": 3,
+      "stats": []
     },
     "materials": [
       {
@@ -1766,6 +2116,12 @@
       "baseDamage": 17,
       "finalDamage": 45
     },
+    "sockets": {
+      "filled": 0,
+      "total": 5,
+      "empty": 5,
+      "stats": []
+    },
     "materials": [
       {
         "name": "Iron Ore",
@@ -1793,6 +2149,12 @@
     "stats": {
       "baseDamage": 10,
       "finalDamage": 30
+    },
+    "sockets": {
+      "filled": 0,
+      "total": 5,
+      "empty": 5,
+      "stats": []
     },
     "materials": [
       {
@@ -1822,6 +2184,12 @@
       "baseDamage": 9,
       "finalDamage": 27
     },
+    "sockets": {
+      "filled": 0,
+      "total": 3,
+      "empty": 3,
+      "stats": []
+    },
     "materials": [],
     "description": "A Demenissian weapon in Delesyian style. Though Delesyia's advanced technology drew a sense of alert from other factions, such as Demeniss, their alluring innovations were sought through either diplomacy or force.",
     "source": {
@@ -1841,6 +2209,29 @@
       "baseDamage": 15,
       "finalDamage": 40
     },
+    "sockets": {
+      "filled": 4,
+      "total": 5,
+      "empty": 1,
+      "stats": [
+        {
+          "name": "Attack +1",
+          "slug": "destruction-i"
+        },
+        {
+          "name": "Damage increases with consecutive attacks",
+          "slug": "relentless"
+        },
+        {
+          "name": "Attack Speed Lv.1",
+          "slug": "swift-i"
+        },
+        {
+          "name": "Attack +1",
+          "slug": "destruction-i"
+        }
+      ]
+    },
     "materials": [],
     "description": "A staff once used by Master Du. The chimes hanging from the end of the handle seem meant to keep it balanced. It looks dull, but it holds tremendous power and durability.",
     "source": {
@@ -1859,6 +2250,12 @@
     "stats": {
       "baseDamage": 16,
       "finalDamage": 42
+    },
+    "sockets": {
+      "filled": 0,
+      "total": 5,
+      "empty": 5,
+      "stats": []
     },
     "materials": [
       {
@@ -1888,6 +2285,12 @@
       "baseDamage": 12,
       "finalDamage": 36
     },
+    "sockets": {
+      "filled": 0,
+      "total": 5,
+      "empty": 5,
+      "stats": []
+    },
     "materials": [],
     "description": "A pistol once used by Caliburn. One by one, he bestowed the merciful tolerance of death upon those who stood in his path for the greater cause. He had a grand plan for the future of all of Pywel, beyond Demeniss.",
     "source": {
@@ -1907,6 +2310,7 @@
       "baseDamage": 20,
       "finalDamage": 20
     },
+    "sockets": "N/A",
     "materials": [],
     "description": "A ceremonial banner crafted by the artisans of Calphade. It features a banner woven onto the end of a long, sturdy pike. Only those who have contributed to Hernand are permitted to possess it.",
     "source": {
@@ -1925,6 +2329,17 @@
     "stats": {
       "baseDamage": 14,
       "finalDamage": 39
+    },
+    "sockets": {
+      "filled": 1,
+      "total": 5,
+      "empty": 4,
+      "stats": [
+        {
+          "name": "+4% damage to humanoids",
+          "slug": "bloodbane-i"
+        }
+      ]
     },
     "materials": [
       {
@@ -1954,6 +2369,17 @@
       "baseDamage": 15,
       "finalDamage": 41
     },
+    "sockets": {
+      "filled": 1,
+      "total": 5,
+      "empty": 4,
+      "stats": [
+        {
+          "name": "+4% damage to beasts",
+          "slug": "beastbane-i"
+        }
+      ]
+    },
     "materials": [
       {
         "name": "Iron Ore",
@@ -1982,6 +2408,25 @@
       "baseDamage": 10,
       "finalDamage": 30
     },
+    "sockets": {
+      "filled": 3,
+      "total": 3,
+      "empty": 0,
+      "stats": [
+        {
+          "name": "+4% damage to beasts",
+          "slug": "beastbane-i"
+        },
+        {
+          "name": "Attack Speed Lv.1",
+          "slug": "swift-i"
+        },
+        {
+          "name": "Attack +1",
+          "slug": "destruction-i"
+        }
+      ]
+    },
     "materials": [],
     "description": "A pure white blade radiating an eerie power. This weapon was forged using a refinement process unlike any other. Every swing seems to echo with the howl of a beast.",
     "source": {
@@ -2001,6 +2446,21 @@
       "baseDamage": 12,
       "finalDamage": 35
     },
+    "sockets": {
+      "filled": 3,
+      "total": 5,
+      "empty": 2,
+      "stats": [
+        {
+          "name": "Attack +1",
+          "slug": "destruction-i"
+        },
+        {
+          "name": "Critical Rate Lv.1",
+          "slug": "insight-i"
+        }
+      ]
+    },
     "materials": [],
     "description": "A spear once wielded by the Full Moon Reaper of the Lunar Reapers. Its short spearhead juts out, and behind it sits a circular ring-shaped blade that allows natural transition between slashing and stabbing.",
     "source": {
@@ -2019,6 +2479,12 @@
     "stats": {
       "baseDamage": 12,
       "finalDamage": 35
+    },
+    "sockets": {
+      "filled": 0,
+      "total": 5,
+      "empty": 5,
+      "stats": []
     },
     "materials": [
       {
@@ -2048,6 +2514,12 @@
       "baseDamage": 12,
       "finalDamage": 35
     },
+    "sockets": {
+      "filled": 0,
+      "total": 5,
+      "empty": 5,
+      "stats": []
+    },
     "materials": [
       {
         "name": "Iron Ore",
@@ -2075,6 +2547,12 @@
     "stats": {
       "baseDamage": 13,
       "finalDamage": 38
+    },
+    "sockets": {
+      "filled": 0,
+      "total": 5,
+      "empty": 5,
+      "stats": []
     },
     "materials": [
       {
@@ -2104,6 +2582,12 @@
       "baseDamage": 10,
       "finalDamage": 30
     },
+    "sockets": {
+      "filled": 0,
+      "total": 3,
+      "empty": 3,
+      "stats": []
+    },
     "materials": [],
     "description": "A sword used for matches. Its blade is left unsharpened, reducing its lethality. It is used for entertainment purposes only, such as village festivals or sparring.",
     "source": {
@@ -2122,6 +2606,12 @@
     "stats": {
       "baseDamage": 11,
       "finalDamage": 33
+    },
+    "sockets": {
+      "filled": 0,
+      "total": 5,
+      "empty": 5,
+      "stats": []
     },
     "materials": [
       {
@@ -2151,6 +2641,7 @@
       "baseDamage": 22,
       "finalDamage": 22
     },
+    "sockets": "N/A",
     "materials": [],
     "description": "A drill weapon.",
     "source": {
@@ -2170,6 +2661,25 @@
       "baseDamage": 11,
       "finalDamage": 33
     },
+    "sockets": {
+      "filled": 3,
+      "total": 5,
+      "empty": 2,
+      "stats": [
+        {
+          "name": "Attack +1",
+          "slug": "destruction-i"
+        },
+        {
+          "name": "Attack Speed Lv.1",
+          "slug": "swift-i"
+        },
+        {
+          "name": "Attack +1",
+          "slug": "destruction-i"
+        }
+      ]
+    },
     "materials": [],
     "description": "The Crimson Warden's bow. While fundamentally a Greymane-style bow, it was modified by reinforcing the shaft with payment received from Bastier as the price of betrayal. It was designed to suppress approaching enemies from long range for a master who seeks comfort over honor.",
     "source": {
@@ -2188,6 +2698,17 @@
     "stats": {
       "baseDamage": 10,
       "finalDamage": 30
+    },
+    "sockets": {
+      "filled": 1,
+      "total": 3,
+      "empty": 2,
+      "stats": [
+        {
+          "name": "Critical Rate Lv.1",
+          "slug": "insight-i"
+        }
+      ]
     },
     "materials": [
       {
@@ -2217,6 +2738,7 @@
       "baseDamage": 10,
       "finalDamage": 30
     },
+    "sockets": "N/A",
     "materials": [
       {
         "name": "Iron Ore",
@@ -2245,6 +2767,21 @@
       "baseDamage": 16,
       "finalDamage": 42
     },
+    "sockets": {
+      "filled": 3,
+      "total": 5,
+      "empty": 2,
+      "stats": [
+        {
+          "name": "Attack +1",
+          "slug": "destruction-i"
+        },
+        {
+          "name": "Critical Rate Lv.1",
+          "slug": "insight-i"
+        }
+      ]
+    },
     "materials": [],
     "description": "A warhammer used by the Crow Brothers. Both ends of the weapon are adorned with crow-shaped ornaments. The Crow Brothers wield a faint yet kindred power bequeathed by Draven. However, with that power came his madness and hatred as well.",
     "source": {
@@ -2264,6 +2801,21 @@
       "baseDamage": 15,
       "finalDamage": 41
     },
+    "sockets": {
+      "filled": 3,
+      "total": 5,
+      "empty": 2,
+      "stats": [
+        {
+          "name": "Attack +1",
+          "slug": "destruction-i"
+        },
+        {
+          "name": "Critical Rate Lv.1",
+          "slug": "insight-i"
+        }
+      ]
+    },
     "materials": [],
     "description": "A staff blending delicate craftsmanship with sophisticated magic. It retains a gentle power that refused to be tainted by darkness—a force even the Black Witch could not corrupt. Much like this staff, where the contradictory powers of Light and Darkness coexist, the true essence of that being may have been a shade of gray before it was split apart.",
     "source": {
@@ -2282,6 +2834,12 @@
     "stats": {
       "baseDamage": 11,
       "finalDamage": 33
+    },
+    "sockets": {
+      "filled": 0,
+      "total": 3,
+      "empty": 3,
+      "stats": []
     },
     "materials": [
       {
@@ -2311,6 +2869,7 @@
       "baseDamage": 12,
       "finalDamage": 34
     },
+    "sockets": "N/A",
     "materials": [
       {
         "name": "Iron Ore",
@@ -2339,6 +2898,7 @@
       "baseDamage": 21,
       "finalDamage": 21
     },
+    "sockets": "N/A",
     "materials": [],
     "description": "A damaged medium banner pike bearing Calphade's symbol. It looks like it could be used as a weapon in a pinch.",
     "source": {
@@ -2357,6 +2917,12 @@
     "stats": {
       "baseDamage": 15,
       "finalDamage": 40
+    },
+    "sockets": {
+      "filled": 0,
+      "total": 5,
+      "empty": 5,
+      "stats": []
     },
     "materials": [
       {
@@ -2386,6 +2952,25 @@
       "baseDamage": 15,
       "finalDamage": 41
     },
+    "sockets": {
+      "filled": 3,
+      "total": 5,
+      "empty": 2,
+      "stats": [
+        {
+          "name": "+4% damage to earthen beings",
+          "slug": "hexebane-i"
+        },
+        {
+          "name": "Attack +1",
+          "slug": "destruction-i"
+        },
+        {
+          "name": "Critical Rate Lv.1",
+          "slug": "insight-i"
+        }
+      ]
+    },
     "materials": [],
     "description": "The shotgun used by Walter Lanford, the leader of the Bleed Bandits. The red barrel and golden axe blade blend together, giving an impression that is beyond luxurious and even extravagant. Walter, who could not fire a bow at a decisive moment, changed his weapon to a shotgun so as to not repeat mistakes.",
     "source": {
@@ -2404,6 +2989,17 @@
     "stats": {
       "baseDamage": 16,
       "finalDamage": 42
+    },
+    "sockets": {
+      "filled": 1,
+      "total": 5,
+      "empty": 4,
+      "stats": [
+        {
+          "name": "Critical Rate Lv.1",
+          "slug": "insight-i"
+        }
+      ]
     },
     "materials": [
       {
@@ -2433,6 +3029,21 @@
       "baseDamage": 14,
       "finalDamage": 39
     },
+    "sockets": {
+      "filled": 3,
+      "total": 5,
+      "empty": 2,
+      "stats": [
+        {
+          "name": "Attack Speed Lv.1",
+          "slug": "swift-i"
+        },
+        {
+          "name": "Critical Rate Lv.1",
+          "slug": "insight-i"
+        }
+      ]
+    },
     "materials": [],
     "description": "A longsword once wielded by the Archon of Antumbra. A blade that leads those who pursue the darkness into it. It responds to the darkness within whoever holds it, whispering to surrender to it.",
     "source": {
@@ -2451,6 +3062,12 @@
     "stats": {
       "baseDamage": 11,
       "finalDamage": 33
+    },
+    "sockets": {
+      "filled": 0,
+      "total": 5,
+      "empty": 5,
+      "stats": []
     },
     "materials": [
       {
@@ -2480,6 +3097,7 @@
       "baseDamage": 10,
       "finalDamage": 30
     },
+    "sockets": "N/A",
     "materials": [
       {
         "name": "Iron Ore",
@@ -2508,6 +3126,12 @@
       "baseDamage": 16,
       "finalDamage": 43
     },
+    "sockets": {
+      "filled": 0,
+      "total": 5,
+      "empty": 5,
+      "stats": []
+    },
     "materials": [],
     "description": "A greataxe forged in a traditional Odeck style. Its plain wooden haft contrasts with an axehead etched in ornate patterns. The vast lake before the village is known as Pywel's lifeblood. Many civilizations have risen and fallen along its waters, but few have endured as long as Odeck.",
     "source": {
@@ -2526,6 +3150,12 @@
     "stats": {
       "baseDamage": 11,
       "finalDamage": 33
+    },
+    "sockets": {
+      "filled": 0,
+      "total": 3,
+      "empty": 3,
+      "stats": []
     },
     "materials": [
       {
@@ -2555,6 +3185,12 @@
       "baseDamage": 12,
       "finalDamage": 34
     },
+    "sockets": {
+      "filled": 0,
+      "total": 3,
+      "empty": 3,
+      "stats": []
+    },
     "materials": [
       {
         "name": "Iron Ore",
@@ -2583,6 +3219,7 @@
       "baseDamage": 20,
       "finalDamage": 20
     },
+    "sockets": "N/A",
     "materials": [],
     "description": "A banner pike embroidered with the pattern representing Delesyia. It is lashed to a long shaft, allowing it to be used as a weapon. Only those who have contributed to Delesyia are permitted to possess it.",
     "source": {
@@ -2602,6 +3239,7 @@
       "baseDamage": 10,
       "finalDamage": 30
     },
+    "sockets": "N/A",
     "materials": [
       {
         "name": "Iron Ore",
@@ -2630,6 +3268,25 @@
       "baseDamage": 14,
       "finalDamage": 39
     },
+    "sockets": {
+      "filled": 3,
+      "total": 5,
+      "empty": 2,
+      "stats": [
+        {
+          "name": "Attack Speed Lv.1",
+          "slug": "swift-i"
+        },
+        {
+          "name": "Health Siphon Lv +1",
+          "slug": "life-transference"
+        },
+        {
+          "name": "Attack +1",
+          "slug": "destruction-i"
+        }
+      ]
+    },
     "materials": [],
     "description": "A longsword defined by its hook-like blade. It is usually used to cut down foes, but the hooked section can also be used to restrain the movements of larger enemies.",
     "source": {
@@ -2648,6 +3305,12 @@
     "stats": {
       "baseDamage": 13,
       "finalDamage": 38
+    },
+    "sockets": {
+      "filled": 0,
+      "total": 5,
+      "empty": 5,
+      "stats": []
     },
     "materials": [
       {
@@ -2677,6 +3340,12 @@
       "baseDamage": 14,
       "finalDamage": 38
     },
+    "sockets": {
+      "filled": 0,
+      "total": 5,
+      "empty": 5,
+      "stats": []
+    },
     "materials": [
       {
         "name": "Iron Ore",
@@ -2704,6 +3373,12 @@
     "stats": {
       "baseDamage": 10,
       "finalDamage": 30
+    },
+    "sockets": {
+      "filled": 0,
+      "total": 3,
+      "empty": 3,
+      "stats": []
     },
     "materials": [
       {
@@ -2733,6 +3408,12 @@
       "baseDamage": 11,
       "finalDamage": 33
     },
+    "sockets": {
+      "filled": 0,
+      "total": 5,
+      "empty": 5,
+      "stats": []
+    },
     "materials": [],
     "description": "A logging tool that drastically boosts speed. It enables logging at a pace incomparable to a standard axe. Not satisfied with this, the artisan designed the system so that timber is automatically collected through the saw blade simultaneously with logging.",
     "source": {
@@ -2752,6 +3433,7 @@
       "baseDamage": 20,
       "finalDamage": 20
     },
+    "sockets": "N/A",
     "materials": [],
     "description": "An ornate banner emblazoned with the crest of Demeniss. The flag is woven onto the end of a long pike. Only those who have contributed to Demeniss are permitted to possess it.",
     "source": {
@@ -2770,6 +3452,25 @@
     "stats": {
       "baseDamage": 13,
       "finalDamage": 38
+    },
+    "sockets": {
+      "filled": 3,
+      "total": 5,
+      "empty": 2,
+      "stats": [
+        {
+          "name": "Recover resources on kill",
+          "slug": "energy-drain-i"
+        },
+        {
+          "name": "Attack +1",
+          "slug": "destruction-i"
+        },
+        {
+          "name": "Attack Speed Lv.1",
+          "slug": "swift-i"
+        }
+      ]
     },
     "materials": [],
     "description": "A masterwork musket that was bestowed upon the hero who saved Demeniss. Precisely crafted with the finest skills, it boasts overwhelming performance. The Demeniss of today was not built in a day, and this weapon is a treasure symbolizing the kingdom's numerous victories. Its value is beyond measure.",
@@ -2790,6 +3491,12 @@
       "baseDamage": 12,
       "finalDamage": 35
     },
+    "sockets": {
+      "filled": 0,
+      "total": 5,
+      "empty": 5,
+      "stats": []
+    },
     "materials": [],
     "description": "A spear forged in a far land beyond even guesswork. Its silver blade pierces enemies with ruthless sharpness. A bow and armor once formed a set with it - yet their whereabouts remain unknown.",
     "source": {
@@ -2808,6 +3515,12 @@
     "stats": {
       "baseDamage": 11,
       "finalDamage": 33
+    },
+    "sockets": {
+      "filled": 0,
+      "total": 3,
+      "empty": 3,
+      "stats": []
     },
     "materials": [
       {
@@ -2837,6 +3550,17 @@
       "baseDamage": 16,
       "finalDamage": 43
     },
+    "sockets": {
+      "filled": 1,
+      "total": 5,
+      "empty": 4,
+      "stats": [
+        {
+          "name": "Attack Speed Lv.1",
+          "slug": "swift-i"
+        }
+      ]
+    },
     "materials": [
       {
         "name": "Iron Ore",
@@ -2865,6 +3589,12 @@
       "baseDamage": 13,
       "finalDamage": 37
     },
+    "sockets": {
+      "filled": 0,
+      "total": 5,
+      "empty": 5,
+      "stats": []
+    },
     "materials": [],
     "description": "A shotgun with a simple appearance. However, unlike the plain exterior, it was elaborately crafted with sturdy parts. While the technicians of Dewhaven are not uninterested in decorating the appearance of weapons, they prioritize practicality above all else.",
     "source": {
@@ -2884,6 +3614,7 @@
       "baseDamage": 27,
       "finalDamage": 27
     },
+    "sockets": "N/A",
     "materials": [],
     "description": "A spear crafted to prevent machines from overloading and going haywire. Swinging it unleashes an electromagnetic pulse that disrupts a machine's function.",
     "source": {
@@ -2903,6 +3634,7 @@
       "baseDamage": 18,
       "finalDamage": 18
     },
+    "sockets": "N/A",
     "materials": [],
     "description": "A drill weapon.",
     "source": {
@@ -2921,6 +3653,21 @@
     "stats": {
       "baseDamage": 12,
       "finalDamage": 35
+    },
+    "sockets": {
+      "filled": 3,
+      "total": 5,
+      "empty": 2,
+      "stats": [
+        {
+          "name": "Attack +1",
+          "slug": "destruction-i"
+        },
+        {
+          "name": "Attack Speed Lv.1",
+          "slug": "swift-i"
+        }
+      ]
     },
     "materials": [],
     "description": "A spear once wielded by the New Moon Reaper of the Lunar Reapers. Its razor-sharp point is flanked by twin crescent-shaped blades, designed so that once it pierces you, you can't pull free.",
@@ -2941,6 +3688,25 @@
       "baseDamage": 11,
       "finalDamage": 33
     },
+    "sockets": {
+      "filled": 3,
+      "total": 5,
+      "empty": 2,
+      "stats": [
+        {
+          "name": "Attack +1",
+          "slug": "destruction-i"
+        },
+        {
+          "name": "Critical Rate Lv.1",
+          "slug": "insight-i"
+        },
+        {
+          "name": "Attack Speed Lv.1",
+          "slug": "swift-i"
+        }
+      ]
+    },
     "materials": [],
     "description": "An ornate bow used by the self-proclaimed \"Masked Liberators.\" Flashy in appearance and formidable in performance, it draws smoothly and maintains its power even in sandstorms. Contrary to their talk of salvation, in practice it's used to raid villages and butcher people.",
     "source": {
@@ -2959,6 +3725,17 @@
     "stats": {
       "baseDamage": 10,
       "finalDamage": 30
+    },
+    "sockets": {
+      "filled": 1,
+      "total": 3,
+      "empty": 2,
+      "stats": [
+        {
+          "name": "Critical Rate Lv.1",
+          "slug": "insight-i"
+        }
+      ]
     },
     "materials": [],
     "description": "A double-edged axe specially ordered by Sizlek, the Insatiable. Though crafted to be light enough for one-handed use, it is more than capable of delivering a fatal attack. It vanished during transit.",
@@ -2979,6 +3756,7 @@
       "baseDamage": 17,
       "finalDamage": 17
     },
+    "sockets": "N/A",
     "materials": [],
     "description": "A double-sided banner pike with no pattern on either side. It looks like it could be used as a weapon in a pinch.",
     "source": {
@@ -2997,6 +3775,17 @@
     "stats": {
       "baseDamage": 11,
       "finalDamage": 33
+    },
+    "sockets": {
+      "filled": 1,
+      "total": 3,
+      "empty": 2,
+      "stats": [
+        {
+          "name": "+4% damage to machines",
+          "slug": "steelbane-i"
+        }
+      ]
     },
     "materials": [
       {
@@ -3026,6 +3815,12 @@
       "baseDamage": 9,
       "finalDamage": 27
     },
+    "sockets": {
+      "filled": 0,
+      "total": 3,
+      "empty": 3,
+      "stats": []
+    },
     "materials": [
       {
         "name": "Iron Ore",
@@ -3054,6 +3849,25 @@
       "baseDamage": 16,
       "finalDamage": 43
     },
+    "sockets": {
+      "filled": 3,
+      "total": 5,
+      "empty": 2,
+      "stats": [
+        {
+          "name": "Attack +1",
+          "slug": "destruction-i"
+        },
+        {
+          "name": "+4% damage to earthen beings",
+          "slug": "hexebane-i"
+        },
+        {
+          "name": "Attack Speed Lv.1",
+          "slug": "swift-i"
+        }
+      ]
+    },
     "materials": [],
     "description": "Stonewalker Antiquum's greataxe. Intricate, mysterious patterns are finely etched into its sharp blade. Legend tells that Antiquum brandished this weapon before becoming a walker; with every swing, the earth trembled and continents split.",
     "source": {
@@ -3073,6 +3887,7 @@
       "baseDamage": 10,
       "finalDamage": 33
     },
+    "sockets": "N/A",
     "materials": [],
     "description": "A fan engraved with mysterious patterns, received from the witch of the east. When wielded as a weapon, it allows the user to borrow the witches' power to command a harmony of wind and lightning. With gusts strong enough to push even rain clouds away, it is capable of clearing overcast skies to load a bright, sunny day.",
     "source": {
@@ -3092,6 +3907,7 @@
       "baseDamage": 27,
       "finalDamage": 27
     },
+    "sockets": "N/A",
     "materials": [],
     "description": "An electricity-charged longsword used by Marni's Machina Knight. Rather than a standard longsword, Marni fitted it with a special device to make the blade conduct electricity. Anyone struck by it suffers not only the blade's damage, but the shock from the electricity as well.",
     "source": {
@@ -3111,6 +3927,7 @@
       "baseDamage": 30,
       "finalDamage": 30
     },
+    "sockets": "N/A",
     "materials": [],
     "description": "An electricity-charged spear used by Marni's Machina Knight. Rather than a standard spear, Marni fitted it with a special device to make the blade conduct electricity. Anyone struck by it suffers not only the spear's damage, but the shock from the electricity as well. A brief recharge time is required after an attack.",
     "source": {
@@ -3130,6 +3947,7 @@
       "baseDamage": 25,
       "finalDamage": 25
     },
+    "sockets": "N/A",
     "materials": [],
     "description": "A spitter that can fire lightning through electromagnetic pulses. It shocks enemies with electricity to deal damage, and if they keep getting electrocuted, they can even burn to death in the electric blaze.",
     "source": {
@@ -3149,6 +3967,7 @@
       "baseDamage": 25,
       "finalDamage": 25
     },
+    "sockets": "N/A",
     "materials": [],
     "description": "A spitter that can fire flames using electromagnetic currents. It sears enemies with fire, leaving burns and setting them alight.",
     "source": {
@@ -3168,6 +3987,7 @@
       "baseDamage": 25,
       "finalDamage": 25
     },
+    "sockets": "N/A",
     "materials": [],
     "description": "A spitter that can fire frost using electromagnetic currents. It freezes enemies in place, and those that are completely frozen sometimes shatter into pieces.",
     "source": {
@@ -3186,6 +4006,17 @@
     "stats": {
       "baseDamage": 9,
       "finalDamage": 27
+    },
+    "sockets": {
+      "filled": 1,
+      "total": 3,
+      "empty": 2,
+      "stats": [
+        {
+          "name": "+4% damage to earthen beings",
+          "slug": "hexebane-i"
+        }
+      ]
     },
     "materials": [
       {
@@ -3215,6 +4046,12 @@
       "baseDamage": 9,
       "finalDamage": 27
     },
+    "sockets": {
+      "filled": 0,
+      "total": 3,
+      "empty": 3,
+      "stats": []
+    },
     "materials": [
       {
         "name": "Iron Ore",
@@ -3243,6 +4080,25 @@
       "baseDamage": 12,
       "finalDamage": 35
     },
+    "sockets": {
+      "filled": 3,
+      "total": 5,
+      "empty": 2,
+      "stats": [
+        {
+          "name": "Critical Rate Lv.1",
+          "slug": "insight-i"
+        },
+        {
+          "name": "Attack +1",
+          "slug": "destruction-i"
+        },
+        {
+          "name": "Attack Speed Lv.1",
+          "slug": "swift-i"
+        }
+      ]
+    },
     "materials": [],
     "description": "A charging lance used by the elite cavalry of the Wells Estate. Its long, slender tip is honed to slip into the seams of armor, while the petal-shaped metal leg base spreads the impact of a hit, protecting the rider's wrist and the lance's shaft.",
     "source": {
@@ -3261,6 +4117,12 @@
     "stats": {
       "baseDamage": 11,
       "finalDamage": 33
+    },
+    "sockets": {
+      "filled": 0,
+      "total": 3,
+      "empty": 3,
+      "stats": []
     },
     "materials": [
       {
@@ -3290,6 +4152,12 @@
       "baseDamage": 11,
       "finalDamage": 33
     },
+    "sockets": {
+      "filled": 0,
+      "total": 5,
+      "empty": 5,
+      "stats": []
+    },
     "materials": [
       {
         "name": "Iron Ore",
@@ -3318,6 +4186,12 @@
       "baseDamage": 9,
       "finalDamage": 27
     },
+    "sockets": {
+      "filled": 0,
+      "total": 3,
+      "empty": 3,
+      "stats": []
+    },
     "materials": [],
     "description": "A rapier inspired by the story of a fallen kingdom. \"What winter stole long ago cannot be reclaimed. Now, I beg you, find rest with those who awaited your return.\"",
     "source": {
@@ -3336,6 +4210,12 @@
     "stats": {
       "baseDamage": 12,
       "finalDamage": 34
+    },
+    "sockets": {
+      "filled": 0,
+      "total": 3,
+      "empty": 3,
+      "stats": []
     },
     "materials": [
       {
@@ -3365,6 +4245,12 @@
       "baseDamage": 9,
       "finalDamage": 27
     },
+    "sockets": {
+      "filled": 0,
+      "total": 3,
+      "empty": 3,
+      "stats": []
+    },
     "materials": [],
     "description": "A rapier favored by the upper class. While the social circles of Demeniss have always been rife with intrigue, a recent event at the royal castle led to the downfall of many prestigious families. As a result, a large number of high-quality, ownerless rapiers have flooded the market.",
     "source": {
@@ -3383,6 +4269,12 @@
     "stats": {
       "baseDamage": 15,
       "finalDamage": 40
+    },
+    "sockets": {
+      "filled": 0,
+      "total": 5,
+      "empty": 5,
+      "stats": []
     },
     "materials": [
       {
@@ -3412,6 +4304,21 @@
       "baseDamage": 12,
       "finalDamage": 34
     },
+    "sockets": {
+      "filled": 3,
+      "total": 3,
+      "empty": 0,
+      "stats": [
+        {
+          "name": "Attack +1",
+          "slug": "destruction-i"
+        },
+        {
+          "name": "Attack Speed Lv.1",
+          "slug": "swift-i"
+        }
+      ]
+    },
     "materials": [],
     "description": "Goyen's Sword. Traces of time it endured can be seen all over, yet its edge is honed sharper than any other blade. Some things only grow tougher the more they're worn. Enlightenment will begin where the swords of past and present cross.",
     "source": {
@@ -3430,6 +4337,12 @@
     "stats": {
       "baseDamage": 16,
       "finalDamage": 43
+    },
+    "sockets": {
+      "filled": 0,
+      "total": 5,
+      "empty": 5,
+      "stats": []
     },
     "materials": [
       {
@@ -3459,6 +4372,7 @@
       "baseDamage": 27,
       "finalDamage": 27
     },
+    "sockets": "N/A",
     "materials": [
       {
         "name": "Scolecite Ore",
@@ -3495,6 +4409,12 @@
       "baseDamage": 14,
       "finalDamage": 39
     },
+    "sockets": {
+      "filled": 0,
+      "total": 5,
+      "empty": 5,
+      "stats": []
+    },
     "materials": [
       {
         "name": "Iron Ore",
@@ -3523,6 +4443,25 @@
       "baseDamage": 13,
       "finalDamage": 38
     },
+    "sockets": {
+      "filled": 3,
+      "total": 5,
+      "empty": 2,
+      "stats": [
+        {
+          "name": "Spirit Siphon Lv +1",
+          "slug": "spirit-transference"
+        },
+        {
+          "name": "Attack Speed Lv.1",
+          "slug": "swift-i"
+        },
+        {
+          "name": "Attack +1",
+          "slug": "destruction-i"
+        }
+      ]
+    },
     "materials": [],
     "description": "A spear once wielded by Gwen Kraber, second-in-command of the Wolf Trackers. Its tip is long and straight, like the fang of a beast. With a steady grip, she would drive it home, freezing the very blood and breath of her prey.",
     "source": {
@@ -3542,6 +4481,25 @@
       "baseDamage": 16,
       "finalDamage": 43
     },
+    "sockets": {
+      "filled": 3,
+      "total": 5,
+      "empty": 2,
+      "stats": [
+        {
+          "name": "Stamina Siphon Lv +1",
+          "slug": "stamina-transference"
+        },
+        {
+          "name": "Attack Speed Lv.1",
+          "slug": "swift-i"
+        },
+        {
+          "name": "Attack +1",
+          "slug": "destruction-i"
+        }
+      ]
+    },
     "materials": [],
     "description": "A longsword once wielded by the Skull Knight. Its cold blue blade radiates a chilling frost. A symbol of darkness and death, this longsword instills fear and intimidation, granting the power to deal devastating blows to the enemy.",
     "source": {
@@ -3560,6 +4518,17 @@
     "stats": {
       "baseDamage": 11,
       "finalDamage": 33
+    },
+    "sockets": {
+      "filled": 1,
+      "total": 3,
+      "empty": 2,
+      "stats": [
+        {
+          "name": "+4% damage to mighty foes",
+          "slug": "malicebane-i"
+        }
+      ]
     },
     "materials": [
       {
@@ -3589,6 +4558,7 @@
       "baseDamage": 28,
       "finalDamage": 28
     },
+    "sockets": "N/A",
     "materials": [],
     "description": "Sir Catfish's weapon of choice.",
     "source": {
@@ -3607,6 +4577,12 @@
     "stats": {
       "baseDamage": 14,
       "finalDamage": 39
+    },
+    "sockets": {
+      "filled": 0,
+      "total": 5,
+      "empty": 5,
+      "stats": []
     },
     "materials": [
       {
@@ -3636,6 +4612,12 @@
       "baseDamage": 12,
       "finalDamage": 34
     },
+    "sockets": {
+      "filled": 0,
+      "total": 3,
+      "empty": 3,
+      "stats": []
+    },
     "materials": [
       {
         "name": "Iron Ore",
@@ -3663,6 +4645,12 @@
     "stats": {
       "baseDamage": 14,
       "finalDamage": 39
+    },
+    "sockets": {
+      "filled": 0,
+      "total": 5,
+      "empty": 5,
+      "stats": []
     },
     "materials": [
       {
@@ -3692,6 +4680,12 @@
       "baseDamage": 11,
       "finalDamage": 31
     },
+    "sockets": {
+      "filled": 0,
+      "total": 3,
+      "empty": 3,
+      "stats": []
+    },
     "materials": [
       {
         "name": "Iron Ore",
@@ -3719,6 +4713,12 @@
     "stats": {
       "baseDamage": 10,
       "finalDamage": 30
+    },
+    "sockets": {
+      "filled": 0,
+      "total": 3,
+      "empty": 3,
+      "stats": []
     },
     "materials": [
       {
@@ -3748,6 +4748,7 @@
       "baseDamage": 12,
       "finalDamage": 34
     },
+    "sockets": "N/A",
     "materials": [],
     "description": "One of a goblin's collectibles. It is said to be the most prized possession of the one who amassed all the world's treasures. Legend has it that an eerie whisper of greed clings to anyone who holds it.",
     "source": {
@@ -3766,6 +4767,12 @@
     "stats": {
       "baseDamage": 15,
       "finalDamage": 41
+    },
+    "sockets": {
+      "filled": 0,
+      "total": 5,
+      "empty": 5,
+      "stats": []
     },
     "materials": [],
     "description": "A greathammer shaped like a dragon's claw. Depending on the situation, its sharp back edge can also be used to strike like a pick. Scrap collectors who lingered near Marni's Masterium found parts that seemed to belong to something larger, and when pieced together, they formed the shape of a massive claw.",
@@ -3786,6 +4793,25 @@
       "baseDamage": 12,
       "finalDamage": 34
     },
+    "sockets": {
+      "filled": 3,
+      "total": 5,
+      "empty": 2,
+      "stats": [
+        {
+          "name": "+4% damage to machines",
+          "slug": "steelbane-i"
+        },
+        {
+          "name": "Critical Rate Lv.1",
+          "slug": "insight-i"
+        },
+        {
+          "name": "Attack +1",
+          "slug": "destruction-i"
+        }
+      ]
+    },
     "materials": [],
     "description": "A blaster utilizing components from the Golden Star. This weapon was once part of the ultimate weapon, modeled after a dragon soaring through the heavens. It boasts a level of sophistication that remains unparalleled by any other human creation.",
     "source": {
@@ -3804,6 +4830,25 @@
     "stats": {
       "baseDamage": 17,
       "finalDamage": 45
+    },
+    "sockets": {
+      "filled": 3,
+      "total": 5,
+      "empty": 2,
+      "stats": [
+        {
+          "name": "Attack +1",
+          "slug": "destruction-i"
+        },
+        {
+          "name": "+4% damage to Walkers",
+          "slug": "primalbane-i"
+        },
+        {
+          "name": "Critical Rate Lv.1",
+          "slug": "insight-i"
+        }
+      ]
     },
     "materials": [],
     "description": "A shiny greathammer that can deliver powerful destruction. Crafted entirely with gold from head to handle, its ring-shaped ornament at the center of the hammerhead adds unique beauty.",
@@ -3824,6 +4869,12 @@
       "baseDamage": 10,
       "finalDamage": 30
     },
+    "sockets": {
+      "filled": 0,
+      "total": 3,
+      "empty": 3,
+      "stats": []
+    },
     "materials": [],
     "description": "A sword made of gold. Easily mistaken for a decorative piece, it is still fully usable as a weapon.",
     "source": {
@@ -3842,6 +4893,25 @@
     "stats": {
       "baseDamage": 14,
       "finalDamage": 39
+    },
+    "sockets": {
+      "filled": 3,
+      "total": 5,
+      "empty": 2,
+      "stats": [
+        {
+          "name": "Critical Rate Lv.1",
+          "slug": "insight-i"
+        },
+        {
+          "name": "Recover resources on kill",
+          "slug": "energy-drain-i"
+        },
+        {
+          "name": "Attack +1",
+          "slug": "destruction-i"
+        }
+      ]
     },
     "materials": [],
     "description": "A halberd once used by Gregor, the Halberd of Carnage. With a long crimson shaft, a gilded blade, and an extended spear point, it can strike down foes in any situation. There could be no better weapon for Gregor, who had seen countless battles.",
@@ -3862,6 +4932,25 @@
       "baseDamage": 11,
       "finalDamage": 33
     },
+    "sockets": {
+      "filled": 3,
+      "total": 5,
+      "empty": 2,
+      "stats": [
+        {
+          "name": "Attack +2",
+          "slug": "destruction-ii"
+        },
+        {
+          "name": "Critical Rate Lv.1",
+          "slug": "insight-i"
+        },
+        {
+          "name": "Health Siphon Lv +1",
+          "slug": "life-transference"
+        }
+      ]
+    },
     "materials": [],
     "description": "A bow steeped in Pailune's culture. In some regions of Pailune, a golden knot is added each time the bow is passed down, marking how many ancestors have wielded it.",
     "source": {
@@ -3880,6 +4969,12 @@
     "stats": {
       "baseDamage": 15,
       "finalDamage": 40
+    },
+    "sockets": {
+      "filled": 0,
+      "total": 5,
+      "empty": 5,
+      "stats": []
     },
     "materials": [
       {
@@ -3909,6 +5004,12 @@
       "baseDamage": 17,
       "finalDamage": 45
     },
+    "sockets": {
+      "filled": 0,
+      "total": 5,
+      "empty": 5,
+      "stats": []
+    },
     "materials": [
       {
         "name": "Iron Ore",
@@ -3936,6 +5037,12 @@
     "stats": {
       "baseDamage": 11,
       "finalDamage": 31
+    },
+    "sockets": {
+      "filled": 0,
+      "total": 3,
+      "empty": 3,
+      "stats": []
     },
     "materials": [
       {
@@ -3965,6 +5072,21 @@
       "baseDamage": 13,
       "finalDamage": 38
     },
+    "sockets": {
+      "filled": 3,
+      "total": 5,
+      "empty": 2,
+      "stats": [
+        {
+          "name": "Attack Speed Lv.1",
+          "slug": "swift-i"
+        },
+        {
+          "name": "Critical Rate Lv.1",
+          "slug": "insight-i"
+        }
+      ]
+    },
     "materials": [],
     "description": "A spear once wielded by the Half Moon Reaper of the Lunar Reapers. Instead of a typical spearhead, it bears a massive half-moon blade, making it better suited to slashing and sweeping strikes than stabbing.",
     "source": {
@@ -3983,6 +5105,25 @@
     "stats": {
       "baseDamage": 16,
       "finalDamage": 42
+    },
+    "sockets": {
+      "filled": 3,
+      "total": 5,
+      "empty": 2,
+      "stats": [
+        {
+          "name": "Critical Rate Lv.1",
+          "slug": "insight-i"
+        },
+        {
+          "name": "Attack +1",
+          "slug": "destruction-i"
+        },
+        {
+          "name": "Attack Speed Lv.1",
+          "slug": "swift-i"
+        }
+      ]
     },
     "materials": [],
     "description": "A greathammer with a red handle and a peculiar head. Its design allows it to fill the head with gunpowder to make it spit flames when it's swung.",
@@ -4003,6 +5144,12 @@
       "baseDamage": 10,
       "finalDamage": 30
     },
+    "sockets": {
+      "filled": 0,
+      "total": 5,
+      "empty": 5,
+      "stats": []
+    },
     "materials": [],
     "description": "A bow fit for the tough warriors of the north. The wolf that ran with men longed to become human. Instead of tearing with a beast's fangs, it drew a bowstring steeped in conviction, fighting to protect the place it belongs.",
     "source": {
@@ -4021,6 +5168,17 @@
     "stats": {
       "baseDamage": 10,
       "finalDamage": 30
+    },
+    "sockets": {
+      "filled": 1,
+      "total": 3,
+      "empty": 2,
+      "stats": [
+        {
+          "name": "+4% damage to Abyssal creatures",
+          "slug": "abyssbane-i"
+        }
+      ]
     },
     "materials": [
       {
@@ -4050,6 +5208,21 @@
       "baseDamage": 17,
       "finalDamage": 45
     },
+    "sockets": {
+      "filled": 3,
+      "total": 5,
+      "empty": 2,
+      "stats": [
+        {
+          "name": "Spirit Siphon Lv +1",
+          "slug": "spirit-transference"
+        },
+        {
+          "name": "Critical Rate Lv.1",
+          "slug": "insight-i"
+        }
+      ]
+    },
     "materials": [],
     "description": "A staff wielded by Antumbra's Staff, one of Antumbra's three great deacons. Antumbra's Staff tracks the traces left by Umbra's power, serving as a guide for those who follow the darkness. To the fools who reject this guidance, it delivers eternal despair.",
     "source": {
@@ -4069,6 +5242,25 @@
       "baseDamage": 13,
       "finalDamage": 38
     },
+    "sockets": {
+      "filled": 3,
+      "total": 5,
+      "empty": 2,
+      "stats": [
+        {
+          "name": "Attack +1",
+          "slug": "destruction-i"
+        },
+        {
+          "name": "+4% damage to Abyssal creatures",
+          "slug": "abyssbane-i"
+        },
+        {
+          "name": "Critical Rate Lv.1",
+          "slug": "insight-i"
+        }
+      ]
+    },
     "materials": [],
     "description": "A musket modified to enhance performance. For reasons unknown, Grand General Bastier was lukewarm about apprehending the deserters, and thus the Dusksongs were born. With Samara's gunshot as a signal, the bandits unleashed an attack as disciplined as during their days as soldiers.",
     "source": {
@@ -4087,6 +5279,12 @@
     "stats": {
       "baseDamage": 15,
       "finalDamage": 40
+    },
+    "sockets": {
+      "filled": 0,
+      "total": 5,
+      "empty": 5,
+      "stats": []
     },
     "materials": [
       {
@@ -4116,6 +5314,12 @@
       "baseDamage": 16,
       "finalDamage": 42
     },
+    "sockets": {
+      "filled": 0,
+      "total": 5,
+      "empty": 5,
+      "stats": []
+    },
     "materials": [
       {
         "name": "Iron Ore",
@@ -4143,6 +5347,12 @@
     "stats": {
       "baseDamage": 12,
       "finalDamage": 35
+    },
+    "sockets": {
+      "filled": 0,
+      "total": 5,
+      "empty": 5,
+      "stats": []
     },
     "materials": [
       {
@@ -4172,6 +5382,7 @@
       "baseDamage": 20,
       "finalDamage": 20
     },
+    "sockets": "N/A",
     "materials": [],
     "description": "A ceremonial banner engraved with the crest of Hernand. The banner is woven onto the end of a long, sturdy pike. Only those who have contributed to Hernand are permitted to possess it.",
     "source": {
@@ -4191,6 +5402,25 @@
       "baseDamage": 10,
       "finalDamage": 30
     },
+    "sockets": {
+      "filled": 3,
+      "total": 3,
+      "empty": 0,
+      "stats": [
+        {
+          "name": "Critical Rate Lv.1",
+          "slug": "insight-i"
+        },
+        {
+          "name": "Attack Speed Lv.1",
+          "slug": "swift-i"
+        },
+        {
+          "name": "Attack +1",
+          "slug": "destruction-i"
+        }
+      ]
+    },
     "materials": [],
     "description": "A sword once used by the Reed Devil. The people of Sunset Valley tell a legend of a demon who stained the reed fields with blood, but how much of the tale is true is hard to know.",
     "source": {
@@ -4209,6 +5439,12 @@
     "stats": {
       "baseDamage": 16,
       "finalDamage": 43
+    },
+    "sockets": {
+      "filled": 0,
+      "total": 5,
+      "empty": 5,
+      "stats": []
     },
     "materials": [
       {
@@ -4238,6 +5474,21 @@
       "baseDamage": 14,
       "finalDamage": 39
     },
+    "sockets": {
+      "filled": 3,
+      "total": 5,
+      "empty": 2,
+      "stats": [
+        {
+          "name": "Attack +1",
+          "slug": "destruction-i"
+        },
+        {
+          "name": "Attack Speed Lv.1",
+          "slug": "swift-i"
+        }
+      ]
+    },
     "materials": [],
     "description": "A longsword once used by Hemon Beindel. The middle of the blade is fitted with a distinctive ornament shaped like a hound's claw. It's said to leave wounds as if you'd been savaged by a hound.",
     "source": {
@@ -4256,6 +5507,25 @@
     "stats": {
       "baseDamage": 16,
       "finalDamage": 43
+    },
+    "sockets": {
+      "filled": 3,
+      "total": 5,
+      "empty": 2,
+      "stats": [
+        {
+          "name": "Critical Rate Lv.1",
+          "slug": "insight-i"
+        },
+        {
+          "name": "Stamina Siphon Lv +1",
+          "slug": "stamina-transference"
+        },
+        {
+          "name": "Attack +1",
+          "slug": "destruction-i"
+        }
+      ]
     },
     "materials": [],
     "description": "A longsword that appears to have been crafted in a foreign eastern land, far from the continent of Pywel. Its tip narrows to a keen point, and it seems designed for cutting.",
@@ -4276,6 +5546,7 @@
       "baseDamage": 18,
       "finalDamage": 18
     },
+    "sockets": "N/A",
     "materials": [],
     "description": "A crossbow built for durability and reliability. Exceptionally durable and unlikely to malfunction, it delivers steady performance even in harsh battlefield conditions. Its versatility makes it a fine choice as a main weapon in a wide range of combat situations.",
     "source": {
@@ -4294,6 +5565,25 @@
     "stats": {
       "baseDamage": 16,
       "finalDamage": 43
+    },
+    "sockets": {
+      "filled": 3,
+      "total": 5,
+      "empty": 2,
+      "stats": [
+        {
+          "name": "Attack +1",
+          "slug": "destruction-i"
+        },
+        {
+          "name": "Critical Rate Lv.1",
+          "slug": "insight-i"
+        },
+        {
+          "name": "Attack +1",
+          "slug": "destruction-i"
+        }
+      ]
     },
     "materials": [],
     "description": "The longsword once wielded by Duane.   Its thin, razor-sharp blade slices cleanly through enemies. Forged in the volcanic region of Silver Wolf Mountain, this exceptional weapon has led Duane to victory in countless battles. He believes it will protect his comrades just as it has protected him.",
@@ -4314,6 +5604,12 @@
       "baseDamage": 15,
       "finalDamage": 40
     },
+    "sockets": {
+      "filled": 0,
+      "total": 5,
+      "empty": 5,
+      "stats": []
+    },
     "materials": [],
     "description": "A greataxe that made the name of the extraordinary blacksmith, Sydmon. It is crafted with intricate patterns and with the wielder's movements in mind. If it had been Sydmon's hand that finished sharpening it, the axe would have become not just a masterpiece but a legend.",
     "source": {
@@ -4332,6 +5628,12 @@
     "stats": {
       "baseDamage": 14,
       "finalDamage": 39
+    },
+    "sockets": {
+      "filled": 0,
+      "total": 5,
+      "empty": 5,
+      "stats": []
     },
     "materials": [
       {
@@ -4361,6 +5663,12 @@
       "baseDamage": 9,
       "finalDamage": 27
     },
+    "sockets": {
+      "filled": 0,
+      "total": 3,
+      "empty": 3,
+      "stats": []
+    },
     "materials": [
       {
         "name": "Iron Ore",
@@ -4389,6 +5697,7 @@
       "baseDamage": 15,
       "finalDamage": 15
     },
+    "sockets": "N/A",
     "materials": [],
     "description": "An invisible longsword.",
     "source": {
@@ -4407,6 +5716,12 @@
     "stats": {
       "baseDamage": 14,
       "finalDamage": 39
+    },
+    "sockets": {
+      "filled": 0,
+      "total": 5,
+      "empty": 5,
+      "stats": []
     },
     "materials": [
       {
@@ -4436,6 +5751,12 @@
       "baseDamage": 13,
       "finalDamage": 36
     },
+    "sockets": {
+      "filled": 0,
+      "total": 5,
+      "empty": 5,
+      "stats": []
+    },
     "materials": [
       {
         "name": "Iron Ore",
@@ -4463,6 +5784,12 @@
     "stats": {
       "baseDamage": 15,
       "finalDamage": 40
+    },
+    "sockets": {
+      "filled": 0,
+      "total": 5,
+      "empty": 5,
+      "stats": []
     },
     "materials": [
       {
@@ -4492,6 +5819,12 @@
       "baseDamage": 13,
       "finalDamage": 37
     },
+    "sockets": {
+      "filled": 0,
+      "total": 3,
+      "empty": 3,
+      "stats": []
+    },
     "materials": [
       {
         "name": "Iron Ore",
@@ -4519,6 +5852,12 @@
     "stats": {
       "baseDamage": 15,
       "finalDamage": 41
+    },
+    "sockets": {
+      "filled": 0,
+      "total": 5,
+      "empty": 5,
+      "stats": []
     },
     "materials": [
       {
@@ -4548,6 +5887,7 @@
       "baseDamage": 28,
       "finalDamage": 28
     },
+    "sockets": "N/A",
     "materials": [],
     "description": "A fist weapon (R).",
     "source": {
@@ -4566,6 +5906,12 @@
     "stats": {
       "baseDamage": 12,
       "finalDamage": 36
+    },
+    "sockets": {
+      "filled": 0,
+      "total": 5,
+      "empty": 5,
+      "stats": []
     },
     "materials": [
       {
@@ -4595,6 +5941,17 @@
       "baseDamage": 11,
       "finalDamage": 33
     },
+    "sockets": {
+      "filled": 1,
+      "total": 3,
+      "empty": 2,
+      "stats": [
+        {
+          "name": "Attack Speed Lv.1",
+          "slug": "swift-i"
+        }
+      ]
+    },
     "materials": [],
     "description": "A practical mace made at a workshop in Demeniss. Its bud-shaped iron head delivers powerful impact to a single point, and the leather-wrapped grip prevents slipping even on long marches.",
     "source": {
@@ -4614,6 +5971,7 @@
       "baseDamage": 10,
       "finalDamage": 30
     },
+    "sockets": "N/A",
     "materials": [],
     "description": "A ceremonial dagger engraved with the royal crest. Worn at the waist, it serves as a symbol of authority, but once drawn, it becomes an exceptionally fine weapon.",
     "source": {
@@ -4633,6 +5991,25 @@
       "baseDamage": 10,
       "finalDamage": 30
     },
+    "sockets": {
+      "filled": 3,
+      "total": 3,
+      "empty": 0,
+      "stats": [
+        {
+          "name": "Critical Rate Lv.1",
+          "slug": "insight-i"
+        },
+        {
+          "name": "Health Siphon Lv +1",
+          "slug": "life-transference"
+        },
+        {
+          "name": "Attack Speed Lv.1",
+          "slug": "swift-i"
+        }
+      ]
+    },
     "materials": [],
     "description": "A treasured sword with an intricate pattern engraved on its blade. It is the weapon of a legendary hero who fought to protect the smiles of many. Though it was once inseparable from its matching scabbard, the sheath's whereabouts are now unknown. It may look like a decorative piece, but it remains surprisingly sharp.",
     "source": {
@@ -4651,6 +6028,12 @@
     "stats": {
       "baseDamage": 13,
       "finalDamage": 37
+    },
+    "sockets": {
+      "filled": 0,
+      "total": 3,
+      "empty": 3,
+      "stats": []
     },
     "materials": [
       {
@@ -4680,6 +6063,7 @@
       "baseDamage": 13,
       "finalDamage": 38
     },
+    "sockets": "N/A",
     "materials": [
       {
         "name": "Kuku Spear",
@@ -4716,6 +6100,7 @@
       "baseDamage": 25,
       "finalDamage": 25
     },
+    "sockets": "N/A",
     "materials": [
       {
         "name": "Kuku Pack",
@@ -4756,6 +6141,7 @@
       "baseDamage": 13,
       "finalDamage": 38
     },
+    "sockets": "N/A",
     "materials": [
       {
         "name": "Kuku Spear",
@@ -4796,6 +6182,7 @@
       "baseDamage": 12,
       "finalDamage": 35
     },
+    "sockets": "N/A",
     "materials": [
       {
         "name": "Kuku Spear",
@@ -4832,6 +6219,7 @@
       "baseDamage": 25,
       "finalDamage": 25
     },
+    "sockets": "N/A",
     "materials": [
       {
         "name": "Kuku Pack",
@@ -4872,6 +6260,7 @@
       "baseDamage": 25,
       "finalDamage": 25
     },
+    "sockets": "N/A",
     "materials": [
       {
         "name": "Kuku Pack",
@@ -4912,6 +6301,7 @@
       "baseDamage": 13,
       "finalDamage": 38
     },
+    "sockets": "N/A",
     "materials": [
       {
         "name": "Kuku Spear",
@@ -4952,6 +6342,7 @@
       "baseDamage": 12,
       "finalDamage": 35
     },
+    "sockets": "N/A",
     "materials": [
       {
         "name": "Kuku Spear",
@@ -4988,6 +6379,7 @@
       "baseDamage": 12,
       "finalDamage": 35
     },
+    "sockets": "N/A",
     "materials": [
       {
         "name": "Kuku Spear",
@@ -5028,6 +6420,7 @@
       "baseDamage": 1,
       "finalDamage": 1
     },
+    "sockets": "N/A",
     "materials": [
       {
         "name": "Kuku Pot",
@@ -5055,6 +6448,12 @@
     "stats": {
       "baseDamage": 10,
       "finalDamage": 30
+    },
+    "sockets": {
+      "filled": 0,
+      "total": 3,
+      "empty": 3,
+      "stats": []
     },
     "materials": [
       {
@@ -5084,6 +6483,12 @@
       "baseDamage": 11,
       "finalDamage": 33
     },
+    "sockets": {
+      "filled": 0,
+      "total": 5,
+      "empty": 5,
+      "stats": []
+    },
     "materials": [
       {
         "name": "Timber",
@@ -5112,6 +6517,7 @@
       "baseDamage": 10,
       "finalDamage": 30
     },
+    "sockets": "N/A",
     "materials": [
       {
         "name": "Iron Ore",
@@ -5139,6 +6545,12 @@
     "stats": {
       "baseDamage": 16,
       "finalDamage": 43
+    },
+    "sockets": {
+      "filled": 0,
+      "total": 5,
+      "empty": 5,
+      "stats": []
     },
     "materials": [
       {
@@ -5168,6 +6580,12 @@
       "baseDamage": 13,
       "finalDamage": 38
     },
+    "sockets": {
+      "filled": 0,
+      "total": 5,
+      "empty": 5,
+      "stats": []
+    },
     "materials": [
       {
         "name": "Iron Ore",
@@ -5195,6 +6613,12 @@
     "stats": {
       "baseDamage": 10,
       "finalDamage": 30
+    },
+    "sockets": {
+      "filled": 0,
+      "total": 3,
+      "empty": 3,
+      "stats": []
     },
     "materials": [
       {
@@ -5224,6 +6648,12 @@
       "baseDamage": 12,
       "finalDamage": 35
     },
+    "sockets": {
+      "filled": 0,
+      "total": 5,
+      "empty": 5,
+      "stats": []
+    },
     "materials": [
       {
         "name": "Iron Ore",
@@ -5251,6 +6681,12 @@
     "stats": {
       "baseDamage": 9,
       "finalDamage": 27
+    },
+    "sockets": {
+      "filled": 0,
+      "total": 3,
+      "empty": 3,
+      "stats": []
     },
     "materials": [
       {
@@ -5280,6 +6716,12 @@
       "baseDamage": 12,
       "finalDamage": 34
     },
+    "sockets": {
+      "filled": 0,
+      "total": 3,
+      "empty": 3,
+      "stats": []
+    },
     "materials": [
       {
         "name": "Iron Ore",
@@ -5307,6 +6749,12 @@
     "stats": {
       "baseDamage": 15,
       "finalDamage": 41
+    },
+    "sockets": {
+      "filled": 0,
+      "total": 5,
+      "empty": 5,
+      "stats": []
     },
     "materials": [
       {
@@ -5336,6 +6784,12 @@
       "baseDamage": 11,
       "finalDamage": 33
     },
+    "sockets": {
+      "filled": 0,
+      "total": 3,
+      "empty": 3,
+      "stats": []
+    },
     "materials": [
       {
         "name": "Iron Ore",
@@ -5363,6 +6817,12 @@
     "stats": {
       "baseDamage": 13,
       "finalDamage": 37
+    },
+    "sockets": {
+      "filled": 0,
+      "total": 3,
+      "empty": 3,
+      "stats": []
     },
     "materials": [
       {
@@ -5392,6 +6852,7 @@
       "baseDamage": 27,
       "finalDamage": 27
     },
+    "sockets": "N/A",
     "materials": [],
     "description": "A spear built to fire lasers. Fitted with a light-amplifying device, it can shoot a laser in a straight line. It can deal deadly wounds from afar to enemies who approach, thinking it's just an ordinary spear. A brief recharge time is required after an attack.",
     "source": {
@@ -5410,6 +6871,12 @@
     "stats": {
       "baseDamage": 10,
       "finalDamage": 30
+    },
+    "sockets": {
+      "filled": 0,
+      "total": 3,
+      "empty": 3,
+      "stats": []
     },
     "materials": [
       {
@@ -5439,6 +6906,17 @@
       "baseDamage": 10,
       "finalDamage": 30
     },
+    "sockets": {
+      "filled": 1,
+      "total": 3,
+      "empty": 2,
+      "stats": [
+        {
+          "name": "+4% damage to Abyssal creatures",
+          "slug": "abyssbane-i"
+        }
+      ]
+    },
     "materials": [
       {
         "name": "Iron Ore",
@@ -5467,6 +6945,25 @@
       "baseDamage": 12,
       "finalDamage": 35
     },
+    "sockets": {
+      "filled": 3,
+      "total": 5,
+      "empty": 2,
+      "stats": [
+        {
+          "name": "Attack +1",
+          "slug": "destruction-i"
+        },
+        {
+          "name": "Critical Rate Lv.1",
+          "slug": "insight-i"
+        },
+        {
+          "name": "Attack Speed Lv.1",
+          "slug": "swift-i"
+        }
+      ]
+    },
     "materials": [],
     "description": "A musket crafted for the high-ranking officers of an outpost. Demeniss makes no real effort to hide its ambition to one day expand its influence into the northern desert.",
     "source": {
@@ -5485,6 +6982,12 @@
     "stats": {
       "baseDamage": 11,
       "finalDamage": 31
+    },
+    "sockets": {
+      "filled": 0,
+      "total": 3,
+      "empty": 3,
+      "stats": []
     },
     "materials": [
       {
@@ -5514,6 +7017,12 @@
       "baseDamage": 9,
       "finalDamage": 27
     },
+    "sockets": {
+      "filled": 0,
+      "total": 3,
+      "empty": 3,
+      "stats": []
+    },
     "materials": [
       {
         "name": "Iron Ore",
@@ -5542,6 +7051,7 @@
       "baseDamage": 27,
       "finalDamage": 27
     },
+    "sockets": "N/A",
     "materials": [],
     "description": "A greathammer crackling with powerful electricity. A battery is fitted inside the hammerhead, sending electricity through it. It can strongly draw in the current in the air and strike down like lightning.",
     "source": {
@@ -5561,6 +7071,7 @@
       "baseDamage": 27,
       "finalDamage": 27
     },
+    "sockets": "N/A",
     "materials": [
       {
         "name": "Scolecite Ore",
@@ -5597,6 +7108,25 @@
       "baseDamage": 10,
       "finalDamage": 30
     },
+    "sockets": {
+      "filled": 3,
+      "total": 3,
+      "empty": 0,
+      "stats": [
+        {
+          "name": "Attack +1",
+          "slug": "destruction-i"
+        },
+        {
+          "name": "Attack Speed Lv.1",
+          "slug": "swift-i"
+        },
+        {
+          "name": "Attack Speed Lv.2",
+          "slug": "swift-ii"
+        }
+      ]
+    },
     "materials": [],
     "description": "A masterpiece painstakingly crafted by Sizlek, the Insatiable. Fundamentalist Goblins making dangerous inventions is nothing new, but this sword was designed to channel recklessly powerful currents through its blade. It could be wielded without fear only because a lust for power overcame even terror itself.",
     "source": {
@@ -5615,6 +7145,12 @@
     "stats": {
       "baseDamage": 16,
       "finalDamage": 42
+    },
+    "sockets": {
+      "filled": 0,
+      "total": 5,
+      "empty": 5,
+      "stats": []
     },
     "materials": [
       {
@@ -5644,6 +7180,25 @@
       "baseDamage": 11,
       "finalDamage": 33
     },
+    "sockets": {
+      "filled": 3,
+      "total": 3,
+      "empty": 0,
+      "stats": [
+        {
+          "name": "+4% damage to beasts",
+          "slug": "beastbane-i"
+        },
+        {
+          "name": "+4% damage to Walkers",
+          "slug": "primalbane-i"
+        },
+        {
+          "name": "Attack Speed Lv.1",
+          "slug": "swift-i"
+        }
+      ]
+    },
     "materials": [],
     "description": "A mace once wielded by Lucian Bastier, grand general of the Kingdom of Demeniss. Its head bears the royal crest, and its sharp spikes are as splendid and cruel as his ambition.",
     "source": {
@@ -5662,6 +7217,25 @@
     "stats": {
       "baseDamage": 11,
       "finalDamage": 33
+    },
+    "sockets": {
+      "filled": 3,
+      "total": 3,
+      "empty": 0,
+      "stats": [
+        {
+          "name": "Attack Speed Lv.1",
+          "slug": "swift-i"
+        },
+        {
+          "name": "+4% damage to humanoids",
+          "slug": "bloodbane-i"
+        },
+        {
+          "name": "Critical Rate Lv.1",
+          "slug": "insight-i"
+        }
+      ]
     },
     "materials": [],
     "description": "The mace of Cassius Morten, the traitor. Only he himself knows if he truly believed in Bastier's ideals. He was still a coward who stained his mace with the blood of his people.",
@@ -5682,6 +7256,12 @@
       "baseDamage": 13,
       "finalDamage": 37
     },
+    "sockets": {
+      "filled": 0,
+      "total": 3,
+      "empty": 3,
+      "stats": []
+    },
     "materials": [],
     "description": "A mace once held by the Marquis of Calphade on the border front. Its blackened head and red cloth embody the resolve of House Lanford, known as the Unyielding Shields. Every swing lands with a heavy ring, like a vow to never fall back.",
     "source": {
@@ -5700,6 +7280,12 @@
     "stats": {
       "baseDamage": 11,
       "finalDamage": 33
+    },
+    "sockets": {
+      "filled": 0,
+      "total": 3,
+      "empty": 3,
+      "stats": []
     },
     "materials": [
       {
@@ -5729,6 +7315,12 @@
       "baseDamage": 10,
       "finalDamage": 30
     },
+    "sockets": {
+      "filled": 0,
+      "total": 3,
+      "empty": 3,
+      "stats": []
+    },
     "materials": [
       {
         "name": "Iron Ore",
@@ -5756,6 +7348,12 @@
     "stats": {
       "baseDamage": 12,
       "finalDamage": 35
+    },
+    "sockets": {
+      "filled": 0,
+      "total": 5,
+      "empty": 5,
+      "stats": []
     },
     "materials": [
       {
@@ -5785,6 +7383,12 @@
       "baseDamage": 11,
       "finalDamage": 33
     },
+    "sockets": {
+      "filled": 0,
+      "total": 3,
+      "empty": 3,
+      "stats": []
+    },
     "materials": [
       {
         "name": "Iron Ore",
@@ -5813,6 +7417,12 @@
       "baseDamage": 11,
       "finalDamage": 33
     },
+    "sockets": {
+      "filled": 0,
+      "total": 3,
+      "empty": 3,
+      "stats": []
+    },
     "materials": [],
     "description": "A heavy club engraved with an ornate pattern. Its exquisite balance makes it remarkably easy to wield. It is said that a blacksmith with no knowledge of engineering poured his passion into this weapon to prove his service to Marni.",
     "source": {
@@ -5831,6 +7441,25 @@
     "stats": {
       "baseDamage": 12,
       "finalDamage": 35
+    },
+    "sockets": {
+      "filled": 3,
+      "total": 5,
+      "empty": 2,
+      "stats": [
+        {
+          "name": "Attack Speed Lv.1",
+          "slug": "swift-i"
+        },
+        {
+          "name": "+4% damage to machines",
+          "slug": "steelbane-i"
+        },
+        {
+          "name": "Attack +1",
+          "slug": "destruction-i"
+        }
+      ]
     },
     "materials": [],
     "description": "A musket that embodies the engineering of Marni, the genius engineer. It is the pinnacle of technology, operating with precisely enhanced parts. It is said to be the result of researching existing firearms and crafting them while conceptualizing a gun capable of reloading and shooting automatically.",
@@ -5851,6 +7480,25 @@
       "baseDamage": 10,
       "finalDamage": 30
     },
+    "sockets": {
+      "filled": 3,
+      "total": 5,
+      "empty": 2,
+      "stats": [
+        {
+          "name": "Attack +1",
+          "slug": "destruction-i"
+        },
+        {
+          "name": "Critical Rate Lv.1",
+          "slug": "insight-i"
+        },
+        {
+          "name": "+4% damage to machines",
+          "slug": "steelbane-i"
+        }
+      ]
+    },
     "materials": [],
     "description": "A blaster that was originally mounted on a siege engine. It has been modified to fire without any external power source. Built with zero concern for weight, it boasts overwhelming durability.",
     "source": {
@@ -5869,6 +7517,25 @@
     "stats": {
       "baseDamage": 10,
       "finalDamage": 30
+    },
+    "sockets": {
+      "filled": 3,
+      "total": 5,
+      "empty": 2,
+      "stats": [
+        {
+          "name": "Critical Rate Lv.1",
+          "slug": "insight-i"
+        },
+        {
+          "name": "Attack Speed Lv.1",
+          "slug": "swift-i"
+        },
+        {
+          "name": "Attack +2",
+          "slug": "destruction-ii"
+        }
+      ]
     },
     "materials": [],
     "description": "A blaster modified from a Thunder Tank's lightning cannon. Crafted from the remnants of Marni's combat machines, it fires an explosive electric current.",
@@ -5889,6 +7556,7 @@
       "baseDamage": 17,
       "finalDamage": 17
     },
+    "sockets": "N/A",
     "materials": [],
     "description": "A medium banner pike bearing the Black Bears' symbol. It looks like it could be used as a weapon in a pinch.",
     "source": {
@@ -5908,6 +7576,7 @@
       "baseDamage": 19,
       "finalDamage": 19
     },
+    "sockets": "N/A",
     "materials": [],
     "description": "A medium banner pike bearing the Bleed Bandits' symbol. It looks like it could be used as a weapon in a pinch.",
     "source": {
@@ -5927,6 +7596,7 @@
       "baseDamage": 24,
       "finalDamage": 24
     },
+    "sockets": "N/A",
     "materials": [],
     "description": "A medium banner pike bearing the Blinding Arrows' symbol. It looks like it could be used as a weapon in a pinch.",
     "source": {
@@ -5946,6 +7616,7 @@
       "baseDamage": 24,
       "finalDamage": 24
     },
+    "sockets": "N/A",
     "materials": [],
     "description": "A medium banner pike bearing Caliburn's symbol. It looks like it could be used as a weapon in a pinch.",
     "source": {
@@ -5965,6 +7636,7 @@
       "baseDamage": 21,
       "finalDamage": 21
     },
+    "sockets": "N/A",
     "materials": [],
     "description": "A medium banner pike bearing Calphade's symbol. It looks like it could be used as a weapon in a pinch.",
     "source": {
@@ -5984,6 +7656,7 @@
       "baseDamage": 27,
       "finalDamage": 27
     },
+    "sockets": "N/A",
     "materials": [],
     "description": "A medium banner pike bearing the Republic of Delesyia's symbol. It looks like it could be used as a weapon in a pinch.",
     "source": {
@@ -6003,6 +7676,7 @@
       "baseDamage": 24,
       "finalDamage": 24
     },
+    "sockets": "N/A",
     "materials": [],
     "description": "A medium banner pike bearing the Kingdom of Demeniss's symbol. It looks like it could be used as a weapon in a pinch.",
     "source": {
@@ -6022,6 +7696,7 @@
       "baseDamage": 24,
       "finalDamage": 24
     },
+    "sockets": "N/A",
     "materials": [],
     "description": "A medium banner pike bearing a Demenissian noble's symbol. It looks like it could be used as a weapon in a pinch.",
     "source": {
@@ -6041,6 +7716,7 @@
       "baseDamage": 27,
       "finalDamage": 27
     },
+    "sockets": "N/A",
     "materials": [],
     "description": "A medium banner pike bearing the Ironwheel of Dewhaven's symbol. It looks like it could be used as a weapon in a pinch.",
     "source": {
@@ -6060,6 +7736,7 @@
       "baseDamage": 24,
       "finalDamage": 24
     },
+    "sockets": "N/A",
     "materials": [],
     "description": "A medium banner pike bearing the Dusksongs' symbol. It looks like it could be used as a weapon in a pinch.",
     "source": {
@@ -6079,6 +7756,7 @@
       "baseDamage": 24,
       "finalDamage": 24
     },
+    "sockets": "N/A",
     "materials": [],
     "description": "A small banner pike bearing the Faceless' symbol. It looks like it could be used as a weapon in a pinch.",
     "source": {
@@ -6098,6 +7776,7 @@
       "baseDamage": 33,
       "finalDamage": 33
     },
+    "sockets": "N/A",
     "materials": [],
     "description": "A medium banner pike bearing the Flame Knights' symbol. It looks like it could be used as a weapon in a pinch.",
     "source": {
@@ -6117,6 +7796,7 @@
       "baseDamage": 19,
       "finalDamage": 19
     },
+    "sockets": "N/A",
     "materials": [],
     "description": "A medium banner pike bearing the Greymane's symbol. It looks like it could be used as a weapon in a pinch.",
     "source": {
@@ -6136,6 +7816,7 @@
       "baseDamage": 17,
       "finalDamage": 17
     },
+    "sockets": "N/A",
     "materials": [],
     "description": "A medium banner pike bearing the Gregor, the Halberd of Carnage's symbol. It looks like it could be used as a weapon in a pinch.",
     "source": {
@@ -6155,6 +7836,7 @@
       "baseDamage": 19,
       "finalDamage": 19
     },
+    "sockets": "N/A",
     "materials": [],
     "description": "A medium banner pike bearing the Heavy Silence's symbol. It looks like it could be used as a weapon in a pinch.",
     "source": {
@@ -6174,6 +7856,7 @@
       "baseDamage": 19,
       "finalDamage": 19
     },
+    "sockets": "N/A",
     "materials": [],
     "description": "A medium banner pike bearing the Hellhounds' symbol. It looks like it could be used as a weapon in a pinch.",
     "source": {
@@ -6193,6 +7876,7 @@
       "baseDamage": 19,
       "finalDamage": 19
     },
+    "sockets": "N/A",
     "materials": [],
     "description": "A medium banner pike bearing the Duchy of Hernand's symbol. It looks like it could be used as a weapon in a pinch.",
     "source": {
@@ -6212,6 +7896,7 @@
       "baseDamage": 27,
       "finalDamage": 27
     },
+    "sockets": "N/A",
     "materials": [],
     "description": "A medium banner pike bearing the Ironflame Orc Clan's symbol. It looks like it could be used as a weapon in a pinch.",
     "source": {
@@ -6231,6 +7916,7 @@
       "baseDamage": 27,
       "finalDamage": 27
     },
+    "sockets": "N/A",
     "materials": [],
     "description": "A medium banner pike bearing the Marni's symbol. It looks like it could be used as a weapon in a pinch.",
     "source": {
@@ -6250,6 +7936,7 @@
       "baseDamage": 17,
       "finalDamage": 17
     },
+    "sockets": "N/A",
     "materials": [],
     "description": "A medium banner pike bearing the Musket of Demeniss' symbol. It looks like it could be used as a weapon in a pinch.",
     "source": {
@@ -6269,6 +7956,7 @@
       "baseDamage": 21,
       "finalDamage": 21
     },
+    "sockets": "N/A",
     "materials": [],
     "description": "A medium banner pike bearing the Tribal State of Pailune's symbol. It looks like it could be used as a weapon in a pinch.",
     "source": {
@@ -6288,6 +7976,7 @@
       "baseDamage": 24,
       "finalDamage": 24
     },
+    "sockets": "N/A",
     "materials": [],
     "description": "A medium banner pike bearing the Staglord's symbol. It looks like it could be used as a weapon in a pinch.",
     "source": {
@@ -6307,6 +7996,7 @@
       "baseDamage": 24,
       "finalDamage": 24
     },
+    "sockets": "N/A",
     "materials": [],
     "description": "A medium banner pike bearing Tommaso's symbol. It looks like it could be used as a weapon in a pinch.",
     "source": {
@@ -6326,6 +8016,7 @@
       "baseDamage": 24,
       "finalDamage": 24
     },
+    "sockets": "N/A",
     "materials": [],
     "description": "A medium banner pike bearing the Twilight Messengers' symbol. It looks like it could be used as a weapon in a pinch.",
     "source": {
@@ -6345,6 +8036,7 @@
       "baseDamage": 24,
       "finalDamage": 24
     },
+    "sockets": "N/A",
     "materials": [],
     "description": "A medium banner pike bearing the Varnia's symbol. It looks like it could be used as a weapon in a pinch.",
     "source": {
@@ -6364,6 +8056,7 @@
       "baseDamage": 19,
       "finalDamage": 19
     },
+    "sockets": "N/A",
     "materials": [],
     "description": "A medium banner pike bearing the Vellua Pirate's symbol. It looks like it could be used as a weapon in a pinch.",
     "source": {
@@ -6383,6 +8076,7 @@
       "baseDamage": 24,
       "finalDamage": 24
     },
+    "sockets": "N/A",
     "materials": [],
     "description": "A medium banner pike bearing House Wells' symbol. It looks like it could be used as a weapon in a pinch.",
     "source": {
@@ -6402,6 +8096,7 @@
       "baseDamage": 24,
       "finalDamage": 24
     },
+    "sockets": "N/A",
     "materials": [],
     "description": "A medium banner pike bearing the Wyvernflames' symbol. It looks like it could be used as a weapon in a pinch.",
     "source": {
@@ -6421,6 +8116,21 @@
       "baseDamage": 10,
       "finalDamage": 30
     },
+    "sockets": {
+      "filled": 3,
+      "total": 3,
+      "empty": 0,
+      "stats": [
+        {
+          "name": "Attack +1",
+          "slug": "destruction-i"
+        },
+        {
+          "name": "Attack Speed Lv.1",
+          "slug": "swift-i"
+        }
+      ]
+    },
     "materials": [],
     "description": "Myurdin, the Black Bear's sword. It gives off a searing heat, like gripping a blade fresh from the forge.",
     "source": {
@@ -6439,6 +8149,12 @@
     "stats": {
       "baseDamage": 14,
       "finalDamage": 38
+    },
+    "sockets": {
+      "filled": 0,
+      "total": 5,
+      "empty": 5,
+      "stats": []
     },
     "materials": [
       {
@@ -6468,6 +8184,12 @@
       "baseDamage": 11,
       "finalDamage": 33
     },
+    "sockets": {
+      "filled": 0,
+      "total": 5,
+      "empty": 5,
+      "stats": []
+    },
     "materials": [],
     "description": "A revolutionary mining tool. It enables mining at speeds that far outclass the traditional pickaxe. Not content with mere efficiency, the inventors pushed further, integrating an auto-collect feature that collects ores the instant they're mined.",
     "source": {
@@ -6486,6 +8208,12 @@
     "stats": {
       "baseDamage": 15,
       "finalDamage": 41
+    },
+    "sockets": {
+      "filled": 0,
+      "total": 5,
+      "empty": 5,
+      "stats": []
     },
     "materials": [
       {
@@ -6515,6 +8243,7 @@
       "baseDamage": 10,
       "finalDamage": 10
     },
+    "sockets": "N/A",
     "materials": [],
     "description": "A fist weapon (R).",
     "source": {
@@ -6534,6 +8263,7 @@
       "baseDamage": 10,
       "finalDamage": 10
     },
+    "sockets": "N/A",
     "materials": [],
     "description": "A fist weapon (R).",
     "source": {
@@ -6552,6 +8282,25 @@
     "stats": {
       "baseDamage": 12,
       "finalDamage": 34
+    },
+    "sockets": {
+      "filled": 3,
+      "total": 3,
+      "empty": 0,
+      "stats": [
+        {
+          "name": "Attack Speed Lv.1",
+          "slug": "swift-i"
+        },
+        {
+          "name": "Spirit Siphon Lv +1",
+          "slug": "spirit-transference"
+        },
+        {
+          "name": "Attack +1",
+          "slug": "destruction-i"
+        }
+      ]
     },
     "materials": [],
     "description": "A sword of a warrior who slew a legendary dragon. Its flashing edge seems capable of cutting through anything, and it boasts durability enough to endure a dragon's flames. To some, it is a wondrous symbol of historic achievement, to others, merely a tool that slew a noble being in pursuit of tainted fame.",
@@ -6572,6 +8321,25 @@
       "baseDamage": 11,
       "finalDamage": 33
     },
+    "sockets": {
+      "filled": 3,
+      "total": 5,
+      "empty": 2,
+      "stats": [
+        {
+          "name": "Critical Rate Lv.1",
+          "slug": "insight-i"
+        },
+        {
+          "name": "Attack +1",
+          "slug": "destruction-i"
+        },
+        {
+          "name": "+4% damage to mighty foes",
+          "slug": "malicebane-i"
+        }
+      ]
+    },
     "materials": [],
     "description": "A composite bow crafted in the eastern tradition, with layered construction that creates powerful tension. It is said to have been brought to Pailune long ago, passing through the hands of numerous heroes and great leaders, including Jian.",
     "source": {
@@ -6590,6 +8358,12 @@
     "stats": {
       "baseDamage": 13,
       "finalDamage": 38
+    },
+    "sockets": {
+      "filled": 0,
+      "total": 5,
+      "empty": 5,
+      "stats": []
     },
     "materials": [
       {
@@ -6619,6 +8393,25 @@
       "baseDamage": 16,
       "finalDamage": 42
     },
+    "sockets": {
+      "filled": 3,
+      "total": 5,
+      "empty": 2,
+      "stats": [
+        {
+          "name": "Stamina Siphon Lv +1",
+          "slug": "stamina-transference"
+        },
+        {
+          "name": "Attack Speed Lv.1",
+          "slug": "swift-i"
+        },
+        {
+          "name": "Critical Rate Lv.1",
+          "slug": "insight-i"
+        }
+      ]
+    },
     "materials": [],
     "description": "A blunt weapon once used by the Masked Liberator. It looks like something meant for ritual use, but no such power can be felt. The Faceless believe that any who are struck by this staff are stripped of their memory and are granted salvation.",
     "source": {
@@ -6637,6 +8430,12 @@
     "stats": {
       "baseDamage": 13,
       "finalDamage": 37
+    },
+    "sockets": {
+      "filled": 0,
+      "total": 3,
+      "empty": 3,
+      "stats": []
     },
     "materials": [
       {
@@ -6666,6 +8465,12 @@
       "baseDamage": 13,
       "finalDamage": 37
     },
+    "sockets": {
+      "filled": 0,
+      "total": 3,
+      "empty": 3,
+      "stats": []
+    },
     "materials": [
       {
         "name": "Iron Ore",
@@ -6694,6 +8499,12 @@
       "baseDamage": 12,
       "finalDamage": 34
     },
+    "sockets": {
+      "filled": 0,
+      "total": 5,
+      "empty": 5,
+      "stats": []
+    },
     "materials": [],
     "description": "A blaster that embodies the pinnacle of the orc's steelcraft. Rough-hewn, but it is built for performance.",
     "source": {
@@ -6713,6 +8524,7 @@
       "baseDamage": null,
       "finalDamage": null
     },
+    "sockets": "N/A",
     "materials": [],
     "description": "Leather gloves worn by the Greymanes. The backs are heavily reinforced and the palms are finished with a rough texture to ensure a firm grip for armed combat. In an emergency, the thick padding allows for unarmed combat even without a weapon.",
     "source": {
@@ -6732,6 +8544,7 @@
       "baseDamage": 20,
       "finalDamage": 20
     },
+    "sockets": "N/A",
     "materials": [],
     "description": "A ceremonial banner crafted by the artisans of Pailune. A long, sturdy pole is adorned at its tip with a banner bearing the emblem that symbolizes Pailune. Only those who have contributed to Pailune are permitted to possess it.",
     "source": {
@@ -6750,6 +8563,12 @@
     "stats": {
       "baseDamage": 14,
       "finalDamage": 39
+    },
+    "sockets": {
+      "filled": 0,
+      "total": 5,
+      "empty": 5,
+      "stats": []
     },
     "materials": [
       {
@@ -6779,6 +8598,12 @@
       "baseDamage": 12,
       "finalDamage": 35
     },
+    "sockets": {
+      "filled": 0,
+      "total": 5,
+      "empty": 5,
+      "stats": []
+    },
     "materials": [
       {
         "name": "Iron Ore",
@@ -6807,6 +8632,7 @@
       "baseDamage": 12,
       "finalDamage": 34
     },
+    "sockets": "N/A",
     "materials": [
       {
         "name": "Iron Ore",
@@ -6834,6 +8660,12 @@
     "stats": {
       "baseDamage": 14,
       "finalDamage": 38
+    },
+    "sockets": {
+      "filled": 0,
+      "total": 5,
+      "empty": 5,
+      "stats": []
     },
     "materials": [
       {
@@ -6863,6 +8695,12 @@
       "baseDamage": 10,
       "finalDamage": 30
     },
+    "sockets": {
+      "filled": 0,
+      "total": 3,
+      "empty": 3,
+      "stats": []
+    },
     "materials": [
       {
         "name": "Iron Ore",
@@ -6890,6 +8728,12 @@
     "stats": {
       "baseDamage": 15,
       "finalDamage": 41
+    },
+    "sockets": {
+      "filled": 0,
+      "total": 5,
+      "empty": 5,
+      "stats": []
     },
     "materials": [
       {
@@ -6919,6 +8763,17 @@
       "baseDamage": 14,
       "finalDamage": 39
     },
+    "sockets": {
+      "filled": 1,
+      "total": 5,
+      "empty": 4,
+      "stats": [
+        {
+          "name": "Attack +1",
+          "slug": "destruction-i"
+        }
+      ]
+    },
     "materials": [
       {
         "name": "Iron Ore",
@@ -6946,6 +8801,17 @@
     "stats": {
       "baseDamage": 10,
       "finalDamage": 30
+    },
+    "sockets": {
+      "filled": 1,
+      "total": 3,
+      "empty": 2,
+      "stats": [
+        {
+          "name": "Recover resources on kill",
+          "slug": "energy-drain-i"
+        }
+      ]
     },
     "materials": [
       {
@@ -6975,6 +8841,7 @@
       "baseDamage": 27,
       "finalDamage": 27
     },
+    "sockets": "N/A",
     "materials": [
       {
         "name": "Scolecite Ore",
@@ -7011,6 +8878,12 @@
       "baseDamage": 11,
       "finalDamage": 31
     },
+    "sockets": {
+      "filled": 0,
+      "total": 3,
+      "empty": 3,
+      "stats": []
+    },
     "materials": [
       {
         "name": "Iron Ore",
@@ -7039,6 +8912,21 @@
       "baseDamage": 12,
       "finalDamage": 35
     },
+    "sockets": {
+      "filled": 3,
+      "total": 5,
+      "empty": 2,
+      "stats": [
+        {
+          "name": "Attack +1",
+          "slug": "destruction-i"
+        },
+        {
+          "name": "Critical Rate Lv.1",
+          "slug": "insight-i"
+        }
+      ]
+    },
     "materials": [],
     "description": "A massive spear once wielded by Titan, the God of Lightning. Though its lightning power faded when it left its original owner's hands, the spearhead, shaped like a bolt striking down, remains as sharp as ever.",
     "source": {
@@ -7057,6 +8945,25 @@
     "stats": {
       "baseDamage": 10,
       "finalDamage": 30
+    },
+    "sockets": {
+      "filled": 3,
+      "total": 3,
+      "empty": 0,
+      "stats": [
+        {
+          "name": "Critical Rate Lv.1",
+          "slug": "insight-i"
+        },
+        {
+          "name": "Attack Speed Lv.1",
+          "slug": "swift-i"
+        },
+        {
+          "name": "Attack +1",
+          "slug": "destruction-i"
+        }
+      ]
     },
     "materials": [],
     "description": "A sword forged from unknown material. Crafted with ancient skills now forgotten, this weapon is lighter than a standard sword. However, grappling its center of gravity is tricky, making it difficult to handle for anyone without mastery as a swordsman.",
@@ -7077,6 +8984,25 @@
       "baseDamage": 10,
       "finalDamage": 30
     },
+    "sockets": {
+      "filled": 3,
+      "total": 3,
+      "empty": 0,
+      "stats": [
+        {
+          "name": "Attack +1",
+          "slug": "destruction-i"
+        },
+        {
+          "name": "Critical Rate Lv.1",
+          "slug": "insight-i"
+        },
+        {
+          "name": "Critical Rate Lv.1",
+          "slug": "insight-i"
+        }
+      ]
+    },
     "materials": [],
     "description": "Ludvig's sword. Crafted for dual-wielding, it is relatively lightweight. Given the owner's notoriety, steeped in blood and betrayal, the weapon's appearance is surprisingly modest.",
     "source": {
@@ -7095,6 +9021,17 @@
     "stats": {
       "baseDamage": 10,
       "finalDamage": 30
+    },
+    "sockets": {
+      "filled": 1,
+      "total": 5,
+      "empty": 4,
+      "stats": [
+        {
+          "name": "+4% damage to Walkers",
+          "slug": "primalbane-i"
+        }
+      ]
     },
     "materials": [
       {
@@ -7124,6 +9061,12 @@
       "baseDamage": 12,
       "finalDamage": 35
     },
+    "sockets": {
+      "filled": 0,
+      "total": 5,
+      "empty": 5,
+      "stats": []
+    },
     "materials": [
       {
         "name": "Iron Ore",
@@ -7151,6 +9094,12 @@
     "stats": {
       "baseDamage": 15,
       "finalDamage": 40
+    },
+    "sockets": {
+      "filled": 0,
+      "total": 5,
+      "empty": 5,
+      "stats": []
     },
     "materials": [
       {
@@ -7180,6 +9129,17 @@
       "baseDamage": 10,
       "finalDamage": 30
     },
+    "sockets": {
+      "filled": 1,
+      "total": 3,
+      "empty": 2,
+      "stats": [
+        {
+          "name": "Critical Rate Lv.1",
+          "slug": "insight-i"
+        }
+      ]
+    },
     "materials": [],
     "description": "An axe commissioned by Rhias, old master of Hernand, to defend his homeland. His resolve still lingers in the weapon.",
     "source": {
@@ -7198,6 +9158,12 @@
     "stats": {
       "baseDamage": 14,
       "finalDamage": 39
+    },
+    "sockets": {
+      "filled": 0,
+      "total": 5,
+      "empty": 5,
+      "stats": []
     },
     "materials": [
       {
@@ -7227,6 +9193,25 @@
       "baseDamage": 14,
       "finalDamage": 39
     },
+    "sockets": {
+      "filled": 3,
+      "total": 5,
+      "empty": 2,
+      "stats": [
+        {
+          "name": "Attack Speed Lv.2",
+          "slug": "swift-ii"
+        },
+        {
+          "name": "Attack +1",
+          "slug": "destruction-i"
+        },
+        {
+          "name": "Critical Rate Lv.1",
+          "slug": "insight-i"
+        }
+      ]
+    },
     "materials": [],
     "description": "A longsword once wielded by Gabriel Caliburn. Boasting exceptional strength and sharpness, it relentlessly judges all who stand in its way. He swung this blade to guide Pywel toward what he believed was the rightful path, beginning with Demeniss.",
     "source": {
@@ -7245,6 +9230,12 @@
     "stats": {
       "baseDamage": 12,
       "finalDamage": 34
+    },
+    "sockets": {
+      "filled": 0,
+      "total": 3,
+      "empty": 3,
+      "stats": []
     },
     "materials": [
       {
@@ -7274,6 +9265,25 @@
       "baseDamage": 16,
       "finalDamage": 42
     },
+    "sockets": {
+      "filled": 3,
+      "total": 5,
+      "empty": 2,
+      "stats": [
+        {
+          "name": "Attack Speed Lv.1",
+          "slug": "swift-i"
+        },
+        {
+          "name": "Attack +1",
+          "slug": "destruction-i"
+        },
+        {
+          "name": "Recover resources on kill",
+          "slug": "energy-drain-i"
+        }
+      ]
+    },
     "materials": [],
     "description": "A warhammer once wielded by the Black Bear captain. Its head is shaped the same on both sides so it can be swung either way, and each blow hits with enough force to make the ground tremble.",
     "source": {
@@ -7292,6 +9302,12 @@
     "stats": {
       "baseDamage": 11,
       "finalDamage": 33
+    },
+    "sockets": {
+      "filled": 0,
+      "total": 3,
+      "empty": 3,
+      "stats": []
     },
     "materials": [
       {
@@ -7321,6 +9337,12 @@
       "baseDamage": 11,
       "finalDamage": 33
     },
+    "sockets": {
+      "filled": 0,
+      "total": 5,
+      "empty": 5,
+      "stats": []
+    },
     "materials": [
       {
         "name": "Iron Ore",
@@ -7349,6 +9371,25 @@
       "baseDamage": 11,
       "finalDamage": 31
     },
+    "sockets": {
+      "filled": 3,
+      "total": 3,
+      "empty": 0,
+      "stats": [
+        {
+          "name": "Attack Speed Lv.1",
+          "slug": "swift-i"
+        },
+        {
+          "name": "Critical Rate Lv.1",
+          "slug": "insight-i"
+        },
+        {
+          "name": "Attack +1",
+          "slug": "destruction-i"
+        }
+      ]
+    },
     "materials": [],
     "description": "A rapier used in the coronation ceremonies of House of Thorel. Once a symbol of Demeniss's prosperity and royal legitimacy, it is now a faded relic that serves only as a reminder of past glory.",
     "source": {
@@ -7368,6 +9409,25 @@
       "baseDamage": 17,
       "finalDamage": 45
     },
+    "sockets": {
+      "filled": 3,
+      "total": 5,
+      "empty": 2,
+      "stats": [
+        {
+          "name": "Attack Speed Lv.1",
+          "slug": "swift-i"
+        },
+        {
+          "name": "+4% damage to mighty foes",
+          "slug": "malicebane-i"
+        },
+        {
+          "name": "Attack +1",
+          "slug": "destruction-i"
+        }
+      ]
+    },
     "materials": [],
     "description": "A greathammer with rune engravings. It is made using a rough rock from a quarry, and is empowered by the power the runes hold.",
     "source": {
@@ -7386,6 +9446,12 @@
     "stats": {
       "baseDamage": 11,
       "finalDamage": 33
+    },
+    "sockets": {
+      "filled": 0,
+      "total": 3,
+      "empty": 3,
+      "stats": []
     },
     "materials": [
       {
@@ -7415,6 +9481,12 @@
       "baseDamage": 17,
       "finalDamage": 45
     },
+    "sockets": {
+      "filled": 0,
+      "total": 5,
+      "empty": 5,
+      "stats": []
+    },
     "materials": [
       {
         "name": "Iron Ore",
@@ -7443,6 +9515,25 @@
       "baseDamage": 15,
       "finalDamage": 41
     },
+    "sockets": {
+      "filled": 3,
+      "total": 5,
+      "empty": 2,
+      "stats": [
+        {
+          "name": "Critical Rate Lv.1",
+          "slug": "insight-i"
+        },
+        {
+          "name": "Attack +1",
+          "slug": "destruction-i"
+        },
+        {
+          "name": "Critical Rate Lv.1",
+          "slug": "insight-i"
+        }
+      ]
+    },
     "materials": [],
     "description": "A blunt weapon once wielded by Mazzul, the Dark Justiciar. This uniquely shaped warhammer is adorned with several small bells that emit an eerie chime with every swing.",
     "source": {
@@ -7461,6 +9552,12 @@
     "stats": {
       "baseDamage": 15,
       "finalDamage": 40
+    },
+    "sockets": {
+      "filled": 0,
+      "total": 5,
+      "empty": 5,
+      "stats": []
     },
     "materials": [
       {
@@ -7490,6 +9587,25 @@
       "baseDamage": 12,
       "finalDamage": 34
     },
+    "sockets": {
+      "filled": 3,
+      "total": 3,
+      "empty": 0,
+      "stats": [
+        {
+          "name": "Critical Rate Lv.1",
+          "slug": "insight-i"
+        },
+        {
+          "name": "Attack +1",
+          "slug": "destruction-i"
+        },
+        {
+          "name": "Attack Speed Lv.1",
+          "slug": "swift-i"
+        }
+      ]
+    },
     "materials": [],
     "description": "A sword once wielded by Giath. Its curved blade is lined with saw-like barbs, a cruel design that tears at flesh. It fought alongside him through countless hunts, stained with the blood of innumerable lives, beast and human alike.",
     "source": {
@@ -7508,6 +9624,12 @@
     "stats": {
       "baseDamage": 11,
       "finalDamage": 33
+    },
+    "sockets": {
+      "filled": 0,
+      "total": 3,
+      "empty": 3,
+      "stats": []
     },
     "materials": [
       {
@@ -7537,6 +9659,12 @@
       "baseDamage": 16,
       "finalDamage": 42
     },
+    "sockets": {
+      "filled": 0,
+      "total": 5,
+      "empty": 5,
+      "stats": []
+    },
     "materials": [],
     "description": "A folding greatsword made by House Spencer. Purged in the name of the cause, the house has had all records and history erased. Built with a special mechanism, the blade can be folded for carrying when not in use.",
     "source": {
@@ -7555,6 +9683,21 @@
     "stats": {
       "baseDamage": 10,
       "finalDamage": 30
+    },
+    "sockets": {
+      "filled": 3,
+      "total": 3,
+      "empty": 0,
+      "stats": [
+        {
+          "name": "Attack +1",
+          "slug": "destruction-i"
+        },
+        {
+          "name": "Critical Rate Lv.1",
+          "slug": "insight-i"
+        }
+      ]
     },
     "materials": [],
     "description": "A sword of Fortain the Cursed Knight. He gained the power to command a clone through a contract with Hexe Marie, but the moment he lost a fight, he was beheaded by that very clone.",
@@ -7575,6 +9718,12 @@
       "baseDamage": 11,
       "finalDamage": 33
     },
+    "sockets": {
+      "filled": 0,
+      "total": 5,
+      "empty": 5,
+      "stats": []
+    },
     "materials": [],
     "description": "A pistol used by the Masked Liberator. When she thought no one was watching, she would occasionally draw the pistol and whisper with a sorrowful voice. While it is unknown what secrets it may have heard, the only answer the pistol can offer is a gunshot that blooms death.",
     "source": {
@@ -7593,6 +9742,12 @@
     "stats": {
       "baseDamage": 11,
       "finalDamage": 33
+    },
+    "sockets": {
+      "filled": 0,
+      "total": 5,
+      "empty": 5,
+      "stats": []
     },
     "materials": [
       {
@@ -7622,6 +9777,12 @@
       "baseDamage": 16,
       "finalDamage": 42
     },
+    "sockets": {
+      "filled": 0,
+      "total": 5,
+      "empty": 5,
+      "stats": []
+    },
     "materials": [
       {
         "name": "Iron Ore",
@@ -7649,6 +9810,12 @@
     "stats": {
       "baseDamage": 16,
       "finalDamage": 42
+    },
+    "sockets": {
+      "filled": 0,
+      "total": 5,
+      "empty": 5,
+      "stats": []
     },
     "materials": [
       {
@@ -7678,6 +9845,12 @@
       "baseDamage": 14,
       "finalDamage": 39
     },
+    "sockets": {
+      "filled": 0,
+      "total": 5,
+      "empty": 5,
+      "stats": []
+    },
     "materials": [],
     "description": "An ornate, old-world longsword steeped in noble grace. It may be mistaken for Demenissian craftsmanship, yet a closer look reveals a style that matches no region of Pywel perfectly.",
     "source": {
@@ -7697,6 +9870,12 @@
       "baseDamage": 14,
       "finalDamage": 39
     },
+    "sockets": {
+      "filled": 0,
+      "total": 5,
+      "empty": 5,
+      "stats": []
+    },
     "materials": [],
     "description": "A greataxe of tremendous weight, made to hew down massive foes larger than a man. The solid materials from haft to blade are so heavy that even lifting it, let alone swinging it, is a struggle without exceptional strength.",
     "source": {
@@ -7715,6 +9894,12 @@
     "stats": {
       "baseDamage": 12,
       "finalDamage": 35
+    },
+    "sockets": {
+      "filled": 0,
+      "total": 5,
+      "empty": 5,
+      "stats": []
     },
     "materials": [
       {
@@ -7744,6 +9929,12 @@
       "baseDamage": 10,
       "finalDamage": 30
     },
+    "sockets": {
+      "filled": 0,
+      "total": 3,
+      "empty": 3,
+      "stats": []
+    },
     "materials": [],
     "description": "An axe imbued with the essence of Pailune. Before Ashclaw Keep was constructed, a legendary smithy stood within the volcanic regions of Silver Wolf Mountain. Legend has it that an unnamed blacksmith cast himself into the lava to forge the ultimate axe.",
     "source": {
@@ -7763,6 +9954,25 @@
       "baseDamage": 10,
       "finalDamage": 30
     },
+    "sockets": {
+      "filled": 3,
+      "total": 5,
+      "empty": 2,
+      "stats": [
+        {
+          "name": "Attack +1",
+          "slug": "destruction-i"
+        },
+        {
+          "name": "Recover resources on kill",
+          "slug": "energy-drain-i"
+        },
+        {
+          "name": "Critical Rate Lv.1",
+          "slug": "insight-i"
+        }
+      ]
+    },
     "materials": [],
     "description": "A blaster that integrates the technologies of the Abyss. It is a weapon that operates on principles humanity has yet to understand. Fortunately, it can still fire even with ordinary shells.",
     "source": {
@@ -7781,6 +9991,12 @@
     "stats": {
       "baseDamage": 13,
       "finalDamage": 38
+    },
+    "sockets": {
+      "filled": 0,
+      "total": 5,
+      "empty": 5,
+      "stats": []
     },
     "materials": [
       {
@@ -7810,6 +10026,7 @@
       "baseDamage": 17,
       "finalDamage": 17
     },
+    "sockets": "N/A",
     "materials": [],
     "description": "A small banner pike with no pattern. It looks like it could be used as a weapon in a pinch.",
     "source": {
@@ -7829,6 +10046,7 @@
       "baseDamage": 17,
       "finalDamage": 17
     },
+    "sockets": "N/A",
     "materials": [],
     "description": "A small banner pike bearing the Black Bears' symbol. It looks like it could be used as a weapon in a pinch.",
     "source": {
@@ -7848,6 +10066,7 @@
       "baseDamage": 19,
       "finalDamage": 19
     },
+    "sockets": "N/A",
     "materials": [],
     "description": "A small banner pike bearing the Bleed Bandits' symbol. It looks like it could be used as a weapon in a pinch.",
     "source": {
@@ -7867,6 +10086,7 @@
       "baseDamage": 24,
       "finalDamage": 24
     },
+    "sockets": "N/A",
     "materials": [],
     "description": "A small banner pike bearing the Blinding Arrows' symbol. It looks like it could be used as a weapon in a pinch.",
     "source": {
@@ -7886,6 +10106,7 @@
       "baseDamage": 24,
       "finalDamage": 24
     },
+    "sockets": "N/A",
     "materials": [],
     "description": "A small banner pike bearing Caliburn's symbol. It looks like it could be used as a weapon in a pinch.",
     "source": {
@@ -7905,6 +10126,7 @@
       "baseDamage": 24,
       "finalDamage": 24
     },
+    "sockets": "N/A",
     "materials": [],
     "description": "A small banner pike bearing Calphade's symbol. It looks like it could be used as a weapon in a pinch.",
     "source": {
@@ -7924,6 +10146,7 @@
       "baseDamage": 27,
       "finalDamage": 27
     },
+    "sockets": "N/A",
     "materials": [],
     "description": "A small banner pike bearing the Republic of Delesyia's symbol. It looks like it could be used as a weapon in a pinch.",
     "source": {
@@ -7943,6 +10166,7 @@
       "baseDamage": 24,
       "finalDamage": 24
     },
+    "sockets": "N/A",
     "materials": [],
     "description": "A small banner pike bearing the Kingdom of Demeniss's symbol. It looks like it could be used as a weapon in a pinch.",
     "source": {
@@ -7962,6 +10186,7 @@
       "baseDamage": 24,
       "finalDamage": 24
     },
+    "sockets": "N/A",
     "materials": [],
     "description": "A small banner pike bearing a Demenissian noble's symbol. It looks like it could be used as a weapon in a pinch.",
     "source": {
@@ -7981,6 +10206,7 @@
       "baseDamage": 27,
       "finalDamage": 27
     },
+    "sockets": "N/A",
     "materials": [],
     "description": "A small banner pike bearing the Ironwheel of Dewhaven's symbol. It looks like it could be used as a weapon in a pinch.",
     "source": {
@@ -8000,6 +10226,7 @@
       "baseDamage": 24,
       "finalDamage": 24
     },
+    "sockets": "N/A",
     "materials": [],
     "description": "A small banner pike bearing the Dusksongs' symbol. It looks like it could be used as a weapon in a pinch.",
     "source": {
@@ -8019,6 +10246,7 @@
       "baseDamage": 24,
       "finalDamage": 24
     },
+    "sockets": "N/A",
     "materials": [],
     "description": "A small banner pike bearing the Faceless' symbol. It looks like it could be used as a weapon in a pinch.",
     "source": {
@@ -8038,6 +10266,7 @@
       "baseDamage": 33,
       "finalDamage": 33
     },
+    "sockets": "N/A",
     "materials": [],
     "description": "A small banner pike bearing the Flame Knights' symbol. It looks like it could be used as a weapon in a pinch.",
     "source": {
@@ -8057,6 +10286,7 @@
       "baseDamage": 19,
       "finalDamage": 19
     },
+    "sockets": "N/A",
     "materials": [],
     "description": "A small banner pike bearing the Greymane's symbol. It looks like it could be used as a weapon in a pinch.",
     "source": {
@@ -8076,6 +10306,7 @@
       "baseDamage": 17,
       "finalDamage": 17
     },
+    "sockets": "N/A",
     "materials": [],
     "description": "A small banner pike bearing Gregor, the Halberd of Carnage's symbol. It looks like it could be used as a weapon in a pinch.",
     "source": {
@@ -8095,6 +10326,7 @@
       "baseDamage": 19,
       "finalDamage": 19
     },
+    "sockets": "N/A",
     "materials": [],
     "description": "A small banner pike bearing the Heavy Silence's symbol. It looks like it could be used as a weapon in a pinch.",
     "source": {
@@ -8114,6 +10346,7 @@
       "baseDamage": 19,
       "finalDamage": 19
     },
+    "sockets": "N/A",
     "materials": [],
     "description": "A small banner pike bearing the Hellhounds' symbol. It looks like it could be used as a weapon in a pinch.",
     "source": {
@@ -8133,6 +10366,7 @@
       "baseDamage": 24,
       "finalDamage": 24
     },
+    "sockets": "N/A",
     "materials": [],
     "description": "A small banner pike bearing the Duchy of Hernand's symbol. It looks like it could be used as a weapon in a pinch.",
     "source": {
@@ -8152,6 +10386,7 @@
       "baseDamage": 27,
       "finalDamage": 27
     },
+    "sockets": "N/A",
     "materials": [],
     "description": "A small banner pike bearing the Ironflame Orc Clan's symbol. It looks like it could be used as a weapon in a pinch.",
     "source": {
@@ -8171,6 +10406,7 @@
       "baseDamage": 27,
       "finalDamage": 27
     },
+    "sockets": "N/A",
     "materials": [],
     "description": "A small banner pike bearing Marni's symbol. It looks like it could be used as a weapon in a pinch.",
     "source": {
@@ -8190,6 +10426,7 @@
       "baseDamage": 19,
       "finalDamage": 19
     },
+    "sockets": "N/A",
     "materials": [],
     "description": "A small banner pike bearing the militia's symbol. It looks like it could be used as a weapon in a pinch.",
     "source": {
@@ -8209,6 +10446,7 @@
       "baseDamage": 17,
       "finalDamage": 17
     },
+    "sockets": "N/A",
     "materials": [],
     "description": "A small banner pike bearing Musket of Demeniss' symbol. It looks like it could be used as a weapon in a pinch.",
     "source": {
@@ -8228,6 +10466,7 @@
       "baseDamage": 21,
       "finalDamage": 21
     },
+    "sockets": "N/A",
     "materials": [],
     "description": "A small banner pike bearing the Tribal State of Pailune's symbol. It looks like it could be used as a weapon in a pinch.",
     "source": {
@@ -8247,6 +10486,7 @@
       "baseDamage": 19,
       "finalDamage": 19
     },
+    "sockets": "N/A",
     "materials": [],
     "description": "A small banner pike bearing the Royal Hunting Ground's symbol. It looks like it could be used as a weapon in a pinch.",
     "source": {
@@ -8266,6 +10506,7 @@
       "baseDamage": 24,
       "finalDamage": 24
     },
+    "sockets": "N/A",
     "materials": [],
     "description": "A small banner pike bearing the Staglord's symbol. It looks like it could be used as a weapon in a pinch.",
     "source": {
@@ -8285,6 +10526,7 @@
       "baseDamage": 24,
       "finalDamage": 24
     },
+    "sockets": "N/A",
     "materials": [],
     "description": "A small banner pike bearing Tommaso's symbol. It looks like it could be used as a weapon in a pinch.",
     "source": {
@@ -8304,6 +10546,7 @@
       "baseDamage": 24,
       "finalDamage": 24
     },
+    "sockets": "N/A",
     "materials": [],
     "description": "A small banner pike bearing the Twilight Messengers' symbol. It looks like it could be used as a weapon in a pinch.",
     "source": {
@@ -8323,6 +10566,7 @@
       "baseDamage": 24,
       "finalDamage": 24
     },
+    "sockets": "N/A",
     "materials": [],
     "description": "A small banner pike bearing Varnia's symbol. It looks like it could be used as a weapon in a pinch.",
     "source": {
@@ -8342,6 +10586,7 @@
       "baseDamage": 19,
       "finalDamage": 19
     },
+    "sockets": "N/A",
     "materials": [],
     "description": "A small banner pike bearing the Vellua Pirates' symbol. It looks like it could be used as a weapon in a pinch.",
     "source": {
@@ -8361,6 +10606,7 @@
       "baseDamage": 24,
       "finalDamage": 24
     },
+    "sockets": "N/A",
     "materials": [],
     "description": "A small banner pike bearing House Wells' symbol. It looks like it could be used as a weapon in a pinch.",
     "source": {
@@ -8380,6 +10626,7 @@
       "baseDamage": 24,
       "finalDamage": 24
     },
+    "sockets": "N/A",
     "materials": [],
     "description": "A small banner pike bearing House Wells' symbol. It looks like it could be used as a weapon in a pinch.",
     "source": {
@@ -8399,6 +10646,7 @@
       "baseDamage": 24,
       "finalDamage": 24
     },
+    "sockets": "N/A",
     "materials": [],
     "description": "A small banner pike bearing the Wyvernflames' symbol. It looks like it could be used as a weapon in a pinch.",
     "source": {
@@ -8418,6 +10666,7 @@
       "baseDamage": 20,
       "finalDamage": 20
     },
+    "sockets": "N/A",
     "materials": [],
     "description": "A blowpipe made by Pororin Forest Guardians to fire poison darts. Using mushrooms and herbs gathered in the forest, a sleeping potion is brewed. This dart its powerful enough to send even a troll to dreamland in an instant. Waking up after a hit feels oddly refreshing.",
     "source": {
@@ -8436,6 +10685,12 @@
     "stats": {
       "baseDamage": 13,
       "finalDamage": 37
+    },
+    "sockets": {
+      "filled": 0,
+      "total": 3,
+      "empty": 3,
+      "stats": []
     },
     "materials": [
       {
@@ -8465,6 +10720,12 @@
       "baseDamage": 12,
       "finalDamage": 35
     },
+    "sockets": {
+      "filled": 0,
+      "total": 5,
+      "empty": 5,
+      "stats": []
+    },
     "materials": [
       {
         "name": "Iron Ore",
@@ -8493,6 +10754,7 @@
       "baseDamage": 27,
       "finalDamage": 27
     },
+    "sockets": "N/A",
     "materials": [],
     "description": "A spear forged from souls harvested by the followers of Antumbra. Delivering a finishing blow releases the trapped spirits within, eroding the sanity of nearby enemies. Requires a brief cooldown after the attack.",
     "source": {
@@ -8512,6 +10774,7 @@
       "baseDamage": 10,
       "finalDamage": 10
     },
+    "sockets": "N/A",
     "materials": [],
     "description": "A crossbow favored by wandering trolls of the southern region. Its sturdiness is recognized as that of a reliable weapon, even across varied environments.",
     "source": {
@@ -8531,6 +10794,25 @@
       "baseDamage": 10,
       "finalDamage": 30
     },
+    "sockets": {
+      "filled": 3,
+      "total": 3,
+      "empty": 0,
+      "stats": [
+        {
+          "name": "Attack Speed Lv.1",
+          "slug": "swift-i"
+        },
+        {
+          "name": "Attack +1",
+          "slug": "destruction-i"
+        },
+        {
+          "name": "Critical Rate Lv.1",
+          "slug": "insight-i"
+        }
+      ]
+    },
     "materials": [],
     "description": "A sword that slew the Flame Dragon. Originally an honorable heirloom passed down through generations of Urdavah's Dragon Knights, it was turned to serve a new master after Tristan betrayed his homeland.",
     "source": {
@@ -8549,6 +10831,12 @@
     "stats": {
       "baseDamage": 12,
       "finalDamage": 35
+    },
+    "sockets": {
+      "filled": 0,
+      "total": 5,
+      "empty": 5,
+      "stats": []
     },
     "materials": [
       {
@@ -8578,6 +10866,12 @@
       "baseDamage": 12,
       "finalDamage": 35
     },
+    "sockets": {
+      "filled": 0,
+      "total": 5,
+      "empty": 5,
+      "stats": []
+    },
     "materials": [
       {
         "name": "Iron Ore",
@@ -8606,6 +10900,7 @@
       "baseDamage": 16,
       "finalDamage": 16
     },
+    "sockets": "N/A",
     "materials": [],
     "description": "A sword for the Specter Knight summon.",
     "source": {
@@ -8625,6 +10920,12 @@
       "baseDamage": 11,
       "finalDamage": 33
     },
+    "sockets": {
+      "filled": 0,
+      "total": 5,
+      "empty": 5,
+      "stats": []
+    },
     "materials": [],
     "description": "A pistol crafted by House Spencer. While production was discontinued when the house fell, a few are said to still remain in private collections. It is one of the few remaining pieces of evidence showing that House Spencer once existed in the world.",
     "source": {
@@ -8643,6 +10944,12 @@
     "stats": {
       "baseDamage": 11,
       "finalDamage": 33
+    },
+    "sockets": {
+      "filled": 0,
+      "total": 3,
+      "empty": 3,
+      "stats": []
     },
     "materials": [
       {
@@ -8672,6 +10979,25 @@
       "baseDamage": 16,
       "finalDamage": 43
     },
+    "sockets": {
+      "filled": 3,
+      "total": 5,
+      "empty": 2,
+      "stats": [
+        {
+          "name": "Attack +1",
+          "slug": "destruction-i"
+        },
+        {
+          "name": "Attack +1",
+          "slug": "destruction-i"
+        },
+        {
+          "name": "Attack Speed Lv.1",
+          "slug": "swift-i"
+        }
+      ]
+    },
     "materials": [],
     "description": "A greataxe once wielded by the White Bear of the High Mountain. Its unusual twin-bladed head splits into two prongs, making the enemy feel as if they are being snapped at by the fangs of a massive beast.",
     "source": {
@@ -8690,6 +11016,12 @@
     "stats": {
       "baseDamage": 12,
       "finalDamage": 35
+    },
+    "sockets": {
+      "filled": 0,
+      "total": 5,
+      "empty": 5,
+      "stats": []
     },
     "materials": [
       {
@@ -8719,6 +11051,12 @@
       "baseDamage": 10,
       "finalDamage": 30
     },
+    "sockets": {
+      "filled": 0,
+      "total": 5,
+      "empty": 5,
+      "stats": []
+    },
     "materials": [
       {
         "name": "Iron Ore",
@@ -8747,6 +11085,25 @@
       "baseDamage": 12,
       "finalDamage": 34
     },
+    "sockets": {
+      "filled": 3,
+      "total": 3,
+      "empty": 0,
+      "stats": [
+        {
+          "name": "Attack Speed Lv.1",
+          "slug": "swift-i"
+        },
+        {
+          "name": "Critical Rate Lv.1",
+          "slug": "insight-i"
+        },
+        {
+          "name": "Attack +1",
+          "slug": "destruction-i"
+        }
+      ]
+    },
     "materials": [],
     "description": "The sword held by the last king of a forgotten kingdom until his final moments. It is said to be engraved with a pattern symbolizing the ancient royal house, but no one remains to recognize it as such.",
     "source": {
@@ -8766,6 +11123,25 @@
       "baseDamage": 10,
       "finalDamage": 30
     },
+    "sockets": {
+      "filled": 3,
+      "total": 3,
+      "empty": 0,
+      "stats": [
+        {
+          "name": "Order from Above (finisher)",
+          "slug": "order-from-above"
+        },
+        {
+          "name": "+4% damage to Walkers",
+          "slug": "primalbane-i"
+        },
+        {
+          "name": "Attack +1",
+          "slug": "destruction-i"
+        }
+      ]
+    },
     "materials": [],
     "description": "The Knight of Fortune's sword. He clad himself head to toe in gleaming gold and adorned it with jewels. With this sword, he took countless lives, yet he could never escape his thirst for greed to the very end.",
     "source": {
@@ -8784,6 +11160,12 @@
     "stats": {
       "baseDamage": 10,
       "finalDamage": 30
+    },
+    "sockets": {
+      "filled": 0,
+      "total": 3,
+      "empty": 3,
+      "stats": []
     },
     "materials": [
       {
@@ -8813,6 +11195,21 @@
       "baseDamage": 10,
       "finalDamage": 30
     },
+    "sockets": {
+      "filled": 3,
+      "total": 3,
+      "empty": 0,
+      "stats": [
+        {
+          "name": "Attack +1",
+          "slug": "destruction-i"
+        },
+        {
+          "name": "Attack Speed Lv.1",
+          "slug": "swift-i"
+        }
+      ]
+    },
     "materials": [],
     "description": "An antique weapon crafted through a sophisticated process. Originally forged for the Celeste royal family, its whereabouts became a mystery after Hernand lost its status as a kingdom. It is said that Hornsplitter spent an unimaginable fortune to attain this blade.",
     "source": {
@@ -8831,6 +11228,12 @@
     "stats": {
       "baseDamage": 12,
       "finalDamage": 34
+    },
+    "sockets": {
+      "filled": 0,
+      "total": 3,
+      "empty": 3,
+      "stats": []
     },
     "materials": [],
     "description": "A well-worn sword, marked by countless battles. Though a lone wolf seems solitary, it longs for the pack that completes it. Scattered, perhaps, but a pack never truly disappears.",
@@ -8851,6 +11254,7 @@
       "baseDamage": 22,
       "finalDamage": 22
     },
+    "sockets": "N/A",
     "materials": [],
     "description": "A sword wrapped with poisonous vines, commonly used by Mistwood Hunters. It's not very powerful as a blade, but inflicts anyone cut by it with fatal poison.",
     "source": {
@@ -8869,6 +11273,12 @@
     "stats": {
       "baseDamage": 11,
       "finalDamage": 33
+    },
+    "sockets": {
+      "filled": 0,
+      "total": 5,
+      "empty": 5,
+      "stats": []
     },
     "materials": [
       {
@@ -8898,6 +11308,7 @@
       "baseDamage": 12,
       "finalDamage": 34
     },
+    "sockets": "N/A",
     "materials": [
       {
         "name": "Iron Ore",
@@ -8925,6 +11336,12 @@
     "stats": {
       "baseDamage": 11,
       "finalDamage": 33
+    },
+    "sockets": {
+      "filled": 0,
+      "total": 3,
+      "empty": 3,
+      "stats": []
     },
     "materials": [
       {
@@ -8954,6 +11371,12 @@
       "baseDamage": 16,
       "finalDamage": 43
     },
+    "sockets": {
+      "filled": 0,
+      "total": 5,
+      "empty": 5,
+      "stats": []
+    },
     "materials": [
       {
         "name": "Iron Ore",
@@ -8981,6 +11404,12 @@
     "stats": {
       "baseDamage": 13,
       "finalDamage": 38
+    },
+    "sockets": {
+      "filled": 0,
+      "total": 5,
+      "empty": 5,
+      "stats": []
     },
     "materials": [
       {
@@ -9010,6 +11439,12 @@
       "baseDamage": 10,
       "finalDamage": 30
     },
+    "sockets": {
+      "filled": 0,
+      "total": 3,
+      "empty": 3,
+      "stats": []
+    },
     "materials": [
       {
         "name": "Iron Ore",
@@ -9037,6 +11472,12 @@
     "stats": {
       "baseDamage": 12,
       "finalDamage": 34
+    },
+    "sockets": {
+      "filled": 0,
+      "total": 3,
+      "empty": 3,
+      "stats": []
     },
     "materials": [
       {
@@ -9066,6 +11507,12 @@
       "baseDamage": 10,
       "finalDamage": 30
     },
+    "sockets": {
+      "filled": 0,
+      "total": 5,
+      "empty": 5,
+      "stats": []
+    },
     "materials": [
       {
         "name": "Timber",
@@ -9093,6 +11540,12 @@
     "stats": {
       "baseDamage": 15,
       "finalDamage": 40
+    },
+    "sockets": {
+      "filled": 0,
+      "total": 5,
+      "empty": 5,
+      "stats": []
     },
     "materials": [
       {
@@ -9122,6 +11575,12 @@
       "baseDamage": 14,
       "finalDamage": 39
     },
+    "sockets": {
+      "filled": 0,
+      "total": 5,
+      "empty": 5,
+      "stats": []
+    },
     "materials": [
       {
         "name": "Iron Ore",
@@ -9149,6 +11608,12 @@
     "stats": {
       "baseDamage": 15,
       "finalDamage": 41
+    },
+    "sockets": {
+      "filled": 0,
+      "total": 5,
+      "empty": 5,
+      "stats": []
     },
     "materials": [
       {
@@ -9178,6 +11643,21 @@
       "baseDamage": 12,
       "finalDamage": 34
     },
+    "sockets": {
+      "filled": 3,
+      "total": 3,
+      "empty": 0,
+      "stats": [
+        {
+          "name": "Attack Speed Lv.1",
+          "slug": "swift-i"
+        },
+        {
+          "name": "Attack +1",
+          "slug": "destruction-i"
+        }
+      ]
+    },
     "materials": [],
     "description": "A curved sword used by Crowcaller. The golden-hued curved blade slices through the wind, leaving blood and death in its wake. And it is said that those who fall to this sword become sacrificial offerings to the crows. The moment it is swung, the cry of a crow echoes across the sky.",
     "source": {
@@ -9196,6 +11676,12 @@
     "stats": {
       "baseDamage": 11,
       "finalDamage": 33
+    },
+    "sockets": {
+      "filled": 0,
+      "total": 3,
+      "empty": 3,
+      "stats": []
     },
     "materials": [
       {
@@ -9225,6 +11711,12 @@
       "baseDamage": 14,
       "finalDamage": 39
     },
+    "sockets": {
+      "filled": 0,
+      "total": 5,
+      "empty": 5,
+      "stats": []
+    },
     "materials": [
       {
         "name": "Iron Ore",
@@ -9252,6 +11744,12 @@
     "stats": {
       "baseDamage": 17,
       "finalDamage": 45
+    },
+    "sockets": {
+      "filled": 0,
+      "total": 5,
+      "empty": 5,
+      "stats": []
     },
     "materials": [
       {
@@ -9281,6 +11779,17 @@
       "baseDamage": 11,
       "finalDamage": 33
     },
+    "sockets": {
+      "filled": 1,
+      "total": 3,
+      "empty": 2,
+      "stats": [
+        {
+          "name": "Spirit Siphon Lv +1",
+          "slug": "spirit-transference"
+        }
+      ]
+    },
     "materials": [],
     "description": "A weapon crafted from thorns naturally shed by the Sacred Tree of Roothold. It is said that branches forcibly broken from the tree lack the strength required to make a weapon. Consequently, it is a custom in Roothold to offer sincere rituals to the tree and collect only the branches that have fallen.",
     "source": {
@@ -9300,6 +11809,25 @@
       "baseDamage": 13,
       "finalDamage": 38
     },
+    "sockets": {
+      "filled": 3,
+      "total": 5,
+      "empty": 2,
+      "stats": [
+        {
+          "name": "Warden of Darkness (finisher)",
+          "slug": "warden-of-darkness"
+        },
+        {
+          "name": "Attack +1",
+          "slug": "destruction-i"
+        },
+        {
+          "name": "Attack Speed Lv.1",
+          "slug": "swift-i"
+        }
+      ]
+    },
     "materials": [],
     "description": "A massive spear once wielded by Antumbra's Spear, one of Antumbra's three great deacons. A thorny ring stands out just beneath the blade. With this spear, Antumbra's Spear pierced souls to offer them to the darkness.",
     "source": {
@@ -9318,6 +11846,12 @@
     "stats": {
       "baseDamage": 10,
       "finalDamage": 30
+    },
+    "sockets": {
+      "filled": 0,
+      "total": 3,
+      "empty": 3,
+      "stats": []
     },
     "materials": [
       {
@@ -9347,6 +11881,7 @@
       "baseDamage": 19,
       "finalDamage": 19
     },
+    "sockets": "N/A",
     "materials": [],
     "description": "A tiny banner pike bearing the Greymane's symbol. It looks like it could be used as a weapon in a pinch.",
     "source": {
@@ -9365,6 +11900,12 @@
     "stats": {
       "baseDamage": 12,
       "finalDamage": 35
+    },
+    "sockets": {
+      "filled": 0,
+      "total": 5,
+      "empty": 5,
+      "stats": []
     },
     "materials": [
       {
@@ -9394,6 +11935,12 @@
       "baseDamage": 10,
       "finalDamage": 30
     },
+    "sockets": {
+      "filled": 0,
+      "total": 5,
+      "empty": 5,
+      "stats": []
+    },
     "materials": [
       {
         "name": "Timber",
@@ -9422,6 +11969,7 @@
       "baseDamage": 20,
       "finalDamage": 20
     },
+    "sockets": "N/A",
     "materials": [],
     "description": "A banner pike engraved with the pattern representing Tommaso. It is lashed to a long shaft, allowing it to be used as a weapon. Only those who have contributed to Tashkalp are permitted to possess it.",
     "source": {
@@ -9440,6 +11988,12 @@
     "stats": {
       "baseDamage": 10,
       "finalDamage": 30
+    },
+    "sockets": {
+      "filled": 0,
+      "total": 5,
+      "empty": 5,
+      "stats": []
     },
     "materials": [],
     "description": "A horn bow once wielded by a warrior from a distant land, where dawn spreads in radiant splendor. Leaving behind a homeland of lush bamboo groves, the warrior is said to have roamed the world in search of wondrous adventures.",
@@ -9460,6 +12014,21 @@
       "baseDamage": 12,
       "finalDamage": 35
     },
+    "sockets": {
+      "filled": 3,
+      "total": 5,
+      "empty": 2,
+      "stats": [
+        {
+          "name": "+4% damage to humanoids",
+          "slug": "bloodbane-i"
+        },
+        {
+          "name": "Critical Rate Lv.1",
+          "slug": "insight-i"
+        }
+      ]
+    },
     "materials": [],
     "description": "A spear once favored by Cassius Morten, known as the Silver Armor, before his betrayal. After betraying Calphade, he refused to use it, insisting on blunt weapons as if to prove he was better than Stefan Lanford.",
     "source": {
@@ -9479,6 +12048,12 @@
       "baseDamage": 14,
       "finalDamage": 39
     },
+    "sockets": {
+      "filled": 0,
+      "total": 5,
+      "empty": 5,
+      "stats": []
+    },
     "materials": [],
     "description": "A greataxe forged not for men, but for trolls. Though its hooked blade was meant for nonlethal restraint, the weapon's sheer destructive power overshadows the intended purpose, and it's rarely in such way.",
     "source": {
@@ -9497,6 +12072,12 @@
     "stats": {
       "baseDamage": 15,
       "finalDamage": 41
+    },
+    "sockets": {
+      "filled": 0,
+      "total": 5,
+      "empty": 5,
+      "stats": []
     },
     "materials": [
       {
@@ -9526,6 +12107,12 @@
       "baseDamage": 10,
       "finalDamage": 30
     },
+    "sockets": {
+      "filled": 0,
+      "total": 5,
+      "empty": 5,
+      "stats": []
+    },
     "materials": [
       {
         "name": "Timber",
@@ -9554,6 +12141,21 @@
       "baseDamage": 15,
       "finalDamage": 40
     },
+    "sockets": {
+      "filled": 3,
+      "total": 5,
+      "empty": 2,
+      "stats": [
+        {
+          "name": "Attack +2",
+          "slug": "destruction-ii"
+        },
+        {
+          "name": "Attack +1",
+          "slug": "destruction-i"
+        }
+      ]
+    },
     "materials": [],
     "description": "A longsword once wielded by Corrupted Caliburn. It passes judgment on those who stand against its aim to shroud the world in equal darkness.",
     "source": {
@@ -9572,6 +12174,12 @@
     "stats": {
       "baseDamage": 12,
       "finalDamage": 35
+    },
+    "sockets": {
+      "filled": 0,
+      "total": 5,
+      "empty": 5,
+      "stats": []
     },
     "materials": [
       {
@@ -9601,6 +12209,7 @@
       "baseDamage": 20,
       "finalDamage": 20
     },
+    "sockets": "N/A",
     "materials": [],
     "description": "A banner pike engraved with the emblem of Varnia. The long pole features a unique Varnian decorative design, allowing it to be used as a weapon. Only those who have contributed to Tashkalp are permitted to possess it.",
     "source": {
@@ -9620,6 +12229,7 @@
       "baseDamage": 10,
       "finalDamage": 30
     },
+    "sockets": "N/A",
     "materials": [
       {
         "name": "Iron Ore",
@@ -9647,6 +12257,12 @@
     "stats": {
       "baseDamage": 10,
       "finalDamage": 30
+    },
+    "sockets": {
+      "filled": 0,
+      "total": 3,
+      "empty": 3,
+      "stats": []
     },
     "materials": [
       {
@@ -9688,6 +12304,12 @@
       "baseDamage": 15,
       "finalDamage": 41
     },
+    "sockets": {
+      "filled": 0,
+      "total": 5,
+      "empty": 5,
+      "stats": []
+    },
     "materials": [],
     "description": "A folding greatsword made by House Spencer. Made with experimental techniques, it is not easy to handle—likely usable properly only by members of the house. Built with a special mechanism, the blade can be folded for carrying when not in use.",
     "source": {
@@ -9707,6 +12329,21 @@
       "baseDamage": 16,
       "finalDamage": 43
     },
+    "sockets": {
+      "filled": 3,
+      "total": 5,
+      "empty": 2,
+      "stats": [
+        {
+          "name": "Critical Rate Lv.1",
+          "slug": "insight-i"
+        },
+        {
+          "name": "Attack +1",
+          "slug": "destruction-i"
+        }
+      ]
+    },
     "materials": [],
     "description": "A longsword once wielded by Antumbra's Sword, one of the three guides of Antumbra. Legend has it that he gave himself as an offering by impalement with his very blade, and in exchange, was reborn as a vessel to contain the darkness of Umbra. Wielding his bestowed power, he hungers to harbor even more darkness.",
     "source": {
@@ -9725,6 +12362,12 @@
     "stats": {
       "baseDamage": 11,
       "finalDamage": 33
+    },
+    "sockets": {
+      "filled": 0,
+      "total": 5,
+      "empty": 5,
+      "stats": []
     },
     "materials": [
       {
@@ -9754,6 +12397,25 @@
       "baseDamage": 12,
       "finalDamage": 34
     },
+    "sockets": {
+      "filled": 3,
+      "total": 5,
+      "empty": 2,
+      "stats": [
+        {
+          "name": "Attack +1",
+          "slug": "destruction-i"
+        },
+        {
+          "name": "Critical Rate Lv.1",
+          "slug": "insight-i"
+        },
+        {
+          "name": "Health Siphon Lv +1",
+          "slug": "life-transference"
+        }
+      ]
+    },
     "materials": [],
     "description": "A massive blaster once wielded by Ravok.  It was the weapon of choice for the leader of the Savage Fangs, a nomadic bandit clan from the Crimson Desert. It is crude to the point of recklessness, yet boasts immense power.",
     "source": {
@@ -9772,6 +12434,12 @@
     "stats": {
       "baseDamage": 11,
       "finalDamage": 31
+    },
+    "sockets": {
+      "filled": 0,
+      "total": 3,
+      "empty": 3,
+      "stats": []
     },
     "materials": [
       {
@@ -9801,6 +12469,12 @@
       "baseDamage": 10,
       "finalDamage": 30
     },
+    "sockets": {
+      "filled": 0,
+      "total": 3,
+      "empty": 3,
+      "stats": []
+    },
     "materials": [
       {
         "name": "Iron Ore",
@@ -9829,6 +12503,25 @@
       "baseDamage": 12,
       "finalDamage": 35
     },
+    "sockets": {
+      "filled": 3,
+      "total": 5,
+      "empty": 2,
+      "stats": [
+        {
+          "name": "+4% damage to humanoids",
+          "slug": "bloodbane-i"
+        },
+        {
+          "name": "+4% damage to Walkers",
+          "slug": "primalbane-i"
+        },
+        {
+          "name": "+4% damage to mighty foes",
+          "slug": "malicebane-i"
+        }
+      ]
+    },
     "materials": [],
     "description": "A halberd once wielded by Beloth, the Darksworn. Bloodstain remains from the pitch-black day. It is said that Beloth could not let go of this spear even as he lost his throne in the south, and froze to death in the northern snowfields.",
     "source": {
@@ -9847,6 +12540,12 @@
     "stats": {
       "baseDamage": 10,
       "finalDamage": 30
+    },
+    "sockets": {
+      "filled": 0,
+      "total": 5,
+      "empty": 5,
+      "stats": []
     },
     "materials": [
       {
@@ -9876,6 +12575,12 @@
       "baseDamage": 13,
       "finalDamage": 38
     },
+    "sockets": {
+      "filled": 0,
+      "total": 5,
+      "empty": 5,
+      "stats": []
+    },
     "materials": [
       {
         "name": "Iron Ore",
@@ -9903,6 +12608,12 @@
     "stats": {
       "baseDamage": 13,
       "finalDamage": 37
+    },
+    "sockets": {
+      "filled": 0,
+      "total": 3,
+      "empty": 3,
+      "stats": []
     },
     "materials": [
       {
@@ -9932,6 +12643,12 @@
       "baseDamage": 12,
       "finalDamage": 35
     },
+    "sockets": {
+      "filled": 0,
+      "total": 5,
+      "empty": 5,
+      "stats": []
+    },
     "materials": [
       {
         "name": "Iron Ore",
@@ -9959,6 +12676,12 @@
     "stats": {
       "baseDamage": 10,
       "finalDamage": 30
+    },
+    "sockets": {
+      "filled": 0,
+      "total": 3,
+      "empty": 3,
+      "stats": []
     },
     "materials": [
       {
@@ -9988,6 +12711,25 @@
       "baseDamage": 16,
       "finalDamage": 43
     },
+    "sockets": {
+      "filled": 3,
+      "total": 5,
+      "empty": 2,
+      "stats": [
+        {
+          "name": "+4% damage to mighty foes",
+          "slug": "malicebane-i"
+        },
+        {
+          "name": "Attack Speed Lv.1",
+          "slug": "swift-i"
+        },
+        {
+          "name": "Attack +1",
+          "slug": "destruction-i"
+        }
+      ]
+    },
     "materials": [],
     "description": "A massive greataxe once wielded by Bradie Gu. An iron wheel is mounted in place of a blade. The headgear hung as ornaments belonged to those Bradie Gu had killed. When charging forward with the wheel on the ground, it spins, reaping all life in its path.",
     "source": {
@@ -10007,6 +12749,12 @@
       "baseDamage": 9,
       "finalDamage": 27
     },
+    "sockets": {
+      "filled": 0,
+      "total": 3,
+      "empty": 3,
+      "stats": []
+    },
     "materials": [],
     "description": "A rapier once used by Demeniss's guard captain. Its rapier-style wire guard wraps around the hand, and it was called the White Wind, the captain's nickname.",
     "source": {
@@ -10025,6 +12773,12 @@
     "stats": {
       "baseDamage": 10,
       "finalDamage": 30
+    },
+    "sockets": {
+      "filled": 0,
+      "total": 5,
+      "empty": 5,
+      "stats": []
     },
     "materials": [
       {
@@ -10054,6 +12808,25 @@
       "baseDamage": 12,
       "finalDamage": 34
     },
+    "sockets": {
+      "filled": 3,
+      "total": 3,
+      "empty": 0,
+      "stats": [
+        {
+          "name": "Critical Rate Lv.1",
+          "slug": "insight-i"
+        },
+        {
+          "name": "+4% damage to mighty foes",
+          "slug": "malicebane-i"
+        },
+        {
+          "name": "Attack Speed Lv.1",
+          "slug": "swift-i"
+        }
+      ]
+    },
     "materials": [],
     "description": "Jian's sword. Known as a sword that symbolizes justice and determination. According to legends, this sword was made by Pailunese craftsmen using minerals that fell from the sky.",
     "source": {
@@ -10073,6 +12846,25 @@
       "baseDamage": 10,
       "finalDamage": 30
     },
+    "sockets": {
+      "filled": 3,
+      "total": 5,
+      "empty": 2,
+      "stats": [
+        {
+          "name": "+4% damage to mighty foes",
+          "slug": "malicebane-i"
+        },
+        {
+          "name": "Attack +1",
+          "slug": "destruction-i"
+        },
+        {
+          "name": "Attack Speed Lv.1",
+          "slug": "swift-i"
+        }
+      ]
+    },
     "materials": [],
     "description": "A blaster once wielded by Balthazar, the Wyvernflame. From the back of his dragon, he unleashed ruthless barrages of fire, ensuring Fort Windridge remained an impregnable stronghold.",
     "source": {
@@ -10091,6 +12883,12 @@
     "stats": {
       "baseDamage": 15,
       "finalDamage": 41
+    },
+    "sockets": {
+      "filled": 0,
+      "total": 5,
+      "empty": 5,
+      "stats": []
     },
     "materials": [
       {

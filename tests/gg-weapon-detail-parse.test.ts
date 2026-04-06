@@ -29,6 +29,12 @@ describe("parseCrimsonDesertGgWeaponDetail", () => {
         baseDamage: 12,
         finalDamage: 34
       },
+      sockets: {
+        filled: 0,
+        total: 3,
+        empty: 3,
+        stats: []
+      },
       materials: [
         { name: "Iron Ore", quantity: 19 },
         { name: "Copper Ore", quantity: 8 }
@@ -59,6 +65,7 @@ describe("parseCrimsonDesertGgWeaponDetail", () => {
       baseDamage: 28,
       finalDamage: 28
     });
+    expect(parsed.sockets).toBe("N/A");
   });
 
   it("extracts attack from the newer flat stats layout", async () => {
@@ -76,6 +83,39 @@ describe("parseCrimsonDesertGgWeaponDetail", () => {
     expect(parsed.stats).toEqual({
       baseDamage: 25,
       finalDamage: 25
+    });
+  });
+
+  it("extracts full socket details when the source page includes sockets", async () => {
+    const html = await readFile(
+      "sources/crimsondesert-gg/weapons/items/one-hand-cannon/wyvern-blaster.html",
+      "utf8"
+    );
+
+    const parsed = parseCrimsonDesertGgWeaponDetail(html, {
+      url: "https://crimsondesert.gg/database/weapons/one-hand-cannon/wyvern-blaster",
+      typeSlug: "one-hand-cannon",
+      itemSlug: "wyvern-blaster"
+    });
+
+    expect(parsed.sockets).toEqual({
+      filled: 3,
+      total: 5,
+      empty: 2,
+      stats: [
+        {
+          name: "+4% damage to mighty foes",
+          slug: "malicebane-i"
+        },
+        {
+          name: "Attack +1",
+          slug: "destruction-i"
+        },
+        {
+          name: "Attack Speed Lv.1",
+          slug: "swift-i"
+        }
+      ]
     });
   });
 });

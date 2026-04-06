@@ -45,6 +45,21 @@ export const cleanWeaponMaterialSchema = z.object({
   quantity: z.number().int().nonnegative()
 });
 
+export const cleanWeaponSocketStatSchema = z.object({
+  name: z.string().min(1),
+  slug: z.string().min(1)
+});
+
+export const cleanWeaponSocketsSchema = z.union([
+  z.literal("N/A"),
+  z.object({
+    filled: z.number().int().nonnegative(),
+    total: z.number().int().nonnegative(),
+    empty: z.number().int().nonnegative(),
+    stats: z.array(cleanWeaponSocketStatSchema)
+  })
+]);
+
 export const cleanWeaponSchema = z.object({
   id: z.string().min(1),
   name: z.string().min(1),
@@ -57,6 +72,7 @@ export const cleanWeaponSchema = z.object({
     baseDamage: z.number().nonnegative().nullable(),
     finalDamage: z.number().nonnegative().nullable()
   }),
+  sockets: cleanWeaponSocketsSchema,
   materials: z.array(cleanWeaponMaterialSchema),
   description: z.string(),
   source: z.object({

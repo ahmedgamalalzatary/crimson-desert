@@ -5,6 +5,20 @@ export interface WeaponMaterial {
   quantity: number;
 }
 
+export interface WeaponSocketStat {
+  name: string;
+  slug: string;
+}
+
+export type WeaponSockets =
+  | "N/A"
+  | {
+      filled: number;
+      total: number;
+      empty: number;
+      stats: WeaponSocketStat[];
+    };
+
 export interface WeaponRecord {
   id: string;
   name: string;
@@ -17,6 +31,7 @@ export interface WeaponRecord {
     baseDamage: number | null;
     finalDamage: number | null;
   };
+  sockets: WeaponSockets;
   materials: WeaponMaterial[];
   description: string;
   source: {

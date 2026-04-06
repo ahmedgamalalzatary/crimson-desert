@@ -21,6 +21,18 @@ interface ParsedWeaponMaterial {
   quantity: number;
 }
 
+interface ParsedWeaponSocketStat {
+  name: string;
+  slug: string;
+}
+
+interface ParsedWeaponSockets {
+  filled: number;
+  total: number;
+  empty: number;
+  stats: ParsedWeaponSocketStat[];
+}
+
 interface ParsedWeaponRecord {
   id: string;
   name: string;
@@ -33,6 +45,7 @@ interface ParsedWeaponRecord {
     baseDamage: number | null;
     finalDamage: number | null;
   };
+  sockets: ParsedWeaponSockets | "N/A";
   materials: ParsedWeaponMaterial[];
   description: string;
   source: {
@@ -127,6 +140,50 @@ function extractCraftMaterials($: ReturnType<typeof load>) {
     .filter((entry): entry is ParsedWeaponMaterial => entry !== null);
 }
 
+function extractSockets($: ReturnType<typeof load>): ParsedWeaponSockets | "N/A" {
+  const socketLabel = $(".db-socket-label").first().text().trim();
+
+  if (!socketLabel) {
+    return "N/A";
+  }
+
+  const labelMatch = socketLabel.match(/(\d+)\s*\/\s*(\d+)\s*sockets/i);
+  const filled =
+    parseNumber(labelMatch?.[1] ?? "") ??
+    $(".db-socket-slot.filled").length;
+  const total =
+    parseNumber(labelMatch?.[2] ?? "") ??
+    $(".db-socket-slot").length;
+  const empty =
+    parseNumber(socketLabel.match(/\((\d+)\s*empty\)/i)?.[1] ?? "") ??
+    Math.max(total - filled, 0);
+
+  const stats = $(".db-socket-row")
+    .map((_, row) => {
+      const name = $(row).find(".db-stat-label").first().text().trim();
+      const href = $(row).attr("href")?.trim() ?? "";
+      const slug = href.split("/").filter(Boolean).at(-1) ?? "";
+
+      if (!name || !slug) {
+        return null;
+      }
+
+      return {
+        name,
+        slug
+      };
+    })
+    .get()
+    .filter((entry): entry is ParsedWeaponSocketStat => entry !== null);
+
+  return {
+    filled,
+    total,
+    empty,
+    stats
+  };
+}
+
 export function parseCrimsonDesertGgWeaponDetail(html: string, context: ParsedWeaponContext) {
   const $ = load(html);
   const name = $(".db-item-name").first().text().trim();
@@ -134,6 +191,7 @@ export function parseCrimsonDesertGgWeaponDetail(html: string, context: ParsedWe
   const rarity = normalizeRarity($(".db-item-tier").first().text().trim());
   const description = $(".db-item-desc").first().text().trim();
   const stats = extractDamageByLevel($);
+  const sockets = extractSockets($);
   const materials = extractCraftMaterials($);
 
   return {
@@ -145,6 +203,7 @@ export function parseCrimsonDesertGgWeaponDetail(html: string, context: ParsedWe
     typeLabel,
     rarity,
     stats,
+    sockets,
     materials,
     description,
     source: {
