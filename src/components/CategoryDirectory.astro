@@ -2,6 +2,8 @@
 import "../styles/weapon-directory.css";
 import { getOrderedRarityOptions } from "../lib/rarity";
 
+interface StatShape { label: string; value: string; max?: string; }
+
 interface ItemShape {
   id: string;
   name: string;
@@ -10,7 +12,9 @@ interface ItemShape {
   type?: string;
   typeLabel?: string;
   rarity?: string;
-  stats?: Record<string, string | number | null> | Array<{ label: string; value: string; max?: string }> | null;
+  stats?: StatShape[] | Record<string, string | number | null> | null;
+  craftingMaterials?: unknown[];
+  refinement?: unknown[];
   route?: string;
   description?: string;
 }
@@ -25,13 +29,25 @@ interface Props {
 
 const { title, eyebrow, description, items, emptyLabel } = Astro.props;
 
-// Derive filter options from data
-const rarities = getOrderedRarityOptions(
-  items.map((i) => i.rarity ?? "unclassified")
-);
-const types = [...new Set(items.map((i) => i.type).filter(Boolean) as string[])].sort();
-const hasRarityFilter = rarities.length > 1;
-const hasTypeFilter = types.length > 1;
+// ── Derive filter options from data ──
+const rarities = getOrderedRarityOptions(items.map((i) => i.rarity ?? "unclassified"));
+const typeLabels = [...new Set(items.map((i) => i.typeLabel).filter(Boolean) as string[])].sort();
+
+// Stat labels (for armors & shields)
+const statLabels = [...new Set(
+  items.flatMap((i) => Array.isArray(i.stats) ? (i.stats as StatShape[]).map((s) => s.label) : [])
+)].sort();
+
+// Boolean flags
+const hasCraftingCount  = items.filter((i) => Array.isArray(i.craftingMaterials) && i.craftingMaterials.length > 0).length;
+const hasRefinementCount = items.filter((i) => Array.isArray(i.refinement) && i.refinement.length > 1).length;
+
+const hasRarityFilter    = rarities.length > 1;
+const hasTypeLabelFilter = typeLabels.length > 1;
+const hasStatFilter      = statLabels.length > 1;
+const hasCraftingFilter  = hasCraftingCount > 0 && hasCraftingCount < items.length;
+const hasRefinementFilter = hasRefinementCount > 0 && hasRefinementCount < items.length;
+const hasAnyFilter = hasRarityFilter || hasTypeLabelFilter || hasStatFilter || hasCraftingFilter || hasRefinementFilter;
 ---
 
 <section class="wd" data-category-directory>
@@ -54,121 +70,235 @@ const hasTypeFilter = types.length > 1;
 
     <!-- Search -->
     <div class="wd-toolbar__cell wd-toolbar__cell--search">
-      <svg class="wd-toolbar__search-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-        <circle cx="10" cy="10" r="6" />
-        <line x1="14" y1="14" x2="20" y2="20" stroke-linecap="round" />
+      <svg class="wd-toolbar__search-icon" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor">
+        <path stroke-linecap="round" stroke-linejoin="round" d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z"/>
       </svg>
       <input
-        type="text"
+        type="search"
         class="wd-toolbar__search"
         placeholder={`Search ${title.toLowerCase()}…`}
         data-search
         autocomplete="off"
       />
-      <button class="wd-toolbar__search-clear" data-search-clear aria-label="Clear search">
-        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-          <line x1="18" y1="6" x2="6" y2="18" />
-          <line x1="6" y1="6" x2="18" y2="18" />
+      <button type="button" class="wd-toolbar__search-clear" data-search-clear aria-label="Clear search">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2.5" stroke="currentColor">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M6 18 18 6M6 6l12 12"/>
         </svg>
       </button>
     </div>
 
-    <!-- Rarity filter -->
-    {hasRarityFilter && (
+    <!-- Filters dropdown (grouped, like weapons) -->
+    {hasAnyFilter && (
       <div class="wd-toolbar__cell">
         <div class="wd-dropdown">
-          <button class="wd-dropdown__btn" data-dropdown-btn="rarity">
-            <span>Rarity</span>
-            <span class="wd-dropdown__badge" data-dropdown-count="rarity">0</span>
-            <svg class="wd-dropdown__chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-              <polyline points="6 9 12 15 18 9" />
+          <button type="button" class="wd-dropdown__btn" data-dropdown-btn="filters">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M12 3c2.755 0 5.455.232 8.083.678.533.09.917.556.917 1.096v1.044a2.25 2.25 0 0 1-.659 1.591l-5.432 5.432a2.25 2.25 0 0 0-.659 1.591v2.927a2.25 2.25 0 0 1-1.244 2.013L9.75 21v-6.568a2.25 2.25 0 0 0-.659-1.591L3.659 7.409A2.25 2.25 0 0 1 3 5.818V4.774c0-.54.384-1.006.917-1.096A48.32 48.32 0 0 1 12 3Z"/>
+            </svg>
+            Filters
+            <span class="wd-dropdown__badge" data-dropdown-count="filters"></span>
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" style="margin-left:auto;">
+              <path stroke-linecap="round" stroke-linejoin="round" d="m19.5 8.25-7.5 7.5-7.5-7.5"/>
             </svg>
           </button>
-          <div class="wd-dropdown__panel" data-dropdown-panel="rarity">
-            <div class="wd-filter-group">
-              {rarities.map((rarity) => (
-                <label class="wd-dropdown__option">
-                  <input type="checkbox" value={rarity} data-rarity />
-                  <span class="wd-rarity">{rarity}</span>
-                  <span class="wd-dropdown__option-count" data-filter-count="rarity" data-filter-value={rarity}>0</span>
-                </label>
-              ))}
-            </div>
+          <div class="wd-dropdown__panel" data-dropdown-panel="filters" style="min-width:16rem;">
+
+            <!-- Rarity sub-group -->
+            {hasRarityFilter && (
+              <div class="wd-filter-group wd-filter-group--open" data-filter-group="rarity">
+                <button type="button" class="wd-filter-group__toggle" data-filter-group-toggle="rarity">
+                  <span class="wd-filter-group__toggle-left">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor">
+                      <path stroke-linecap="round" stroke-linejoin="round" d="M9.813 15.904 9 18.75l-.813-2.846a4.5 4.5 0 0 0-3.09-3.09L2.25 12l2.846-.813a4.5 4.5 0 0 0 3.09-3.09L9 5.25l.813 2.846a4.5 4.5 0 0 0 3.09 3.09L15.75 12l-2.846.813a4.5 4.5 0 0 0-3.09 3.09ZM18.259 8.715 18 9.75l-.259-1.035a3.375 3.375 0 0 0-2.455-2.456L14.25 6l1.036-.259a3.375 3.375 0 0 0 2.455-2.456L18 2.25l.259 1.035a3.375 3.375 0 0 0 2.456 2.456L21.75 6l-1.035.259a3.375 3.375 0 0 0-2.456 2.456Z"/>
+                    </svg>
+                    Rarity
+                  </span>
+                  <span class="wd-filter-group__toggle-right">
+                    <span class="wd-dropdown__badge" data-dropdown-count="rarity"></span>
+                    <svg class="wd-filter-group__chevron" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2.5" stroke="currentColor">
+                      <path stroke-linecap="round" stroke-linejoin="round" d="m19.5 8.25-7.5 7.5-7.5-7.5"/>
+                    </svg>
+                  </span>
+                </button>
+                <div class="wd-filter-group__items">
+                  {rarities.map((rarity) => (
+                    <label class="wd-dropdown__option">
+                      <span class="wd-dropdown__option-left">
+                        <input type="checkbox" value={rarity} data-rarity />
+                        <span class={`wd-rarity wd-rarity--${rarity}`}>{rarity}</span>
+                      </span>
+                      <span class="wd-dropdown__option-count" data-filter-count="rarity" data-filter-value={rarity}>0</span>
+                    </label>
+                  ))}
+                </div>
+              </div>
+            )}
+
+            <!-- Type Label sub-group -->
+            {hasTypeLabelFilter && (
+              <div class="wd-filter-group wd-filter-group--open" data-filter-group="typeLabel">
+                <button type="button" class="wd-filter-group__toggle" data-filter-group-toggle="typeLabel">
+                  <span class="wd-filter-group__toggle-left">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor">
+                      <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6A2.25 2.25 0 0 1 6 3.75h2.25A2.25 2.25 0 0 1 10.5 6v2.25a2.25 2.25 0 0 1-2.25 2.25H6a2.25 2.25 0 0 1-2.25-2.25V6ZM3.75 15.75A2.25 2.25 0 0 1 6 13.5h2.25a2.25 2.25 0 0 1 2.25 2.25V18a2.25 2.25 0 0 1-2.25 2.25H6A2.25 2.25 0 0 1 3.75 18v-2.25ZM13.5 6a2.25 2.25 0 0 1 2.25-2.25H18A2.25 2.25 0 0 1 20.25 6v2.25A2.25 2.25 0 0 1 18 10.5h-2.25a2.25 2.25 0 0 1-2.25-2.25V6ZM13.5 15.75a2.25 2.25 0 0 1 2.25-2.25H18a2.25 2.25 0 0 1 2.25 2.25V18A2.25 2.25 0 0 1 18 20.25h-2.25A2.25 2.25 0 0 1 13.5 18v-2.25Z"/>
+                    </svg>
+                    Category
+                  </span>
+                  <span class="wd-filter-group__toggle-right">
+                    <span class="wd-dropdown__badge" data-dropdown-count="typeLabel"></span>
+                    <svg class="wd-filter-group__chevron" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2.5" stroke="currentColor">
+                      <path stroke-linecap="round" stroke-linejoin="round" d="m19.5 8.25-7.5 7.5-7.5-7.5"/>
+                    </svg>
+                  </span>
+                </button>
+                <div class="wd-filter-group__items">
+                  {typeLabels.map((tl) => (
+                    <label class="wd-dropdown__option">
+                      <span class="wd-dropdown__option-left">
+                        <input type="checkbox" value={tl} data-type-label-filter />
+                        <span>{tl}</span>
+                      </span>
+                      <span class="wd-dropdown__option-count" data-filter-count="typeLabel" data-filter-value={tl}>0</span>
+                    </label>
+                  ))}
+                </div>
+              </div>
+            )}
+
+            <!-- Stat type sub-group (armors / shields) -->
+            {hasStatFilter && (
+              <div class="wd-filter-group" data-filter-group="statType">
+                <button type="button" class="wd-filter-group__toggle" data-filter-group-toggle="statType">
+                  <span class="wd-filter-group__toggle-left">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor">
+                      <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 3v11.25A2.25 2.25 0 0 0 6 16.5h2.25M3.75 3h-1.5m1.5 0h16.5m0 0h1.5m-1.5 0v11.25A2.25 2.25 0 0 1 18 16.5h-2.25m-7.5 0h7.5m-7.5 0-1 3m8.5-3 1 3m0 0 .5 1.5m-.5-1.5h-9.5m0 0-.5 1.5"/>
+                    </svg>
+                    Has Stat
+                  </span>
+                  <span class="wd-filter-group__toggle-right">
+                    <span class="wd-dropdown__badge" data-dropdown-count="statType"></span>
+                    <svg class="wd-filter-group__chevron" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2.5" stroke="currentColor">
+                      <path stroke-linecap="round" stroke-linejoin="round" d="m19.5 8.25-7.5 7.5-7.5-7.5"/>
+                    </svg>
+                  </span>
+                </button>
+                <div class="wd-filter-group__items">
+                  {statLabels.map((sl) => (
+                    <label class="wd-dropdown__option">
+                      <span class="wd-dropdown__option-left">
+                        <input type="checkbox" value={sl} data-stat-filter />
+                        <span>{sl}</span>
+                      </span>
+                      <span class="wd-dropdown__option-count" data-filter-count="statType" data-filter-value={sl}>0</span>
+                    </label>
+                  ))}
+                </div>
+              </div>
+            )}
+
+            <!-- Special sub-group (crafting / refinement) -->
+            {(hasCraftingFilter || hasRefinementFilter) && (
+              <div class="wd-filter-group" data-filter-group="special">
+                <button type="button" class="wd-filter-group__toggle" data-filter-group-toggle="special">
+                  <span class="wd-filter-group__toggle-left">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor">
+                      <path stroke-linecap="round" stroke-linejoin="round" d="M9.594 3.94c.09-.542.56-.94 1.11-.94h2.593c.55 0 1.02.398 1.11.94l.213 1.281c.063.374.313.686.645.87.074.04.147.083.22.127.325.196.72.257 1.075.124l1.217-.456a1.125 1.125 0 0 1 1.37.49l1.296 2.247a1.125 1.125 0 0 1-.26 1.431l-1.003.827c-.293.241-.438.613-.43.992a7.723 7.723 0 0 1 0 .255c-.008.378.137.75.43.991l1.004.827c.424.35.534.955.26 1.43l-1.298 2.247a1.125 1.125 0 0 1-1.369.491l-1.217-.456c-.355-.133-.75-.072-1.076.124a6.47 6.47 0 0 1-.22.128c-.331.183-.581.495-.644.869l-.213 1.281c-.09.543-.56.94-1.11.94h-2.594c-.55 0-1.019-.398-1.11-.94l-.213-1.281c-.062-.374-.312-.686-.644-.87a6.52 6.52 0 0 1-.22-.127c-.325-.196-.72-.257-1.076-.124l-1.217.456a1.125 1.125 0 0 1-1.369-.49l-1.297-2.247a1.125 1.125 0 0 1 .26-1.431l1.004-.827c.292-.24.437-.613.43-.991a6.932 6.932 0 0 1 0-.255c.007-.38-.138-.751-.43-.992l-1.004-.827a1.125 1.125 0 0 1-.26-1.43l1.297-2.247a1.125 1.125 0 0 1 1.37-.491l1.216.456c.356.133.751.072 1.076-.124.072-.044.146-.086.22-.128.332-.183.582-.495.644-.869l.214-1.28Z"/>
+                      <path stroke-linecap="round" stroke-linejoin="round" d="M15 12a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z"/>
+                    </svg>
+                    Special
+                  </span>
+                  <span class="wd-filter-group__toggle-right">
+                    <span class="wd-dropdown__badge" data-dropdown-count="special"></span>
+                    <svg class="wd-filter-group__chevron" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2.5" stroke="currentColor">
+                      <path stroke-linecap="round" stroke-linejoin="round" d="m19.5 8.25-7.5 7.5-7.5-7.5"/>
+                    </svg>
+                  </span>
+                </button>
+                <div class="wd-filter-group__items">
+                  {hasCraftingFilter && (
+                    <label class="wd-dropdown__option">
+                      <span class="wd-dropdown__option-left">
+                        <input type="checkbox" data-has-crafting />
+                        <span>Has Crafting Recipe</span>
+                      </span>
+                    </label>
+                  )}
+                  {hasRefinementFilter && (
+                    <label class="wd-dropdown__option">
+                      <span class="wd-dropdown__option-left">
+                        <input type="checkbox" data-has-refinement />
+                        <span>Has Refinement</span>
+                      </span>
+                    </label>
+                  )}
+                </div>
+              </div>
+            )}
+
           </div>
         </div>
       </div>
     )}
 
-    <!-- Type filter -->
-    {hasTypeFilter && (
-      <div class="wd-toolbar__cell">
-        <div class="wd-dropdown">
-          <button class="wd-dropdown__btn" data-dropdown-btn="type">
-            <span>Type</span>
-            <span class="wd-dropdown__badge" data-dropdown-count="type">0</span>
-            <svg class="wd-dropdown__chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-              <polyline points="6 9 12 15 18 9" />
-            </svg>
-          </button>
-          <div class="wd-dropdown__panel" data-dropdown-panel="type">
-            <div class="wd-filter-group">
-              {types.map((type) => (
-                <label class="wd-dropdown__option">
-                  <input type="checkbox" value={type} data-type-filter />
-                  <span>{type}</span>
-                  <span class="wd-dropdown__option-count" data-filter-count="type" data-filter-value={type}>0</span>
-                </label>
-              ))}
-            </div>
-          </div>
-        </div>
-      </div>
-    )}
-
-    <!-- Sort -->
+    <!-- Sort dropdown -->
     <div class="wd-toolbar__cell">
       <div class="wd-dropdown">
-        <button class="wd-dropdown__btn" data-dropdown-btn="sort">
-          <span>Sort</span>
-          <svg class="wd-dropdown__chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-            <polyline points="6 9 12 15 18 9" />
+        <button type="button" class="wd-dropdown__btn" data-dropdown-btn="sort">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M3 7.5 7.5 3m0 0L12 7.5M7.5 3v13.5m13.5 0L16.5 21m0 0L12 16.5m4.5 4.5V7.5"/>
+          </svg>
+          <span data-sort-label>Name A–Z</span>
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" style="margin-left:auto;">
+            <path stroke-linecap="round" stroke-linejoin="round" d="m19.5 8.25-7.5 7.5-7.5-7.5"/>
           </svg>
         </button>
         <div class="wd-dropdown__panel" data-dropdown-panel="sort">
-          <div class="wd-filter-group">
-            <label class="wd-dropdown__option">
+          <label class="wd-dropdown__option">
+            <span class="wd-dropdown__option-left">
               <input type="radio" name={`sort-${title}`} value="name-asc" data-sort-option checked />
-              <span>Name (A–Z)</span>
-            </label>
-            <label class="wd-dropdown__option">
+              <span>Name A–Z</span>
+            </span>
+          </label>
+          <label class="wd-dropdown__option">
+            <span class="wd-dropdown__option-left">
               <input type="radio" name={`sort-${title}`} value="name-desc" data-sort-option />
-              <span>Name (Z–A)</span>
-            </label>
-            {hasRarityFilter && (
-              <>
-                <label class="wd-dropdown__option">
+              <span>Name Z–A</span>
+            </span>
+          </label>
+          {hasRarityFilter && (
+            <>
+              <div class="wd-dropdown__sep"></div>
+              <label class="wd-dropdown__option">
+                <span class="wd-dropdown__option-left">
                   <input type="radio" name={`sort-${title}`} value="rarity-asc" data-sort-option />
-                  <span>Rarity (Common → Legendary)</span>
-                </label>
-                <label class="wd-dropdown__option">
+                  <span>Rarity Low→High</span>
+                </span>
+              </label>
+              <label class="wd-dropdown__option">
+                <span class="wd-dropdown__option-left">
                   <input type="radio" name={`sort-${title}`} value="rarity-desc" data-sort-option />
-                  <span>Rarity (Legendary → Common)</span>
-                </label>
-              </>
-            )}
-            {hasTypeFilter && (
-              <>
-                <label class="wd-dropdown__option">
-                  <input type="radio" name={`sort-${title}`} value="type-asc" data-sort-option />
-                  <span>Type (A–Z)</span>
-                </label>
-                <label class="wd-dropdown__option">
-                  <input type="radio" name={`sort-${title}`} value="type-desc" data-sort-option />
-                  <span>Type (Z–A)</span>
-                </label>
-              </>
-            )}
-          </div>
+                  <span>Rarity High→Low</span>
+                </span>
+              </label>
+            </>
+          )}
+          {hasTypeLabelFilter && (
+            <>
+              <div class="wd-dropdown__sep"></div>
+              <label class="wd-dropdown__option">
+                <span class="wd-dropdown__option-left">
+                  <input type="radio" name={`sort-${title}`} value="typeLabel-asc" data-sort-option />
+                  <span>Category A–Z</span>
+                </span>
+              </label>
+              <label class="wd-dropdown__option">
+                <span class="wd-dropdown__option-left">
+                  <input type="radio" name={`sort-${title}`} value="typeLabel-desc" data-sort-option />
+                  <span>Category Z–A</span>
+                </span>
+              </label>
+            </>
+          )}
         </div>
       </div>
     </div>
@@ -191,7 +321,10 @@ const hasTypeFilter = types.length > 1;
             data-card
             data-name={item.name.toLowerCase()}
             data-rarity={rarity}
-            data-type={item.type ?? ""}
+            data-type-label={item.typeLabel ?? ""}
+            data-has-crafting={Array.isArray(item.craftingMaterials) && item.craftingMaterials.length > 0 ? "true" : "false"}
+            data-has-refinement={Array.isArray(item.refinement) && item.refinement.length > 1 ? "true" : "false"}
+            data-stat-labels={Array.isArray(item.stats) ? (item.stats as StatShape[]).map((s) => s.label).join("|") : ""}
           >
             <div class="wd-card__top">
               <div>
