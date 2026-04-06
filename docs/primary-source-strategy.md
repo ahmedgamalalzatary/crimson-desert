@@ -31,3 +31,28 @@ Only after the primary-source pipeline is stable do we expand comparison work ag
 - secondary sources stay in the project model
 - active implementation prioritizes `crimsondesert.gg`
 - merge and conflict handling remain part of the architecture, but they are not the current bottleneck
+
+
+# Overrides
+
+Manual conflict resolution files live here.
+
+Guidelines:
+
+- do not edit generated data
+- edit only override files
+- keep keys stable
+- choose one public value per conflicting field
+
+Planned files:
+
+- `weapons.json`
+- `armors.json`
+- `shields.json`
+- `accessories.json`
+- `abyss-gear.json`
+- `bosses.json`
+- `mounts.json`
+- `quests-main.json`
+- `quests-faction.json`
+

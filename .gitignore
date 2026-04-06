@@ -7,3 +7,4 @@ sources/**/*.html
 sources/**/*.json
 data/generated/
 pnpm-lock.yaml
+.history
