@@ -3456,8 +3456,8 @@
     "typeLabel": "Two-Handed Spear",
     "rarity": "common",
     "stats": {
-      "baseDamage": null,
-      "finalDamage": null
+      "baseDamage": 27,
+      "finalDamage": 27
     },
     "materials": [
       {
@@ -4713,8 +4713,8 @@
     "typeLabel": "Boltspitter",
     "rarity": "rare",
     "stats": {
-      "baseDamage": null,
-      "finalDamage": null
+      "baseDamage": 25,
+      "finalDamage": 25
     },
     "materials": [
       {
@@ -4829,8 +4829,8 @@
     "typeLabel": "Flamespitter",
     "rarity": "rare",
     "stats": {
-      "baseDamage": null,
-      "finalDamage": null
+      "baseDamage": 25,
+      "finalDamage": 25
     },
     "materials": [
       {
@@ -4869,8 +4869,8 @@
     "typeLabel": "Frostspitter",
     "rarity": "rare",
     "stats": {
-      "baseDamage": null,
-      "finalDamage": null
+      "baseDamage": 25,
+      "finalDamage": 25
     },
     "materials": [
       {
@@ -5025,8 +5025,8 @@
     "typeLabel": "Two-Handed Spear",
     "rarity": "epic",
     "stats": {
-      "baseDamage": null,
-      "finalDamage": null
+      "baseDamage": 1,
+      "finalDamage": 1
     },
     "materials": [
       {
@@ -5558,8 +5558,8 @@
     "typeLabel": "Two-Handed Spear",
     "rarity": "common",
     "stats": {
-      "baseDamage": null,
-      "finalDamage": null
+      "baseDamage": 27,
+      "finalDamage": 27
     },
     "materials": [
       {
@@ -6972,8 +6972,8 @@
     "typeLabel": "Two-Handed Spear",
     "rarity": "common",
     "stats": {
-      "baseDamage": null,
-      "finalDamage": null
+      "baseDamage": 27,
+      "finalDamage": 27
     },
     "materials": [
       {

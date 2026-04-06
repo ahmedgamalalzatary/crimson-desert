@@ -51,7 +51,7 @@ function normalizeRarity(value: string) {
 }
 
 function extractDamageByLevel($: ReturnType<typeof load>) {
-  const rows = $("tr")
+  const enchantRows = $("tr")
     .map((_, row) => {
       const level = $(row).find("td.db-enchant-level").first().text().trim();
 
@@ -80,10 +80,30 @@ function extractDamageByLevel($: ReturnType<typeof load>) {
     .get()
     .filter((row): row is { level: string; attackValue: number } => row !== null);
 
-  const baseDamage = rows.find((row) => row.level === "+0")?.attackValue ?? null;
-  const finalDamage = rows.at(-1)?.attackValue ?? baseDamage;
+  if (enchantRows.length > 0) {
+    const baseDamage = enchantRows.find((row) => row.level === "+0")?.attackValue ?? null;
+    const finalDamage = enchantRows.at(-1)?.attackValue ?? baseDamage;
 
-  return { baseDamage, finalDamage };
+    return { baseDamage, finalDamage };
+  }
+
+  const flatAttackValue = $(".db-stat-row")
+    .map((_, row) => {
+      const label = $(row).find(".db-stat-label").first().text().trim();
+
+      if (label !== "Attack") {
+        return null;
+      }
+
+      return parseNumber($(row).find(".db-stat-value").first().text().trim());
+    })
+    .get()
+    .find((value): value is number => value !== null);
+
+  return {
+    baseDamage: flatAttackValue ?? null,
+    finalDamage: flatAttackValue ?? null
+  };
 }
 
 function extractCraftMaterials($: ReturnType<typeof load>) {

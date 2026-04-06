@@ -1,0 +1,101 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import { getStaticWeaponPaths, getWeaponBySlug, loadWeapons } from "../../lib/weapons";
+
+export async function getStaticPaths() {
+  return getStaticWeaponPaths(await loadWeapons());
+}
+
+const weapons = await loadWeapons();
+const weapon = getWeaponBySlug(weapons, Astro.params.name ?? "");
+
+if (!weapon) {
+  return Astro.redirect("/weapons");
+}
+---
+
+<BaseLayout title={`${weapon.name} | Crimson Desert`} description={weapon.description}>
+  <section class="grid gap-6">
+    <div class="rounded-2xl border border-border bg-card p-6 shadow-sm">
+      <a href="/weapons" class="inline-flex items-center gap-2 font-sans text-sm font-medium text-primary transition-colors hover:text-primary/80">
+        <svg class="size-4" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor">
+          <path stroke-linecap="round" stroke-linejoin="round" d="m15 19-7-7 7-7" />
+        </svg>
+        Back to weapons
+      </a>
+
+      <div class="mt-4 flex flex-wrap items-start justify-between gap-4">
+        <div>
+          <p class="mb-1 font-sans text-xs font-medium uppercase tracking-widest text-primary">
+            {weapon.typeLabel}
+          </p>
+          <h1 class="font-serif text-4xl font-bold leading-tight tracking-tight text-card-foreground sm:text-5xl">
+            {weapon.name}
+          </h1>
+          <p class="mt-3 max-w-3xl text-muted-foreground">
+            {weapon.description || "No description available."}
+          </p>
+        </div>
+
+        <span class="inline-flex items-center rounded-full border border-border bg-primary/10 px-3 py-1.5 font-sans text-sm font-medium capitalize text-primary">
+          {weapon.rarity}
+        </span>
+      </div>
+    </div>
+
+    <div class="grid gap-6 lg:grid-cols-[1.2fr_0.8fr]">
+      <div class="rounded-2xl border border-border bg-card p-6 shadow-sm">
+        <h2 class="font-serif text-2xl font-semibold text-card-foreground">Weapon Data</h2>
+        <dl class="mt-5 grid gap-4 sm:grid-cols-2">
+          <div class="rounded-xl border border-border bg-background/40 p-4">
+            <dt class="font-sans text-xs uppercase tracking-widest text-muted-foreground">Base Damage</dt>
+            <dd class="mt-2 text-2xl font-semibold text-card-foreground">{weapon.stats.baseDamage ?? "N/A"}</dd>
+          </div>
+          <div class="rounded-xl border border-border bg-background/40 p-4">
+            <dt class="font-sans text-xs uppercase tracking-widest text-muted-foreground">Final Damage</dt>
+            <dd class="mt-2 text-2xl font-semibold text-card-foreground">{weapon.stats.finalDamage ?? "N/A"}</dd>
+          </div>
+          <div class="rounded-xl border border-border bg-background/40 p-4">
+            <dt class="font-sans text-xs uppercase tracking-widest text-muted-foreground">Type</dt>
+            <dd class="mt-2 text-base text-card-foreground">{weapon.type}</dd>
+          </div>
+          <div class="rounded-xl border border-border bg-background/40 p-4">
+            <dt class="font-sans text-xs uppercase tracking-widest text-muted-foreground">Slug</dt>
+            <dd class="mt-2 text-base text-card-foreground">{weapon.slug}</dd>
+          </div>
+        </dl>
+      </div>
+
+      <div class="rounded-2xl border border-border bg-card p-6 shadow-sm">
+        <h2 class="font-serif text-2xl font-semibold text-card-foreground">Materials</h2>
+        {weapon.materials.length > 0 ? (
+          <ul class="mt-5 space-y-2">
+            {weapon.materials.map((material) => (
+              <li class="flex items-center justify-between rounded-xl border border-border bg-background/40 px-4 py-3">
+                <span class="text-sm text-card-foreground">{material.name}</span>
+                <span class="font-sans text-sm font-semibold text-primary">x{material.quantity}</span>
+              </li>
+            ))}
+          </ul>
+        ) : (
+          <p class="mt-5 text-sm text-muted-foreground">No crafting materials listed for this weapon.</p>
+        )}
+
+        <div class="mt-6 rounded-xl border border-border bg-background/40 p-4">
+          <p class="font-sans text-xs uppercase tracking-widest text-muted-foreground">Source</p>
+          <a
+            href={weapon.source.url}
+            target="_blank"
+            rel="noreferrer"
+            class="mt-2 inline-flex items-center gap-1 text-sm font-medium text-primary transition-colors hover:text-primary/80"
+          >
+            View original source page
+            <svg class="size-3.5" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 6H5.25A2.25 2.25 0 0 0 3 8.25v10.5A2.25 2.25 0 0 0 5.25 21h10.5A2.25 2.25 0 0 0 18 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25" />
+            </svg>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+</BaseLayout>

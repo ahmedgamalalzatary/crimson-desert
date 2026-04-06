@@ -60,6 +60,24 @@ describe("parseCrimsonDesertGgWeaponDetail", () => {
       finalDamage: 28
     });
   });
+
+  it("extracts attack from the newer flat stats layout", async () => {
+    const html = await readFile(
+      "sources/crimsondesert-gg/weapons/items/two-hand-lightningthrower/kuku-boltspitter.html",
+      "utf8"
+    );
+
+    const parsed = parseCrimsonDesertGgWeaponDetail(html, {
+      url: "https://crimsondesert.gg/database/weapons/two-hand-lightningthrower/kuku-boltspitter",
+      typeSlug: "two-hand-lightningthrower",
+      itemSlug: "kuku-boltspitter"
+    });
+
+    expect(parsed.stats).toEqual({
+      baseDamage: 25,
+      finalDamage: 25
+    });
+  });
 });
 
 describe("normalizeCrimsonDesertGgWeapon", () => {

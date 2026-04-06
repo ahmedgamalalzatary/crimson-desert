@@ -1,9 +1,9 @@
 ---
 import BaseLayout from "../../layouts/BaseLayout.astro";
 import WeaponDirectory from "../../components/WeaponDirectory.astro";
-import { readFile } from "node:fs/promises";
+import { createWeaponListItems, loadWeapons } from "../../lib/weapons";
 
-const weapons = JSON.parse(await readFile("data/weapons.json", "utf8"));
+const weapons = createWeaponListItems(await loadWeapons());
 ---
 
 <BaseLayout title="Weapons | Crimson Desert">

@@ -1,33 +1,9 @@
 ---
 import { compareRarity, getOrderedRarityOptions } from "../lib/rarity";
-
-interface WeaponMaterial {
-  name: string;
-  quantity: number;
-}
-
-interface WeaponRecord {
-  id: string;
-  name: string;
-  slug: string;
-  category: "weapons";
-  type: string;
-  typeLabel: string;
-  rarity: string;
-  stats: {
-    baseDamage: number | null;
-    finalDamage: number | null;
-  };
-  materials: WeaponMaterial[];
-  description: string;
-  source: {
-    site: "crimsondesert.gg";
-    url: string;
-  };
-}
+import type { WeaponListItem } from "../lib/weapons";
 
 interface Props {
-  weapons: WeaponRecord[];
+  weapons: WeaponListItem[];
 }
 
 const { weapons } = Astro.props;
@@ -60,67 +36,112 @@ const typeOptions = [...new Set(weapons.map((weapon) => weapon.type))].sort();
     </div>
   </div>
 
-  <div class="grid gap-4 rounded-2xl border border-border bg-card p-6 shadow-sm sm:grid-cols-[1.8fr_0.7fr]">
-    <label class="grid gap-1.5 font-sans">
-      <span class="text-sm text-muted-foreground">Search</span>
+  <div class="flex flex-col gap-3 rounded-2xl border border-border bg-card p-4 shadow-sm sm:flex-row sm:items-end">
+    <div class="flex-1 font-sans">
       <input
         type="search"
-        placeholder="Type a weapon name..."
+        placeholder="Search weapons..."
         data-search
-        class="w-full rounded-xl border border-border bg-input px-4 py-2.5 text-foreground placeholder:text-muted-foreground focus:outline-none focus:ring-2 focus:ring-ring"
+        class="h-10 w-full rounded-lg border border-border bg-input px-3 text-sm text-foreground placeholder:text-muted-foreground focus:outline-none focus:ring-2 focus:ring-ring"
       />
-    </label>
+    </div>
 
-    <label class="grid gap-1.5 font-sans">
-      <span class="text-sm text-muted-foreground">Sort By</span>
-      <select
-        data-sort
-        class="w-full appearance-none rounded-xl border border-border bg-input px-4 py-2.5 text-foreground focus:outline-none focus:ring-2 focus:ring-ring"
+    <div class="relative font-sans" data-dropdown="rarity">
+      <button
+        type="button"
+        data-dropdown-btn="rarity"
+        class="inline-flex h-10 items-center gap-1.5 rounded-lg border border-border bg-input px-3 text-sm text-foreground transition-all hover:border-primary/40 hover:bg-accent"
       >
-        <option value="name-asc">Name A-Z</option>
-        <option value="name-desc">Name Z-A</option>
-        <option value="baseDamage-desc">Base Damage High-Low</option>
-        <option value="baseDamage-asc">Base Damage Low-High</option>
-        <option value="finalDamage-desc">Final Damage High-Low</option>
-        <option value="finalDamage-asc">Final Damage Low-High</option>
-        <option value="rarity-asc">Rarity A-Z</option>
-        <option value="rarity-desc">Rarity Z-A</option>
-      </select>
-    </label>
-  </div>
-
-  <div class="grid gap-5 rounded-2xl border border-border bg-card p-6 shadow-sm">
-    <fieldset>
-      <legend class="mb-2 font-sans text-xs font-medium uppercase tracking-widest text-muted-foreground">Rarity</legend>
-      <div class="flex flex-wrap gap-2">
-        {rarityOptions.map((rarity) => (
-          <label class="relative cursor-pointer">
-            <input type="checkbox" value={rarity} data-rarity class="peer absolute inset-0 opacity-0" />
-            <span class="inline-flex items-center rounded-full border border-border bg-input px-3 py-1.5 font-sans text-sm text-foreground transition-colors peer-checked:border-primary peer-checked:bg-primary/10 peer-checked:text-primary">
-              {rarity}
-            </span>
-          </label>
-        ))}
+        <svg class="size-3.5 shrink-0 text-muted-foreground" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M9.813 15.904 9 18.75l-.813-2.846a4.5 4.5 0 0 0-3.09-3.09L2.25 12l2.846-.813a4.5 4.5 0 0 0 3.09-3.09L9 5.25l.813 2.846a4.5 4.5 0 0 0 3.09 3.09L15.75 12l-2.846.813a4.5 4.5 0 0 0-3.09 3.09ZM18.259 8.715 18 9.75l-.259-1.035a3.375 3.375 0 0 0-2.455-2.456L14.25 6l1.036-.259a3.375 3.375 0 0 0 2.455-2.456L18 2.25l.259 1.035a3.375 3.375 0 0 0 2.456 2.456L21.75 6l-1.035.259a3.375 3.375 0 0 0-2.456 2.456ZM16.894 20.567 16.5 21.75l-.394-1.183a2.25 2.25 0 0 0-1.423-1.423L13.5 18.75l1.183-.394a2.25 2.25 0 0 0 1.423-1.423l.394-1.183.394 1.183a2.25 2.25 0 0 0 1.423 1.423l1.183.394-1.183.394a2.25 2.25 0 0 0-1.423 1.423Z"/></svg>
+        Rarity
+        <span data-dropdown-count="rarity" class="hidden rounded-full bg-primary px-1.5 py-0.5 text-[0.65rem] font-semibold leading-none text-primary-foreground"></span>
+        <svg class="size-3.5 shrink-0 text-muted-foreground" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="m19.5 8.25-7.5 7.5-7.5-7.5"/></svg>
+      </button>
+      <div data-dropdown-panel="rarity" class="absolute left-0 z-30 mt-1.5 hidden w-44 overflow-hidden rounded-xl border border-border/80 bg-card shadow-xl shadow-black/20">
+        <div class="max-h-40 overflow-y-auto p-1.5">
+          {rarityOptions.map((rarity) => (
+            <label class="flex cursor-pointer items-center gap-2.5 rounded-lg px-2.5 py-2 text-sm text-foreground transition-all hover:bg-accent">
+              <input type="checkbox" value={rarity} data-rarity class="size-4 shrink-0 rounded border-border/60 accent-primary" />
+              <span class="capitalize">{rarity}</span>
+            </label>
+          ))}
+        </div>
       </div>
-    </fieldset>
+    </div>
 
-    <fieldset>
-      <legend class="mb-2 font-sans text-xs font-medium uppercase tracking-widest text-muted-foreground">Type</legend>
-      <div class="flex flex-wrap gap-2">
-        {typeOptions.map((type) => (
-          <label class="relative cursor-pointer">
-            <input type="checkbox" value={type} data-type class="peer absolute inset-0 opacity-0" />
-            <span class="inline-flex items-center rounded-full border border-border bg-input px-3 py-1.5 font-sans text-sm text-foreground transition-colors peer-checked:border-primary peer-checked:bg-primary/10 peer-checked:text-primary">
-              {type}
-            </span>
-          </label>
-        ))}
+    <div class="relative font-sans" data-dropdown="type">
+      <button
+        type="button"
+        data-dropdown-btn="type"
+        class="inline-flex h-10 items-center gap-1.5 rounded-lg border border-border bg-input px-3 text-sm text-foreground transition-all hover:border-primary/40 hover:bg-accent"
+      >
+        <svg class="size-3.5 shrink-0 text-muted-foreground" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6A2.25 2.25 0 0 1 6 3.75h2.25A2.25 2.25 0 0 1 10.5 6v2.25a2.25 2.25 0 0 1-2.25 2.25H6a2.25 2.25 0 0 1-2.25-2.25V6ZM3.75 15.75A2.25 2.25 0 0 1 6 13.5h2.25a2.25 2.25 0 0 1 2.25 2.25V18a2.25 2.25 0 0 1-2.25 2.25H6A2.25 2.25 0 0 1 3.75 18v-2.25ZM13.5 6a2.25 2.25 0 0 1 2.25-2.25H18A2.25 2.25 0 0 1 20.25 6v2.25A2.25 2.25 0 0 1 18 10.5h-2.25a2.25 2.25 0 0 1-2.25-2.25V6ZM13.5 15.75a2.25 2.25 0 0 1 2.25-2.25H18a2.25 2.25 0 0 1 2.25 2.25V18A2.25 2.25 0 0 1 18 20.25h-2.25A2.25 2.25 0 0 1 13.5 18v-2.25Z"/></svg>
+        Type
+        <span data-dropdown-count="type" class="hidden rounded-full bg-primary px-1.5 py-0.5 text-[0.65rem] font-semibold leading-none text-primary-foreground"></span>
+        <svg class="size-3.5 shrink-0 text-muted-foreground" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="m19.5 8.25-7.5 7.5-7.5-7.5"/></svg>
+      </button>
+      <div data-dropdown-panel="type" class="absolute left-0 z-30 mt-1.5 hidden w-48 overflow-hidden rounded-xl border border-border/80 bg-card shadow-xl shadow-black/20">
+        <div class="max-h-40 overflow-y-auto p-1.5">
+          {typeOptions.map((type) => (
+            <label class="flex cursor-pointer items-center gap-2.5 rounded-lg px-2.5 py-2 text-sm text-foreground transition-all hover:bg-accent">
+              <input type="checkbox" value={type} data-type class="size-4 shrink-0 rounded border-border/60 accent-primary" />
+              <span>{type}</span>
+            </label>
+          ))}
+        </div>
       </div>
-    </fieldset>
-  </div>
+    </div>
 
-  <div class="rounded-2xl border border-border bg-card p-4 shadow-sm">
-    <p class="text-sm text-muted-foreground" data-results-text>Showing all {weapons.length} weapons</p>
+    <div class="relative font-sans" data-dropdown="sort">
+      <button
+        type="button"
+        data-dropdown-btn="sort"
+        class="inline-flex h-10 items-center gap-1.5 rounded-lg border border-border bg-input px-3 text-sm text-foreground transition-all hover:border-primary/40 hover:bg-accent"
+      >
+        <svg class="size-3.5 shrink-0 text-muted-foreground" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M3 7.5 7.5 3m0 0L12 7.5M7.5 3v13.5m13.5 0L16.5 21m0 0L12 16.5m4.5 4.5V7.5"/></svg>
+        <span data-sort-label>Name A-Z</span>
+        <svg class="size-3.5 shrink-0 text-muted-foreground" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="m19.5 8.25-7.5 7.5-7.5-7.5"/></svg>
+      </button>
+      <div data-dropdown-panel="sort" class="absolute left-0 z-30 mt-1.5 hidden w-52 overflow-hidden rounded-xl border border-border/80 bg-card shadow-xl shadow-black/20">
+        <div class="max-h-40 overflow-y-auto p-1.5">
+          <label class="flex cursor-pointer items-center gap-2.5 rounded-lg px-2.5 py-2 text-sm text-foreground transition-all hover:bg-accent">
+            <input type="radio" name="sort" value="name-asc" data-sort-option class="size-4 shrink-0 accent-primary" checked />
+            Name A-Z
+          </label>
+          <label class="flex cursor-pointer items-center gap-2.5 rounded-lg px-2.5 py-2 text-sm text-foreground transition-all hover:bg-accent">
+            <input type="radio" name="sort" value="name-desc" data-sort-option class="size-4 shrink-0 accent-primary" />
+            Name Z-A
+          </label>
+          <div class="my-1 h-px bg-border/60"></div>
+          <label class="flex cursor-pointer items-center gap-2.5 rounded-lg px-2.5 py-2 text-sm text-foreground transition-all hover:bg-accent">
+            <input type="radio" name="sort" value="baseDamage-desc" data-sort-option class="size-4 shrink-0 accent-primary" />
+            Base Damage ↓
+          </label>
+          <label class="flex cursor-pointer items-center gap-2.5 rounded-lg px-2.5 py-2 text-sm text-foreground transition-all hover:bg-accent">
+            <input type="radio" name="sort" value="baseDamage-asc" data-sort-option class="size-4 shrink-0 accent-primary" />
+            Base Damage ↑
+          </label>
+          <div class="my-1 h-px bg-border/60"></div>
+          <label class="flex cursor-pointer items-center gap-2.5 rounded-lg px-2.5 py-2 text-sm text-foreground transition-all hover:bg-accent">
+            <input type="radio" name="sort" value="finalDamage-desc" data-sort-option class="size-4 shrink-0 accent-primary" />
+            Final Damage ↓
+          </label>
+          <label class="flex cursor-pointer items-center gap-2.5 rounded-lg px-2.5 py-2 text-sm text-foreground transition-all hover:bg-accent">
+            <input type="radio" name="sort" value="finalDamage-asc" data-sort-option class="size-4 shrink-0 accent-primary" />
+            Final Damage ↑
+          </label>
+          <div class="my-1 h-px bg-border/60"></div>
+          <label class="flex cursor-pointer items-center gap-2.5 rounded-lg px-2.5 py-2 text-sm text-foreground transition-all hover:bg-accent">
+            <input type="radio" name="sort" value="rarity-asc" data-sort-option class="size-4 shrink-0 accent-primary" />
+            Rarity Low→High
+          </label>
+          <label class="flex cursor-pointer items-center gap-2.5 rounded-lg px-2.5 py-2 text-sm text-foreground transition-all hover:bg-accent">
+            <input type="radio" name="sort" value="rarity-desc" data-sort-option class="size-4 shrink-0 accent-primary" />
+            Rarity High→Low
+          </label>
+        </div>
+      </div>
+    </div>
   </div>
 
   <div class="grid gap-4 sm:grid-cols-2 lg:grid-cols-3" data-results>
@@ -139,9 +160,9 @@ const typeOptions = [...new Set(weapons.map((weapon) => weapon.type))].sort();
             <p class="font-sans text-[0.7rem] font-medium uppercase tracking-widest text-primary">
               {weapon.typeLabel}
             </p>
-            <h2 class="mt-1 font-serif text-xl font-semibold text-card-foreground">
+            <a href={`/weapon/${weapon.slug}`} class="mt-1 block font-serif text-xl font-semibold text-card-foreground transition-colors hover:text-primary">
               {weapon.name}
-            </h2>
+            </a>
           </div>
           <span class="shrink-0 rounded-full bg-primary/10 px-2.5 py-1 font-sans text-[0.7rem] font-medium uppercase tracking-wider text-primary">
             {weapon.rarity}
@@ -162,39 +183,18 @@ const typeOptions = [...new Set(weapons.map((weapon) => weapon.type))].sort();
             <dd class="mt-0.5 text-sm text-card-foreground">{weapon.type}</dd>
           </div>
           <div class="border-t border-border pt-3">
-            <dt class="font-sans text-xs uppercase text-muted-foreground">Materials</dt>
-            <dd class="mt-0.5 text-sm text-card-foreground">{weapon.materials.length}</dd>
+            <dt class="font-sans text-xs uppercase text-muted-foreground">Page</dt>
+            <dd class="mt-0.5 text-sm text-card-foreground">Full details</dd>
           </div>
         </dl>
 
-        <p class="text-sm leading-relaxed text-muted-foreground">
-          {weapon.description || "No description available."}
-        </p>
-
-        <div>
-          <span class="font-sans text-xs font-medium uppercase tracking-widest text-muted-foreground">Materials</span>
-          {weapon.materials.length > 0 ? (
-            <ul class="mt-2 space-y-1 pl-4">
-              {weapon.materials.map((material) => (
-                <li class="text-sm text-muted-foreground list-disc">
-                  {material.name} <span class="text-primary">x{material.quantity}</span>
-                </li>
-              ))}
-            </ul>
-          ) : (
-            <p class="mt-1 text-sm text-muted-foreground">None listed</p>
-          )}
-        </div>
-
         <a
-          href={weapon.source.url}
-          target="_blank"
-          rel="noreferrer"
+          href={`/weapon/${weapon.slug}`}
           class="mt-auto inline-flex items-center gap-1 font-sans text-sm font-medium text-primary transition-colors hover:text-primary/80"
         >
-          Source page
+          Open weapon page
           <svg class="size-3.5" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor">
-            <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 6H5.25A2.25 2.25 0 0 0 3 8.25v10.5A2.25 2.25 0 0 0 5.25 21h10.5A2.25 2.25 0 0 0 18 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25" />
+            <path stroke-linecap="round" stroke-linejoin="round" d="m9 5 7 7-7 7" />
           </svg>
         </a>
       </article>
@@ -211,7 +211,8 @@ const typeOptions = [...new Set(weapons.map((weapon) => weapon.type))].sort();
   if (root instanceof HTMLElement && dataNode?.textContent) {
     const weapons = JSON.parse(dataNode.textContent);
     const searchInput = root.querySelector("[data-search]");
-    const sortSelect = root.querySelector("[data-sort]");
+    const sortInputs = [...root.querySelectorAll("[data-sort-option]")];
+    const sortLabel = root.querySelector("[data-sort-label]");
     const rarityInputs = [...root.querySelectorAll("[data-rarity]")];
     const typeInputs = [...root.querySelectorAll("[data-type]")];
     const results = root.querySelector("[data-results]");
@@ -228,14 +229,15 @@ const typeOptions = [...new Set(weapons.map((weapon) => weapon.type))].sort();
       const query = searchInput instanceof HTMLInputElement ? searchInput.value.trim().toLowerCase() : "";
       const selectedRarities = getSelectedValues(rarityInputs);
       const selectedTypes = getSelectedValues(typeInputs);
-      const sortValue = sortSelect instanceof HTMLSelectElement ? sortSelect.value : "name-asc";
+      const sortValue = sortInputs.find((i) => (i as HTMLInputElement).checked)
+        ? (sortInputs.find((i) => (i as HTMLInputElement).checked) as HTMLInputElement).value
+        : "name-asc";
 
       const filtered = weapons.filter((weapon: any) => {
         const matchesQuery =
           query.length === 0 ||
           weapon.name.toLowerCase().includes(query) ||
-          weapon.type.toLowerCase().includes(query) ||
-          weapon.description.toLowerCase().includes(query);
+          weapon.type.toLowerCase().includes(query);
         const matchesRarity =
           selectedRarities.length === 0 || selectedRarities.includes(weapon.rarity);
         const matchesType = selectedTypes.length === 0 || selectedTypes.includes(weapon.type);
@@ -282,9 +284,9 @@ const typeOptions = [...new Set(weapons.map((weapon) => weapon.type))].sort();
                     <p class="font-sans text-[0.7rem] font-medium uppercase tracking-widest text-primary">
                       ${weapon.typeLabel}
                     </p>
-                    <h2 class="mt-1 font-serif text-xl font-semibold text-card-foreground">
+                    <a href="/weapon/${weapon.slug}" class="mt-1 block font-serif text-xl font-semibold text-card-foreground transition-colors hover:text-primary">
                       ${weapon.name}
-                    </h2>
+                    </a>
                   </div>
                   <span class="shrink-0 rounded-full bg-primary/10 px-2.5 py-1 font-sans text-[0.7rem] font-medium uppercase tracking-wider text-primary">
                     ${weapon.rarity}
@@ -304,28 +306,15 @@ const typeOptions = [...new Set(weapons.map((weapon) => weapon.type))].sort();
                     <dd class="mt-0.5 text-sm text-card-foreground">${weapon.type}</dd>
                   </div>
                   <div class="border-t border-border pt-3">
-                    <dt class="font-sans text-xs uppercase text-muted-foreground">Materials</dt>
-                    <dd class="mt-0.5 text-sm text-card-foreground">${weapon.materials.length}</dd>
+                    <dt class="font-sans text-xs uppercase text-muted-foreground">Page</dt>
+                    <dd class="mt-0.5 text-sm text-card-foreground">Full details</dd>
                   </div>
                 </dl>
-                <p class="text-sm leading-relaxed text-muted-foreground">
-                  ${weapon.description || "No description available."}
-                </p>
-                <div>
-                  <span class="font-sans text-xs font-medium uppercase tracking-widest text-muted-foreground">Materials</span>
-                  ${
-                    weapon.materials.length > 0
-                      ? `<ul class="mt-2 space-y-1 pl-4">${weapon.materials
-                          .map((material: any) => `<li class="text-sm text-muted-foreground list-disc">${material.name} <span class="text-primary">x${material.quantity}</span></li>`)
-                          .join("")}</ul>`
-                      : `<p class="mt-1 text-sm text-muted-foreground">None listed</p>`
-                  }
-                </div>
-                <a href="${weapon.source.url}" target="_blank" rel="noreferrer"
+                <a href="/weapon/${weapon.slug}"
                    class="mt-auto inline-flex items-center gap-1 font-sans text-sm font-medium text-primary transition-colors hover:text-primary/80">
-                  Source page
+                  Open weapon page
                   <svg class="size-3.5" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor">
-                    <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 6H5.25A2.25 2.25 0 0 0 3 8.25v10.5A2.25 2.25 0 0 0 5.25 21h10.5A2.25 2.25 0 0 0 18 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25" />
+                    <path stroke-linecap="round" stroke-linejoin="round" d="m9 5 7 7-7 7" />
                   </svg>
                 </a>
               </article>
@@ -336,8 +325,59 @@ const typeOptions = [...new Set(weapons.map((weapon) => weapon.type))].sort();
     };
 
     searchInput?.addEventListener("input", render);
-    sortSelect?.addEventListener("change", render);
     rarityInputs.forEach((input) => input.addEventListener("change", render));
     typeInputs.forEach((input) => input.addEventListener("change", render));
+
+    // Dropdown toggle logic
+    function setupDropdown(name: string, inputs: Element[], labelSelector?: string) {
+      const btn = root.querySelector(`[data-dropdown-btn="${name}"]`);
+      const panel = root.querySelector(`[data-dropdown-panel="${name}"]`);
+      const countBadge = root.querySelector(`[data-dropdown-count="${name}"]`);
+      if (!btn || !panel) return;
+
+      btn.addEventListener("click", (e) => {
+        e.stopPropagation();
+        // Close other dropdowns
+        root.querySelectorAll("[data-dropdown-panel]").forEach((p) => {
+          if (p !== panel) p.classList.add("hidden");
+        });
+        panel.classList.toggle("hidden");
+      });
+
+      panel.addEventListener("click", (e) => e.stopPropagation());
+
+      // Update badge count on change
+      inputs.forEach((input) => {
+        input.addEventListener("change", () => {
+          if (countBadge) {
+            const count = inputs.filter((i) => (i as HTMLInputElement).checked).length;
+            if (count > 0) {
+              countBadge.textContent = String(count);
+              countBadge.classList.remove("hidden");
+            } else {
+              countBadge.classList.add("hidden");
+            }
+          }
+          // For sort dropdown, update the label
+          if (labelSelector) {
+            const selected = inputs.find((i) => (i as HTMLInputElement).checked) as HTMLInputElement;
+            const label = root.querySelector(labelSelector);
+            if (label && selected) {
+              label.textContent = selected.parentElement?.textContent?.trim() ?? "";
+            }
+          }
+          render();
+        });
+      });
+    }
+
+    setupDropdown("rarity", rarityInputs);
+    setupDropdown("type", typeInputs);
+    setupDropdown("sort", sortInputs, "[data-sort-label]");
+
+    // Close dropdowns when clicking outside
+    document.addEventListener("click", () => {
+      root.querySelectorAll("[data-dropdown-panel]").forEach((p) => p.classList.add("hidden"));
+    });
   }
 </script>
