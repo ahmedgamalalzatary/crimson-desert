@@ -30,6 +30,31 @@ export type WeaponListItem = Pick<
   "id" | "name" | "slug" | "category" | "type" | "typeLabel" | "rarity" | "stats"
 >;
 
+export interface WeaponFilterState {
+  query: string;
+  selectedRarities: string[];
+  selectedTypes: string[];
+}
+
+export interface WeaponFilterCounts {
+  total: number;
+  rarityCounts: Record<string, number>;
+  typeCounts: Record<string, number>;
+}
+
+const matchesQuery = (weapon: Pick<WeaponRecord, "name" | "type">, query: string) => {
+  if (query.length === 0) {
+    return true;
+  }
+
+  const normalizedQuery = query.trim().toLowerCase();
+
+  return (
+    weapon.name.toLowerCase().includes(normalizedQuery) ||
+    weapon.type.toLowerCase().includes(normalizedQuery)
+  );
+};
+
 export const loadWeapons = async (): Promise<WeaponRecord[]> =>
   JSON.parse(await readFile("data/weapons.json", "utf8"));
 
@@ -54,3 +79,41 @@ export const getStaticWeaponPaths = (weapons: WeaponRecord[]) =>
       name: weapon.slug
     }
   }));
+
+export const getWeaponFilterCounts = (
+  weapons: Pick<WeaponRecord, "name" | "type" | "rarity">[],
+  filters: WeaponFilterState
+): WeaponFilterCounts => {
+  const query = filters.query.trim().toLowerCase();
+
+  const queryMatches = weapons.filter((weapon) => matchesQuery(weapon, query));
+  const rarityPool = queryMatches.filter(
+    (weapon) =>
+      filters.selectedTypes.length === 0 || filters.selectedTypes.includes(weapon.type)
+  );
+  const typePool = queryMatches.filter(
+    (weapon) =>
+      filters.selectedRarities.length === 0 || filters.selectedRarities.includes(weapon.rarity)
+  );
+
+  return {
+    total: queryMatches.filter(
+      (weapon) =>
+        (filters.selectedRarities.length === 0 ||
+          filters.selectedRarities.includes(weapon.rarity)) &&
+        (filters.selectedTypes.length === 0 || filters.selectedTypes.includes(weapon.type))
+    ).length,
+    rarityCounts: Object.fromEntries(
+      [...new Set(rarityPool.map((weapon) => weapon.rarity))].map((rarity) => [
+        rarity,
+        rarityPool.filter((weapon) => weapon.rarity === rarity).length
+      ])
+    ),
+    typeCounts: Object.fromEntries(
+      [...new Set(typePool.map((weapon) => weapon.type))].map((type) => [
+        type,
+        typePool.filter((weapon) => weapon.type === type).length
+      ])
+    )
+  };
+};

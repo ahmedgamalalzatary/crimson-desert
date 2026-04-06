@@ -1,6 +1,6 @@
 ---
-import { compareRarity, getOrderedRarityOptions } from "../lib/rarity";
-import type { WeaponListItem } from "../lib/weapons";
+import { getOrderedRarityOptions } from "../lib/rarity";
+import { getWeaponFilterCounts, type WeaponListItem } from "../lib/weapons";
 
 interface Props {
   weapons: WeaponListItem[];
@@ -9,6 +9,11 @@ interface Props {
 const { weapons } = Astro.props;
 const rarityOptions = getOrderedRarityOptions(weapons.map((weapon) => weapon.rarity));
 const typeOptions = [...new Set(weapons.map((weapon) => weapon.type))].sort();
+const initialFilterCounts = getWeaponFilterCounts(weapons, {
+  query: "",
+  selectedRarities: [],
+  selectedTypes: []
+});
 ---
 
 <section class="grid gap-6" data-weapon-directory>
@@ -25,7 +30,7 @@ const typeOptions = [...new Set(weapons.map((weapon) => weapon.type))].sort();
     </p>
     <div class="mt-4 flex flex-wrap gap-2">
       <span class="inline-flex items-center rounded-full border border-border bg-primary/10 px-3 py-1.5 font-sans text-sm font-medium text-primary">
-        <strong data-count>{weapons.length}</strong>&nbsp;unique weapons
+        <strong data-count>{initialFilterCounts.total}</strong>&nbsp;results
       </span>
       <span class="inline-flex items-center rounded-full border border-border bg-primary/10 px-3 py-1.5 font-sans text-sm font-medium text-primary">
         {typeOptions.length} weapon types
@@ -60,9 +65,18 @@ const typeOptions = [...new Set(weapons.map((weapon) => weapon.type))].sort();
       <div data-dropdown-panel="rarity" class="absolute left-0 z-30 mt-1.5 hidden w-44 overflow-hidden rounded-xl border border-border/80 bg-card shadow-xl shadow-black/20">
         <div class="max-h-40 overflow-y-auto p-1.5">
           {rarityOptions.map((rarity) => (
-            <label class="flex cursor-pointer items-center gap-2.5 rounded-lg px-2.5 py-2 text-sm text-foreground transition-all hover:bg-accent">
+            <label class="flex cursor-pointer items-center justify-between gap-2.5 rounded-lg px-2.5 py-2 text-sm text-foreground transition-all hover:bg-accent">
+              <span class="flex items-center gap-2.5">
               <input type="checkbox" value={rarity} data-rarity class="size-4 shrink-0 rounded border-border/60 accent-primary" />
               <span class="capitalize">{rarity}</span>
+              </span>
+              <span
+                data-filter-count="rarity"
+                data-filter-value={rarity}
+                class="rounded-full bg-muted px-2 py-0.5 text-[0.7rem] font-medium text-muted-foreground"
+              >
+                {initialFilterCounts.rarityCounts[rarity] ?? 0}
+              </span>
             </label>
           ))}
         </div>
@@ -83,9 +97,18 @@ const typeOptions = [...new Set(weapons.map((weapon) => weapon.type))].sort();
       <div data-dropdown-panel="type" class="absolute left-0 z-30 mt-1.5 hidden w-48 overflow-hidden rounded-xl border border-border/80 bg-card shadow-xl shadow-black/20">
         <div class="max-h-40 overflow-y-auto p-1.5">
           {typeOptions.map((type) => (
-            <label class="flex cursor-pointer items-center gap-2.5 rounded-lg px-2.5 py-2 text-sm text-foreground transition-all hover:bg-accent">
+            <label class="flex cursor-pointer items-center justify-between gap-2.5 rounded-lg px-2.5 py-2 text-sm text-foreground transition-all hover:bg-accent">
+              <span class="flex items-center gap-2.5">
               <input type="checkbox" value={type} data-type class="size-4 shrink-0 rounded border-border/60 accent-primary" />
               <span>{type}</span>
+              </span>
+              <span
+                data-filter-count="type"
+                data-filter-value={type}
+                class="rounded-full bg-muted px-2 py-0.5 text-[0.7rem] font-medium text-muted-foreground"
+              >
+                {initialFilterCounts.typeCounts[type] ?? 0}
+              </span>
             </label>
           ))}
         </div>
@@ -217,10 +240,67 @@ const typeOptions = [...new Set(weapons.map((weapon) => weapon.type))].sort();
     const typeInputs = [...root.querySelectorAll("[data-type]")];
     const results = root.querySelector("[data-results]");
     const countNode = root.querySelector("[data-count]");
-    const resultsText = root.querySelector("[data-results-text]");
+    const rarityCountNodes = [...root.querySelectorAll('[data-filter-count="rarity"]')];
+    const typeCountNodes = [...root.querySelectorAll('[data-filter-count="type"]')];
 
     const compareText = (left: string, right: string) => left.localeCompare(right);
     const compareNumber = (left: number, right: number) => left - right;
+
+    const getFilterCounts = ({
+      query,
+      selectedRarities,
+      selectedTypes
+    }: {
+      query: string;
+      selectedRarities: string[];
+      selectedTypes: string[];
+    }) => {
+      const normalizedQuery = query.trim().toLowerCase();
+      const queryMatches = weapons.filter((weapon: any) => {
+        if (normalizedQuery.length === 0) {
+          return true;
+        }
+
+        return (
+          weapon.name.toLowerCase().includes(normalizedQuery) ||
+          weapon.type.toLowerCase().includes(normalizedQuery)
+        );
+      });
+      const rarityPool = queryMatches.filter(
+        (weapon: any) =>
+          selectedTypes.length === 0 || selectedTypes.includes(weapon.type)
+      );
+      const typePool = queryMatches.filter(
+        (weapon: any) =>
+          selectedRarities.length === 0 || selectedRarities.includes(weapon.rarity)
+      );
+
+      return {
+        total: queryMatches.filter(
+          (weapon: any) =>
+            (selectedRarities.length === 0 || selectedRarities.includes(weapon.rarity)) &&
+            (selectedTypes.length === 0 || selectedTypes.includes(weapon.type))
+        ).length,
+        rarityCounts: Object.fromEntries(
+          rarityPool.map((weapon: any) => weapon.rarity).map((rarity: string, _: number, all: string[]) => [
+            rarity,
+            rarityPool.filter((weapon: any) => weapon.rarity === rarity).length
+          ]).filter(
+            ([rarity]: [string, number], index: number, all: [string, number][]) =>
+              all.findIndex(([value]) => value === rarity) === index
+          )
+        ),
+        typeCounts: Object.fromEntries(
+          typePool.map((weapon: any) => weapon.type).map((type: string, _: number, all: string[]) => [
+            type,
+            typePool.filter((weapon: any) => weapon.type === type).length
+          ]).filter(
+            ([type]: [string, number], index: number, all: [string, number][]) =>
+              all.findIndex(([value]) => value === type) === index
+          )
+        )
+      };
+    };
 
     const getSelectedValues = (inputs: Element[]) =>
       inputs.filter((input) => (input as HTMLInputElement).checked).map((input) => (input as HTMLInputElement).value);
@@ -232,6 +312,11 @@ const typeOptions = [...new Set(weapons.map((weapon) => weapon.type))].sort();
       const sortValue = sortInputs.find((i) => (i as HTMLInputElement).checked)
         ? (sortInputs.find((i) => (i as HTMLInputElement).checked) as HTMLInputElement).value
         : "name-asc";
+      const filterCounts = getFilterCounts({
+        query,
+        selectedRarities,
+        selectedTypes
+      });
 
       const filtered = weapons.filter((weapon: any) => {
         const matchesQuery =
@@ -267,12 +352,26 @@ const typeOptions = [...new Set(weapons.map((weapon) => weapon.type))].sort();
       });
 
       if (countNode) {
-        countNode.textContent = String(filtered.length);
+        countNode.textContent = String(filterCounts.total);
       }
 
-      if (resultsText) {
-        resultsText.textContent = `Showing ${filtered.length} of ${weapons.length} weapons`;
-      }
+      rarityCountNodes.forEach((node) => {
+        if (!(node instanceof HTMLElement)) {
+          return;
+        }
+
+        const value = node.dataset.filterValue ?? "";
+        node.textContent = String(filterCounts.rarityCounts[value] ?? 0);
+      });
+
+      typeCountNodes.forEach((node) => {
+        if (!(node instanceof HTMLElement)) {
+          return;
+        }
+
+        const value = node.dataset.filterValue ?? "";
+        node.textContent = String(filterCounts.typeCounts[value] ?? 0);
+      });
 
       if (results instanceof HTMLElement) {
         results.innerHTML = filtered
