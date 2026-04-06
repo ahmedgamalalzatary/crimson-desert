@@ -1,15 +1,13 @@
 ---
 import BaseLayout from "../layouts/BaseLayout.astro";
+import { categoryConfigs, loadJsonArray } from "../lib/categories";
 
-const categories = [
-  { href: "/weapons", label: "Weapons", icon: "⚔️", desc: "Swords, bows, staves and more" },
-  { href: "/armors", label: "Armors", icon: "🛡️", desc: "Chest, helm, gloves and boots" },
-  { href: "/shields", label: "Shields", icon: "🔰", desc: "Block and parry gear" },
-  { href: "/abyss-gear", label: "Abyss Gear", icon: "🌀", desc: "Rare abyss dungeon drops" },
-  { href: "/bosses", label: "Bosses", icon: "👹", desc: "World and dungeon bosses" },
-  { href: "/mounts", label: "Mounts", icon: "🐴", desc: "Horses, camels and more" },
-  { href: "/quests", label: "Quests", icon: "📜", desc: "Main and faction quest lines" },
-];
+const categoryCards = await Promise.all(
+  categoryConfigs.map(async (category) => ({
+    ...category,
+    count: (await loadJsonArray(category.dataPath)).length
+  }))
+);
 ---
 
 <BaseLayout title="Crimson Desert">
@@ -21,12 +19,12 @@ const categories = [
       Crimson Desert
     </h1>
     <p class="mt-4 max-w-xl text-lg text-muted-foreground">
-      Aggregated item, boss, mount, and quest data built from multiple public sources.
+      Structured public data for weapons, armor, shields, bosses, mounts, and quests.
     </p>
   </section>
 
   <section class="grid grid-cols-1 gap-4 pb-12 sm:grid-cols-2 lg:grid-cols-4">
-    {categories.map((cat) => (
+    {categoryCards.map((cat) => (
       <a
         href={cat.href}
         class="group flex flex-col justify-between rounded-xl border border-border bg-card p-5 shadow-sm transition-all duration-150 hover:-translate-y-0.5 hover:border-primary/40 hover:shadow-md"
@@ -36,10 +34,11 @@ const categories = [
           <h2 class="font-sans text-lg font-semibold text-card-foreground group-hover:text-primary">
             {cat.label}
           </h2>
-          <p class="mt-1 text-sm text-muted-foreground">{cat.desc}</p>
+          <p class="mt-1 text-sm text-muted-foreground">{cat.description}</p>
         </div>
-        <span class="mt-4 inline-flex items-center gap-1 text-sm font-medium text-primary opacity-0 transition-opacity group-hover:opacity-100">
-          Browse →
+        <span class="mt-4 inline-flex items-center gap-2 text-sm font-medium text-primary opacity-0 transition-opacity group-hover:opacity-100">
+          <span>{cat.count} records</span>
+          <span>Browse →</span>
         </span>
       </a>
     ))}

@@ -1,0 +1,72 @@
+---
+import "../styles/weapon-directory.css";
+
+interface Props {
+  title: string;
+  eyebrow: string;
+  description: string;
+  items: Array<{
+    id: string;
+    name: string;
+    slug: string;
+    category: string;
+    type?: string;
+    typeLabel?: string;
+    rarity?: string;
+    stats?: Record<string, number | null> | null;
+    route?: string;
+  }>;
+  emptyLabel: string;
+  sortLabel?: string;
+}
+
+const { title, eyebrow, description, items, emptyLabel, sortLabel = "Name A-Z" } = Astro.props;
+---
+
+<section class="wd" data-category-directory>
+  <div class="wd-hero wd-anim">
+    <p class="wd-hero__eyebrow">{eyebrow}</p>
+    <h1 class="wd-hero__title">{title}</h1>
+    <p class="wd-hero__desc">{description}</p>
+    <div class="wd-hero__pills">
+      <span class="wd-hero__pill"><strong data-count>{items.length}</strong>&thinsp;results</span>
+      <span class="wd-hero__pill">{sortLabel}</span>
+    </div>
+  </div>
+
+  <div class="wd-grid wd-anim wd-anim-d2" data-results>
+    {items.length > 0 ? (
+      items.map((item) => (
+        <article class="wd-card">
+          <div class="wd-card__top">
+            <div>
+              <p class="wd-card__type">{item.typeLabel ?? item.type ?? item.category}</p>
+              <a href={item.route ?? `/${item.category === "weapons" ? "weapon" : item.category}/${item.slug}`} class="wd-card__name">
+                {item.name}
+              </a>
+            </div>
+            <span class="wd-card__rarity">{item.rarity ?? "unclassified"}</span>
+          </div>
+          <div class="wd-card__stats-group">
+            <div class="wd-card__stats-row">
+              <div class="wd-card__stat wd-card__stat--full">
+                <div class="wd-card__stat-label">Slug</div>
+                <div class="wd-card__stat-value wd-card__stat-value--text">{item.slug}</div>
+              </div>
+            </div>
+          </div>
+          <a href={item.route ?? `/${item.category === "weapons" ? "weapon" : item.category}/${item.slug}`} class="wd-card__link">
+            View details
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2.5" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" d="m8.25 4.5 7.5 7.5-7.5 7.5" />
+            </svg>
+          </a>
+        </article>
+      ))
+    ) : (
+      <div class="wd-empty">
+        <p class="wd-empty__text">{emptyLabel}</p>
+      </div>
+    )}
+  </div>
+</section>
